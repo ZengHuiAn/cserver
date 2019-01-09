@@ -1,0 +1,465 @@
+﻿<StoryBattles> <!-- 剧情配置 -->
+  <Battle id="803100"> <!-- 战役 -->
+    <Fight id="803104"> <!-- 战斗 -->
+      <ArmyGroup>1803104</ArmyGroup> <!-- 部队 -->
+      <Name>张梁</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_zhangliang.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_zhangliang.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>2</Type>   <!-- 类型 -->
+      <Level>9</Level> <!-- 等级 -->
+      <SoldierCount>500</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>803103</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>5</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>108</Exp> <!-- 君主经验 -->
+        <Prestige>38</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用4</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="803101"> <!-- 战斗 -->
+      <ArmyGroup>1803101</ArmyGroup> <!-- 部队 -->
+      <Name>黄巾前军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_huangjin.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_huangjin.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>6</Level> <!-- 等级 -->
+      <SoldierCount>300</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>105</Exp> <!-- 君主经验 -->
+        <Prestige>35</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用1</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="803105"> <!-- 战斗 -->
+      <ArmyGroup>1803105</ArmyGroup> <!-- 部队 -->
+      <Name>张角</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_zhangjiao.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_zhangjiao.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>3</Type>   <!-- 类型 -->
+      <Level>10</Level> <!-- 等级 -->
+      <SoldierCount>500</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>803104</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>1</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>109</Exp> <!-- 君主经验 -->
+        <Prestige>39</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用5</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="803102"> <!-- 战斗 -->
+      <ArmyGroup>1803102</ArmyGroup> <!-- 部队 -->
+      <Name>黄巾中军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_huangjin.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_huangjin.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>7</Level> <!-- 等级 -->
+      <SoldierCount>350</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>803101</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>106</Exp> <!-- 君主经验 -->
+        <Prestige>36</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用2</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="803103"> <!-- 战斗 -->
+      <ArmyGroup>1803103</ArmyGroup> <!-- 部队 -->
+      <Name>黄巾后军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_huangjin.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_huangjin.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>8</Level> <!-- 等级 -->
+      <SoldierCount>400</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>803102</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>107</Exp> <!-- 君主经验 -->
+        <Prestige>37</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用3</Desc> <!-- 剧情描述 -->
+    </Fight>
+  </Battle>
+  <Battle id="805100"> <!-- 战役 -->
+    <Fight id="805101"> <!-- 战斗 -->
+      <ArmyGroup>1805101</ArmyGroup> <!-- 部队 -->
+      <Name>互斥一前军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>14</Level> <!-- 等级 -->
+      <SoldierCount>550</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>113</Exp> <!-- 君主经验 -->
+        <Prestige>43</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用9</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="805103"> <!-- 战斗 -->
+      <ArmyGroup>1805103</ArmyGroup> <!-- 部队 -->
+      <Name>互斥一主将</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>3</Type>   <!-- 类型 -->
+      <Level>16</Level> <!-- 等级 -->
+      <SoldierCount>570</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>805102</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>1</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>115</Exp> <!-- 君主经验 -->
+        <Prestige>45</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用11</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="805102"> <!-- 战斗 -->
+      <ArmyGroup>1805102</ArmyGroup> <!-- 部队 -->
+      <Name>互斥一中军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>2</Type>   <!-- 类型 -->
+      <Level>15</Level> <!-- 等级 -->
+      <SoldierCount>560</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>805101</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>5</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>114</Exp> <!-- 君主经验 -->
+        <Prestige>44</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用10</Desc> <!-- 剧情描述 -->
+    </Fight>
+  </Battle>
+  <Battle id="801100"> <!-- 战役 -->
+    <Fight id="801105"> <!-- 战斗 -->
+      <ArmyGroup>1801105</ArmyGroup> <!-- 部队 -->
+      <Name>张宝</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_zhangbao.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_zhangbao.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>3</Type>   <!-- 类型 -->
+      <Level>5</Level> <!-- 等级 -->
+      <SoldierCount>300</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>801104</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>1</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>104</Exp> <!-- 君主经验 -->
+        <Prestige>34</Prestige> <!-- 军功 -->
+      </Reward>
+      <CityDefense> <!-- 城防 -->
+        <Position>12</Position> <!-- 城防位置 11 左  12 右-->
+        <Use>2</Use> <!-- 每次攻击城防使用数量 -->
+        <HP>50000</HP> <!-- 城防耐久 -->
+      </CityDefense>
+      <Desc>程将军投敌了？不信，坚决不信，那是我的好基友啊</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="801102"> <!-- 战斗 -->
+      <ArmyGroup>1801102</ArmyGroup> <!-- 部队 -->
+      <Name>黄巾先锋</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_huangjin.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_huangjin.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>2</Level> <!-- 等级 -->
+      <SoldierCount>150</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>801101</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Exclude>801103</Exclude> <!-- 互斥战斗ID -->
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>101</Exp> <!-- 君主经验 -->
+        <Prestige>31</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>不好，发现敌军，快快向程将军禀报</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="801103"> <!-- 战斗 -->
+      <ArmyGroup>1801103</ArmyGroup> <!-- 部队 -->
+      <Name>黄巾中军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_huangjin.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_huangjin.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>3</Level> <!-- 等级 -->
+      <SoldierCount>200</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>801101</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Exclude>801102</Exclude> <!-- 互斥战斗ID -->
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>102</Exp> <!-- 君主经验 -->
+        <Prestige>32</Prestige> <!-- 军功 -->
+        <EquipID>211601</EquipID> <!-- 装备 -->
+        <EquipRate>100</EquipRate> <!-- 装备掉落几率 -->
+      </Reward>
+      <Desc>前军已被突破，中军顶住啊</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="801104"> <!-- 战斗 -->
+      <ArmyGroup>1801104</ArmyGroup> <!-- 部队 -->
+      <Name>程远志</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_chengyuanzhi.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_chengyuanzhi.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>2</Type>   <!-- 类型 -->
+      <Level>4</Level> <!-- 等级 -->
+      <SoldierCount>300</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>801102</Depend> <!-- 依赖战斗ID -->
+        <Depend>801103</Depend>
+      </Depends>
+      <Limit>5</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>103</Exp> <!-- 君主经验 -->
+        <Prestige>33</Prestige> <!-- 军功 -->
+        <HeroID>104038</HeroID> <!-- 武将 -->
+        <HeroRate>100</HeroRate> <!-- 武将掉落几率 -->
+      </Reward>
+      <CityDefense> <!-- 城防 -->
+        <Position>12</Position> <!-- 城防位置 11 左  12 右-->
+        <Use>1</Use> <!-- 每次攻击城防使用数量 -->
+        <HP>20000</HP> <!-- 城防耐久 -->
+      </CityDefense>
+      <Desc>什么人？竟然攻打至此</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="801101"> <!-- 战斗 -->
+      <ArmyGroup>1801101</ArmyGroup> <!-- 部队 -->
+      <Name>黄巾先锋</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_huangjin.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_huangjin.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>1</Level> <!-- 等级 -->
+      <SoldierCount>100</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>100</Exp> <!-- 君主经验 -->
+        <Prestige>30</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>你，你，你是什么人？</Desc> <!-- 剧情描述 -->
+    </Fight>
+  </Battle>
+  <Battle id="804100"> <!-- 战役 -->
+    <Fight id="804102"> <!-- 战斗 -->
+      <ArmyGroup>1804102</ArmyGroup> <!-- 部队 -->
+      <Name>营寨二</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>2</Type>   <!-- 类型 -->
+      <Level>12</Level> <!-- 等级 -->
+      <SoldierCount>520</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>804101</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>5</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>111</Exp> <!-- 君主经验 -->
+        <Prestige>41</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用7</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="804101"> <!-- 战斗 -->
+      <ArmyGroup>1804101</ArmyGroup> <!-- 部队 -->
+      <Name>营寨一</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>11</Level> <!-- 等级 -->
+      <SoldierCount>510</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>110</Exp> <!-- 君主经验 -->
+        <Prestige>40</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用6</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="804103"> <!-- 战斗 -->
+      <ArmyGroup>1804103</ArmyGroup> <!-- 部队 -->
+      <Name>营寨主将</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>3</Type>   <!-- 类型 -->
+      <Level>13</Level> <!-- 等级 -->
+      <SoldierCount>530</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>804102</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>1</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>112</Exp> <!-- 君主经验 -->
+        <Prestige>42</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用8</Desc> <!-- 剧情描述 -->
+    </Fight>
+  </Battle>
+  <Battle id="807100"> <!-- 战役 -->
+    <Fight id="807102"> <!-- 战斗 -->
+      <ArmyGroup>1807102</ArmyGroup> <!-- 部队 -->
+      <Name>依赖中军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>2</Type>   <!-- 类型 -->
+      <Level>18</Level> <!-- 等级 -->
+      <SoldierCount>620</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>807101</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>5</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>120</Exp> <!-- 君主经验 -->
+        <Prestige>50</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用16</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="807101"> <!-- 战斗 -->
+      <ArmyGroup>1807101</ArmyGroup> <!-- 部队 -->
+      <Name>依赖前军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>17</Level> <!-- 等级 -->
+      <SoldierCount>610</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>119</Exp> <!-- 君主经验 -->
+        <Prestige>49</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用15</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="807103"> <!-- 战斗 -->
+      <ArmyGroup>1807103</ArmyGroup> <!-- 部队 -->
+      <Name>依赖主将</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>3</Type>   <!-- 类型 -->
+      <Level>19</Level> <!-- 等级 -->
+      <SoldierCount>630</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>807102</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>1</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>121</Exp> <!-- 君主经验 -->
+        <Prestige>51</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用17</Desc> <!-- 剧情描述 -->
+    </Fight>
+  </Battle>
+  <Battle id="805200"> <!-- 战役 -->
+    <Fight id="805203"> <!-- 战斗 -->
+      <ArmyGroup>1805203</ArmyGroup> <!-- 部队 -->
+      <Name>互斥二主将</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>3</Type>   <!-- 类型 -->
+      <Level>16</Level> <!-- 等级 -->
+      <SoldierCount>600</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>805202</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>1</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>118</Exp> <!-- 君主经验 -->
+        <Prestige>48</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用14</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="805202"> <!-- 战斗 -->
+      <ArmyGroup>1805202</ArmyGroup> <!-- 部队 -->
+      <Name>互斥二中军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>2</Type>   <!-- 类型 -->
+      <Level>15</Level> <!-- 等级 -->
+      <SoldierCount>590</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+        <Depend>805201</Depend> <!-- 依赖战斗ID -->
+      </Depends>
+      <Limit>5</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>117</Exp> <!-- 君主经验 -->
+        <Prestige>47</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用13</Desc> <!-- 剧情描述 -->
+    </Fight>
+    <Fight id="805201"> <!-- 战斗 -->
+      <ArmyGroup>1805201</ArmyGroup> <!-- 部队 -->
+      <Name>互斥二前军</Name>   <!-- 名字 -->
+      <Images>
+        <Army>resource/battle/army_yingzhai.png</Army> <!-- 地图上部队图片 -->
+        <Head>resource/battle/head_yingzhai.png</Head> <!-- 头像图片 -->
+      </Images>
+      <Type>1</Type>   <!-- 类型 -->
+      <Level>14</Level> <!-- 等级 -->
+      <SoldierCount>580</SoldierCount> <!-- 士兵数量 -->
+      <Depends>
+      </Depends>
+      <Limit>10</Limit>     <!-- 每天战斗次数 -->
+      <Reward> <!-- 奖励 -->
+        <Exp>116</Exp> <!-- 君主经验 -->
+        <Prestige>46</Prestige> <!-- 军功 -->
+      </Reward>
+      <Desc>测试用12</Desc> <!-- 剧情描述 -->
+    </Fight>
+  </Battle>
+</StoryBattles>

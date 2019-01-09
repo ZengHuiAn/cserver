@@ -1,0 +1,242 @@
+﻿<Buildings> <!-- 建筑配置表 -->
+  <Building id="510101">
+    <Name>官府</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_guanfu.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>1</Rate> <!-- 消耗比率 -->
+    <Type>510100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>1</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510201">
+    <Name>城墙</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_chengqiang.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.9</Rate> <!-- 消耗比率 -->
+    <Type>510200</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>1</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510301">
+    <Name>书院</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_shuyuan.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.8</Rate> <!-- 消耗比率 -->
+    <Type>510300</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>11</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510401">
+    <Name>训练场</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_xunlianchang.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.8</Rate> <!-- 消耗比率 -->
+    <Type>510400</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>18</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510501">
+    <Name>铁匠铺</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_tiejiangpu.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.8</Rate> <!-- 消耗比率 -->
+    <Type>510500</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>12</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510601">
+    <Name>市场</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_shichang.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.7</Rate> <!-- 消耗比率 -->
+    <Type>510600</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>15</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510701">
+    <Name>粮仓</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_liangcang.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.7</Rate> <!-- 消耗比率 -->
+    <Type>510700</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>6</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510801">
+    <Name>酒馆</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_jiuguan.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0</Rate> <!-- 消耗比率 -->
+    <Type>510800</Type> <!-- 类别 -->
+    <MaxLevel>1</MaxLevel> <!-- 最大等级 -->
+    <Depend>5</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="510901">
+    <Name>外使院</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_waishiyuan.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0</Rate> <!-- 消耗比率 -->
+    <Type>510900</Type> <!-- 类别 -->
+    <MaxLevel>1</MaxLevel> <!-- 最大等级 -->
+    <Depend>10</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511001">
+    <Name>军营一</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_junying.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511000</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>14</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511002">
+    <Name>军营二</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_junying.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511000</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>14</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511003">
+    <Name>军营三</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_junying.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511000</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>16</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511004">
+    <Name>军营四</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_junying.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511000</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>20</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511005">
+    <Name>军营五</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_junying.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511000</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>20</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511101">
+    <Name>民居一</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>2</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511102">
+    <Name>民居二</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>3</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511103">
+    <Name>民居三</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>4</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511104">
+    <Name>民居四</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>7</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511105">
+    <Name>民居五</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>8</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511106">
+    <Name>民居六</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>9</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511107">
+    <Name>民居七</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>17</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511108">
+    <Name>民居八</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>17</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511109">
+    <Name>民居九</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>25</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+  <Building id="511110">
+    <Name>民居十</Name> <!-- 名称 -->
+    <Images>
+      <Image level="1">resource/icon/building/building_minju.png</Image> <!-- 图标 -->
+    </Images>
+    <Rate>0.4</Rate> <!-- 消耗比率 -->
+    <Type>511100</Type> <!-- 类别 -->
+    <MaxLevel>100</MaxLevel> <!-- 最大等级 -->
+    <Depend>25</Depend> <!-- 出现需要官府等级 -->
+  </Building>
+</Buildings>

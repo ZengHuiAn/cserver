@@ -1,0 +1,226 @@
+﻿<Technolgys> <!-- 科技表 -->
+  <Technology id="520101">
+    <Name>奋战</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/fenzhan.png</Image> <!-- 图标 -->
+    <Type>520100</Type> <!-- 类型 -->
+    <MaxLevel>50</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>1</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>2</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>90</Value> <!-- 功能数值 -->
+    <Desc>每级增加将领近攻90点</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520102">
+    <Name>狙击</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/juji.png</Image> <!-- 图标 -->
+    <Type>520100</Type> <!-- 类型 -->
+    <MaxLevel>50</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>1</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>2</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>80</Value> <!-- 功能数值 -->
+    <Desc>每级增加将领远攻80点</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520103">
+    <Name>坚韧</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/jianren.png</Image> <!-- 图标 -->
+    <Type>520100</Type> <!-- 类型 -->
+    <MaxLevel>50</MaxLevel> <!-- 最大等级 -->
+    <CostRate>0.8</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>10</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>2</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>60</Value> <!-- 功能数值 -->
+    <Desc>每级增加将领近防60点</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520104">
+    <Name>大盾</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/dadun.png</Image> <!-- 图标 -->
+    <Type>520100</Type> <!-- 类型 -->
+    <MaxLevel>50</MaxLevel> <!-- 最大等级 -->
+    <CostRate>0.8</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>10</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>2</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>50</Value> <!-- 功能数值 -->
+    <Desc>每级增加将领远防50点</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520105">
+    <Name>统兵</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/tongbing.png</Image> <!-- 图标 -->
+    <Type>520100</Type> <!-- 类型 -->
+    <MaxLevel>50</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1.2</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>20</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>2</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>30</Value> <!-- 功能数值 -->
+    <Desc>每级增加将领兵力30</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520106">
+    <Name>指挥</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/zhihui.png</Image> <!-- 图标 -->
+    <Type>520100</Type> <!-- 类型 -->
+    <MaxLevel>50</MaxLevel> <!-- 最大等级 -->
+    <CostRate>3</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>60</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>2</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>50</Value> <!-- 功能数值 -->
+    <Desc>每级增加将领兵力50</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520201">
+    <Name>步训</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/buxun.png</Image> <!-- 图标 -->
+    <Type>520200</Type> <!-- 类型 -->
+    <MaxLevel>10</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>10</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>511000</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>10</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>710100</Value> <!-- 功能数值 -->
+    <Desc>训练更高级的步兵，增加步兵的基础属性</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520202">
+    <Name>弓训</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/gongxun.png</Image> <!-- 图标 -->
+    <Type>520200</Type> <!-- 类型 -->
+    <MaxLevel>10</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>10</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>511000</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>10</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>710200</Value> <!-- 功能数值 -->
+    <Desc>训练更高级的弓兵，增加弓兵的基础属性</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520203">
+    <Name>枪训</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/qiangxun.png</Image> <!-- 图标 -->
+    <Type>520200</Type> <!-- 类型 -->
+    <MaxLevel>10</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>10</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>511000</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>10</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>710300</Value> <!-- 功能数值 -->
+    <Desc>训练更高级的枪兵，增加枪兵的基础属性</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520204">
+    <Name>骑训</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/qixun.png</Image> <!-- 图标 -->
+    <Type>520200</Type> <!-- 类型 -->
+    <MaxLevel>10</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>10</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>511000</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>10</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>710400</Value> <!-- 功能数值 -->
+    <Desc>训练更高级的骑兵，增加骑兵的基础属性</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520205">
+    <Name>器训</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/qixun.png</Image> <!-- 图标 -->
+    <Type>520200</Type> <!-- 类型 -->
+    <MaxLevel>10</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>10</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>511000</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>10</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>710500</Value> <!-- 功能数值 -->
+    <Desc>训练更高级的器械，增加器械的基础属性</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520301">
+    <Name>兵役</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/bingyi.png</Image> <!-- 图标 -->
+    <Type>520300</Type> <!-- 类型 -->
+    <MaxLevel>25</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>30</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>4</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>2</Value> <!-- 功能数值 -->
+    <Desc>每级增加新兵营上限和新兵增长速度2%</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520302">
+    <Name>筑城</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/zhucheng.png</Image> <!-- 图标 -->
+    <Type>520300</Type> <!-- 类型 -->
+    <MaxLevel>25</MaxLevel> <!-- 最大等级 -->
+    <CostRate>1</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>30</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>4</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>2</Value> <!-- 功能数值 -->
+    <Desc>每级增加战斗后城防回复2%</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520303">
+    <Name>丰收</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/fengshou.png</Image> <!-- 图标 -->
+    <Type>520300</Type> <!-- 类型 -->
+    <MaxLevel>25</MaxLevel> <!-- 最大等级 -->
+    <CostRate>2</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>40</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>4</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>2</Value> <!-- 功能数值 -->
+    <Desc>每级增加粮草基础收益2%</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520304">
+    <Name>商市</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/shangshi.png</Image> <!-- 图标 -->
+    <Type>520300</Type> <!-- 类型 -->
+    <MaxLevel>25</MaxLevel> <!-- 最大等级 -->
+    <CostRate>2</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>40</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>4</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>2</Value> <!-- 功能数值 -->
+    <Desc>每级增加铜币基础产量2%</Desc> <!-- 描述 -->
+  </Technology>
+  <Technology id="520305">
+    <Name>医疗</Name> <!-- 名字 -->
+    <Image>resource/icon/technology/yiliao.png</Image> <!-- 图标 -->
+    <Type>520300</Type> <!-- 类型 -->
+    <MaxLevel>25</MaxLevel> <!-- 最大等级 -->
+    <CostRate>3</CostRate> <!-- 消耗比率 -->
+    <TechBuildingLevel>50</TechBuildingLevel> <!-- 开放书院等级 -->
+    <Upgrade>
+      <BuildingType>510300</BuildingType>  <!-- 升级依赖建筑 -->
+      <BuildingLevel>4</BuildingLevel><!-- 每升一级依赖建筑等级 -->
+    </Upgrade>
+    <Value>2</Value> <!-- 功能数值 -->
+    <Desc>每级增加战斗后损兵回复2%</Desc> <!-- 描述 -->
+  </Technology>
+</Technolgys>

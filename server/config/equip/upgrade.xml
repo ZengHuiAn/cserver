@@ -1,0 +1,152 @@
+﻿<EquipUpgrade> <!-- 装备升级基础表 -->
+  <Level level="1">
+    <Cost>500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="2">
+    <Cost>1000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="3">
+    <Cost>1500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="4">
+    <Cost>2000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="5">
+    <Cost>2500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="6">
+    <Cost>3000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="7">
+    <Cost>3500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="8">
+    <Cost>4000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="9">
+    <Cost>4500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="10">
+    <Cost>5000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="11">
+    <Cost>6000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="12">
+    <Cost>7000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="13">
+    <Cost>8000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="14">
+    <Cost>9000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="15">
+    <Cost>10000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="16">
+    <Cost>11000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="17">
+    <Cost>12000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="18">
+    <Cost>13000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="19">
+    <Cost>14000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="20">
+    <Cost>15000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="21">
+    <Cost>16500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="22">
+    <Cost>18000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="23">
+    <Cost>19500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="24">
+    <Cost>21000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="25">
+    <Cost>22500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="26">
+    <Cost>24000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="27">
+    <Cost>25500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="28">
+    <Cost>27000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="29">
+    <Cost>28500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="30">
+    <Cost>30000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="31">
+    <Cost>32000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="32">
+    <Cost>34000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="33">
+    <Cost>36000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="34">
+    <Cost>38000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="35">
+    <Cost>40000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="36">
+    <Cost>42000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="37">
+    <Cost>44000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="38">
+    <Cost>46000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="39">
+    <Cost>48000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="40">
+    <Cost>50000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="41">
+    <Cost>52500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="42">
+    <Cost>55000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="43">
+    <Cost>57500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="44">
+    <Cost>60000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="45">
+    <Cost>62500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="46">
+    <Cost>65000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="47">
+    <Cost>67500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="48">
+    <Cost>70000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="49">
+    <Cost>72500</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+  <Level level="50">
+    <Cost>75000</Cost> <!-- 消耗铜币数量 -->
+  </Level>
+</EquipUpgrade>

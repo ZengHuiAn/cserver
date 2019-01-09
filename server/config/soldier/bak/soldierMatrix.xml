@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="soldierMatrix.xsl"?>
+
+<SoldierMatrix>
+	<Soldier type="1">
+		<Matrix target = "1">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "2">
+			<Attack>50</Attack>
+			<Hit>5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "3">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "4">
+			<Attack>0</Attack>
+			<Hit>-5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "5">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+	</Soldier>
+	<Soldier type="2">
+		<Matrix target = "1">
+			<Attack>0</Attack>
+			<Hit>-5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "2">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "3">
+			<Attack>50</Attack>
+			<Hit>5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "4">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "5">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+	</Soldier>
+	<Soldier type="3">
+		<Matrix target = "1">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "2">
+			<Attack>0</Attack>
+			<Hit>-5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "3">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "4">
+			<Attack>50</Attack>
+			<Hit>5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "5">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+	</Soldier>
+	<Soldier type="4">
+		<Matrix target = "1">
+			<Attack>50</Attack>
+			<Hit>5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "2">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "3">
+			<Attack>0</Attack>
+			<Hit>-5</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "4">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "5">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+	</Soldier>
+	<Soldier type="5">
+		<Matrix target = "1">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "2">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "3">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "4">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+		<Matrix target = "5">
+			<Attack>0</Attack>
+			<Hit>0</Hit>
+			<Block>0</Block>
+			<Crit>0</Crit>
+		</Matrix>
+	</Soldier>
+</SoldierMatrix>

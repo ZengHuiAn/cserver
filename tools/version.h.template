@@ -1,0 +1,6 @@
+#ifndef __AGAME_VERSION_H__
+#define __AGAME_VERSION_H__
+
+#define VERSION "GIT_VERSION"
+
+#endif

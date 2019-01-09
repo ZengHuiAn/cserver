@@ -1,0 +1,263 @@
+package com.agame.fight.protocol;
+
+
+///////////////////////////////////
+// 玩家基础数据
+
+// 武将
+message Hero {
+	required uint32 id           = 1;
+
+	optional string name         = 2;
+	optional uint32 level        = 3;
+
+	optional uint32 attack = 4;
+	optional uint32 defense = 5;
+
+	optional uint32 morale = 6;	// 士气
+};
+
+// 兵种关系
+message Relation {
+	required uint32 target       = 1;
+	optional sint32 attack       = 2;
+	optional sint32 hurtIncrease = 3;
+	optional sint32 hurtReduce   = 4;
+	optional sint32 hit          = 5;
+	optional sint32 dodge        = 6;
+	optional sint32 block        = 7;
+	optional sint32 crit         = 8;
+};
+
+// 士兵
+message Soldier {
+	required uint32 type            = 1;
+	required uint32 level           = 2;
+
+	optional uint32 count           = 3;
+	optional uint32 health          = 4;
+
+	optional uint32 range     		= 5;
+	optional uint32 move      		= 6;
+	optional uint32 speed     		= 7;
+
+	repeated Relation relations     = 8;
+
+	optional uint32 dead            = 9;
+
+	optional uint32 max		= 10;
+};
+
+// avatar
+message Avatar {
+	optional string body    = 1;
+	optional string weapon  = 2;
+	optional string weapon2 = 3;
+	optional uint32 cless   = 4;
+};
+
+message Position {
+	required uint32 x = 1;
+	required uint32 y = 2;
+};
+
+message Army {
+	optional uint32   id  		= 1;
+	required Hero     hero      = 2;
+	required Soldier  soldier   = 3;
+	optional Avatar   avatar    = 4;
+	required Position pos       = 5;
+};
+
+message Player {
+	required uint64 id      = 1;
+	optional string name    = 2;
+	optional uint32 level   = 3;
+	optional uint32 sex     = 5;
+	repeated Army   armys   = 6;
+	optional Avatar avatar  = 7;
+	optional uint32 flag    = 8;
+};
+
+message FightConfig {
+	required uint32 width = 1 [default=5];	
+	required uint32 length = 2 [default=11];	
+};
+
+///////////////////////////////////////////////////////
+message FightRequest {
+	optional uint32 sn 				= 1;
+
+	required string name 			= 2;
+	optional uint32 dialog 			= 3;
+
+	optional FightConfig config 	= 4;
+
+	required Player attacker = 5;
+	required Player defender = 6;
+};
+	
+message FightRespond {
+	optional uint32 sn 		= 1;
+	required uint32 result 	= 2;
+	optional string info 	= 3;
+
+	optional uint32 winner  = 4;
+	optional uint32 fightid = 5;
+
+	message Player {
+		required uint32 id      = 1;
+		message Army {
+			required uint32   heroid = 1;
+			optional uint32   dead   = 2;
+		};
+		repeated Army armys 	= 2;
+	};
+	repeated Player attacker = 6;
+	repeated Player defender = 7;
+};
+
+////////////////////////////////////////////////////////////////////////////////
+// fight data protocol
+message PBFightMoveAction {
+	required uint32 actor = 1;
+	repeated Position pos = 2;
+};
+
+message PBFightAttackAction {
+	required uint32 attacker = 1;
+	required uint32 target   = 2;
+	required uint32 type     = 3;
+	//required uint32 dead   = 4;
+	//required uint32 left   = 5;
+	optional uint32 say      = 6;
+	optional uint32 effect   = 7;
+	optional string says     = 8;
+	optional uint32 morale   = 9;
+};
+
+message PBFightMultiAction {
+	repeated PBFightAction actions = 1;
+};
+
+message PBFightComposeAction {
+	repeated PBFightAction actions = 1;
+	optional uint32 sep = 2; // 技能间隔
+};
+
+message PBFightTowerAction {
+	required uint32 actor = 1;
+	required uint32 target = 2;
+	required uint32 used = 3;
+	required uint32 dead = 4;
+	required uint32 left = 5;
+};
+
+message PBFightHurtAction {
+	required uint32 attacker = 1;
+	required uint32 target = 2;
+	required uint32 type   = 3;
+	required uint32 dead   = 4;
+	required uint32 left   = 5;
+	optional uint32 effect = 6;
+	optional uint32 morale = 7;
+};
+
+message PBFightSkillAction {
+	required uint32 id       = 1;
+	optional string name     = 2;
+
+	optional uint32 attacker = 3;
+	optional uint32 target   = 4;
+	repeated uint32 values   = 5 [packed=true];
+};
+
+message FightSkillEffect {
+	optional uint32 type = 1;
+	required uint32 target = 2;
+
+	optional uint32 dead = 3;
+	optional uint32 health = 4;
+	optional uint32 left = 5;
+
+	message Buffer {
+		required uint32 type = 1;
+		required  int32 value = 2;
+	};
+	optional Buffer buffer = 6;
+
+	optional uint32 morale = 7;
+};
+
+message PBFightSkillActionWithEffect {
+	required uint32 id                = 1;
+	required uint32 actor             = 2;
+	repeated FightSkillEffect effects = 3;
+	optional uint32 morale            = 4;
+};
+
+/*
+enum PBFightBufferType {
+	HurtIncreace = 2;
+	HurtReduce   = 3;
+};
+*/
+
+message PBFightBufferAction {
+	optional uint32            actor  = 1;
+	required uint32            target = 2;
+	required uint32            type   = 3;
+	required int32             value  = 4;
+};
+
+message PBFightAction {
+	required uint32                 type    = 1;
+	optional PBFightMultiAction  	multi   = 2;
+	optional PBFightMoveAction   	move    = 3;
+	optional PBFightAttackAction 	attack  = 4;
+	optional PBFightTowerAction  	tower   = 5;
+
+	optional uint32                 round   = 6;
+
+	optional PBFightHurtAction   	hurt    = 7;
+	optional PBFightComposeAction 	compose = 8;
+	optional PBFightSkillAction     skill   = 9;
+
+	optional bool                   wait = 10 [default=false];
+
+	optional PBFightBufferAction	buffer  = 11;
+
+	optional PBFightSkillActionWithEffect eskill  = 12;
+};
+
+message PBFightInfo {
+	required Player attacker = 1;
+	required Player defender = 2;
+
+	optional uint32 winner  = 3;
+	optional string name    = 4;
+	optional uint32 dialog  = 5;
+
+	optional FightConfig config 	= 6;
+
+	optional Player attackerAssistant = 7;
+	optional Player defenderAssistant = 8;
+
+	optional uint32 scene = 9; // 战斗场景
+};
+
+message PBFightDialog {
+	message Dialog {
+		required uint32 time  = 1;
+		required uint32 id    = 2;
+		optional uint32 delay = 3;
+		required string msg   = 4;
+	} ;
+	repeated Dialog dialogs = 1;
+};
+
+message PBFight {
+	required PBFightInfo   info    = 1;
+	repeated PBFightAction steps   = 4;
+	optional uint32        next    = 5;	// 下一场战斗
+};

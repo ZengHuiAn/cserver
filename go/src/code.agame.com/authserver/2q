@@ -1,0 +1,16 @@
+package main
+import(
+    "crypto/sha256"
+    "fmt"
+)
+
+func main(){
+	s := sha256.Sum256([]byte("xx"))
+	fmt.Printf("%+v\n", s)
+	var x []byte
+	for i:=0; i<len(s); i+=1 {
+		x =append(x + []byte(fmt.Sprintf("%02X", int(s[i])))
+	}
+	fmt.Printf("%s\n", string(x))
+	fmt.Printf("%+v\n", string(x) == "5DDE896887F6754C9B15BFE3A441AE4806DF2FDE94001311E08BF110622E0BBE")
+}

@@ -1,0 +1,213 @@
+
+** 聊天 **
+
+C_CHAT_MESSAGE_REQUEST = 2005 --聊天信息请求
+ CHAT_WORLD = 1     -- 世界频道
+ CHAT_COUNTRY = 2 
+ CHAT_GUILD = 3     
+ CHAT_SYSTEM = 4    -- 系统频道
+
+{
+	sn,
+	channel,   -- 聊天频道
+	message,   -- 消息内容
+}
+
+
+C_CHAT_MESSAGE_RESPOND = 2006 --聊天信息返回
+{sn, result }
+
+C_CHAT_MESSAGE_NOTIFY = 2007 --聊天信息通知
+--[sn, [fromid, fromname], to, message]
+{
+	sn
+	{
+		fromid,     -- 来源角色id
+		fromname,   -- 来源角色名字
+	},
+	channel,        -- 频道
+	message,        -- 消息内容
+}
+
+
+** 邮件 **
+
+-- 邮件类型
+MAIL_TYPE_SYSTEM  =1  -- 系统
+MAIL_TYPE_USER    =2  -- 用户
+MAIL_TYPE_CHAT    =3  -- 聊天
+MAIL_TYPE_CHANNEL =4
+MAIL_TYPE_FRIEND  =8   -- 好友
+MAIL_TYPE_ARENA   =16  -- 竞技场
+
+-- 邮件状态
+MAIL_STATUS_UNREAD = 0x01 -- 未读
+MAIL_STATUS_READ = 0x02 -- 已读
+
+C_MAIL_QUERY_REQUEST = 5001 -- 查询邮件列表请求
+{sn, type, status} 过滤器 type: 邮件类型 status 邮件状态
+
+C_MAIL_QUERY_RESPOND = 5002 -- 查询邮件列表返回
+{
+	sn,
+	result,
+	{
+		{
+			id, -- 邮件ID, 
+			type, -- 邮件类型,
+			title, -- 邮件标题,
+			status, -- 邮件状态
+			fromid,   -- 来源角色ID
+			fromname  -- 来源角色名字
+			time,  -- 发件时间
+			attachment_count, -- 附件数量
+		},
+		...
+	}
+}
+
+C_MAIL_GET_REQUEST = 5003 -- 获取邮件内容请求
+{
+	sn, 
+	{id1, id2, ...} -- 邮件id
+} 
+
+C_MAIL_GET_RESPOND = 5004 -- 获取邮件内容返回
+{
+	sn,
+	result,
+	{
+		{
+			id,                       -- 邮件ID
+			content,                  -- 邮件内容
+			{{type,id,value}, ...},   -- 附件列表
+			attachment_opened,        -- 附件是否已经打开 0 / 1
+		},
+		...
+	}
+}
+
+C_MAIL_MARK_REQUEST = 5005 -- 标记已读/未读请求
+{
+	sn,
+	{ {id, status}, ... } -- 要标记的邮件id和状态列表
+}
+
+C_MAIL_MARK_RESPOND = 5006 -- 标记已读/未读返回
+{
+	sn,
+    result, 
+	{
+		{id, status}, -- 邮件id, 状态
+		...
+    } 
+}
+
+C_MAIL_DEL_REQUEST = 5007 -- 删除邮件请求
+{
+	sn, 
+	{id1, id2, ...}  -- 邮件id列表
+}
+
+C_MAIL_DEL_RESPOND = 5008 -- 删除邮件返回
+{sn, result, {id1, id2, ...} } -- 删除的邮件列表
+
+C_MAIL_SEND_REQUEST = 5009 -- 发送邮件请求
+{
+	sn,
+	to,  -- 目标角色id
+	type, -- 邮件类型,
+	title, -- 邮件标题,
+	content, -- 邮件内容
+}
+
+C_MAIL_SEND_RESPOND = 5010 -- 发送邮件返回
+{sn, result}
+
+
+** 好友 **
+
+C_MAIL_CONTACT_GET_REQUEST = 5011 -- 获取联系人列表请求
+{sn}
+
+C_MAIL_CONTACT_GET_RESPOND = 5012 -- 获取联系人列表返回
+{
+	sn,
+	result,
+	{
+		{
+			pid,   -- 好友pid
+			type,  -- 好友类型
+			name,  -- 好友名字
+			online -- 是否在线 1/0
+			level, -- 好友等级
+			rtype, -- 在对方好友列表里面分类
+			sex,   -- 性别
+		},
+		...
+	}
+}
+
+C_MAIL_CONTACT_ADD_REQUEST = 5013 -- 添加联系人列表请求
+{
+	sn,
+	type, -- 好友类型
+	pid,  -- 好友pid
+	name, -- 好友名字(可选)
+}
+
+C_MAIL_CONTACT_ADD_RESPOND = 5014 -- 添加联系人请求列表
+{
+	sn, 
+	result,
+	pid,   -- 好友pid
+	type,  -- 好友类型
+	name,  -- 好友名字
+	online -- 是否在线 1/0
+	level, -- 好友等级
+	rtype, -- 在对方好友列表里面分类
+	sex,   -- 性别
+}
+	
+C_MAIL_CONTACT_DEL_REQUEST = 5015 -- 删除联系人请求
+{
+	sn, 
+	pid -- 好友ID
+}
+
+C_MAIL_CONTACT_DEL_RESPOND = 5016 -- 删除联系人返回
+{sn, result, pid}
+
+C_MAIL_GET_NOTIRY_MESSAGE_REQUEST = 5017
+{sn}
+
+C_MAIL_GET_NOTIRY_MESSAGE_RESPOND = 5018
+{sn, result}
+
+C_MAIL_OPEN_APPENDIX_REQUEST = 5019
+{
+	sn, 
+	id -- 邮件ID
+}
+C_MAIL_OPEN_APPENDIX_RESPOND = 5020
+{
+	sn,
+	result,
+}
+
+C_MAIL_CONTACT_RECOMMEND_REQUEST = 5021; -- 推荐好友列表
+{ sn }
+
+C_MAIL_CONTACT_RECOMMEND_RESPOND = 5022;
+{
+	sn,
+	result,
+	{
+		{
+			pid,    -- 角色ID
+			name,   -- 角色姓名
+			online  -- 是否在线 0/1
+			level,  -- 等级
+		}
+	}
+}

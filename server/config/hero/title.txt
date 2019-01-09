@@ -1,0 +1,21 @@
+# 武将官职ID	武将官职名称	武将官职图示	要求武将等级	出现条件（需要玩家达到官职）	武将兵力上限增加
+620001	裨将军	pijiangjun	20	610008	100
+620002	裨将军	pijiangjun	20	610009	100
+620003	偏将军	pianjiangjun	30	610010	300
+620004	偏将军	pianjiangjun	30	610011	300
+620005	偏将军	pianjiangjun	30	610012	300
+620006	平北将军	pingbeijiangjun	40	610013	600
+620007	平西将军	pingxijiangjun	40	610014	600
+620008	平南将军	pingnanjiangjun	45	610015	700
+620009	平东将军	pingdongjiangjun	45	610016	700
+620010	护军将军	hujunjiangjun	50	610017	800
+620011	镇北将军	zhenbeijiangjun	60	610018	900
+620012	镇西将军	zhenxijiangjun	60	610019	900
+620013	镇南将军	zhennanjiangjun	65	610020	1000
+620014	镇东将军	zhendongjiangjun	65	610021	1000
+620015	镇军将军	zhenjunjiangjun	70	610022	1100
+620016	征北将军	zhengbeijiangjun	75	610023	1200
+620017	征西将军	zhengxijiangjun	75	610024	1200
+620018	征南将军	zhengnanjiangjun	80	610025	1300
+620019	征东将军	zhengdongjiangjun	80	610026	1300
+620020	大将军	dajiangjun	90	610027	1500

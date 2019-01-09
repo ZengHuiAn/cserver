@@ -1,0 +1,800 @@
+﻿<BuildingUpgrade> <!-- 建筑升级基础配置表 -->
+  <Level level="1">
+    <Cost>
+    </Cost>
+    <Prosperity>10</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>10</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="2">
+    <Cost>
+      <Coin>500</Coin> <!-- 铜币 -->
+      <Cooldown>5</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>20</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>20</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="3">
+    <Cost>
+      <Coin>1000</Coin> <!-- 铜币 -->
+      <Cooldown>10</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>30</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>30</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="4">
+    <Cost>
+      <Coin>1500</Coin> <!-- 铜币 -->
+      <Cooldown>15</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>40</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>40</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="5">
+    <Cost>
+      <Coin>2000</Coin> <!-- 铜币 -->
+      <Cooldown>20</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>50</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>50</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="6">
+    <Cost>
+      <Coin>2500</Coin> <!-- 铜币 -->
+      <Cooldown>25</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>60</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>60</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="7">
+    <Cost>
+      <Coin>3000</Coin> <!-- 铜币 -->
+      <Cooldown>30</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>70</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>70</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="8">
+    <Cost>
+      <Coin>3500</Coin> <!-- 铜币 -->
+      <Cooldown>35</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>80</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>80</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="9">
+    <Cost>
+      <Coin>4000</Coin> <!-- 铜币 -->
+      <Cooldown>40</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>90</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>90</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="10">
+    <Cost>
+      <Coin>4500</Coin> <!-- 铜币 -->
+      <Cooldown>45</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>100</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>100</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="11">
+    <Cost>
+      <Coin>5000</Coin> <!-- 铜币 -->
+      <Cooldown>50</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>110</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>110</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="12">
+    <Cost>
+      <Coin>5500</Coin> <!-- 铜币 -->
+      <Cooldown>55</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>120</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>120</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="13">
+    <Cost>
+      <Coin>6000</Coin> <!-- 铜币 -->
+      <Cooldown>60</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>130</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>130</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="14">
+    <Cost>
+      <Coin>6500</Coin> <!-- 铜币 -->
+      <Cooldown>65</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>140</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>140</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="15">
+    <Cost>
+      <Coin>7000</Coin> <!-- 铜币 -->
+      <Cooldown>70</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>150</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>150</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="16">
+    <Cost>
+      <Coin>7500</Coin> <!-- 铜币 -->
+      <Cooldown>75</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>160</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>160</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="17">
+    <Cost>
+      <Coin>8000</Coin> <!-- 铜币 -->
+      <Cooldown>80</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>170</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>170</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="18">
+    <Cost>
+      <Coin>8500</Coin> <!-- 铜币 -->
+      <Cooldown>85</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>180</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>180</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="19">
+    <Cost>
+      <Coin>9000</Coin> <!-- 铜币 -->
+      <Cooldown>90</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>190</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>190</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="20">
+    <Cost>
+      <Coin>9500</Coin> <!-- 铜币 -->
+      <Cooldown>95</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>200</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>200</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="21">
+    <Cost>
+      <Coin>10000</Coin> <!-- 铜币 -->
+      <Cooldown>100</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>210</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>210</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="22">
+    <Cost>
+      <Coin>10500</Coin> <!-- 铜币 -->
+      <Cooldown>105</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>220</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>220</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="23">
+    <Cost>
+      <Coin>11000</Coin> <!-- 铜币 -->
+      <Cooldown>110</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>230</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>230</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="24">
+    <Cost>
+      <Coin>11500</Coin> <!-- 铜币 -->
+      <Cooldown>115</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>240</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>240</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="25">
+    <Cost>
+      <Coin>12000</Coin> <!-- 铜币 -->
+      <Cooldown>120</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>250</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>250</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="26">
+    <Cost>
+      <Coin>12500</Coin> <!-- 铜币 -->
+      <Cooldown>125</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>260</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>260</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="27">
+    <Cost>
+      <Coin>13000</Coin> <!-- 铜币 -->
+      <Cooldown>130</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>270</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>270</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="28">
+    <Cost>
+      <Coin>13500</Coin> <!-- 铜币 -->
+      <Cooldown>135</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>280</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>280</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="29">
+    <Cost>
+      <Coin>14000</Coin> <!-- 铜币 -->
+      <Cooldown>140</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>290</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>290</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="30">
+    <Cost>
+      <Coin>14500</Coin> <!-- 铜币 -->
+      <Cooldown>145</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>300</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>300</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="31">
+    <Cost>
+      <Coin>15000</Coin> <!-- 铜币 -->
+      <Cooldown>150</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>310</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>310</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="32">
+    <Cost>
+      <Coin>16000</Coin> <!-- 铜币 -->
+      <Cooldown>160</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>320</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>320</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="33">
+    <Cost>
+      <Coin>17000</Coin> <!-- 铜币 -->
+      <Cooldown>170</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>330</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>330</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="34">
+    <Cost>
+      <Coin>18000</Coin> <!-- 铜币 -->
+      <Cooldown>180</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>340</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>340</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="35">
+    <Cost>
+      <Coin>19000</Coin> <!-- 铜币 -->
+      <Cooldown>190</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>350</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>350</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="36">
+    <Cost>
+      <Coin>20000</Coin> <!-- 铜币 -->
+      <Cooldown>200</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>360</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>360</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="37">
+    <Cost>
+      <Coin>21000</Coin> <!-- 铜币 -->
+      <Cooldown>210</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>370</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>370</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="38">
+    <Cost>
+      <Coin>22000</Coin> <!-- 铜币 -->
+      <Cooldown>220</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>380</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>380</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="39">
+    <Cost>
+      <Coin>23000</Coin> <!-- 铜币 -->
+      <Cooldown>230</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>390</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>390</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="40">
+    <Cost>
+      <Coin>24000</Coin> <!-- 铜币 -->
+      <Cooldown>240</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>400</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>400</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="41">
+    <Cost>
+      <Coin>25000</Coin> <!-- 铜币 -->
+      <Cooldown>250</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>410</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>410</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="42">
+    <Cost>
+      <Coin>26000</Coin> <!-- 铜币 -->
+      <Cooldown>260</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>420</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>420</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="43">
+    <Cost>
+      <Coin>27000</Coin> <!-- 铜币 -->
+      <Cooldown>270</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>430</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>430</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="44">
+    <Cost>
+      <Coin>28000</Coin> <!-- 铜币 -->
+      <Cooldown>280</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>440</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>440</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="45">
+    <Cost>
+      <Coin>29000</Coin> <!-- 铜币 -->
+      <Cooldown>290</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>450</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>450</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="46">
+    <Cost>
+      <Coin>30000</Coin> <!-- 铜币 -->
+      <Cooldown>300</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>460</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>460</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="47">
+    <Cost>
+      <Coin>31000</Coin> <!-- 铜币 -->
+      <Cooldown>310</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>470</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>470</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="48">
+    <Cost>
+      <Coin>32000</Coin> <!-- 铜币 -->
+      <Cooldown>320</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>480</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>480</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="49">
+    <Cost>
+      <Coin>33000</Coin> <!-- 铜币 -->
+      <Cooldown>330</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>490</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>490</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="50">
+    <Cost>
+      <Coin>34000</Coin> <!-- 铜币 -->
+      <Cooldown>340</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>500</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>500</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="51">
+    <Cost>
+      <Coin>35000</Coin> <!-- 铜币 -->
+      <Cooldown>350</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>510</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>510</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="52">
+    <Cost>
+      <Coin>36000</Coin> <!-- 铜币 -->
+      <Cooldown>360</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>520</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>520</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="53">
+    <Cost>
+      <Coin>37000</Coin> <!-- 铜币 -->
+      <Cooldown>370</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>530</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>530</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="54">
+    <Cost>
+      <Coin>38000</Coin> <!-- 铜币 -->
+      <Cooldown>380</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>540</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>540</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="55">
+    <Cost>
+      <Coin>39000</Coin> <!-- 铜币 -->
+      <Cooldown>390</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>550</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>550</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="56">
+    <Cost>
+      <Coin>40000</Coin> <!-- 铜币 -->
+      <Cooldown>400</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>560</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>560</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="57">
+    <Cost>
+      <Coin>41000</Coin> <!-- 铜币 -->
+      <Cooldown>410</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>570</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>570</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="58">
+    <Cost>
+      <Coin>42000</Coin> <!-- 铜币 -->
+      <Cooldown>420</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>580</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>580</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="59">
+    <Cost>
+      <Coin>43000</Coin> <!-- 铜币 -->
+      <Cooldown>430</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>590</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>590</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="60">
+    <Cost>
+      <Coin>44000</Coin> <!-- 铜币 -->
+      <Cooldown>440</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>600</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>600</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="61">
+    <Cost>
+      <Coin>45000</Coin> <!-- 铜币 -->
+      <Cooldown>450</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>610</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>610</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="62">
+    <Cost>
+      <Coin>47000</Coin> <!-- 铜币 -->
+      <Cooldown>465</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>620</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>620</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="63">
+    <Cost>
+      <Coin>49000</Coin> <!-- 铜币 -->
+      <Cooldown>480</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>630</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>630</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="64">
+    <Cost>
+      <Coin>51000</Coin> <!-- 铜币 -->
+      <Cooldown>495</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>640</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>640</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="65">
+    <Cost>
+      <Coin>53000</Coin> <!-- 铜币 -->
+      <Cooldown>510</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>650</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>650</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="66">
+    <Cost>
+      <Coin>55000</Coin> <!-- 铜币 -->
+      <Cooldown>525</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>660</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>660</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="67">
+    <Cost>
+      <Coin>57000</Coin> <!-- 铜币 -->
+      <Cooldown>540</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>670</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>670</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="68">
+    <Cost>
+      <Coin>59000</Coin> <!-- 铜币 -->
+      <Cooldown>555</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>680</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>680</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="69">
+    <Cost>
+      <Coin>61000</Coin> <!-- 铜币 -->
+      <Cooldown>570</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>690</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>690</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="70">
+    <Cost>
+      <Coin>63000</Coin> <!-- 铜币 -->
+      <Cooldown>585</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>700</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>700</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="71">
+    <Cost>
+      <Coin>65000</Coin> <!-- 铜币 -->
+      <Cooldown>600</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>710</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>710</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="72">
+    <Cost>
+      <Coin>67000</Coin> <!-- 铜币 -->
+      <Cooldown>615</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>720</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>720</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="73">
+    <Cost>
+      <Coin>69000</Coin> <!-- 铜币 -->
+      <Cooldown>630</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>730</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>730</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="74">
+    <Cost>
+      <Coin>71000</Coin> <!-- 铜币 -->
+      <Cooldown>645</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>740</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>740</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="75">
+    <Cost>
+      <Coin>73000</Coin> <!-- 铜币 -->
+      <Cooldown>660</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>750</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>750</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="76">
+    <Cost>
+      <Coin>75000</Coin> <!-- 铜币 -->
+      <Cooldown>675</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>760</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>760</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="77">
+    <Cost>
+      <Coin>77000</Coin> <!-- 铜币 -->
+      <Cooldown>690</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>770</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>770</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="78">
+    <Cost>
+      <Coin>79000</Coin> <!-- 铜币 -->
+      <Cooldown>705</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>780</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>780</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="79">
+    <Cost>
+      <Coin>81000</Coin> <!-- 铜币 -->
+      <Cooldown>720</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>790</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>790</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="80">
+    <Cost>
+      <Coin>83000</Coin> <!-- 铜币 -->
+      <Cooldown>735</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>800</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>800</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="81">
+    <Cost>
+      <Coin>85000</Coin> <!-- 铜币 -->
+      <Cooldown>750</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>810</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>810</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="82">
+    <Cost>
+      <Coin>87000</Coin> <!-- 铜币 -->
+      <Cooldown>765</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>820</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>820</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="83">
+    <Cost>
+      <Coin>89000</Coin> <!-- 铜币 -->
+      <Cooldown>780</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>830</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>830</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="84">
+    <Cost>
+      <Coin>91000</Coin> <!-- 铜币 -->
+      <Cooldown>795</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>840</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>840</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="85">
+    <Cost>
+      <Coin>93000</Coin> <!-- 铜币 -->
+      <Cooldown>810</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>850</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>850</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="86">
+    <Cost>
+      <Coin>95000</Coin> <!-- 铜币 -->
+      <Cooldown>825</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>860</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>860</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="87">
+    <Cost>
+      <Coin>97000</Coin> <!-- 铜币 -->
+      <Cooldown>840</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>870</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>870</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="88">
+    <Cost>
+      <Coin>99000</Coin> <!-- 铜币 -->
+      <Cooldown>855</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>880</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>880</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="89">
+    <Cost>
+      <Coin>101000</Coin> <!-- 铜币 -->
+      <Cooldown>870</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>890</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>890</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="90">
+    <Cost>
+      <Coin>103000</Coin> <!-- 铜币 -->
+      <Cooldown>885</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>900</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>900</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="91">
+    <Cost>
+      <Coin>105000</Coin> <!-- 铜币 -->
+      <Cooldown>900</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>910</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>910</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="92">
+    <Cost>
+      <Coin>110000</Coin> <!-- 铜币 -->
+      <Cooldown>930</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>920</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>920</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="93">
+    <Cost>
+      <Coin>115000</Coin> <!-- 铜币 -->
+      <Cooldown>960</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>930</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>930</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="94">
+    <Cost>
+      <Coin>120000</Coin> <!-- 铜币 -->
+      <Cooldown>990</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>940</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>940</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="95">
+    <Cost>
+      <Coin>125000</Coin> <!-- 铜币 -->
+      <Cooldown>1020</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>950</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>950</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="96">
+    <Cost>
+      <Coin>130000</Coin> <!-- 铜币 -->
+      <Cooldown>1050</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>960</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>960</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="97">
+    <Cost>
+      <Coin>135000</Coin> <!-- 铜币 -->
+      <Cooldown>1080</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>970</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>970</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="98">
+    <Cost>
+      <Coin>140000</Coin> <!-- 铜币 -->
+      <Cooldown>1110</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>980</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>980</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="99">
+    <Cost>
+      <Coin>145000</Coin> <!-- 铜币 -->
+      <Cooldown>1140</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>990</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>990</Exp> <!-- 提供经验 -->
+  </Level>
+  <Level level="100">
+    <Cost>
+      <Coin>150000</Coin> <!-- 铜币 -->
+      <Cooldown>1170</Cooldown> <!-- cd -->
+    </Cost>
+    <Prosperity>1000</Prosperity> <!-- 提供繁荣度 -->
+    <Exp>1000</Exp> <!-- 提供经验 -->
+  </Level>
+</BuildingUpgrade>

@@ -1,0 +1,107 @@
+<LKSG id="108" platform="mobile" version="5" environment="xd">
+    <HTMLBase>../../html</HTMLBase>
+    <PortBase>19890</PortBase>
+
+    <Database>            <!-- 数据库 -->
+        <Account>        <!-- 全局帐号库 -->
+            <host>localhost</host>
+            <port>3306</port>
+            <user>agame</user>
+            <passwd>agame@123</passwd>
+            <db>aGameMobileAccount_108</db>
+            <socket>/data/mysql/3306/mysql.sock</socket>
+        </Account>
+        <Game>            <!-- 游戏库 -->
+            <host>localhost</host>
+            <port>3306</port>
+            <user>agame</user>
+            <passwd>agame@123</passwd>
+            <db>aGameMobile_108</db>
+            <socket>/data/mysql/3306/mysql.sock</socket>
+        </Game>
+    </Database>
+
+    <Gateway>            <!-- 网关 -->
+        <!-- host>0.0.0.0</host -->
+        <port>18910</port> <!-- PortBase -->
+        <!-- max>6000</max --> <!-- 最大连接数 -->
+        <Auth>0</Auth> <!-- 是否开启验证 -->
+        <Key>123456789</Key>
+    </Gateway>
+
+    <GMServer>            <!-- GM -->
+        <host>localhost</host>
+        <port>18912</port>
+        <Http>
+            <host>0.0.0.0</host>
+            <port>18911</port>
+        </Http>
+        <Key>123456789</Key>
+    </GMServer>
+
+    <Cells>                <!-- cell -->
+        <Cell idx="1">
+            <host>unix://../sock/world_1</host>
+            <!-- port>7800</port --><!-- PortBase + idx -->
+        </Cell>
+    </Cells>
+
+    <Social>            <!-- social -->
+        <Service name="Guild" min="3000" max="3999" id = "14">  <!-- 军团 -->
+            <host>unix://../sock/guild</host>
+        </Service>
+        <Service name="Arena" min="500" max="599" id = "11">        <!-- 竞技场 -->
+            <host>unix://../sock/arena</host>
+            <!-- port>9821</port -->
+        </Service>
+        <Service name="Consume" min="15000" max="15999" id = "25">  <!-- consume  -->
+            <host>unix://../sock/consume</host>
+        </Service>
+        <Service name="Manor" min="11000" max="11999" id = "21">    <!-- 庄园 -->
+            <host>unix://../sock/manor</host>
+            <!-- port>9831</port -->
+        </Service>
+        <Service name="Chat" min="2000" max="2999" id = "12">    <!-- 聊天和邮件 -->
+            <host>unix://../sock/chat</host>
+            <!-- port>9822</port -->
+        </Service>
+        <Service name="Mail" min="5000" max="5999" id = "15">    <!-- 聊天和邮件 -->
+            <host>unix://../sock/mail</host>
+            <!-- port>9825</port-->
+        </Service>
+        <Service name="Fight" min="16000" max="16999" id = "18"> <!-- 战斗 -->
+            <host>unix://../sock/fight</host>
+            <!-- port>9825</port-->
+        </Service>
+        <Service name="Quiz" min="17000" max="17999" id = "19"> <!-- 答题 -->
+           <host>unix://../sock/quiz</host>
+           <!-- port>9825</port-->
+        </Service>
+        <Service name="Map" min="18000" max="18999" id = "20"> <!-- 地图 -->
+           <host>unix://../sock/map</host>
+           <!-- port>9825</port-->
+        </Service>    
+        <Service name = "Gm" min = "19000" max = "19999" id = "22">    <!-- gm -->
+            <host>unix://../sock/gm</host>
+            <!-- port>19911</port-->
+        </Service>
+        <Service name="AI" min="20000" max="20999" id = "23"> <!-- AI -->
+            <host>unix://../sock/ai</host>
+            <!-- port>9825</port-->
+        </Service>
+    </Social> 
+    <GlobalService>
+        <AuthServer id = "100">
+            <host>localhost</host>
+            <port>8911</port>
+            <timeout>60</timeout>
+        </AuthServer>
+    </GlobalService>
+
+    <Log>
+        <FileDir>../log</FileDir>
+        <Realtime>
+            <Interval>60</Interval>        <!-- 实时在线写入间隔 -->
+        </Realtime>
+    </Log>
+</LKSG>

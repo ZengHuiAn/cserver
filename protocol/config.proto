@@ -1,0 +1,2735 @@
+package com.agame.config;
+
+message config_battle_config {
+    message Row {
+
+        optional int32 battle_id = 1;
+        optional int32 chapter_id = 2;
+        optional int32 mode_id = 3;
+        optional float scale = 4;
+        optional float x = 5;
+        optional float y = 6;
+        optional int32 lev_limit = 7;
+        optional int32 rely_battle = 8;
+        optional int32 finish_id = 9;
+        optional string name = 10;
+        optional string background = 11;
+        optional string pic = 12;
+        optional string bg_xditu = 13;
+        optional int32 quest_id = 14;
+        optional float enter_x = 15;
+        optional float enter_y = 16;
+        optional float enter_z = 17;
+        optional string bg_ready = 18;
+        optional string bg_ready_loc = 19;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_chapter_config {
+    message Row {
+
+        optional int32 chapter_id = 1;
+        optional int32 lev_limit = 2;
+        optional int32 rely_chapter = 3;
+        optional int32 pic1 = 4;
+        optional int32 pic2 = 5;
+        optional int32 pic2_rely = 6;
+        optional int32 pic3 = 7;
+        optional int32 pic3_rely = 8;
+        optional int32 pic4 = 9;
+        optional int32 pic4_rely = 10;
+        optional int32 pic5 = 11;
+        optional int32 pic5_rely = 12;
+        optional int32 finish_id = 13;
+        optional string background1 = 14;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_common {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 para1 = 2;
+        optional int32 para2 = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_common_consume {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional int32 item_id = 3;
+        optional int32 item_value = 4;
+        optional string desc = 5;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_config {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional int32 quality = 3;
+        optional int32 para = 4;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_item {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional int32 quality = 3;
+        optional int32 icon = 4;
+        optional int32 compose_num = 5;
+        optional int32 is_show = 6;
+        optional int32 quest = 7;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message item_generate {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional int32 item_id = 3;
+        optional int32 begin_time = 4;
+        optional int32 end_time = 5;
+        optional int32 period = 6;
+        optional int32 amount = 7;
+        optional int32 limit = 8;
+        optional int32 is_reset = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_level_up {
+    message Row {
+
+        optional int32 column = 1;
+        optional int32 level = 2;
+        optional int32 type = 3;
+        optional int32 id = 4;
+        optional int32 value = 5;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_npc {
+    message Row {
+
+        optional int32 id = 1;
+        optional string name = 2;
+        optional string icon = 3;
+        optional int32 mode = 4;
+        optional int32 property_id = 5;
+        optional int32 skill1 = 6;
+        optional int32 skill2 = 7;
+        optional int32 skill3 = 8;
+        optional int32 skill4 = 9;
+        optional float scale = 10;
+        optional int32 drop = 11;
+        optional int32 enter_script = 12;
+        optional float effect_scale = 13;
+        optional int32 npc_type = 14;
+        optional int32 mp_type = 15;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_all_npc {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 type = 2;
+        optional int32 bag_type = 3;
+        optional int32 mode = 4;
+        optional int32 face_to = 5;
+        optional float scale_rate = 6;
+        optional int32 mode_type = 7;
+        optional int32 mapid = 8;
+        optional string map_id = 9;
+        optional string name = 10;
+        optional float Position_x = 11;
+        optional float Position_y = 12;
+        optional float Position_z = 13;
+        optional float top_posx = 14;
+        optional float top_posy = 15;
+        optional string script = 16;
+        optional string born_script = 17;
+        optional string is_born = 18;
+        optional string is_move = 19;
+        optional int32 fight_config = 20;
+        optional string function_icon = 21;
+        optional float battle_bg_scale = 22;
+        optional float battle_bg_x = 23;
+        optional float battle_bg_y = 24;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_all_activity {
+    message Row {
+
+        optional int32 id = 1;
+        optional string name = 2;
+        optional string icon = 3;
+        optional int32 up_tittle1 = 4;
+        optional int32 up_tittle2 = 5;
+        optional int32 up_tittle3 = 6;
+        optional string use_icon = 7;
+        optional int32 gototype = 8;
+        optional string gotowhere = 9;
+        optional string findnpcname = 10;
+        optional int32 activity_type = 11;
+        optional int32 join_limit = 12;
+        optional int32 vatality = 13;
+        optional int32 begin_time = 14;
+        optional int32 end_time = 15;
+        optional int32 period = 16;
+        optional int32 loop_duration = 17;
+        optional int32 category = 18;
+        optional int32 type = 19;
+        optional string parameter = 20;
+        optional int32 lv_limit = 21;
+        optional string des = 22;
+        optional string des2 = 23;
+        optional int32 reward_type1 = 24;
+        optional int32 reward_id1 = 25;
+        optional int32 reward_type2 = 26;
+        optional int32 reward_id2 = 27;
+        optional int32 reward_type3 = 28;
+        optional int32 reward_id3 = 29;
+        optional int32 isunique = 30;
+        optional int32 huoyuedu = 31;
+        optional int32 advise_times = 32;
+        optional string is_accept = 33;
+        optional string finish_no = 34;
+        optional string finish_yes = 35;
+        optional string quest_type = 36;
+        optional int32 activity_order = 37;
+        optional int32 isopen_fighting = 38;
+        optional int32 depend_quest_id = 39;
+        optional string advise_text = 40;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_npc_property_config {
+    message Row {
+
+        optional int32 property_id = 1;
+        optional int32 lev = 2;
+        optional int32 type1 = 3;
+        optional int32 value1 = 4;
+        optional int32 type2 = 5;
+        optional int32 value2 = 6;
+        optional int32 type3 = 7;
+        optional int32 value3 = 8;
+        optional int32 type4 = 9;
+        optional int32 value4 = 10;
+        optional int32 type5 = 11;
+        optional int32 value5 = 12;
+        optional int32 type6 = 13;
+        optional int32 value6 = 14;
+        optional int32 type7 = 15;
+        optional int32 value7 = 16;
+        optional int32 type8 = 17;
+        optional int32 value8 = 18;
+        optional int32 type9 = 19;
+        optional int32 value9 = 20;
+        optional int32 type10 = 21;
+        optional int32 value10 = 22;
+        optional int32 type11 = 23;
+        optional int32 value11 = 24;
+        optional int32 type12 = 25;
+        optional int32 value12 = 26;
+        optional int32 type13 = 27;
+        optional int32 value13 = 28;
+        optional int32 type14 = 29;
+        optional int32 value14 = 30;
+        optional int32 type15 = 31;
+        optional int32 value15 = 32;
+        optional int32 type16 = 33;
+        optional int32 value16 = 34;
+        optional int32 type17 = 35;
+        optional int32 value17 = 36;
+        optional int32 type18 = 37;
+        optional int32 value18 = 38;
+        optional int32 type19 = 39;
+        optional int32 value19 = 40;
+        optional int32 type20 = 41;
+        optional int32 value20 = 42;
+        optional int32 type21 = 43;
+        optional int32 value21 = 44;
+        optional int32 type22 = 45;
+        optional int32 value22 = 46;
+        optional int32 type23 = 47;
+        optional int32 value23 = 48;
+        optional int32 type24 = 49;
+        optional int32 value24 = 50;
+        optional int32 type25 = 51;
+        optional int32 value25 = 52;
+        optional int32 type26 = 53;
+        optional int32 value26 = 54;
+        optional int32 type27 = 55;
+        optional int32 value27 = 56;
+        optional int32 type28 = 57;
+        optional int32 value28 = 58;
+        optional int32 type29 = 59;
+        optional int32 value29 = 60;
+        optional int32 type30 = 61;
+        optional int32 value30 = 62;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_pve_fight_config {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 battle_id = 2;
+        optional int32 depend_level_id = 3;
+        optional int32 depend_fight0_id = 4;
+        optional int32 depend_fight1_id = 5;
+        optional string scene_bg_id = 6;
+        optional int32 count_per_day = 7;
+        optional int32 rank = 8;
+        optional int32 support_god_hand = 9;
+        optional int32 cost_item_type = 10;
+        optional int32 cost_item_id = 11;
+        optional int32 cost_item_value = 12;
+        optional int32 can_yjdq = 13;
+        optional int32 rely_fight_id = 14;
+        optional int32 duration = 15;
+        optional int32 exp = 16;
+        optional int32 win_type = 17;
+        optional int32 win_para = 18;
+        optional int32 star1_type = 19;
+        optional int32 star1_para1 = 20;
+        optional int32 star1_para2 = 21;
+        optional int32 star2_type = 22;
+        optional int32 star2_para1 = 23;
+        optional int32 star2_para2 = 24;
+        optional int32 capacity = 25;
+        optional int32 fight_type = 26;
+        optional int32 reset_consume_id = 27;
+        optional int32 reward_type = 28;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_pve_fight_recommend {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 type1 = 2;
+        optional int32 role1 = 3;
+        optional int32 role_lv1 = 4;
+        optional int32 type2 = 5;
+        optional int32 role2 = 6;
+        optional int32 role_lv2 = 7;
+        optional int32 type3 = 8;
+        optional int32 role3 = 9;
+        optional int32 role_lv3 = 10;
+        optional int32 type4 = 11;
+        optional int32 role4 = 12;
+        optional int32 role_lv4 = 13;
+        optional int32 type5 = 14;
+        optional int32 role5 = 15;
+        optional int32 role_lv5 = 16;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_role {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 weapon = 2;
+        optional int32 mode = 3;
+        optional int32 starRound = 4;
+        optional int32 scale = 5;
+        optional int32 type0 = 6;
+        optional int32 value0 = 7;
+        optional int32 type1 = 8;
+        optional int32 value1 = 9;
+        optional int32 type2 = 10;
+        optional int32 value2 = 11;
+        optional int32 type3 = 12;
+        optional int32 value3 = 13;
+        optional int32 type4 = 14;
+        optional int32 value4 = 15;
+        optional int32 type5 = 16;
+        optional int32 value5 = 17;
+        optional int32 type6 = 18;
+        optional int32 value6 = 19;
+        optional int32 type7 = 20;
+        optional int32 value7 = 21;
+        optional int32 mp_type = 22;
+        optional int32 cur_mp = 23;
+        optional int32 reward_id = 24;
+        optional int32 reward_value = 25;
+        optional int32 multiple = 26;
+        optional int32 talent_id = 27;
+        optional int32 type = 28;
+        optional int32 roletalent_id1 = 29;
+        optional int32 roletalent_id2 = 30;
+        optional string info = 31;
+        optional string info1 = 32;
+        optional string info2 = 33;
+        optional string info3 = 34;
+        optional string info_title = 35;
+        optional string info4 = 36;
+        optional string info5 = 37;
+        optional string applicative_suit = 38;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_role_property_extension {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 type = 2;
+        optional int32 value = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_star_up {
+    message Row {
+
+        optional int32 star = 1;
+        optional int32 total_piece = 2;
+        optional int32 total_coin = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_wave_config {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 wave = 2;
+        optional int32 role_pos = 3;
+        optional int32 role_id = 4;
+        optional int32 role_lev = 5;
+        optional int32 drop1 = 6;
+        optional int32 drop2 = 7;
+        optional int32 drop3 = 8;
+        optional float x = 9;
+        optional float y = 10;
+        optional float z = 11;
+        optional int32 share_mode = 12;
+        optional int32 share_count = 13;
+        optional float scale = 14;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_weapon {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 star = 2;
+        optional int32 type0 = 3;
+        optional int32 value0 = 4;
+        optional int32 type1 = 5;
+        optional int32 value1 = 6;
+        optional int32 type2 = 7;
+        optional int32 value2 = 8;
+        optional int32 type3 = 9;
+        optional int32 value3 = 10;
+        optional int32 type4 = 11;
+        optional int32 value4 = 12;
+        optional int32 type5 = 13;
+        optional int32 value5 = 14;
+        optional int32 type6 = 15;
+        optional int32 value6 = 16;
+        optional int32 skill0 = 17;
+        optional int32 skill1 = 18;
+        optional int32 skill2 = 19;
+        optional int32 skill3 = 20;
+        optional int32 assist_skill1 = 21;
+        optional int32 weight1 = 22;
+        optional int32 assist_skill2 = 23;
+        optional int32 weight2 = 24;
+        optional int32 assist_skill3 = 25;
+        optional int32 weight3 = 26;
+        optional int32 assistCd = 27;
+        optional int32 skill4 = 28;
+        optional int32 skill5 = 29;
+        optional int32 talent_id = 30;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_one_time_reward {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 condition_type = 2;
+        optional int32 condition_id = 3;
+        optional int32 condition_value = 4;
+        optional int32 consume_type = 5;
+        optional int32 consume_id = 6;
+        optional int32 consume_value = 7;
+        optional int32 reward1_type = 8;
+        optional int32 reward1_id = 9;
+        optional int32 reward1_value = 10;
+        optional int32 reward2_type = 11;
+        optional int32 reward2_id = 12;
+        optional int32 reward2_value = 13;
+        optional int32 reward3_type = 14;
+        optional int32 reward3_id = 15;
+        optional int32 reward3_value = 16;
+        optional int32 reward4_type = 17;
+        optional int32 reward4_id = 18;
+        optional int32 reward4_value = 19;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_pet {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 icon = 2;
+        optional int32 type = 3;
+        optional int32 skill = 4;
+        optional string skill_name = 5;
+        optional string skill_info = 6;
+        optional int32 def_order = 7;
+        optional int32 hp_type = 8;
+        optional int32 type1 = 9;
+        optional int32 value1 = 10;
+        optional int32 type2 = 11;
+        optional int32 value2 = 12;
+        optional int32 type3 = 13;
+        optional int32 value3 = 14;
+        optional int32 type4 = 15;
+        optional int32 value4 = 16;
+        optional int32 type5 = 17;
+        optional int32 value5 = 18;
+        optional int32 type6 = 19;
+        optional int32 value6 = 20;
+        optional int32 mode = 21;
+        optional string name = 22;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_parameter {
+    message Row {
+
+        optional string id = 1;
+        optional int32 rate = 2;
+        optional int32 notshow = 3;
+        optional string icon = 4;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_skill {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 icon = 2;
+        optional int32 cast_cd = 3;
+        optional int32 init_cd = 4;
+        optional string name = 5;
+        optional string desc = 6;
+        optional int32 script = 7;
+        optional string check_script = 8;
+        optional int32 consume_type = 9;
+        optional int32 consume_value = 10;
+        optional int32 type1 = 11;
+        optional int32 value1 = 12;
+        optional int32 type2 = 13;
+        optional int32 value2 = 14;
+        optional int32 type3 = 15;
+        optional int32 value3 = 16;
+        optional int32 type4 = 17;
+        optional int32 value4 = 18;
+        optional int32 type5 = 19;
+        optional int32 value5 = 20;
+        optional int32 type6 = 21;
+        optional int32 value6 = 22;
+        optional int32 skill_element = 23;
+        optional int32 skill_type = 24;
+        optional int32 skill_place_type = 25;
+        optional int32 recommend_suit_id = 26;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_skill_music {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 role_id = 2;
+        optional int32 skill_id = 3;
+        optional int32 music_type = 4;
+        optional string music_name = 5;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_weapon_evo {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 evo_lev = 2;
+        optional int32 quality = 3;
+        optional int32 cost0_type1 = 4;
+        optional int32 cost0_id1 = 5;
+        optional int32 cost0_value1 = 6;
+        optional int32 cost0_type2 = 7;
+        optional int32 cost0_id2 = 8;
+        optional int32 cost0_value2 = 9;
+        optional int32 effect0_type1 = 10;
+        optional int32 effect0_value1 = 11;
+        optional int32 effect0_type2 = 12;
+        optional int32 effect0_value2 = 13;
+        optional int32 effect0_type3 = 14;
+        optional int32 effect0_value3 = 15;
+        optional int32 cost1_type = 16;
+        optional int32 cost1_id = 17;
+        optional int32 effect1_type = 18;
+        optional int32 effect1_value = 19;
+        optional int32 cost2_type = 20;
+        optional int32 cost2_id = 21;
+        optional int32 effect2_type = 22;
+        optional int32 effect2_value = 23;
+        optional int32 cost3_type = 24;
+        optional int32 cost3_id = 25;
+        optional int32 effect3_type = 26;
+        optional int32 effect3_value = 27;
+        optional int32 cost4_type = 28;
+        optional int32 cost4_id = 29;
+        optional int32 effect4_type = 30;
+        optional int32 effect4_value = 31;
+        optional int32 cost5_type = 32;
+        optional int32 cost5_id = 33;
+        optional int32 effect5_type = 34;
+        optional int32 effect5_value = 35;
+        optional int32 cost6_type = 36;
+        optional int32 cost6_id = 37;
+        optional int32 effect6_type = 38;
+        optional int32 effect6_value = 39;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_weapon_lev {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type0 = 2;
+        optional int32 value0 = 3;
+        optional int32 type1 = 4;
+        optional int32 value1 = 5;
+        optional int32 type2 = 6;
+        optional int32 value2 = 7;
+        optional int32 type3 = 8;
+        optional int32 value3 = 9;
+        optional int32 type4 = 10;
+        optional int32 value4 = 11;
+        optional int32 type5 = 12;
+        optional int32 value5 = 13;
+        optional int32 type6 = 14;
+        optional int32 value6 = 15;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_talent {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 weapon_id = 2;
+        optional int32 group = 3;
+        optional int32 sub_group = 4;
+        optional int32 depend_id1 = 5;
+        optional int32 depend_id2 = 6;
+        optional int32 depend_id3 = 7;
+        optional int32 depend_point = 8;
+        optional int32 point_limit = 9;
+        optional int32 mutex_id1 = 10;
+        optional int32 mutex_id2 = 11;
+        optional int32 effect_type1 = 12;
+        optional int32 init_value1 = 13;
+        optional int32 incr_value1 = 14;
+        optional int32 effect_type2 = 15;
+        optional int32 init_value2 = 16;
+        optional int32 incr_value2 = 17;
+        optional int32 effect_type3 = 18;
+        optional int32 init_value3 = 19;
+        optional int32 incr_value3 = 20;
+        optional int32 effect_type4 = 21;
+        optional int32 init_value4 = 22;
+        optional int32 incr_value4 = 23;
+        optional int32 consume_type_1 = 24;
+        optional int32 consume_id_1 = 25;
+        optional int32 consume_value_1 = 26;
+        optional int32 consume_inc_1 = 27;
+        optional int32 consume_payback_1 = 28;
+        optional int32 consume_type_2 = 29;
+        optional int32 consume_id_2 = 30;
+        optional int32 consume_value_2 = 31;
+        optional int32 consume_inc_2 = 32;
+        optional int32 consume_payback_2 = 33;
+        optional int32 depend_level = 34;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_role_star {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 level = 2;
+        optional string icon = 3;
+        optional int32 type0 = 4;
+        optional int32 value0 = 5;
+        optional int32 type1 = 6;
+        optional int32 value1 = 7;
+        optional int32 type2 = 8;
+        optional int32 value2 = 9;
+        optional int32 type3 = 10;
+        optional int32 value3 = 11;
+        optional int32 type4 = 12;
+        optional int32 value4 = 13;
+        optional int32 type5 = 14;
+        optional int32 value5 = 15;
+        optional int32 type6 = 16;
+        optional int32 value6 = 17;
+        optional int32 reward_id = 18;
+        optional int32 reward_value = 19;
+        optional int32 num = 20;
+        optional int32 effect_type = 21;
+        optional int32 effect_value = 22;
+        optional int32 buff = 23;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_role_stage_up {
+    message Row {
+
+        optional int32 role_id = 1;
+        optional int32 stage = 2;
+        optional int32 min_level = 3;
+        optional int32 max_level = 4;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_fight_reward {
+    message Row {
+
+        optional int32 drop_id = 1;
+        optional int32 first_drop = 2;
+        optional int32 group = 3;
+        optional int32 drop_rate = 4;
+        optional int32 type = 5;
+        optional int32 id = 6;
+        optional int32 min_value = 7;
+        optional int32 max_value = 8;
+        optional int32 min_incr = 9;
+        optional int32 max_incr = 10;
+        optional int32 act_time = 11;
+        optional int32 end_time = 12;
+        optional int32 act_drop_rate = 13;
+        optional int32 act_value_rate = 14;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message drop_with_item {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 priority = 2;
+        optional int32 weight = 3;
+        optional int32 item_id = 4;
+        optional int32 item_count = 5;
+        optional int32 drop_id = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_ability_pool1 {
+    message Row {
+
+        optional int32 pool_id = 1;
+        optional int32 weight = 2;
+        optional int32 scroll = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_equipment1 {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 min_level = 2;
+        optional int32 max_level = 3;
+        optional int32 type = 4;
+        optional int32 sub_type = 5;
+        optional int32 quality = 6;
+        optional int32 type0 = 7;
+        optional int32 value0 = 8;
+        optional int32 type1 = 9;
+        optional int32 value1 = 10;
+        optional int32 type2 = 11;
+        optional int32 value2 = 12;
+        optional int32 type3 = 13;
+        optional int32 value3 = 14;
+        optional int32 evo_id = 15;
+        optional int32 suit_id = 16;
+        optional int32 ability_pool1 = 17;
+        optional int32 ability_pool2 = 18;
+        optional int32 ability_pool3 = 19;
+        optional int32 ability_pool4 = 20;
+        optional int32 ability_pool5 = 21;
+        optional int32 ability_pool6 = 22;
+        optional int32 swallow_id = 23;
+        optional int32 swallow = 24;
+        optional int32 swallow_id2 = 25;
+        optional int32 swallow2 = 26;
+        optional int32 swallowed_id = 27;
+        optional int32 swallowed = 28;
+        optional int32 init_min_level = 29;
+        optional int32 init_max_level = 30;
+        optional int32 equip_level = 31;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_equipment_with_level {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 min_lev = 2;
+        optional int32 max_lev = 3;
+        optional int32 item_id = 4;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_equipment_lev1 {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type0 = 2;
+        optional int32 value0 = 3;
+        optional int32 type1 = 4;
+        optional int32 value1 = 5;
+        optional int32 type2 = 6;
+        optional int32 value2 = 7;
+        optional int32 type3 = 8;
+        optional int32 value3 = 9;
+        optional int32 column = 10;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_scroll {
+    message Row {
+
+        optional int32 scroll = 1;
+        optional int32 type = 2;
+        optional int32 min_value = 3;
+        optional int32 max_value = 4;
+        optional int32 quality = 5;
+        optional int32 suit_id = 6;
+        optional int32 keep = 7;
+        optional int32 from = 8;
+        optional int32 by = 9;
+        optional int32 ability_pool = 10;
+        optional int32 cost_id = 11;
+        optional int32 cost_value = 12;
+        optional int32 property_lev_per = 13;
+        optional int32 lev_max_value = 14;
+        optional int32 grow_min = 15;
+        optional int32 grow_max = 16;
+        optional float grow_a = 17;
+        optional float grow_u = 18;
+        optional int32 grow_cost_id = 19;
+        optional int32 grow_cost_value = 20;
+        optional int32 grow_cost_id2 = 21;
+        optional int32 grow_cost_value2 = 22;
+        optional int32 swallowed_id = 23;
+        optional int32 swallowed = 24;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_suit {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 suit_id = 2;
+        optional int32 icon = 3;
+        optional string name = 4;
+        optional int32 quality = 5;
+        optional int32 count = 6;
+        optional int32 type1 = 7;
+        optional int32 value1 = 8;
+        optional int32 type2 = 9;
+        optional int32 value2 = 10;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message born_item {
+    message Row {
+
+        optional int32 type = 1;
+        optional int32 id = 2;
+        optional int32 value = 3;
+        optional int32 position = 4;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_battle_config {
+    message Row {
+
+        optional int32 gid_id = 1;
+        optional string tittle_name = 2;
+        optional int32 difficult = 3;
+        optional string difficult_name = 4;
+        optional int32 activity_id = 5;
+        optional int32 find_npc = 6;
+        optional string use_picture = 7;
+        optional string use_picture_small = 8;
+        optional int32 limit_level = 9;
+        optional string des = 10;
+        optional string fresh_time_des = 11;
+        optional int32 mapid = 12;
+        optional string map_id = 13;
+        optional string battle_icon = 14;
+        optional string battle_back = 15;
+        optional int32 chapter_id = 16;
+        optional string chapter_name = 17;
+        optional int32 group_id = 18;
+        optional string group_name = 19;
+        optional string battle_name = 20;
+        optional string desc = 21;
+        optional int32 sound = 22;
+        optional int32 lev_limit = 23;
+        optional int32 team_member = 24;
+        optional int32 rely_battle = 25;
+        optional int32 finish_id = 26;
+        optional int32 drop1 = 27;
+        optional int32 drop2 = 28;
+        optional int32 drop3 = 29;
+        optional int32 begin_time = 30;
+        optional int32 end_time = 31;
+        optional int32 duration_per_period = 32;
+        optional int32 valid_per_period = 33;
+        optional int32 require_num = 34;
+        optional string script = 35;
+        optional float enter_x = 36;
+        optional float enter_y = 37;
+        optional float enter_z = 38;
+        optional string enter_script = 39;
+        optional int32 des_limit = 40;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_pve_fight_config {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 gid_id = 2;
+        optional int32 sequence = 3;
+        optional int32 is_fight_npc = 4;
+        optional int32 depend_level_id = 5;
+        optional int32 depend_fight0_id = 6;
+        optional int32 depend_fight1_id = 7;
+        optional string scene_bg_id = 8;
+        optional string scene_name = 9;
+        optional int32 npc_id = 10;
+        optional string npc_name = 11;
+        optional int32 monster_id = 12;
+        optional float scale = 13;
+        optional int32 count_per_day = 14;
+        optional int32 rank = 15;
+        optional int32 support_god_hand = 16;
+        optional int32 cost_item_type = 17;
+        optional int32 cost_item_id = 18;
+        optional int32 cost_item_value = 19;
+        optional int32 can_yjdq = 20;
+        optional int32 rely_fight_id = 21;
+        optional int32 duration = 22;
+        optional int32 exp = 23;
+        optional int32 win_type = 24;
+        optional int32 win_para = 25;
+        optional int32 star1_type = 26;
+        optional int32 star1_para = 27;
+        optional int32 star2_type = 28;
+        optional int32 star2_para = 29;
+        optional int32 star3_type = 30;
+        optional int32 star3_para = 31;
+        optional string music = 32;
+        optional string boss_music = 33;
+        optional int32 capacity = 34;
+        optional int32 public_drop = 35;
+        optional int32 drop1 = 36;
+        optional int32 drop2 = 37;
+        optional int32 drop3 = 38;
+        optional int32 pick_limit = 39;
+        optional int32 effect_type = 40;
+        optional float effect_value = 41;
+        optional int32 effect_who = 42;
+        optional int32 effect_battle_id = 43;
+        optional int32 effect_fight_id = 44;
+        optional string win_des = 45;
+        optional int32 story_id = 46;
+        optional int32 after_fight_story = 47;
+        optional string born_effect = 48;
+        optional int32 fight_type = 49;
+        optional int32 score_type = 50;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_wave_config {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 wave = 2;
+        optional int32 role_pos = 3;
+        optional int32 role_id = 4;
+        optional int32 role_lev = 5;
+        optional int32 drop1 = 6;
+        optional int32 drop2 = 7;
+        optional int32 drop3 = 8;
+        optional float x = 9;
+        optional float y = 10;
+        optional float z = 11;
+        optional int32 share_mode = 12;
+        optional int32 share_count = 13;
+        optional int32 team_roll_drop1 = 14;
+        optional int32 team_roll_drop2 = 15;
+        optional int32 team_roll_drop3 = 16;
+        optional int32 show_itemid1 = 17;
+        optional int32 show_itemid2 = 18;
+        optional int32 show_itemid3 = 19;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message team_fight_score {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional int32 damage_coefficient = 3;
+        optional int32 treat_coefficient = 4;
+        optional int32 death_coefficient = 5;
+        optional int32 lv = 6;
+        optional int32 sss_min = 7;
+        optional int32 ss_min = 8;
+        optional int32 s_min = 9;
+        optional int32 a_min = 10;
+        optional int32 b_min = 11;
+        optional int32 c_min = 12;
+        optional int32 d_min = 13;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_manor_fight_config {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 depend_level_id = 2;
+        optional int32 depend_fight0_id = 3;
+        optional int32 depend_fight1_id = 4;
+        optional string scene_bg_id = 5;
+        optional int32 count_per_day = 6;
+        optional int32 rank = 7;
+        optional int32 support_god_hand = 8;
+        optional int32 cost_item_type = 9;
+        optional int32 cost_item_id = 10;
+        optional int32 cost_item_value = 11;
+        optional int32 can_yjdq = 12;
+        optional int32 rely_fight_id = 13;
+        optional int32 duration = 14;
+        optional int32 exp = 15;
+        optional int32 win_type = 16;
+        optional int32 win_para = 17;
+        optional int32 star1_type = 18;
+        optional int32 star1_para = 19;
+        optional int32 star2_type = 20;
+        optional int32 star2_para = 21;
+        optional int32 star3_type = 22;
+        optional int32 star3_para = 23;
+        optional int32 capacity = 24;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_manor_fight_add {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 property = 2;
+        optional int32 condition = 3;
+        optional int32 fight_id = 4;
+        optional int32 weight = 5;
+        optional int32 element = 6;
+        optional int32 role_num = 7;
+        optional int32 add_property = 8;
+        optional int32 display = 9;
+        optional int32 npc_type1 = 10;
+        optional int32 npc_type2 = 11;
+        optional int32 npc_type3 = 12;
+        optional int32 win_times = 13;
+        optional int32 open_level = 14;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_manor_accelerate_consum {
+    message Row {
+
+        optional int32 type = 1;
+        optional int32 id = 2;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_work_type {
+    message Row {
+
+        optional int32 id = 1;
+        optional string work_type = 2;
+        optional string effect_des = 3;
+        optional int32 formula_type = 4;
+        optional string work_type_des = 5;
+        optional int32 effect_work_id = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_donate {
+    message Row {
+
+        optional int32 DonateType = 1;
+        optional int32 BuildExp = 2;
+        optional string BuildExpName = 3;
+        optional int32 ItemID = 4;
+        optional int32 ItemType = 5;
+        optional int32 Value = 6;
+        optional int32 ExpendItemID = 7;
+        optional int32 ExpendItemType = 8;
+        optional int32 ExpendItemValue = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_summary {
+    message Row {
+
+        optional int32 Create_consume_id = 1;
+        optional int32 Create_consume_type = 2;
+        optional int32 Create_consume_value = 3;
+        optional int32 apply_time = 4;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_number {
+    message Row {
+
+        optional int32 TeamLevel = 1;
+        optional int32 MaxNumber = 2;
+        optional int32 MaxExp = 3;
+        optional int32 DeputyNumber = 4;
+        optional int32 GeneralsNumber = 5;
+        optional int32 ContributorsNumber = 6;
+        optional int32 CorememberNumber = 7;
+        optional int32 EliteNumber = 8;
+        optional int32 HeadSalary = 9;
+        optional int32 DeputySalary = 10;
+        optional int32 SalaryTime = 11;
+        optional int32 explore_team_num = 12;
+        optional int32 daily_max_exp = 13;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_award {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 sort = 2;
+        optional int32 team_level = 3;
+        optional int32 award_type = 4;
+        optional int32 product_condition = 5;
+        optional int32 condition_value = 6;
+        optional int32 product_type = 7;
+        optional int32 product_id = 8;
+        optional int32 product_value = 9;
+        optional int32 product_type2 = 10;
+        optional int32 product_id2 = 11;
+        optional int32 product_value2 = 12;
+        optional int32 product_type3 = 13;
+        optional int32 product_id3 = 14;
+        optional int32 product_value3 = 15;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_permission {
+    message Row {
+
+        optional int32 title = 1;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_guild_building_level {
+    message Row {
+
+        optional int32 building_type = 1;
+        optional int32 level = 2;
+        optional int32 exp = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_team_accident {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 explore_mapid = 2;
+        optional int32 accident_type = 3;
+        optional int32 trigger_time_min = 4;
+        optional int32 trigger_time_max = 5;
+        optional int32 accident_duration = 6;
+        optional int32 accident_resultid = 7;
+        optional int32 mode_id = 8;
+        optional float scale = 9;
+        optional int32 mode_type = 10;
+        optional int32 face_to = 11;
+        optional string accident_des = 12;
+        optional string accident_log = 13;
+        optional int32 team_lv_min = 14;
+        optional int32 next_id = 15;
+        optional int32 weight = 16;
+        optional int32 condition_type = 17;
+        optional int32 condition_para1 = 18;
+        optional int32 condition_para2 = 19;
+        optional int32 reward1_type = 20;
+        optional int32 reward1_id = 21;
+        optional int32 reward1_count = 22;
+        optional int32 reward2_type = 23;
+        optional int32 reward2_id = 24;
+        optional int32 reward2_count = 25;
+        optional int32 reward3_type = 26;
+        optional int32 reward3_id = 27;
+        optional int32 reward3_count = 28;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message guild_boss {
+    message Row {
+
+        optional int32 activity_id = 1;
+        optional int32 type = 2;
+        optional int32 begin_time = 3;
+        optional int32 end_time = 4;
+        optional int32 period = 5;
+        optional int32 duration = 6;
+        optional int32 boss_id = 7;
+        optional int32 boss_last_time = 8;
+        optional int32 max_fight_count = 9;
+        optional int32 wealth_cost = 10;
+        optional int32 boss_id_client = 11;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_guild_boss_reward {
+    message Row {
+
+        optional int32 activity_id = 1;
+        optional int32 lower_limit = 2;
+        optional int32 upper_limit = 3;
+        optional int32 reward_type1 = 4;
+        optional int32 reward_id1 = 5;
+        optional int32 reward_value1 = 6;
+        optional int32 reward_type2 = 7;
+        optional int32 reward_id2 = 8;
+        optional int32 reward_value2 = 9;
+        optional int32 reward_type3 = 10;
+        optional int32 reward_id3 = 11;
+        optional int32 reward_value3 = 12;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_guild_quest {
+    message Row {
+
+        optional int32 quest_id = 1;
+        optional int32 type = 2;
+        optional int32 auto_accept = 3;
+        optional int32 only_accept_by_other_activity = 4;
+        optional int32 permission = 5;
+        optional int32 accept_limit = 6;
+        optional int32 depend_quest_id = 7;
+        optional int32 depend_level = 8;
+        optional int32 depend_item = 9;
+        optional int32 event_type1 = 10;
+        optional int32 event_id1 = 11;
+        optional int32 event_count1 = 12;
+        optional int32 event_type2 = 13;
+        optional int32 event_id2 = 14;
+        optional int32 event_count2 = 15;
+        optional int32 reward_type1 = 16;
+        optional int32 reward_id1 = 17;
+        optional int32 reward_value1 = 18;
+        optional int32 reward_type2 = 19;
+        optional int32 reward_id2 = 20;
+        optional int32 reward_value2 = 21;
+        optional int32 reward_type3 = 22;
+        optional int32 reward_id3 = 23;
+        optional int32 reward_value3 = 24;
+        optional int32 consume_type1 = 25;
+        optional int32 consume_id1 = 26;
+        optional int32 consume_value1 = 27;
+        optional int32 consume_type2 = 28;
+        optional int32 consume_id2 = 29;
+        optional int32 consume_value2 = 30;
+        optional int32 begin_time = 31;
+        optional int32 end_time = 32;
+        optional int32 period = 33;
+        optional int32 duration = 34;
+        optional int32 count = 35;
+        optional int32 time_limit = 36;
+        optional int32 refresh_time_min = 37;
+        optional int32 refresh_time_max = 38;
+        optional int32 overtime = 39;
+        optional int32 need_reset = 40;
+        optional int32 next_quest = 41;
+        optional int32 cost_wealth = 42;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_quest {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional string button_des = 3;
+        optional string detail_desc = 4;
+        optional int32 npc_id = 5;
+        optional string script = 6;
+        optional int32 map_id = 7;
+        optional int32 fight_id = 8;
+        optional int32 event_id1 = 9;
+        optional int32 event_count1 = 10;
+        optional int32 event_id2 = 11;
+        optional int32 event_count2 = 12;
+        optional int32 time_limit = 13;
+        optional int32 give_type = 14;
+        optional int32 give_id = 15;
+        optional int32 give_value = 16;
+        optional int32 consume_type1 = 17;
+        optional int32 consume_id1 = 18;
+        optional int32 consume_value1 = 19;
+        optional int32 consume_type2 = 20;
+        optional int32 consume_id2 = 21;
+        optional int32 consume_value2 = 22;
+        optional int32 reward_type1 = 23;
+        optional int32 reward_id1 = 24;
+        optional int32 reward_value1 = 25;
+        optional int32 reward_richvalue1 = 26;
+        optional int32 reward_type2 = 27;
+        optional int32 reward_id2 = 28;
+        optional int32 reward_value2 = 29;
+        optional int32 reward_richvalue2 = 30;
+        optional int32 reward_type3 = 31;
+        optional int32 reward_id3 = 32;
+        optional int32 reward_value3 = 33;
+        optional int32 reward_richvalue3 = 34;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_advance_quest {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional string icon = 3;
+        optional int32 mutex_id = 4;
+        optional string button_des = 5;
+        optional string script = 6;
+        optional int32 monster_id = 7;
+        optional int32 npc_id = 8;
+        optional int32 accept_npc_id = 9;
+        optional int32 auto_accept = 10;
+        optional int32 only_accept_by_other_activity = 11;
+        optional int32 depend_fight_id = 12;
+        optional int32 depend_quest_id = 13;
+        optional int32 depend_level = 14;
+        optional int32 event_type1 = 15;
+        optional int32 event_id1 = 16;
+        optional int32 event_count1 = 17;
+        optional int32 event_type2 = 18;
+        optional int32 event_id2 = 19;
+        optional int32 event_count2 = 20;
+        optional int32 consume_type1 = 21;
+        optional int32 consume_id1 = 22;
+        optional int32 consume_value1 = 23;
+        optional int32 consume_need_reset1 = 24;
+        optional int32 consume_type2 = 25;
+        optional int32 consume_id2 = 26;
+        optional int32 consume_value2 = 27;
+        optional int32 consume_need_reset2 = 28;
+        optional int32 reward_type1 = 29;
+        optional int32 reward_id1 = 30;
+        optional int32 reward_value1 = 31;
+        optional int32 reward_richvalue1 = 32;
+        optional int32 reward_type2 = 33;
+        optional int32 reward_id2 = 34;
+        optional int32 reward_value2 = 35;
+        optional int32 reward_richvalue2 = 36;
+        optional int32 reward_type3 = 37;
+        optional int32 reward_id3 = 38;
+        optional int32 reward_value3 = 39;
+        optional int32 reward_richvalue3 = 40;
+        optional int32 begin_time = 41;
+        optional int32 end_time = 42;
+        optional int32 period = 43;
+        optional int32 duration = 44;
+        optional int32 count = 45;
+        optional int32 next_id = 46;
+        optional int32 give_type = 47;
+        optional int32 give_id = 48;
+        optional int32 give_value = 49;
+        optional string play_effect_name = 50;
+        optional int32 time_limit = 51;
+        optional int32 day7_type = 52;
+        optional int32 is_show_on_task = 53;
+        optional string play_icon = 54;
+        optional string play_text = 55;
+        optional string button_name = 56;
+        optional int32 drop_id = 57;
+        optional int32 go_where = 58;
+        optional int32 depend_item = 59;
+        optional int32 day7_show_type = 60;
+        optional int32 is_fuben_quest = 61;
+        optional int32 move = 62;
+        optional int32 guide_id = 63;
+        optional int32 relative_to_born = 64;
+        optional int32 is_auto = 65;
+        optional int32 relation_type = 66;
+        optional int32 relation_value = 67;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message quest_pool {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 quest = 2;
+        optional int32 weight = 3;
+        optional int32 lv_min = 4;
+        optional int32 lv_max = 5;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_7day_delay {
+    message Row {
+
+        optional int32 quest_id = 1;
+        optional int32 delay_time = 2;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message activity_build_city {
+    message Row {
+
+        optional int32 round = 1;
+        optional int32 quest_pool = 2;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_manor_task {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 task_type = 2;
+        optional int32 time_begin = 3;
+        optional int32 condition1 = 4;
+        optional int32 weight = 5;
+        optional int32 lv_min = 6;
+        optional int32 lv_max = 7;
+        optional int32 hold_time = 8;
+        optional int32 valid_time = 9;
+        optional int32 deadline = 10;
+        optional int32 fresh_limit = 11;
+        optional int32 guild_level = 12;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_manor_task_item {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 task_stage = 2;
+        optional string task_tittle1 = 3;
+        optional string task_tittle2 = 4;
+        optional string task_des = 5;
+        optional int32 role_min = 6;
+        optional int32 role_max = 7;
+        optional int32 require1 = 8;
+        optional int32 require2 = 9;
+        optional int32 require3 = 10;
+        optional int32 require4 = 11;
+        optional int32 require5 = 12;
+        optional int32 success_rate1 = 13;
+        optional int32 reward_type1 = 14;
+        optional int32 reward_id1 = 15;
+        optional int32 reward_num_min1 = 16;
+        optional int32 reward_num_max1 = 17;
+        optional int32 success_rate2 = 18;
+        optional int32 reward_type2 = 19;
+        optional int32 reward_id2 = 20;
+        optional int32 reward_num_min2 = 21;
+        optional int32 reward_num_max2 = 22;
+        optional int32 success_rate3 = 23;
+        optional int32 reward_type3 = 24;
+        optional int32 reward_id3 = 25;
+        optional int32 reward_num_min3 = 26;
+        optional int32 reward_num_max3 = 27;
+        optional int32 special_reward_type = 28;
+        optional int32 special_reward_id = 29;
+        optional int32 special_reward_num_min = 30;
+        optional int32 special_reward_num_max = 31;
+        optional int32 special_reward_rate = 32;
+        optional int32 big_success_rate = 33;
+        optional int32 task_type = 34;
+        optional int32 require_energy = 35;
+        optional int32 task_mark = 36;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_bounty_quest {
+    message Row {
+
+        optional int32 activity_id = 1;
+        optional int32 quest_id = 2;
+        optional int32 map_id = 3;
+        optional int32 weight = 4;
+        optional int32 times = 5;
+        optional string icon = 6;
+        optional string script = 7;
+        optional int32 mode_id = 8;
+        optional int32 type = 9;
+        optional string detail_desc = 10;
+        optional int32 reward_type1 = 11;
+        optional int32 reward_id1 = 12;
+        optional int32 reward_value1 = 13;
+        optional int32 reward_type2 = 14;
+        optional int32 reward_id2 = 15;
+        optional int32 reward_value2 = 16;
+        optional int32 begin_time = 17;
+        optional int32 end_time = 18;
+        optional int32 id = 19;
+        optional int32 duration_time = 20;
+        optional string tips = 21;
+        optional int32 is_show_on_task = 22;
+        optional int32 depend_level = 23;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message bounty_fight {
+    message Row {
+
+        optional int32 quest_id = 1;
+        optional int32 weight = 2;
+        optional int32 fight_id = 3;
+        optional int32 fight_type = 4;
+        optional int32 monster_id = 5;
+        optional int32 reward_type = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message bounty_reward {
+    message Row {
+
+        optional int32 fight_type = 1;
+        optional int32 min_lev = 2;
+        optional int32 max_lev = 3;
+        optional int32 double = 4;
+        optional int32 double_captain = 5;
+        optional int32 normal = 6;
+        optional int32 normal_captain = 7;
+        optional int32 extra_normal = 8;
+        optional int32 extra_captain = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_Arena_reward {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional int32 lv_down = 3;
+        optional int32 lv_up = 4;
+        optional int32 condition = 5;
+        optional int32 weight = 6;
+        optional int32 reward_type1 = 7;
+        optional int32 reward_id1 = 8;
+        optional float reward_factor1 = 9;
+        optional int32 reward_num1 = 10;
+        optional int32 reward_type2 = 11;
+        optional int32 reward_id2 = 12;
+        optional int32 reward_num2 = 13;
+        optional int32 reward_type3 = 14;
+        optional int32 reward_id3 = 15;
+        optional int32 reward_num3 = 16;
+        optional int32 extra_reward_type = 17;
+        optional int32 extra_reward_id = 18;
+        optional int32 extra_reward_num = 19;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_arena_buff_type {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 condition = 2;
+        optional int32 buff_type1 = 3;
+        optional int32 buff_value1 = 4;
+        optional int32 buff_type2 = 5;
+        optional int32 buff_value2 = 6;
+        optional string des = 7;
+        optional string buff_icon_small = 8;
+        optional string buff_icon_bg = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_arena_rank {
+    message Row {
+
+        optional int32 Order = 1;
+        optional int32 Rank1 = 2;
+        optional int32 Rank2 = 3;
+        optional int32 Item_type1 = 4;
+        optional int32 Item_id1 = 5;
+        optional int32 Item_value1 = 6;
+        optional int32 Item_type2 = 7;
+        optional int32 Item_id2 = 8;
+        optional int32 Item_value2 = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_random_arena_ai {
+    message Row {
+
+        optional int64 gid = 1;
+        optional int32 score = 2;
+        optional string name = 3;
+        optional int32 icon = 4;
+        optional int32 level1 = 5;
+        optional int32 evolution1 = 6;
+        optional int32 star1 = 7;
+        optional int32 level2 = 8;
+        optional int32 evolution2 = 9;
+        optional int32 star2 = 10;
+        optional int32 level3 = 11;
+        optional int32 evolution3 = 12;
+        optional int32 star3 = 13;
+        optional int32 level4 = 14;
+        optional int32 evolution4 = 15;
+        optional int32 star4 = 16;
+        optional int32 level5 = 17;
+        optional int32 evolution5 = 18;
+        optional int32 star5 = 19;
+        optional int32 Sex = 20;
+        optional int32 HeadFrameId = 21;
+        optional int32 vip_lv = 22;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_meiridati {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional string quest = 3;
+        optional int32 right_answer1 = 4;
+        optional int32 right_answer2 = 5;
+        optional int32 right_answer3 = 6;
+        optional string answer1 = 7;
+        optional string answer_icon1 = 8;
+        optional string answer2 = 9;
+        optional string answer_icon2 = 10;
+        optional string answer3 = 11;
+        optional string answer_icon3 = 12;
+        optional string answer4 = 13;
+        optional string answer_icon4 = 14;
+        optional string answer5 = 15;
+        optional string answer_icon5 = 16;
+        optional string answer6 = 17;
+        optional string answer_icon6 = 18;
+        optional string answer7 = 19;
+        optional string answer_icon7 = 20;
+        optional string answer8 = 21;
+        optional string answer_icon8 = 22;
+        optional string answer9 = 23;
+        optional string answer_icon9 = 24;
+        optional int32 zhonglei = 25;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_reward_meiridati {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 dati_type = 2;
+        optional int32 reward_type1 = 3;
+        optional int32 reward_id1 = 4;
+        optional int32 reward_value1 = 5;
+        optional int32 reward_type2 = 6;
+        optional int32 reward_id2 = 7;
+        optional int32 reward_value2 = 8;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_reward_zhoudati {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 reward_type1 = 2;
+        optional int32 reward_id1 = 3;
+        optional int32 reward_value1 = 4;
+        optional int32 reward_type2 = 5;
+        optional int32 reward_id2 = 6;
+        optional int32 reward_value2 = 7;
+        optional int32 reward_type3 = 8;
+        optional int32 reward_id3 = 9;
+        optional int32 reward_value3 = 10;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_dailyanswer {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 type = 2;
+        optional string quest = 3;
+        optional int32 right_answer1 = 4;
+        optional int32 right_answer2 = 5;
+        optional int32 right_answer3 = 6;
+        optional string answer1 = 7;
+        optional int32 answer_icon1 = 8;
+        optional string answer2 = 9;
+        optional int32 answer_icon2 = 10;
+        optional string answer3 = 11;
+        optional int32 answer_icon3 = 12;
+        optional string answer4 = 13;
+        optional int32 answer_icon4 = 14;
+        optional string answer5 = 15;
+        optional int32 answer_icon5 = 16;
+        optional string answer6 = 17;
+        optional int32 answer_icon6 = 18;
+        optional string answer7 = 19;
+        optional int32 answer_icon7 = 20;
+        optional string answer8 = 21;
+        optional int32 answer_icon8 = 22;
+        optional string answer9 = 23;
+        optional int32 answer_icon9 = 24;
+        optional int32 zhonglei = 25;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_dailyanswer_reward {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 dati_type = 2;
+        optional int32 correct_number = 3;
+        optional int32 reward_type1 = 4;
+        optional int32 reward_id1 = 5;
+        optional int32 reward_value1 = 6;
+        optional int32 reward_type2 = 7;
+        optional int32 reward_id2 = 8;
+        optional int32 reward_value2 = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message ainame_zhoudati {
+    message Row {
+
+        optional int32 id = 1;
+        optional string name = 2;
+        optional int32 icon = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard {
+    message Row {
+
+        optional int32 Site_id = 1;
+        optional int32 Site_type = 2;
+        optional int32 Resources_type1 = 3;
+        optional int32 Resources_value1 = 4;
+        optional int32 Resources_probability = 5;
+        optional int32 Resources_type2 = 6;
+        optional int32 Resources_value2 = 7;
+        optional int32 Probability = 8;
+        optional int32 Combat_id = 9;
+        optional int32 Is_Pitfall = 10;
+        optional int32 Is_diversion = 11;
+        optional int32 Is_exchange = 12;
+        optional int32 Site_relevance1 = 13;
+        optional int32 Site_relevance2 = 14;
+        optional int32 Site_relevance3 = 15;
+        optional int32 Site_relevance4 = 16;
+        optional int32 Monster_site1 = 17;
+        optional int32 Monster_site2 = 18;
+        optional int32 Monster_site3 = 19;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard_exchange {
+    message Row {
+
+        optional int32 Resource_id = 1;
+        optional string Resource_name = 2;
+        optional string Resource_icon = 3;
+        optional int32 Exchange_resource1 = 4;
+        optional int32 Exchange_value1 = 5;
+        optional int32 Exchange_resource2 = 6;
+        optional int32 Exchange_value2 = 7;
+        optional int32 Time_cd = 8;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard_pitfall {
+    message Row {
+
+        optional int32 Pitfall_id = 1;
+        optional string Pitfall_name = 2;
+        optional string Pitfall_icon = 3;
+        optional int32 Pitfall_level = 4;
+        optional int32 Pitfall_type = 5;
+        optional int32 Type1 = 6;
+        optional int32 Value1 = 7;
+        optional int32 Type2 = 8;
+        optional int32 Value2 = 9;
+        optional int32 Type3 = 10;
+        optional int32 Value3 = 11;
+        optional int32 Type4 = 12;
+        optional int32 Value4 = 13;
+        optional int32 Type5 = 14;
+        optional int32 Value5 = 15;
+        optional int32 Type6 = 16;
+        optional int32 Value6 = 17;
+        optional int32 Consume_type1 = 18;
+        optional int32 Consume_value1 = 19;
+        optional int32 Consume_type2 = 20;
+        optional int32 Consume_value2 = 21;
+        optional int32 Is_buff = 22;
+        optional int32 Buff_id = 23;
+        optional int32 Time_cd = 24;
+        optional int32 restrain_type = 25;
+        optional string Effect_id = 26;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard_monster {
+    message Row {
+
+        optional int32 Id = 1;
+        optional string Monster_name = 2;
+        optional string Monster_icon = 3;
+        optional int32 Monster_mode = 4;
+        optional int32 Monster_type = 5;
+        optional int32 Monster_hp = 6;
+        optional int32 restrain_type = 7;
+        optional int32 Berestrain_type = 8;
+        optional int32 Player_incident1 = 9;
+        optional int32 Player_incident2 = 10;
+        optional int32 Player_incident3 = 11;
+        optional int32 Player_incident4 = 12;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_diversion {
+    message Row {
+
+        optional int32 Id = 1;
+        optional int32 Diversion_probability = 2;
+        optional int32 Diversion_consume = 3;
+        optional int32 Consume_value = 4;
+        optional int32 Time_cd = 5;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard_time {
+    message Row {
+
+        optional int32 Type = 1;
+        optional int32 Monster_id = 2;
+        optional int32 Move_time = 3;
+        optional int32 Stay_time = 4;
+        optional int32 Gather_time = 5;
+        optional int32 Move_cd = 6;
+        optional int32 Resoure_produce_time = 7;
+        optional int32 incident1_time = 8;
+        optional int32 incident2_time = 9;
+        optional int32 incident3_time = 10;
+        optional int32 Openbox_time = 11;
+        optional int32 Repair_time = 12;
+        optional int32 Imprison_time = 13;
+        optional int32 Forbid_time = 14;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard_resoure {
+    message Row {
+
+        optional int32 Resource_id = 1;
+        optional string Resource_name = 2;
+        optional string Resource_icon = 3;
+        optional int32 Resource_limit = 4;
+        optional int32 Resource_exp = 5;
+        optional int32 Resource_limitexp = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard_package {
+    message Row {
+
+        optional int32 Id = 1;
+        optional int32 Type = 2;
+        optional int32 Item_type = 3;
+        optional int32 Item_id = 4;
+        optional int32 Item_value = 5;
+        optional int32 Item_type2 = 6;
+        optional int32 Item_id2 = 7;
+        optional int32 Item_value2 = 8;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_hessboard_buff {
+    message Row {
+
+        optional int32 Id = 1;
+        optional string Dec = 2;
+        optional string Icondec = 3;
+        optional int32 Effect = 4;
+        optional int32 Value = 5;
+        optional int32 Time = 6;
+        optional string Effect_id = 7;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_monster_condition {
+    message Row {
+
+        optional int32 Hp = 1;
+        optional int32 Type1 = 2;
+        optional int32 Type2 = 3;
+        optional int32 Type3 = 4;
+        optional int32 Type4 = 5;
+        optional int32 Type5 = 6;
+        optional int32 Type6 = 7;
+        optional int32 Type7 = 8;
+        optional int32 Drop = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_friend_gift {
+    message Row {
+
+        optional int32 item_id = 1;
+        optional int32 item_type = 2;
+        optional int32 item_value = 3;
+        optional string desc = 4;
+        optional int32 get_limit = 5;
+        optional int32 give_limit = 6;
+        optional int32 friends_limit = 7;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_shop_fresh {
+    message Row {
+
+        optional int32 shop_type = 1;
+        optional int32 fresh_count = 2;
+        optional int32 can_force_fresh = 3;
+        optional int32 fresh_consume_type = 4;
+        optional int32 fresh_consume_id = 5;
+        optional int32 fresh_consume_value = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_guild_shop_limit {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 building_type = 2;
+        optional int32 building_level_limit = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_chief {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 role_id = 2;
+        optional int32 type = 3;
+        optional string name = 4;
+        optional int32 skill0 = 5;
+        optional int32 skill1 = 6;
+        optional int32 skill2 = 7;
+        optional int32 skill3 = 8;
+        optional int32 skill4 = 9;
+        optional int32 skill5 = 10;
+        optional int32 skill_tree = 11;
+        optional int32 property_type = 12;
+        optional int32 property_value = 13;
+        optional int32 init_skill = 14;
+        optional string introduce = 15;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_openlev {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 open_lev = 2;
+        optional int32 event_type1 = 3;
+        optional int32 event_id1 = 4;
+        optional int32 event_count1 = 5;
+        optional string functional_des = 6;
+        optional int32 go_type = 7;
+        optional string go_where = 8;
+        optional int32 isshow_levup = 9;
+        optional string icon = 10;
+        optional string functional_name = 11;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_honor_condition {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 type = 2;
+        optional int32 condition1 = 3;
+        optional int32 condition2 = 4;
+        optional int32 condition3 = 5;
+        optional int32 being_icon = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_trading_firm {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 item_type = 2;
+        optional int32 item_id = 3;
+        optional int32 sale_value = 4;
+        optional int32 pack_type = 5;
+        optional string pack_name = 6;
+        optional int32 sub_type = 7;
+        optional string sub_name = 8;
+        optional int32 price_type = 9;
+        optional int32 price_id = 10;
+        optional int32 price_value = 11;
+        optional int32 fee_type = 12;
+        optional int32 fee_id = 13;
+        optional int32 fee_rate = 14;
+        optional int32 deadtime = 15;
+        optional float percent_up = 16;
+        optional float percent_down = 17;
+        optional float percent_eachtime = 18;
+        optional int32 is_trading = 19;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_trading_transform {
+    message Row {
+
+        optional int32 item_id_1 = 1;
+        optional int32 item_value_1 = 2;
+        optional int32 item_id_2 = 3;
+        optional int32 item_value_2 = 4;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_arena_property {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 pvparena_type = 2;
+        optional int32 pvparena_times = 3;
+        optional int32 begin_time = 4;
+        optional int32 end_time = 5;
+        optional int32 period = 6;
+        optional int32 duration = 7;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_fish {
+    message Row {
+
+        optional int32 power_id = 1;
+        optional int32 pool_id = 2;
+        optional int32 walkfish_time = 3;
+        optional int32 helpfish_time = 4;
+        optional int32 help_reward1_type = 5;
+        optional int32 help_reward1_id = 6;
+        optional int32 help_reward1_value = 7;
+        optional int32 help_reward2_type = 8;
+        optional int32 help_reward2_id = 9;
+        optional int32 help_reward2_value = 10;
+        optional int32 help_reward3_type = 11;
+        optional int32 help_reward3_id = 12;
+        optional int32 help_reward3_value = 13;
+        optional int32 trigger_probability = 14;
+        optional int32 fight_id = 15;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_fish_consume {
+    message Row {
+
+        optional int32 fish_consume_type = 1;
+        optional int32 fish_consume_id = 2;
+        optional int32 fish_consume_value = 3;
+        optional int32 fish_consume_type_free = 4;
+        optional int32 fish_consume_id_free = 5;
+        optional int32 fish_consume_value_free = 6;
+        optional int32 walkfish_time = 7;
+        optional int32 helpfish_time = 8;
+        optional int32 qtefish_time = 9;
+        optional int32 gofish_time_max = 10;
+        optional int32 gofish_time_min = 11;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_fish_reward {
+    message Row {
+
+        optional int32 id = 1;
+        optional int32 fish_number_min = 2;
+        optional int32 fish_number_max = 3;
+        optional int32 reward_type1 = 4;
+        optional int32 reward_id1 = 5;
+        optional int32 reward_value1 = 6;
+        optional int32 reward_type2 = 7;
+        optional int32 reward_id2 = 8;
+        optional int32 reward_value2 = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_random_position {
+    message Row {
+
+        optional int32 gid = 1;
+        optional int32 type = 2;
+        optional int32 key_id = 3;
+        optional float Position_x = 4;
+        optional float Position_y = 5;
+        optional float Position_z = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_all_map {
+    message Row {
+
+        optional int32 gid = 1;
+        optional string map_id = 2;
+        optional string map_name = 3;
+        optional int32 map_type = 4;
+        optional int32 map_authority = 5;
+        optional string camera = 6;
+        optional string click_texiao = 7;
+        optional int32 button = 8;
+        optional int32 sceneback = 9;
+        optional string script = 10;
+        optional string from_mapid = 11;
+        optional string to_mapid = 12;
+        optional int32 isopen_allmap = 13;
+        optional string use_icon = 14;
+        optional string title = 15;
+        optional int32 from_pos = 16;
+        optional int32 to_pos = 17;
+        optional float initialposition_x = 18;
+        optional float initialposition_y = 19;
+        optional float initialposition_z = 20;
+        optional int32 chat = 21;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_AI_extraEXP {
+    message Row {
+
+        optional int32 level = 1;
+        optional int32 minEXP = 2;
+        optional int32 maxEXP = 3;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_AI_tasksimulation {
+    message Row {
+
+        optional int32 step = 1;
+        optional int32 mapID = 2;
+        optional float posX = 3;
+        optional float posY = 4;
+        optional float posZ = 5;
+        optional int32 minwaittime = 6;
+        optional int32 maxwaittime = 7;
+        optional int32 exp = 8;
+        optional int32 nextstep = 9;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_AI_levellimit {
+    message Row {
+
+        optional int32 day = 1;
+        optional int32 levellimit = 2;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_buff {
+    message Row {
+
+        optional int32 buff_id = 1;
+        optional int32 group = 2;
+        optional int32 type = 3;
+        optional int32 value = 4;
+        optional int32 duration = 5;
+        optional int32 end_time = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_delay_exp {
+    message Row {
+
+        optional int32 id = 1;
+        optional string name = 2;
+        optional int32 type = 3;
+        optional int32 count_id = 4;
+        optional int32 reduce_num = 5;
+        optional int32 minlevel = 6;
+        optional int32 maxlevel = 7;
+        optional int32 drop1 = 8;
+        optional int32 drop2 = 9;
+        optional int32 drop3 = 10;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+
+message config_common_data_cost {
+    message Row {
+
+        optional int32 type = 1;
+        optional int32 index = 2;
+        optional string value = 3;
+        optional int32 cost_type = 4;
+        optional int32 cost_id = 5;
+        optional int32 cost_value = 6;
+    }
+
+    repeated Row rows = 1;
+
+}
+
+
+

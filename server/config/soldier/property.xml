@@ -1,0 +1,1227 @@
+﻿<Soldiers>
+  <Soldier type="710400" name="骑" tech="520204">
+    <Level level="1">
+      <Name>轻骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>416</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>182</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>195</RangeDefense> <!-- 远防 -->
+      <Health>260</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingqibing_small.png</Small>
+        <Large>./resource/soldier/qingqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="2">
+      <Name>轻骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>512</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>224</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>240</RangeDefense> <!-- 远防 -->
+      <Health>320</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingqibing_small.png</Small>
+        <Large>./resource/soldier/qingqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="3">
+      <Name>重骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>608</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>266</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>285</RangeDefense> <!-- 远防 -->
+      <Health>380</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongqibing_small.png</Small>
+        <Large>./resource/soldier/zhongqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="4">
+      <Name>重骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>704</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>308</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>330</RangeDefense> <!-- 远防 -->
+      <Health>440</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongqibing_small.png</Small>
+        <Large>./resource/soldier/zhongqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="5">
+      <Name>重骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>800</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>350</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>375</RangeDefense> <!-- 远防 -->
+      <Health>500</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongqibing_small.png</Small>
+        <Large>./resource/soldier/zhongqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="6">
+      <Name>重骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>896</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>392</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>420</RangeDefense> <!-- 远防 -->
+      <Health>560</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongqibing_small.png</Small>
+        <Large>./resource/soldier/zhongqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="7">
+      <Name>铁骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>992</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>434</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>465</RangeDefense> <!-- 远防 -->
+      <Health>620</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+        <id>720402</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/tieqibing_small.png</Small>
+        <Large>./resource/soldier/tieqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="8">
+      <Name>铁骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>1088</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>476</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>510</RangeDefense> <!-- 远防 -->
+      <Health>680</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+        <id>720402</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/tieqibing_small.png</Small>
+        <Large>./resource/soldier/tieqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="9">
+      <Name>铁骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>1184</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>518</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>555</RangeDefense> <!-- 远防 -->
+      <Health>740</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+        <id>720402</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/tieqibing_small.png</Small>
+        <Large>./resource/soldier/tieqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="10">
+      <Name>铁骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>1280</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>560</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>600</RangeDefense> <!-- 远防 -->
+      <Health>800</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720401</id>
+        <id>720402</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/tieqibing_small.png</Small>
+        <Large>./resource/soldier/tieqibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="0">
+      <Name>轻骑兵</Name> <!-- 名称 -->
+      <MeleeAttack>320</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>140</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>150</RangeDefense> <!-- 远防 -->
+      <Health>200</Health> <!-- 生命 -->
+      <Move>3</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingqibing_small.png</Small>
+        <Large>./resource/soldier/qingqibing_large.png</Large>
+      </Images>
+    </Level>
+  </Soldier>
+  <Soldier type="710500" name="器" tech="520205">
+    <Level level="1">
+      <Name>轻炮车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>494</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>130</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>156</RangeDefense> <!-- 远防 -->
+      <Health>208</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingpaoche_small.png</Small>
+        <Large>./resource/soldier/qingpaoche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="2">
+      <Name>轻炮车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>608</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>160</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>192</RangeDefense> <!-- 远防 -->
+      <Health>256</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingpaoche_small.png</Small>
+        <Large>./resource/soldier/qingpaoche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="3">
+      <Name>重炮车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>722</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>190</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>228</RangeDefense> <!-- 远防 -->
+      <Health>304</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongpaoche_small.png</Small>
+        <Large>./resource/soldier/zhongpaoche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="4">
+      <Name>重炮车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>836</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>220</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>264</RangeDefense> <!-- 远防 -->
+      <Health>352</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongpaoche_small.png</Small>
+        <Large>./resource/soldier/zhongpaoche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="5">
+      <Name>重炮车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>950</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>250</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>300</RangeDefense> <!-- 远防 -->
+      <Health>400</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongpaoche_small.png</Small>
+        <Large>./resource/soldier/zhongpaoche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="6">
+      <Name>重炮车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1064</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>280</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>336</RangeDefense> <!-- 远防 -->
+      <Health>448</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongpaoche_small.png</Small>
+        <Large>./resource/soldier/zhongpaoche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="7">
+      <Name>霹雳车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1178</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>310</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>372</RangeDefense> <!-- 远防 -->
+      <Health>496</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+        <id>720502</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/piliche_small.png</Small>
+        <Large>./resource/soldier/piliche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="8">
+      <Name>霹雳车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1292</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>340</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>408</RangeDefense> <!-- 远防 -->
+      <Health>544</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+        <id>720502</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/piliche_small.png</Small>
+        <Large>./resource/soldier/piliche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="9">
+      <Name>霹雳车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1406</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>370</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>444</RangeDefense> <!-- 远防 -->
+      <Health>592</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+        <id>720502</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/piliche_small.png</Small>
+        <Large>./resource/soldier/piliche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="10">
+      <Name>霹雳车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1520</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>400</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>480</RangeDefense> <!-- 远防 -->
+      <Health>640</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720501</id>
+        <id>720502</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/piliche_small.png</Small>
+        <Large>./resource/soldier/piliche_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="0">
+      <Name>轻炮车</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>380</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>100</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>120</RangeDefense> <!-- 远防 -->
+      <Health>160</Health> <!-- 生命 -->
+      <Move>1</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingpaoche_small.png</Small>
+        <Large>./resource/soldier/qingpaoche_large.png</Large>
+      </Images>
+    </Level>
+  </Soldier>
+  <Soldier type="710300" name="枪" tech="520203">
+    <Level level="1">
+      <Name>短枪兵</Name> <!-- 名称 -->
+      <MeleeAttack>390</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>195</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>208</RangeDefense> <!-- 远防 -->
+      <Health>247</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/duanqiangbing_small.png</Small>
+        <Large>./resource/soldier/duanqiangbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="2">
+      <Name>短枪兵</Name> <!-- 名称 -->
+      <MeleeAttack>480</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>240</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>256</RangeDefense> <!-- 远防 -->
+      <Health>304</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/duanqiangbing_small.png</Small>
+        <Large>./resource/soldier/duanqiangbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="3">
+      <Name>长枪兵</Name> <!-- 名称 -->
+      <MeleeAttack>570</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>285</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>304</RangeDefense> <!-- 远防 -->
+      <Health>361</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changqiangbing_small.png</Small>
+        <Large>./resource/soldier/changqiangbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="4">
+      <Name>长枪兵</Name> <!-- 名称 -->
+      <MeleeAttack>660</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>330</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>352</RangeDefense> <!-- 远防 -->
+      <Health>418</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changqiangbing_small.png</Small>
+        <Large>./resource/soldier/changqiangbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="5">
+      <Name>长枪兵</Name> <!-- 名称 -->
+      <MeleeAttack>750</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>375</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>400</RangeDefense> <!-- 远防 -->
+      <Health>475</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changqiangbing_small.png</Small>
+        <Large>./resource/soldier/changqiangbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="6">
+      <Name>长枪兵</Name> <!-- 名称 -->
+      <MeleeAttack>840</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>420</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>448</RangeDefense> <!-- 远防 -->
+      <Health>532</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changqiangbing_small.png</Small>
+        <Large>./resource/soldier/changqiangbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="7">
+      <Name>禁卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>930</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>465</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>496</RangeDefense> <!-- 远防 -->
+      <Health>589</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+        <id>720302</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="8">
+      <Name>禁卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>1020</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>510</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>544</RangeDefense> <!-- 远防 -->
+      <Health>646</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+        <id>720302</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="9">
+      <Name>禁卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>1110</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>555</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>592</RangeDefense> <!-- 远防 -->
+      <Health>703</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+        <id>720302</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="10">
+      <Name>禁卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>1200</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>600</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>640</RangeDefense> <!-- 远防 -->
+      <Health>760</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720301</id>
+        <id>720302</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="0">
+      <Name>短枪兵</Name> <!-- 名称 -->
+      <MeleeAttack>300</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>150</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>160</RangeDefense> <!-- 远防 -->
+      <Health>190</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/duanqiangbing_small.png</Small>
+        <Large>./resource/soldier/duanqiangbing_large.png</Large>
+      </Images>
+    </Level>
+  </Soldier>
+  <Soldier type="710200" name="弓" tech="520202">
+    <Level level="1">
+      <Name>短弓兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>481</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>143</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>169</RangeDefense> <!-- 远防 -->
+      <Health>195</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/duangongbing_small.png</Small>
+        <Large>./resource/soldier/duangongbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="2">
+      <Name>短弓兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>592</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>176</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>208</RangeDefense> <!-- 远防 -->
+      <Health>240</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/duangongbing_small.png</Small>
+        <Large>./resource/soldier/duangongbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="3">
+      <Name>长弓兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>703</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>209</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>247</RangeDefense> <!-- 远防 -->
+      <Health>285</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changgongbing_small.png</Small>
+        <Large>./resource/soldier/changgongbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="4">
+      <Name>长弓兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>814</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>242</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>286</RangeDefense> <!-- 远防 -->
+      <Health>330</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changgongbing_small.png</Small>
+        <Large>./resource/soldier/changgongbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="5">
+      <Name>长弓兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>925</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>275</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>325</RangeDefense> <!-- 远防 -->
+      <Health>375</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changgongbing_small.png</Small>
+        <Large>./resource/soldier/changgongbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="6">
+      <Name>长弓兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1036</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>308</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>364</RangeDefense> <!-- 远防 -->
+      <Health>420</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/changgongbing_small.png</Small>
+        <Large>./resource/soldier/changgongbing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="7">
+      <Name>神射兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1147</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>341</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>403</RangeDefense> <!-- 远防 -->
+      <Health>465</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+        <id>720202</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/shenshebing_small.png</Small>
+        <Large>./resource/soldier/shenshebing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="8">
+      <Name>神射兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1258</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>374</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>442</RangeDefense> <!-- 远防 -->
+      <Health>510</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+        <id>720202</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/shenshebing_small.png</Small>
+        <Large>./resource/soldier/shenshebing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="9">
+      <Name>神射兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1369</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>407</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>481</RangeDefense> <!-- 远防 -->
+      <Health>555</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+        <id>720202</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/shenshebing_small.png</Small>
+        <Large>./resource/soldier/shenshebing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="10">
+      <Name>神射兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>1480</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>440</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>520</RangeDefense> <!-- 远防 -->
+      <Health>600</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720201</id>
+        <id>720202</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/shenshebing_small.png</Small>
+        <Large>./resource/soldier/shenshebing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="0">
+      <Name>短弓兵</Name> <!-- 名称 -->
+      <MeleeAttack>0</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>370</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>110</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>130</RangeDefense> <!-- 远防 -->
+      <Health>150</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/duangongbing_small.png</Small>
+        <Large>./resource/soldier/duangongbing_large.png</Large>
+      </Images>
+    </Level>
+  </Soldier>
+  <Soldier type="710100" name="步" tech="520201">
+    <Level level="1">
+      <Name>轻步兵</Name> <!-- 名称 -->
+      <MeleeAttack>260</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>221</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>260</RangeDefense> <!-- 远防 -->
+      <Health>299</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingbubing_small.png</Small>
+        <Large>./resource/soldier/qingbubing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="2">
+      <Name>轻步兵</Name> <!-- 名称 -->
+      <MeleeAttack>320</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>272</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>320</RangeDefense> <!-- 远防 -->
+      <Health>368</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingbubing_small.png</Small>
+        <Large>./resource/soldier/qingbubing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="3">
+      <Name>重步兵</Name> <!-- 名称 -->
+      <MeleeAttack>380</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>323</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>380</RangeDefense> <!-- 远防 -->
+      <Health>437</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongbubing_small.png</Small>
+        <Large>./resource/soldier/zhongbubing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="4">
+      <Name>重步兵</Name> <!-- 名称 -->
+      <MeleeAttack>440</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>374</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>440</RangeDefense> <!-- 远防 -->
+      <Health>506</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongbubing_small.png</Small>
+        <Large>./resource/soldier/zhongbubing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="5">
+      <Name>重步兵</Name> <!-- 名称 -->
+      <MeleeAttack>500</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>425</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>500</RangeDefense> <!-- 远防 -->
+      <Health>575</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongbubing_small.png</Small>
+        <Large>./resource/soldier/zhongbubing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="6">
+      <Name>重步兵</Name> <!-- 名称 -->
+      <MeleeAttack>560</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>476</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>560</RangeDefense> <!-- 远防 -->
+      <Health>644</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/zhongbubing_small.png</Small>
+        <Large>./resource/soldier/zhongbubing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="7">
+      <Name>近卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>620</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>527</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>620</RangeDefense> <!-- 远防 -->
+      <Health>713</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+        <id>720102</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="8">
+      <Name>近卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>680</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>578</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>680</RangeDefense> <!-- 远防 -->
+      <Health>782</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+        <id>720102</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="9">
+      <Name>近卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>740</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>629</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>740</RangeDefense> <!-- 远防 -->
+      <Health>851</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+        <id>720102</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="10">
+      <Name>近卫兵</Name> <!-- 名称 -->
+      <MeleeAttack>800</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>680</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>800</RangeDefense> <!-- 远防 -->
+      <Health>920</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+        <id>720101</id>
+        <id>720102</id>
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/jinweibing_small.png</Small>
+        <Large>./resource/soldier/jinweibing_large.png</Large>
+      </Images>
+    </Level>
+    <Level level="0">
+      <Name>轻步兵</Name> <!-- 名称 -->
+      <MeleeAttack>200</MeleeAttack> <!-- 近攻 -->
+      <RangeAttack>0</RangeAttack> <!-- 远攻 -->
+      <MeleeDefense>170</MeleeDefense> <!-- 近防 -->
+      <RangeDefense>200</RangeDefense> <!-- 远防 -->
+      <Health>230</Health> <!-- 生命 -->
+      <Move>2</Move> <!-- 移动格数 -->
+      <Range>1</Range> <!-- 攻击范围 -->
+      <Speed>50</Speed> <!-- 速度 -->
+      <Hit>90</Hit> <!-- 命中 -->
+      <Dodge>0</Dodge> <!-- 闪避 -->
+      <Block>20</Block> <!-- 格挡 -->
+      <Crit>5</Crit> <!-- 暴击 -->
+      <Skills> <!-- 技能 -->
+      </Skills>
+      <Images> <!-- 图标 -->
+        <Small>./resource/soldier/qingbubing_small.png</Small>
+        <Large>./resource/soldier/qingbubing_large.png</Large>
+      </Images>
+    </Level>
+  </Soldier>
+</Soldiers>

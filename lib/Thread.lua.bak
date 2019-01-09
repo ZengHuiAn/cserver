@@ -1,0 +1,59 @@
+local Scheduler = require "Scheduler"
+
+local lastTime = loop.now();
+local tickers = {};
+local log = log;
+
+Scheduler.Register(function(now)
+	local from = lastTime + 1;
+	lastTime = now;
+
+	local fired = {};
+
+	for curTime = from, now do
+		local ticker = tickers[curTime];
+		if ticker then
+			for _, co in pairs(ticker) do
+				table.insert(fired, co);
+			end
+			tickers[curTime] = nil;
+		end
+	end
+
+	for _, co in pairs(fired) do
+		if coroutine.status(co) == "suspended" then
+			local success, info = coroutine.resume(co, now);
+			assert(success, info);
+		else
+			log.warning(string.format("Thread: coroutine status error: %s", coroutine.status(co)));
+		end
+	end
+end);
+
+function Sleep(sec)
+	local co = coroutine.running();
+	assert(co, "Sleep only can use in thread");
+
+	if sec <= 0 then
+		sec = 1;
+	end
+
+	local pos = loop.now() + sec;
+	if tickers[pos] == nil then
+		tickers[pos] = {};
+	end
+	
+	table.insert(tickers[pos], co);
+
+	return coroutine.yield();
+end
+
+function RunThread(func, ...)
+	local co = coroutine.create(func);
+	local status, info = coroutine.resume(co, ...);
+	if status == false then
+		log.error(info);
+		return;
+	end
+	return co;
+end

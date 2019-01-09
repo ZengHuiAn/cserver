@@ -1,0 +1,259 @@
+﻿<KingTitles> <!-- 君主晋升表 -->
+  <Title id="610001">
+    <Name>平民</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_pingmin.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>1</Level> <!-- 等级 -->
+    </Condition>
+    <Salary>500</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610002">
+    <Name>亭侯</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_tinghou.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>10</Level> <!-- 等级 -->
+    </Condition>
+    <Salary>1000</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610003">
+    <Name>乡侯</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_xianghou.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>15</Level> <!-- 等级 -->
+    </Condition>
+    <Salary>1500</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610004">
+    <Name>县侯</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_xianhou.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>20</Level> <!-- 等级 -->
+    </Condition>
+    <Salary>2000</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610005">
+    <Name>都尉</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_duwei.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>25</Level> <!-- 等级 -->
+    </Condition>
+    <Salary>2500</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610006">
+    <Name>助军校尉</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_zhujunxiaowei.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+    </Condition>
+    <Salary>3000</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610007">
+    <Name>典军校尉</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_dianjunxiaowei.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>100</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>5000</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610008">
+    <Name>步兵校尉</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_bubingxiaowei.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>500</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>6000</Salary> <!-- 俸禄 -->
+  </Title>
+  <Title id="610009">
+    <Name>长水校尉</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_changshuixiaowei.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>1000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>7000</Salary> <!-- 俸禄 -->
+      <Assistant>1</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610010">
+    <Name>虎贲将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_hubenjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>2000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>8000</Salary> <!-- 俸禄 -->
+      <Assistant>1</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610011">
+    <Name>羽林将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_yulinjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>5000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>10000</Salary> <!-- 俸禄 -->
+      <Assistant>1</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610012">
+    <Name>越骑将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_yueqijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>8000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>12000</Salary> <!-- 俸禄 -->
+      <Assistant>1</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610013">
+    <Name>骁骑将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_xiaoqijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>10000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>15000</Salary> <!-- 俸禄 -->
+      <Assistant>1</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610014">
+    <Name>都护将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_duhujiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>20000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>20000</Salary> <!-- 俸禄 -->
+      <Assistant>2</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610015">
+    <Name>领军将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_lingjunjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <Prestige>30000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>25000</Salary> <!-- 俸禄 -->
+      <Assistant>2</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610016">
+    <Name>军师将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_junshijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>40</Level> <!-- 等级 -->
+      <Prestige>50000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>30000</Salary> <!-- 俸禄 -->
+      <Assistant>2</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610017">
+    <Name>右将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_youjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>50</Level> <!-- 等级 -->
+      <Prestige>70000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>40000</Salary> <!-- 俸禄 -->
+      <Assistant>2</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610018">
+    <Name>左将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_zuojiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>50</Level> <!-- 等级 -->
+      <Prestige>100000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>50000</Salary> <!-- 俸禄 -->
+      <Assistant>2</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610019">
+    <Name>后将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_houjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>50</Level> <!-- 等级 -->
+      <Prestige>130000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>60000</Salary> <!-- 俸禄 -->
+      <Assistant>3</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610020">
+    <Name>前将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_qianjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>50</Level> <!-- 等级 -->
+      <Prestige>160000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>70000</Salary> <!-- 俸禄 -->
+      <Assistant>3</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610021">
+    <Name>辅军将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_fujunjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>60</Level> <!-- 等级 -->
+      <Prestige>200000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>80000</Salary> <!-- 俸禄 -->
+      <Assistant>3</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610022">
+    <Name>辅国将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_fuguojiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>65</Level> <!-- 等级 -->
+      <Prestige>250000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>90000</Salary> <!-- 俸禄 -->
+      <Assistant>4</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610023">
+    <Name>抚军将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_fujunjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>70</Level> <!-- 等级 -->
+      <Prestige>300000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>100000</Salary> <!-- 俸禄 -->
+      <Assistant>4</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610024">
+    <Name>中军将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_zhongjunjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>70</Level> <!-- 等级 -->
+      <Prestige>350000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>110000</Salary> <!-- 俸禄 -->
+      <Assistant>4</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610025">
+    <Name>车骑将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_cheqijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>75</Level> <!-- 等级 -->
+      <Prestige>400000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>120000</Salary> <!-- 俸禄 -->
+      <Assistant>5</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610026">
+    <Name>骠骑将军</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_piaoqijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>75</Level> <!-- 等级 -->
+      <Prestige>450000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>130000</Salary> <!-- 俸禄 -->
+      <Assistant>5</Assistant> <!-- 属臣数量 -->
+  </Title>
+  <Title id="610027">
+    <Name>大都督</Name> <!-- 名字 -->
+    <Image>resource/icon/king/title_dadudu.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>80</Level> <!-- 等级 -->
+      <Prestige>500000</Prestige> <!-- 威望 -->
+    </Condition>
+    <Salary>150000</Salary> <!-- 俸禄 -->
+      <Assistant>5</Assistant> <!-- 属臣数量 -->
+      <Hurt>10</Hurt> <!-- 伤害加成% -->
+  </Title>
+</KingTitles>

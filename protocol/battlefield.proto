@@ -1,0 +1,155 @@
+enum MountsType
+{
+	null  = 1;
+	horse = 2;
+	cat   = 3;
+};
+
+enum WeaponType
+{
+	kongshou   = 1;
+	shuangshou = 2;
+	changbing  = 3;
+	gongjian   = 4;
+	faqiu	   = 5;
+};
+
+enum PetType
+{
+	empty = 1;
+        normal = 2;
+}
+
+message Appearance {
+	required int32      quality     = 1;
+
+	required int32      body_id     = 2;
+	required int32      body_scale  = 3;
+
+	required int32      mounts_id   = 4;
+	required MountsType mounts_type = 5 [default=null];
+
+	required int32      weapon_id   = 6;
+	required WeaponType weapon_type = 7 [default=kongshou];
+
+	optional int32      flag        = 8;
+
+	required int32      pet_id   = 9;
+	required PetType    pet_type = 10 [default=empty];
+
+};
+
+message KingFlag {
+	repeated int32 id   = 1;
+	optional int32 head = 2;
+	optional int32 surface = 3;
+	optional int32 bottom = 4;
+	optional int32 pend1 = 5;
+	optional int32 pend2 = 6;
+	optional int32 pend3 = 7;
+};
+
+message King {
+	repeated Appearance appearance = 1; // king_0 and king_1
+	repeated int32 skills = 2;          // skill_0 and skill_1 of king_0
+	optional string name0 = 3;
+	optional string name1 = 4;
+	repeated KingFlag flags = 5;
+};
+
+message Battlefield
+{
+	required int64 id       = 1;
+	required int32 seed     = 2;
+	required int32 width    = 3;
+	required int32 mode     = 4;
+
+	required King  king     = 5;
+	repeated Role  roles    = 6;
+
+	optional int32  scene   = 7[default=30097];
+	repeated Reward rewards = 8;
+	optional string name    = 9;	
+
+	optional int32  version = 10;
+
+	optional uint32 flag = 11;
+};
+
+message Role {
+	required int32  inputSlot = 1;
+	required int32  force = 2;
+	required int32  level = 3;
+	required string name  = 4;
+
+	required Appearance appearance = 5;
+
+	required int64 hp_value     = 6;
+	required int64 hp_value_max = 7;
+
+	optional int32 move_x  = 8;
+	optional int32 move_y  = 9;
+	required int32 move_speed = 10;
+    
+    // 攻击
+	message Attack {
+		required int32 value = 1;
+        required int32 range = 2;
+		required int32 power = 3;
+        required int32 speed = 4;
+
+		required int32 healthsteal = 5;
+		required int32 crit_rate   = 6;
+		required int32 crit_hurt   = 7;
+		required int32 block_rate  = 8;
+
+		required int32 skill_normal  = 9;
+		required int32 skill_special = 10;
+	};
+	required Attack attack = 11;
+    
+	// 防御
+    message Defense {
+		required int32 value = 1;
+		required int32 crit  = 2; // 减免的暴击率
+		required int32 block = 3;
+    };
+	required Defense defense = 12;
+
+	repeated Reward rewards  = 13;
+	repeated int32  buffers  = 14;
+};
+
+message Reward 
+{
+	required int32  type  = 1;
+	required int32  id    = 2;
+	required int32  value = 3;
+	required int32  rate  = 4;
+	required uint32 flag  = 5;
+};
+
+message BattlefieldResult
+{
+	required int64 id     = 1;
+	required int32 winner = 2;
+
+	message Role {
+ 		required int32 id   = 1;
+		required int64 left = 2;
+		optional int32 inputSlot = 3;
+	};
+	repeated Role roles = 3;
+
+	message Operation {
+		required int32 tick   = 1;
+		required int32 n      = 2;
+		required int32 target = 3;
+	};	
+	repeated Operation operations = 4;
+
+	optional int32 version = 5;
+
+	repeated Reward rewards = 6;
+	optional uint32 time    = 7;
+};

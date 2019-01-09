@@ -1,0 +1,228 @@
+//package aGame;
+message PlayerData {
+	required uint64        id             = 1;
+	optional Property      property       = 2;
+	optional Item          item           = 3;
+	optional Reward        reward         = 4;
+	optional RewardContent rewardcontent  = 5;
+	optional Hero          hero           = 6;
+	optional Talent        talent         = 8;
+	optional Equip         equip          = 9;
+	optional Fight         fight          = 10;
+	optional DailyData     dailydata      = 11;
+	optional HeroItem      heroitem       = 12;
+	optional Quest         quest          = 13;
+	optional RewardFlag    rewardflag     = 14;
+	optional HeroSkill     heroskill      = 15;
+	optional EquipValue    equipvalue     = 16;
+	optional Buff          buff           = 17;
+	optional Compensate    compensate     = 18;
+	optional Fire          fire           = 19;
+}
+
+message Property {
+	required uint64 pid  = 1;
+	optional string name = 2;
+	optional fixed32 create = 3;
+	optional fixed32 login = 4;
+	optional fixed32 logout = 5;
+	optional uint32 status = 6;
+	optional string ip = 7;
+	optional uint32 played = 8;
+	optional uint32 head = 9;
+	optional uint32 vip_exp = 10;
+	optional uint32 title   = 11;
+	optional uint32 total_star = 12;
+	optional fixed32 total_star_change_time = 13;
+	optional uint32 max_floor = 14;
+	optional fixed32 max_floor_change_time = 15;
+}
+
+message Reward {
+	required uint32   uuid    = 1;
+	required uint64   pid     = 2;
+	optional uint32   reason  = 3;
+	optional fixed32  limit   = 4;
+	optional fixed32  get     = 5;
+	optional uint32   autorecv = 6;
+	optional string   name    = 7;
+}
+
+message RewardContent {
+	required uint32 id     = 1;
+	required uint64 pid    = 2;
+	required uint32 type   = 3;
+	required uint32 key    = 4;
+	optional uint32 value  = 5;
+	optional uint64 uid    = 6; // 某个武将的特有道具
+}
+
+message Item {
+	required uint64 pid   = 1;
+	required uint32 id    = 2;
+	optional uint32 limit = 3;
+	optional uint32 pos   = 4;
+	optional fixed32 update_time = 5;
+}
+
+message Hero {
+	required uint64 uuid                    = 1;
+	required uint64 pid                     = 2;
+
+	optional uint32 gid                     = 3;
+	optional int32  exp                     = 4;
+	optional int32  stage                   = 5;
+	optional int32  star                    = 6;
+	optional int32  stage_slot              = 7;
+	optional int32  weapon_stage            = 8;
+	optional int32  weapon_star             = 9;
+	optional int32  weapon_level            = 10;
+	optional int32  weapon_stage_slot       = 11;
+	optional int32  weapon_exp              = 12;
+	optional int32  placeholder             = 13;
+	optional fixed32 add_time               = 14;
+	optional fixed32 exp_change_time      = 15;
+}
+
+message HeroSkill {
+	required uint64 uid            = 1;
+	required uint64 pid            = 2;
+
+	optional int32  skill1         = 4;
+	optional int32  skill2         = 5;
+	optional int32  skill3         = 6;
+	optional int32  skill4         = 7;
+	optional int32  skill5         = 8;
+	optional int32  skill6         = 9;
+
+	optional int32  property_type  = 10;
+	optional int32  property_value = 11;
+}
+
+message HeroItem {
+	required uint64 pid   = 1;
+	required uint64 uid   = 2;
+	required uint32  id   = 3;
+	optional uint32 value = 4;
+	optional uint32 status = 5;
+}
+
+message Talent {
+	required uint64 pid                     = 1;
+	required uint64 id                      = 2;
+	required int32 talent_type              = 3;
+	optional string data                    = 4;
+	optional int32 sum_point                = 5;
+	optional int32 refid					= 6; // 对用的武器、装备、角色 gid
+}
+
+message Equip {
+	required uint64 uuid     = 1;
+	required uint64 pid      = 2;
+	optional int32  gid      = 3;
+	optional int32  heroid   = 4;
+	optional int32  placeholder = 5;
+
+	optional int32  exp      = 6;
+
+	optional uint64 hero_uuid   = 7;
+	
+	optional int32 property_id_1    = 8;
+	optional int32 property_value_1 = 9;
+	optional int32 property_grow_1  = 10;
+
+	optional int32 property_id_2    = 11;
+	optional int32 property_value_2 = 12;
+	optional int32 property_grow_2  = 13;
+
+	optional int32 property_id_3    = 14;
+	optional int32 property_value_3 = 15;
+	optional int32 property_grow_3  = 16;
+
+	optional int32 property_id_4    = 17;
+	optional int32 property_value_4 = 18;
+	optional int32 property_grow_4  = 19;
+
+	optional int32 property_id_5    = 20;
+	optional int32 property_value_5 = 21;
+	optional int32 property_grow_5  = 22;
+
+	optional int32 property_id_6    = 23;
+	optional int32 property_value_6 = 24;
+	optional int32 property_grow_6  = 25;
+	optional fixed32 add_time       = 26;
+}
+
+message EquipValue {
+	required uint64 pid   = 1;
+	required uint64 uid   = 2;
+	required int32  type  = 3;
+	required int32  id    = 4;
+
+	optional int32  value = 5;
+}
+
+message Fight {
+	required uint64 pid = 1;
+	required int32  gid = 2;//副本id
+	optional int32  flag = 3;//0 未通关 1 通关
+	optional int32  today_count = 4;//今日通关次数
+	optional int32  update_time = 5;//最近一次通关副本的时间
+	optional int32  star = 6;//最高星级
+}
+
+message DailyData {
+	required uint64 pid          = 1;    
+	required uint32 id           = 2;
+	optional fixed32 update_time = 3;
+	optional uint32 value        = 4;
+	optional uint32 total        = 5;
+}
+
+message Quest {
+	required uint64 pid                     = 1;
+	required uint32 id                      = 2;
+	optional uint32 status                  = 3;
+	optional uint32 count                   = 4;
+	optional uint32 record_1                = 5;
+	optional uint32 record_2                = 6;
+	optional uint32 consume_item_save_1     = 7;
+	optional uint32 consume_item_save_2     = 8;
+	optional fixed32 accept_time            = 9;
+	optional fixed32 submit_time            = 10;
+}
+
+message RewardFlag {
+	required uint64 pid = 1;
+	required uint32 id  = 2;
+	optional uint64 value = 3;
+}
+
+message LogData {
+
+}
+
+message Buff {
+	required uint64 pid                     = 1;
+	required uint32 buff_id                 = 2;
+
+	optional fixed32 end_time               = 3;
+	optional uint32 value                   = 4;
+}
+
+message Compensate {
+	required uint64 pid = 1;
+	required uint32 drop_id = 2;
+	required fixed32 time = 3;
+
+	optional uint32 count = 4;
+	optional uint32 level = 5;	
+}
+
+message Fire {
+    required uint64 pid = 1;
+    optional uint32 max = 2;
+    optional uint32 cur = 3;
+    optional fixed32 update_time = 4;
+    optional fixed32 max_update_time = 5;
+};

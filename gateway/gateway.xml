@@ -1,0 +1,40 @@
+<WorldConfig>
+	<Listen>
+		<host>0.0.0.0</host>
+		<port>9800</port>
+		<backlog>100</backlog>
+	</Listen>
+
+	<World name="w1">
+		<host>127.0.0.1</host>
+		<port>9811</port>
+	</World>
+
+	<!-- Backend min="4000" max="4999">
+		<name>battlefield</name>
+		<host>127.0.0.1</host>
+		<port>9808</port>
+		<timeout>5</timeout>
+	</Backend>
+
+	<Backend min="6000" max="6999">
+		<name>express</name>
+		<host>127.0.0.1</host>
+		<port>9819</port>
+		<timeout>5</timeout>
+	</Backend -->
+
+	<!-- Record>
+		<ID>5000</ID>
+		<ID>5001</ID>
+		<ID>5002</ID>
+		<ID>5003</ID>
+		<ID>5004</ID>
+		<ID>5005</ID>
+		<ID>5006</ID>
+		<ID>5007</ID>
+		<ID>5008</ID>
+		<ID>5009</ID>
+		<ID>5010</ID>
+	</Record -->
+</WorldConfig>

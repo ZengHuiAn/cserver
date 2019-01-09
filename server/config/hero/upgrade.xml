@@ -1,0 +1,602 @@
+﻿<HeroUpgrade> <!-- 武将升级表 -->
+  <Level level="1">
+    <Condition>
+      <Exp>0</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="2">
+    <Condition>
+      <Exp>1000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="3">
+    <Condition>
+      <Exp>3000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="4">
+    <Condition>
+      <Exp>6000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="5">
+    <Condition>
+      <Exp>10000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="6">
+    <Condition>
+      <Exp>15000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="7">
+    <Condition>
+      <Exp>21000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="8">
+    <Condition>
+      <Exp>28000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="9">
+    <Condition>
+      <Exp>36000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="10">
+    <Condition>
+      <Exp>45000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>0</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="11">
+    <Condition>
+      <Exp>56000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="12">
+    <Condition>
+      <Exp>69000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="13">
+    <Condition>
+      <Exp>84000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="14">
+    <Condition>
+      <Exp>101000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="15">
+    <Condition>
+      <Exp>120000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="16">
+    <Condition>
+      <Exp>141000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="17">
+    <Condition>
+      <Exp>164000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="18">
+    <Condition>
+      <Exp>189000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="19">
+    <Condition>
+      <Exp>216000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="20">
+    <Condition>
+      <Exp>245000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="21">
+    <Condition>
+      <Exp>277000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>5</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="22">
+    <Condition>
+      <Exp>312000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="23">
+    <Condition>
+      <Exp>350000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="24">
+    <Condition>
+      <Exp>391000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="25">
+    <Condition>
+      <Exp>435000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="26">
+    <Condition>
+      <Exp>482000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="27">
+    <Condition>
+      <Exp>532000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="28">
+    <Condition>
+      <Exp>585000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="29">
+    <Condition>
+      <Exp>641000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="30">
+    <Condition>
+      <Exp>700000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="31">
+    <Condition>
+      <Exp>763000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="32">
+    <Condition>
+      <Exp>830000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="33">
+    <Condition>
+      <Exp>901000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="34">
+    <Condition>
+      <Exp>976000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="35">
+    <Condition>
+      <Exp>1055000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="36">
+    <Condition>
+      <Exp>1138000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>9</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="37">
+    <Condition>
+      <Exp>1225000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="38">
+    <Condition>
+      <Exp>1316000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="39">
+    <Condition>
+      <Exp>1411000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="40">
+    <Condition>
+      <Exp>1510000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="41">
+    <Condition>
+      <Exp>1614000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="42">
+    <Condition>
+      <Exp>1723000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="43">
+    <Condition>
+      <Exp>1837000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="44">
+    <Condition>
+      <Exp>1956000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="45">
+    <Condition>
+      <Exp>2080000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="46">
+    <Condition>
+      <Exp>2209000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="47">
+    <Condition>
+      <Exp>2343000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="48">
+    <Condition>
+      <Exp>2482000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="49">
+    <Condition>
+      <Exp>2626000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="50">
+    <Condition>
+      <Exp>2775000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="51">
+    <Condition>
+      <Exp>2930000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>12</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="52">
+    <Condition>
+      <Exp>3091000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="53">
+    <Condition>
+      <Exp>3258000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="54">
+    <Condition>
+      <Exp>3431000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="55">
+    <Condition>
+      <Exp>3610000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="56">
+    <Condition>
+      <Exp>3795000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="57">
+    <Condition>
+      <Exp>3986000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="58">
+    <Condition>
+      <Exp>4183000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="59">
+    <Condition>
+      <Exp>4386000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="60">
+    <Condition>
+      <Exp>4595000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="61">
+    <Condition>
+      <Exp>4811000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="62">
+    <Condition>
+      <Exp>5034000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="63">
+    <Condition>
+      <Exp>5264000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="64">
+    <Condition>
+      <Exp>5501000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="65">
+    <Condition>
+      <Exp>5745000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="66">
+    <Condition>
+      <Exp>5996000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>16</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="67">
+    <Condition>
+      <Exp>6254000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="68">
+    <Condition>
+      <Exp>6519000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="69">
+    <Condition>
+      <Exp>6791000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="70">
+    <Condition>
+      <Exp>7070000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="71">
+    <Condition>
+      <Exp>7357000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="72">
+    <Condition>
+      <Exp>7652000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="73">
+    <Condition>
+      <Exp>7955000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="74">
+    <Condition>
+      <Exp>8266000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="75">
+    <Condition>
+      <Exp>8585000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="76">
+    <Condition>
+      <Exp>8912000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="77">
+    <Condition>
+      <Exp>9247000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="78">
+    <Condition>
+      <Exp>9590000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="79">
+    <Condition>
+      <Exp>9941000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="80">
+    <Condition>
+      <Exp>10300000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="81">
+    <Condition>
+      <Exp>10668000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>20</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="82">
+    <Condition>
+      <Exp>11045000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="83">
+    <Condition>
+      <Exp>11431000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="84">
+    <Condition>
+      <Exp>11826000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="85">
+    <Condition>
+      <Exp>12230000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="86">
+    <Condition>
+      <Exp>12643000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="87">
+    <Condition>
+      <Exp>13065000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="88">
+    <Condition>
+      <Exp>13496000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="89">
+    <Condition>
+      <Exp>13936000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="90">
+    <Condition>
+      <Exp>14385000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="91">
+    <Condition>
+      <Exp>14844000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="92">
+    <Condition>
+      <Exp>15313000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="93">
+    <Condition>
+      <Exp>15792000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="94">
+    <Condition>
+      <Exp>16281000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="95">
+    <Condition>
+      <Exp>16780000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="96">
+    <Condition>
+      <Exp>17289000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="97">
+    <Condition>
+      <Exp>17808000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="98">
+    <Condition>
+      <Exp>18337000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="99">
+    <Condition>
+      <Exp>18876000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+  <Level level="100">
+    <Condition>
+      <Exp>19425000</Exp> <!-- 经验 -->
+    </Condition>
+    <MaxGrow>30</MaxGrow> <!-- 最大潜能 -->
+  </Level>
+</HeroUpgrade>

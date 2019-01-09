@@ -1,0 +1,4 @@
+
+
+io.write(string.format("%c%c%c", 0xEF, 0xBB, 0xBF));
+

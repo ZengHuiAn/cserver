@@ -1,0 +1,12 @@
+<WorldConfig>
+	<Listen>
+		<host>0.0.0.0</host>
+		<port>9810</port>
+		<backlog>100</backlog>
+	</Listen>
+
+	<World name="w1">
+		<host>127.0.0.1</host>
+		<port>9811</port>
+	</World>
+</WorldConfig>

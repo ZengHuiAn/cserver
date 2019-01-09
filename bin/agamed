@@ -1,0 +1,200 @@
+#!/bin/bash
+
+SID="$AGAME_SID"
+
+if ! [ "$2" == "" ] 
+then
+	SID="$2"
+fi
+
+if [ "$SID" == "" ]
+then
+	echo "Usage: $0 {start|stop} sid"
+	exit
+fi
+
+if [ "$AGAME_TOP" == "" ]
+then
+	BINDIR=`pwd`
+	AGAME_TOP=`dirname $BINDIR`
+fi
+
+if [ ! -d  "$AGAME_TOP/bin" ]
+then
+	echo "must run in bin"
+	exit;
+fi
+
+################################## 
+
+cd "$AGAME_TOP/bin"
+
+# ulimit -c unlimited
+# ulimit -n 65535
+
+if [ "$?" != "0" ]
+then
+	exit;
+fi
+
+find_proc()
+{
+	proc="$1"
+	hint="$2"
+
+	if [ "$hint" == "" ]
+	then
+		ps -o pid,cmd -C $proc | grep lksg.xml | grep "sid $SID" | awk '{print $1}'
+	else
+		ps -o pid,cmd -C $proc | grep lksg.xml | grep "sid $SID" | grep "$hint" | awk '{print $1}'
+	fi
+}
+
+stop_proc()
+{
+	proc="$1"
+	hint="$2"
+
+	while true 
+	do
+		pid=`find_proc "$proc" "$hint"`
+		if [ "$pid" == "" ]
+		then
+			return;
+		else
+			echo "kill proc $proc $hint"
+			kill $pid
+		fi
+		sleep 1
+	done
+}
+
+proc_count=0
+start_proc()
+{
+	let proc_count=$proc_count+1;
+
+	proc="$1"
+	pid=`find_proc $proc`
+
+	if [ "$pid" == "" ]
+	then
+		echo "start proc $proc"
+		cd ${AGAME_TOP}/bin
+		("../bin/$proc" -d -c ../etc/lksg.xml -sid "$SID" &);
+	fi
+}
+
+start_world()
+{
+	let proc_count=$proc_count+1;
+
+	wid="$1"
+	if [ "$wid" == "" ]
+	then
+		pid=`find_proc world`
+	else
+		pid=`find_proc world "wid $wid"`
+	fi
+
+	if [ "$pid" == "" ]
+	then
+		echo "start world $wid"
+
+		cd ${AGAME_TOP}/bin
+		if [ "$wid" == "" ]
+		then
+			../bin/world -d -c ../etc/lksg.xml -sid "$SID"
+		else
+			../bin/world -d -c ../etc/lksg.xml -sid "$SID" -wid "$wid"
+		fi
+	fi
+}
+
+start_server()
+{
+	let proc_count=$proc_count+1;
+
+	name="$1"
+	pid=`find_proc server ${name}.lua`
+	if [ "$pid" == "" ]
+	then
+		echo "start server $name"
+
+		cd ${AGAME_TOP}/${name}
+		../bin/server -d -c ../etc/lksg.xml  -sid $SID ${name}.lua 
+		cd ${AGAME_TOP}/bin
+	fi
+}
+
+start_all()
+{
+	start_world
+	# start_proc gmserver
+	start_proc gateway
+	
+	start_server consume
+	start_server guild
+	start_server chat
+	start_server manor
+	start_server arena
+	start_server fight
+	start_server quiz 
+	start_server map
+	start_server gm 
+	start_server ai 
+
+	sleep 1
+	cnt=`ps -f -Cworld,gateway,server,gmserver  | grep lksg.xml | grep "sid $SID" | wc -l`
+	if ! [ "$cnt" == "$proc_count" ]
+	then
+		echo "failed by proc_count, $cnt != $proc_count";
+
+		echo '-------------------------------------------'
+		tail -20 `date +"../log/world_%Y%m%d_%H.log"`  | grep ERROR
+		echo '-------------------------------------------'
+
+		exit 1;
+	fi
+}
+
+stop_all()
+{
+	stop_proc gateway
+	# stop_proc gmserver
+	stop_proc world
+
+	stop_proc server consume
+	stop_proc server guild
+	stop_proc server chat
+	stop_proc server manor
+	stop_proc server arena 
+	stop_proc server fight
+	stop_proc server quiz 
+	stop_proc server map
+	stop_proc server gm 
+	stop_proc server ai 
+}
+
+show_all()
+{
+	ps -f -Cworld,gateway,server,gmserver  | grep lksg.xml | grep "sid $SID"
+}
+
+case "$1" in
+	start)
+		start_all && exit 0
+		;;
+	stop)
+		stop_all && exit 0
+		;;
+	stat)
+		show_all && exit 0
+		;;
+	cront)
+		echo "* * * * * AGAME_SID=$SID AGAME_TOP=${AGAME_TOP} ${AGAME_TOP}/bin/agamed start"
+		;;
+	*)
+		echo $"Usage: $0 {start|stop|show} [sid]"
+		exit 2
+esac

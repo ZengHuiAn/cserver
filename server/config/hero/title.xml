@@ -1,0 +1,182 @@
+﻿<HeroTitles> <!-- 武将官职 -->
+  <Title id="620001">
+    <Name>裨将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>20</Level> <!-- 等级 -->
+      <KingTitle>610008</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>100</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620002">
+    <Name>裨将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>20</Level> <!-- 等级 -->
+      <KingTitle>610009</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>100</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620003">
+    <Name>偏将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pianjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <KingTitle>610010</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>300</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620004">
+    <Name>偏将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pianjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <KingTitle>610011</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>300</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620005">
+    <Name>偏将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pianjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>30</Level> <!-- 等级 -->
+      <KingTitle>610012</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>300</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620006">
+    <Name>平北将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pingbeijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>40</Level> <!-- 等级 -->
+      <KingTitle>610013</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>600</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620007">
+    <Name>平西将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pingxijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>40</Level> <!-- 等级 -->
+      <KingTitle>610014</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>600</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620008">
+    <Name>平南将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pingnanjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>45</Level> <!-- 等级 -->
+      <KingTitle>610015</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>700</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620009">
+    <Name>平东将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_pingdongjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>45</Level> <!-- 等级 -->
+      <KingTitle>610016</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>700</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620010">
+    <Name>护军将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_hujunjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>50</Level> <!-- 等级 -->
+      <KingTitle>610017</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>800</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620011">
+    <Name>镇北将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhenbeijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>60</Level> <!-- 等级 -->
+      <KingTitle>610018</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>900</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620012">
+    <Name>镇西将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhenxijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>60</Level> <!-- 等级 -->
+      <KingTitle>610019</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>900</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620013">
+    <Name>镇南将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhennanjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>65</Level> <!-- 等级 -->
+      <KingTitle>610020</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1000</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620014">
+    <Name>镇东将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhendongjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>65</Level> <!-- 等级 -->
+      <KingTitle>610021</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1000</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620015">
+    <Name>镇军将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhenjunjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>70</Level> <!-- 等级 -->
+      <KingTitle>610022</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1100</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620016">
+    <Name>征北将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhengbeijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>75</Level> <!-- 等级 -->
+      <KingTitle>610023</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1200</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620017">
+    <Name>征西将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhengxijiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>75</Level> <!-- 等级 -->
+      <KingTitle>610024</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1200</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620018">
+    <Name>征南将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhengnanjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>80</Level> <!-- 等级 -->
+      <KingTitle>610025</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1300</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620019">
+    <Name>征东将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_zhengdongjiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>80</Level> <!-- 等级 -->
+      <KingTitle>610026</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1300</Soldier> <!-- 兵力 -->
+  </Title>
+  <Title id="620020">
+    <Name>大将军</Name> <!-- 名字 -->
+    <Image>resource/icon/hero/title_dajiangjun.png</Image> <!-- 图标 -->
+    <Condition> <!-- 依赖条件-->
+      <Level>90</Level> <!-- 等级 -->
+      <KingTitle>610027</KingTitle> <!-- 君主官职 -->
+    </Condition>
+    <Soldier>1500</Soldier> <!-- 兵力 -->
+  </Title>
+</HeroTitles>

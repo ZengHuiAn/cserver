@@ -1,0 +1,16 @@
+﻿<SoldierHurtMatrix>
+  <Soldier type="710100">
+    <Target type="710200">50</Target>
+  </Soldier>
+  <Soldier type="710200">
+    <Target type="710300">50</Target>
+  </Soldier>
+  <Soldier type="710300">
+    <Target type="710400">50</Target>
+  </Soldier>
+  <Soldier type="710400">
+    <Target type="710100">50</Target>
+  </Soldier>
+  <Soldier type="710500">
+  </Soldier>
+</SoldierHurtMatrix>

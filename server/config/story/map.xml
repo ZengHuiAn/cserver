@@ -1,0 +1,68 @@
+﻿<StoryMaps> <!-- 剧情配置 -->
+  <Map id="801000"> <!-- 地图 -->
+    <Battle id="801100"> <!-- 战斗 -->
+      <Name>公元184年：巨鹿之战</Name>   <!-- 名字 -->
+      <Depends>
+      </Depends>
+      <FinalItem>211101</FinalItem> <!-- 通关奖励道具-->
+      <FinalFight>801105</FinalFight> <!-- 通关战斗 -->
+      <TimeLine>899001</TimeLine>   <!-- 时期 -->
+    </Battle>
+  </Map>
+  <Map id="804000"> <!-- 地图 -->
+    <Battle id="804100"> <!-- 战斗 -->
+      <Name>黄巾营寨</Name>   <!-- 名字 -->
+      <Depends>
+        <Fight>803104</Fight> <!-- 依赖战斗ID -->
+      </Depends>
+      <FinalItem>211301</FinalItem> <!-- 通关奖励道具-->
+      <FinalFight>804103</FinalFight> <!-- 通关战斗 -->
+      <TimeLine>899001</TimeLine>   <!-- 时期 -->
+    </Battle>
+  </Map>
+  <Map id="807000"> <!-- 地图 -->
+    <Battle id="807100"> <!-- 战斗 -->
+      <Name>公元2012年：依赖测试</Name>   <!-- 名字 -->
+      <Depends>
+        <Battle>805100</Battle> <!-- 依赖战役ID -->
+        <Battle>805200</Battle> <!-- 依赖战役ID -->
+      </Depends>
+      <FinalItem>211601</FinalItem> <!-- 通关奖励道具-->
+      <FinalFight>807103</FinalFight> <!-- 通关战斗 -->
+      <TimeLine>899001</TimeLine>   <!-- 时期 -->
+    </Battle>
+  </Map>
+  <Map id="803000"> <!-- 地图 -->
+    <Battle id="803100"> <!-- 战斗 -->
+      <Name>公元184年：颍川之战</Name>   <!-- 名字 -->
+      <Depends>
+        <Battle>801100</Battle> <!-- 依赖战役ID -->
+      </Depends>
+      <FinalItem>211201</FinalItem> <!-- 通关奖励道具-->
+      <FinalFight>803105</FinalFight> <!-- 通关战斗 -->
+      <TimeLine>899001</TimeLine>   <!-- 时期 -->
+    </Battle>
+  </Map>
+  <Map id="805000"> <!-- 地图 -->
+    <Battle id="805100"> <!-- 战斗 -->
+      <Name>公元185年：互斥测试一</Name>   <!-- 名字 -->
+      <Depends>
+        <Battle>803100</Battle> <!-- 依赖战役ID -->
+      </Depends>
+      <Exclude>805200</Exclude> <!-- 互斥战役ID -->
+      <FinalItem>211401</FinalItem> <!-- 通关奖励道具-->
+      <FinalFight>805103</FinalFight> <!-- 通关战斗 -->
+      <TimeLine>899001</TimeLine>   <!-- 时期 -->
+    </Battle>
+    <Battle id="805200"> <!-- 战斗 -->
+      <Name>公元186年：互斥测试二</Name>   <!-- 名字 -->
+      <Depends>
+        <Battle>803100</Battle> <!-- 依赖战役ID -->
+      </Depends>
+      <Exclude>805100</Exclude> <!-- 互斥战役ID -->
+      <FinalItem>211501</FinalItem> <!-- 通关奖励道具-->
+      <FinalFight>805203</FinalFight> <!-- 通关战斗 -->
+      <TimeLine>899001</TimeLine>   <!-- 时期 -->
+    </Battle>
+  </Map>
+</StoryMaps>

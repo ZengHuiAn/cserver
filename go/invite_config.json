@@ -1,0 +1,13 @@
+{
+	"begin_time":1460908801,
+	"end_time":1461168000,
+	"reward_return_name":"回归奖励",
+	"reward_return_content":[
+		{"type":"resource","id":6,"count":100}
+	],
+	"reward_invite_name":"邀请奖励",
+	"reward_invite_content":[
+		{"type":"resource","id":6,"count":101}
+	]
+}
+	

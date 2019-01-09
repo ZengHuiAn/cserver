@@ -1,0 +1,142 @@
+﻿<CityUpgrade> <!-- 城市升级配置表 -->
+  <Level level ="1">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>0</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>4</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>0</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="2">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>9</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>5</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="3">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>3500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>14</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>7</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="4">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>12500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>19</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>9</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="5">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>27500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>24</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>11</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="6">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>48500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>29</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>13</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="7">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>75500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>34</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>15</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="8">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>108500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>39</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>17</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="9">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>147500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>44</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>19</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="10">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>192500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>49</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>21</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="11">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>243500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>54</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>23</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="12">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>300500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>59</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>25</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="13">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>363500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>64</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>27</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="14">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>432500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>69</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>29</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="15">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>507500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>74</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>31</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="16">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>588500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>79</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>33</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="17">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>675500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>84</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>35</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="18">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>768500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>89</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>37</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="19">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>867500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>94</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>39</FarmSize> <!-- 势力范围 -->
+  </Level>
+  <Level level ="20">
+    <Condition> <!-- 依赖条件-->
+      <Prosperity>972500</Prosperity> <!-- 繁荣度 -->
+    </Condition>
+    <GuanfuMaxLevel>100</GuanfuMaxLevel><!-- 官府最大等级 -->
+    <FarmSize>41</FarmSize> <!-- 势力范围 -->
+  </Level>
+</CityUpgrade>

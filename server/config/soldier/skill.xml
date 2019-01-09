@@ -1,0 +1,86 @@
+﻿<SoldierSkills>
+  <Skill id = "720101">
+    <Name>大盾</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_dadun.png</Image> <!-- 图标 -->
+    <SoldierType>710100</SoldierType> <!-- 适用兵种 -->
+    <TargetType>710200</TargetType> <!-- 目标兵种 -->
+    <HurtIncrease>0</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>5</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720102">
+    <Name>铁壁</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_tiebi.png</Image> <!-- 图标 -->
+    <SoldierType>710100</SoldierType> <!-- 适用兵种 -->
+    <HurtIncrease>0</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>5</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720201">
+    <Name>强矢</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_qiangshi.png</Image> <!-- 图标 -->
+    <SoldierType>710200</SoldierType> <!-- 适用兵种 -->
+    <TargetType>710300</TargetType> <!-- 目标兵种 -->
+    <HurtIncrease>5</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>0</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720202">
+    <Name>箭雨</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_jianyu.png</Image> <!-- 图标 -->
+    <SoldierType>710200</SoldierType> <!-- 适用兵种 -->
+    <HurtIncrease>5</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>0</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720301">
+    <Name>穿刺</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_chuanci.png</Image> <!-- 图标 -->
+    <SoldierType>710300</SoldierType> <!-- 适用兵种 -->
+    <TargetType>710400</TargetType> <!-- 目标兵种 -->
+    <HurtIncrease>10</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>0</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720302">
+    <Name>隐匿</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_yinni.png</Image> <!-- 图标 -->
+    <SoldierType>710300</SoldierType> <!-- 适用兵种 -->
+    <HurtIncrease>0</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>5</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720401">
+    <Name>铁蹄</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_tieti.png</Image> <!-- 图标 -->
+    <SoldierType>710400</SoldierType> <!-- 适用兵种 -->
+    <TargetType>710100</TargetType> <!-- 目标兵种 -->
+    <HurtIncrease>10</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>0</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720402">
+    <Name>铁甲</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_tiejia.png</Image> <!-- 图标 -->
+    <SoldierType>710400</SoldierType> <!-- 适用兵种 -->
+    <HurtIncrease>0</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>5</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720501">
+    <Name>精确</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_jingque.png</Image> <!-- 图标 -->
+    <SoldierType>710500</SoldierType> <!-- 适用兵种 -->
+    <HurtIncrease>5</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>0</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+  <Skill id = "720502">
+    <Name>巧匠</Name> <!-- 名称 -->
+    <Image>resource/icon/soldier/skill_qiaojiang.png</Image> <!-- 图标 -->
+    <SoldierType>710500</SoldierType> <!-- 适用兵种 -->
+    <HurtIncrease>0</HurtIncrease> <!-- 伤害增加 -->
+    <HurtReduce>5</HurtReduce> <!-- 伤害减少 -->
+    <Desc></Desc> <!-- 描述 -->
+  </Skill>
+</SoldierSkills>

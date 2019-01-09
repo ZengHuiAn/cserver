@@ -1,0 +1,3 @@
+
+#define LEADING_ROLE 11000 //主角
+#define HERO_INTO_BATTLE_MAX 5

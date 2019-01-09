@@ -1,0 +1,12 @@
+<BattleFieldConfig>
+	<Listen>
+		<host>0.0.0.0</host>
+		<port>9809</port>
+		<backlog>100</backlog>
+	</Listen>
+
+	<Scripts>
+		<Script load="onBattleFieldLoad" update="onBattleFieldUpdate" unload="onBattleFieldUnload">BattleFieldLoader.lua</Script>
+		<Script load="onListenerLoad" update="onListenerUpdate" unload="onListenerUnload">Listener.lua</Script>
+	</Scripts>
+</BattleFieldConfig>

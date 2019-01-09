@@ -1,0 +1,80 @@
+#include <assert.h>
+#include <string.h>
+
+#include "log.h"
+#include "dlist.h"
+#include "message.h"
+#include "player.h"
+#include "package.h"
+#include "amf.h"
+#include "build_message.h"
+#include "logic/aL.h"
+#include "notify.h"
+
+#include "dispatch.h"
+#include "addicted.h"
+#include "protocol.h"
+#include "do.h"
+#include "pbc_int64.h"
+
+void do_pbc_set_player_status(resid_t conn, unsigned long long channel, const char * data, size_t len)
+{
+	INIT_REQUET_RESPOND("PSetPlayerStatusRequest", "PSetPlayerStatusRespond"); 
+	assert(channel == 0);
+
+	// 读取参数
+	unsigned long long target = (unsigned long long)pbc_rmessage_int64(request, "playerid", 0);
+
+	CHECK_PID_AND_TRANSFORM(target);
+
+	unsigned int status = pbc_rmessage_integer(request, "status", 0, 0);
+
+	WRITE_DEBUG_LOG("service set player %llu status %u", target, status);
+
+	// 权限验证
+	if (channel != 0 ) {
+		result = RET_PREMISSIONS;
+	} else {
+		// 获取目标玩家
+		struct Player * player = player_get(target);
+		if (player == 0) {
+			result = RET_CHARACTER_NOT_EXIST;
+		} else {
+			struct Property * property = player_get_property(player);
+			DATA_Property_update_status(property, status);
+			result = RET_SUCCESS;
+			if (status & PLAYER_STATUS_BAN) {
+				kickPlayer(target, LOGOUT_ADMIN_BAN);
+			}
+		}
+	}
+	FINI_REQUET_RESPOND(S_SET_PLAYER_STATUS_RESPOND, result);
+}
+
+void do_pbc_admin_player_kick(resid_t conn, unsigned long long channel, const char * data, size_t len)
+{
+	INIT_REQUET_RESPOND("PAdminPlayerKickRequest", "PAdminPlayerKickRespond"); 
+	assert(channel == 0);
+
+	// 读取参数
+	unsigned long long target = (unsigned long long)pbc_rmessage_int64(request, "playerid", 0);
+
+	CHECK_PID_AND_TRANSFORM(target);
+
+	WRITE_DEBUG_LOG("service kick player %llu", target);
+
+	// 权限验证
+	if (channel != 0 ) {
+		result = RET_PREMISSIONS;
+	} else {
+		// 获取目标玩家
+		struct Player * player = player_get(target);
+		if (player == 0) {
+			result = RET_CHARACTER_NOT_EXIST;
+		} else {
+			result = RET_SUCCESS;
+			kickPlayer(target, LOGOUT_ADMIN_KICK);
+		}
+	}
+	FINI_REQUET_RESPOND(S_ADMIN_PLAYER_KICK_RESPOND, result);
+}

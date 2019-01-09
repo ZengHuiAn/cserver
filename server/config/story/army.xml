@@ -1,0 +1,4518 @@
+﻿<StoryArmyGroups> <!-- 战斗部队配置 -->
+  <ArmyGroup id="1803101"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾前军</Name> <!-- 名字-->
+        <Level>6</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>60</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>60</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾前军</Name> <!-- 名字-->
+        <Level>6</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>60</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>60</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾前军</Name> <!-- 名字-->
+        <Level>6</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>60</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>60</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾前军</Name> <!-- 名字-->
+        <Level>6</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>60</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>60</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾前军</Name> <!-- 名字-->
+        <Level>6</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>60</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>60</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1803102"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾中军</Name> <!-- 名字-->
+        <Level>7</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾中军</Name> <!-- 名字-->
+        <Level>7</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾中军</Name> <!-- 名字-->
+        <Level>7</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾中军</Name> <!-- 名字-->
+        <Level>7</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾中军</Name> <!-- 名字-->
+        <Level>7</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1803103"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>8</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>8</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>8</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>8</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>8</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1803104"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>9</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710100</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>9</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>张梁</Name> <!-- 名字-->
+        <Level>9</Level> <!-- 等级 -->
+        <Image>zhangliang</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>0</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>9</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>9</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1803105"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>10</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>10</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>张角</Name> <!-- 名字-->
+        <Level>10</Level> <!-- 等级 -->
+        <Image>zhangjiao</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>10</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>10</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1804101"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>营寨一</Name> <!-- 名字-->
+        <Level>11</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>营寨一</Name> <!-- 名字-->
+        <Level>11</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>营寨一</Name> <!-- 名字-->
+        <Level>11</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>营寨一</Name> <!-- 名字-->
+        <Level>11</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>营寨一</Name> <!-- 名字-->
+        <Level>11</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>70</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>70</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1804102"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>营寨二</Name> <!-- 名字-->
+        <Level>12</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>营寨二</Name> <!-- 名字-->
+        <Level>12</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>营寨二</Name> <!-- 名字-->
+        <Level>12</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>营寨二</Name> <!-- 名字-->
+        <Level>12</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>营寨二</Name> <!-- 名字-->
+        <Level>12</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>30</meleeDefense> <!-- 近防 -->
+        <rangeDefense>30</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1804103"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>营寨三</Name> <!-- 名字-->
+        <Level>13</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710100</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>营寨三</Name> <!-- 名字-->
+        <Level>13</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>营寨将领</Name> <!-- 名字-->
+        <Level>13</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>0</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>营寨三</Name> <!-- 名字-->
+        <Level>13</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>营寨三</Name> <!-- 名字-->
+        <Level>13</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>50</meleeDefense> <!-- 近防 -->
+        <rangeDefense>50</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1807103"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>依赖后军</Name> <!-- 名字-->
+        <Level>19</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>依赖后军</Name> <!-- 名字-->
+        <Level>19</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>依赖主将</Name> <!-- 名字-->
+        <Level>19</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>依赖后军</Name> <!-- 名字-->
+        <Level>19</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>依赖后军</Name> <!-- 名字-->
+        <Level>19</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1807102"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>依赖中军</Name> <!-- 名字-->
+        <Level>18</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>依赖中军</Name> <!-- 名字-->
+        <Level>18</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>依赖中军</Name> <!-- 名字-->
+        <Level>18</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>依赖中军</Name> <!-- 名字-->
+        <Level>18</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>依赖中军</Name> <!-- 名字-->
+        <Level>18</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1801101"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾先锋</Name> <!-- 名字-->
+        <Level>1</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>10</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>10</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>0</meleeDefense> <!-- 近防 -->
+        <rangeDefense>0</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1801102"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾中军</Name> <!-- 名字-->
+        <Level>2</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>10</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>10</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>0</meleeDefense> <!-- 近防 -->
+        <rangeDefense>0</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾中军</Name> <!-- 名字-->
+        <Level>2</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>10</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>10</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>0</meleeDefense> <!-- 近防 -->
+        <rangeDefense>0</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1805102"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1805103"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一主将</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1801105"> <!-- 部队 -->
+    <Army pos="3">
+      <Hero> <!-- 武将 -->
+        <Name>关羽</Name> <!-- 名字-->
+        <Level>5</Level> <!-- 等级 -->
+        <Image>guanyu</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>100</meleeDefense> <!-- 近防 -->
+        <rangeDefense>100</rangeDefense> <!-- 远防 -->
+        <Adapt>20</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="5">
+      <Hero> <!-- 武将 -->
+        <Name>吕布</Name> <!-- 名字-->
+        <Level>5</Level> <!-- 等级 -->
+        <Image>lvbu</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>100</meleeDefense> <!-- 近防 -->
+        <rangeDefense>100</rangeDefense> <!-- 远防 -->
+        <Adapt>20</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>5</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>5</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>张宝</Name> <!-- 名字-->
+        <Level>5</Level> <!-- 等级 -->
+        <Image>zhangbao</Image> <!-- 图像 -->
+        <meleeAttack>200</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>200</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>100</meleeDefense> <!-- 近防 -->
+        <rangeDefense>100</rangeDefense> <!-- 远防 -->
+        <Adapt>0</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>5</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>5</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1807101"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>依赖前军</Name> <!-- 名字-->
+        <Level>17</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710100</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>依赖前军</Name> <!-- 名字-->
+        <Level>17</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>依赖前军</Name> <!-- 名字-->
+        <Level>17</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710100</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>依赖前军</Name> <!-- 名字-->
+        <Level>17</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710100</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>依赖前军</Name> <!-- 名字-->
+        <Level>17</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1801104"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>4</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>4</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>程远志</Name> <!-- 名字-->
+        <Level>4</Level> <!-- 等级 -->
+        <Image>chengyuanzhi</Image> <!-- 图像 -->
+        <meleeAttack>100</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>100</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="3">
+      <Hero> <!-- 武将 -->
+        <Name>关羽</Name> <!-- 名字-->
+        <Level>4</Level> <!-- 等级 -->
+        <Image>guanyu</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>100</meleeDefense> <!-- 近防 -->
+        <rangeDefense>100</rangeDefense> <!-- 远防 -->
+        <Adapt>20</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>2</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>4</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾副将</Name> <!-- 名字-->
+        <Level>4</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>50</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>50</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>20</meleeDefense> <!-- 近防 -->
+        <rangeDefense>20</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710100</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1801103"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>3</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>10</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>10</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>0</meleeDefense> <!-- 近防 -->
+        <rangeDefense>0</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>3</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>10</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>10</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>0</meleeDefense> <!-- 近防 -->
+        <rangeDefense>0</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>黄巾后军</Name> <!-- 名字-->
+        <Level>3</Level> <!-- 等级 -->
+        <Image>huangjin</Image> <!-- 图像 -->
+        <meleeAttack>10</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>10</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>0</meleeDefense> <!-- 近防 -->
+        <rangeDefense>0</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710100</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1805201"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710400</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1805202"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二中军</Name> <!-- 名字-->
+        <Level>15</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710500</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1805203"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二主将</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>互斥二后军</Name> <!-- 名字-->
+        <Level>16</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710300</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+  <ArmyGroup id="1805101"> <!-- 部队 -->
+    <Army pos="6">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="7">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="8">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>500</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>500</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="10">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+    <Army pos="9">
+      <Hero> <!-- 武将 -->
+        <Name>互斥一前军</Name> <!-- 名字-->
+        <Level>14</Level> <!-- 等级 -->
+        <Image>yingzhai</Image> <!-- 图像 -->
+        <meleeAttack>300</meleeAttack> <!-- 近攻 -->
+        <rangeAttack>300</rangeAttack> <!-- 远攻 -->
+        <meleeDefense>65</meleeDefense> <!-- 近防 -->
+        <rangeDefense>65</rangeDefense> <!-- 远防 -->
+        <Adapt>-10</Adapt> <!-- 适性 -->
+        <Skill>0</Skill> <!-- 技能 -->
+      </Hero>
+      <Soldier> <!-- 兵 -->
+        <Type>710200</Type> <!-- 类型 -->
+        <Level>1</Level> <!-- 等级 -->
+      </Soldier>
+      <Hit>0</Hit> <!-- 额外命中 -->
+      <Dodge>0</Dodge> <!-- 额外闪避 -->
+      <Block>0</Block> <!-- 额外格挡 -->
+      <Crit>0</Crit> <!-- 额外暴击 -->
+      <Fixs> <!-- 针对不同兵种伤害增减 -->
+        <Fix type="710100"> 
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710200">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710300">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710400">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+        <Fix type="710500">
+          <HurtIncerase>0</HurtIncerase>
+          <HurtReduce>0</HurtReduce>
+        </Fix>
+      </Fixs>
+    </Army>
+  </ArmyGroup>
+</StoryArmyGroups>

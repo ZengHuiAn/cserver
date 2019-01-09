@@ -1,0 +1,452 @@
+﻿<EquipTemplate> <!-- 装备模版 -->
+  <Equip id="211101">
+    <Name>白近武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_baijinwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MinLevel>1</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>200</MeleeAttack> <!-- 近攻 -->
+    <CostRate>1</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>500</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>500</PriceSale> <!-- 出售价格 -->
+    <Desc>白色的近攻武器，普普通通，军中士兵所用</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="211102">
+    <Name>白远武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_baiyuanwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MinLevel>1</MinLevel> <!-- 装备需求等级 -->
+    <RangeAttack>200</RangeAttack> <!-- 远攻 -->
+    <CostRate>1</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>500</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>500</PriceSale> <!-- 出售价格 -->
+    <Desc>白色的远攻武器，普普通通，军中士兵所用</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="211201">
+    <Name>白战马</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_baizhanma.png</Image>  <!-- 图标 -->
+    <Type>210200</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MinLevel>1</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>100</MeleeAttack> <!-- 近攻 -->
+    <RangeAttack>100</RangeAttack> <!-- 远攻 -->
+    <CostRate>0.6</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>500</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>500</PriceSale> <!-- 出售价格 -->
+    <Desc>白色的战马，普普通通，军中士兵所用</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="211301">
+    <Name>白铠甲</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_baikaijia.png</Image>  <!-- 图标 -->
+    <Type>210300</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MinLevel>1</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>100</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>50</RangeDefense> <!-- 远防 -->
+    <CostRate>0.7</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>500</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>500</PriceSale> <!-- 出售价格 -->
+    <Desc>白色的铠甲，普普通通，军中士兵所用</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="211401">
+    <Name>白头盔</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_baitoukui.png</Image>  <!-- 图标 -->
+    <Type>210400</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MinLevel>1</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>50</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>100</RangeDefense> <!-- 远防 -->
+    <CostRate>0.7</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>500</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>500</PriceSale> <!-- 出售价格 -->
+    <Desc>白色的头盔，普普通通，军中士兵所用</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="211501">
+    <Name>白饰品</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_baishipin.png</Image>  <!-- 图标 -->
+    <Type>210500</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MinLevel>1</MinLevel> <!-- 装备需求等级 -->
+    <Soldier>100</Soldier> <!-- 兵力 -->
+    <CostRate>1.5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>500</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>500</PriceSale> <!-- 出售价格 -->
+    <Desc>白色的兵符，普普通通，军中士兵所用</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="212101">
+    <Name>绿近武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lvjinwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MinLevel>10</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>300</MeleeAttack> <!-- 近攻 -->
+    <CostRate>2</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+    <Desc>绿色的近攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="212102">
+    <Name>绿远武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lvyuanwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MinLevel>10</MinLevel> <!-- 装备需求等级 -->
+    <RangeAttack>300</RangeAttack> <!-- 远攻 -->
+    <CostRate>2</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+    <Desc>绿色的远攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="212201">
+    <Name>绿战马</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lvzhanma.png</Image>  <!-- 图标 -->
+    <Type>210200</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MinLevel>10</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>200</MeleeAttack> <!-- 近攻 -->
+    <RangeAttack>200</RangeAttack> <!-- 远攻 -->
+    <CostRate>1.2</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+    <Desc>绿色的战马</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="212301">
+    <Name>绿铠甲</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lvkaijia.png</Image>  <!-- 图标 -->
+    <Type>210300</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MinLevel>10</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>150</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>100</RangeDefense> <!-- 远防 -->
+    <CostRate>1.4</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+    <Desc>绿色的铠甲</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="212401">
+    <Name>绿头盔</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lvtoukui.png</Image>  <!-- 图标 -->
+    <Type>210400</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MinLevel>10</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>100</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>150</RangeDefense> <!-- 远防 -->
+    <CostRate>1.4</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+    <Desc>绿色的头盔</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="212501">
+    <Name>绿饰品</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lvshipin.png</Image>  <!-- 图标 -->
+    <Type>210500</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MinLevel>10</MinLevel> <!-- 装备需求等级 -->
+    <Soldier>150</Soldier> <!-- 兵力 -->
+    <CostRate>3</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+    <Desc>绿色的兵符</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="213101">
+    <Name>蓝近武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lanjinwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MinLevel>30</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>450</MeleeAttack> <!-- 近攻 -->
+    <CostRate>3</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+    <Desc>蓝色的近攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="213102">
+    <Name>蓝远武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lanyuanwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MinLevel>30</MinLevel> <!-- 装备需求等级 -->
+    <RangeAttack>450</RangeAttack> <!-- 远攻 -->
+    <CostRate>3</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+    <Desc>蓝色的远攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="213201">
+    <Name>蓝战马</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lanzhanma.png</Image>  <!-- 图标 -->
+    <Type>210200</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MinLevel>30</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>300</MeleeAttack> <!-- 近攻 -->
+    <RangeAttack>300</RangeAttack> <!-- 远攻 -->
+    <CostRate>1.8</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+    <Desc>蓝色的战马</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="213301">
+    <Name>蓝铠甲</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lankaijia.png</Image>  <!-- 图标 -->
+    <Type>210300</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MinLevel>30</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>200</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>150</RangeDefense> <!-- 远防 -->
+    <CostRate>2.1</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+    <Desc>蓝色的铠甲</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="213401">
+    <Name>蓝头盔</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lantoukui.png</Image>  <!-- 图标 -->
+    <Type>210400</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MinLevel>30</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>150</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>200</RangeDefense> <!-- 远防 -->
+    <CostRate>2.1</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+    <Desc>蓝色的头盔</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="213501">
+    <Name>蓝饰品</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_lanshipin.png</Image>  <!-- 图标 -->
+    <Type>210500</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MinLevel>30</MinLevel> <!-- 装备需求等级 -->
+    <Soldier>250</Soldier> <!-- 兵力 -->
+    <CostRate>4.5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+    <Desc>蓝色的兵符</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="214101">
+    <Name>黄近武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_huangjinwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MinLevel>50</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>700</MeleeAttack> <!-- 近攻 -->
+    <CostRate>5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+    <Desc>黄色的近攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="214102">
+    <Name>黄远武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_huangyuanwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MinLevel>50</MinLevel> <!-- 装备需求等级 -->
+    <RangeAttack>700</RangeAttack> <!-- 远攻 -->
+    <CostRate>5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+    <Desc>黄色的远攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="214201">
+    <Name>黄战马</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_huangzhanma.png</Image>  <!-- 图标 -->
+    <Type>210200</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MinLevel>50</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>500</MeleeAttack> <!-- 近攻 -->
+    <RangeAttack>500</RangeAttack> <!-- 远攻 -->
+    <CostRate>3</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+    <Desc>黄色的战马</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="214301">
+    <Name>黄铠甲</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_huangkaijia.png</Image>  <!-- 图标 -->
+    <Type>210300</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MinLevel>50</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>350</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>200</RangeDefense> <!-- 远防 -->
+    <CostRate>3.5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+    <Desc>黄色的铠甲</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="214401">
+    <Name>黄头盔</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_huangtoukui.png</Image>  <!-- 图标 -->
+    <Type>210400</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MinLevel>50</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>200</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>350</RangeDefense> <!-- 远防 -->
+    <CostRate>3.5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+    <Desc>黄色的头盔</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="214501">
+    <Name>黄饰品</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_huangshipin.png</Image>  <!-- 图标 -->
+    <Type>210500</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MinLevel>50</MinLevel> <!-- 装备需求等级 -->
+    <Soldier>500</Soldier> <!-- 兵力 -->
+    <CostRate>7.5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+    <Desc>黄色的兵符</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="215101">
+    <Name>紫近武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_zijinwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MinLevel>70</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>1100</MeleeAttack> <!-- 近攻 -->
+    <CostRate>7</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+    <Desc>紫色的近攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="215102">
+    <Name>紫远武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_ziyuanwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MinLevel>70</MinLevel> <!-- 装备需求等级 -->
+    <RangeAttack>1100</RangeAttack> <!-- 远攻 -->
+    <CostRate>7</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+    <Desc>紫色的远攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="215201">
+    <Name>紫战马</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_zizhanma.png</Image>  <!-- 图标 -->
+    <Type>210200</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MinLevel>70</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>800</MeleeAttack> <!-- 近攻 -->
+    <RangeAttack>800</RangeAttack> <!-- 远攻 -->
+    <CostRate>4.2</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+    <Desc>紫色的战马</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="215301">
+    <Name>紫铠甲</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_zikaijia.png</Image>  <!-- 图标 -->
+    <Type>210300</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MinLevel>70</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>500</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>300</RangeDefense> <!-- 远防 -->
+    <CostRate>4.9</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+    <Desc>紫色的铠甲</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="215401">
+    <Name>紫头盔</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_zitoukui.png</Image>  <!-- 图标 -->
+    <Type>210400</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MinLevel>70</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>300</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>500</RangeDefense> <!-- 远防 -->
+    <CostRate>4.9</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+    <Desc>紫色的头盔</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="215501">
+    <Name>紫饰品</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_zishipin.png</Image>  <!-- 图标 -->
+    <Type>210500</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MinLevel>70</MinLevel> <!-- 装备需求等级 -->
+    <Soldier>800</Soldier> <!-- 兵力 -->
+    <CostRate>10.5</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+    <Desc>紫色的兵符</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="216101">
+    <Name>红近武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_hongjinwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MinLevel>80</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>1500</MeleeAttack> <!-- 近攻 -->
+    <CostRate>10</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>15000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>15000</PriceSale> <!-- 出售价格 -->
+    <Desc>红色的近攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="216102">
+    <Name>红远武</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_hongyuanwu.png</Image>  <!-- 图标 -->
+    <Type>210100</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MinLevel>80</MinLevel> <!-- 装备需求等级 -->
+    <RangeAttack>1500</RangeAttack> <!-- 远攻 -->
+    <CostRate>10</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>15000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>15000</PriceSale> <!-- 出售价格 -->
+    <Desc>红色的远攻武器</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="216201">
+    <Name>红战马</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_hongzhanma.png</Image>  <!-- 图标 -->
+    <Type>210200</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MinLevel>80</MinLevel> <!-- 装备需求等级 -->
+    <MeleeAttack>1100</MeleeAttack> <!-- 近攻 -->
+    <RangeAttack>1100</RangeAttack> <!-- 远攻 -->
+    <CostRate>6</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>15000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>15000</PriceSale> <!-- 出售价格 -->
+    <Desc>红色的战马</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="216301">
+    <Name>红铠甲</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_hongkaijia.png</Image>  <!-- 图标 -->
+    <Type>210300</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MinLevel>80</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>700</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>400</RangeDefense> <!-- 远防 -->
+    <CostRate>7</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>15000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>15000</PriceSale> <!-- 出售价格 -->
+    <Desc>红色的铠甲</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="216401">
+    <Name>红头盔</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_hongtoukui.png</Image>  <!-- 图标 -->
+    <Type>210400</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MinLevel>80</MinLevel> <!-- 装备需求等级 -->
+    <MeleeDefense>400</MeleeDefense> <!-- 近防 -->
+    <RangeDefense>700</RangeDefense> <!-- 远防 -->
+    <CostRate>7</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>15000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>15000</PriceSale> <!-- 出售价格 -->
+    <Desc>红色的头盔</Desc> <!-- 描述 -->
+  </Equip>
+  <Equip id="216501">
+    <Name>红饰品</Name>  <!-- 名称 -->
+    <Image>resource/icon/equip/equip_hongshipin.png</Image>  <!-- 图标 -->
+    <Type>210500</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MinLevel>80</MinLevel> <!-- 装备需求等级 -->
+    <Soldier>1000</Soldier> <!-- 兵力 -->
+    <CostRate>15</CostRate> <!-- 升级消耗系数 -->
+    <PriceBuy>15000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>15000</PriceSale> <!-- 出售价格 -->
+    <Desc>红色的兵符</Desc> <!-- 描述 -->
+  </Equip>
+</EquipTemplate>

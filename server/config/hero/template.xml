@@ -1,0 +1,3874 @@
+﻿<HeroTemplate> <!-- 武将模版 -->
+  <Hero id="101001">
+    <Name>曹操</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caocao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caocao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caocao.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>97</Leadership> <!-- 统帅 -->
+    <Force>87</Force> <!-- 武力 -->
+    <Intelligence>88</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>曹操（155－220），字孟德，小字阿瞒，汉族，沛国谯县（今安徽亳州）人。中国东汉末年著名的军事家、政治家和诗人，三国时代魏国的奠基人和主要缔造者，后为魏王。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101002">
+    <Name>司马懿</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_simayi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_simayi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_simayi.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>93</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>96</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710300">S</Adapt>
+    </Adapts>
+    <Desc>司马懿（179－251），字仲达，汉族，河内郡温县孝敬里（今属河南温县）人。三国时期魏国杰出的政治家、军事家，西晋王朝的奠基人。平生最显著的功绩是多次亲率大军成功对抗诸葛亮的北伐。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101003">
+    <Name>张辽</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangliao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangliao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangliao.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>95</Leadership> <!-- 统帅 -->
+    <Force>93</Force> <!-- 武力 -->
+    <Intelligence>77</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>张辽（169－222），字文远，雁门马邑（今山西朔城区大夫庄）人。三国时期曹魏著名将领。曾在合肥郊外逍遥津率领八百勇士大败孙权十万大军。后人将他与乐进、于禁、张郃、徐晃并称为曹魏的“五子良将”。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101004">
+    <Name>许褚</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xuchu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xuchu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xuchu.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>90</Leadership> <!-- 统帅 -->
+    <Force>96</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710300">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101005">
+    <Name>夏侯惇</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xiahoudun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xiahoudun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xiahoudun.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>93</Leadership> <!-- 统帅 -->
+    <Force>90</Force> <!-- 武力 -->
+    <Intelligence>77</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101006">
+    <Name>夏侯渊</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xiahouyuan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xiahouyuan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xiahouyuan.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>91</Leadership> <!-- 统帅 -->
+    <Force>87</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101007">
+    <Name>徐晃</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xuhuang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xuhuang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xuhuang.png"/>
+    </Images>
+    <Get type = "192200">700</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>92</Leadership> <!-- 统帅 -->
+    <Force>92</Force> <!-- 武力 -->
+    <Intelligence>74</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>徐晃（165－227），字公明，河东杨（今山西洪洞东南）人。三国时期曹魏名将。本为杨奉帐下骑都尉，杨奉被曹操击败后转投曹操，在曹操手下多立功勋</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101008">
+    <Name>典韦</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dianwei.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dianwei.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dianwei.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>90</Leadership> <!-- 统帅 -->
+    <Force>95</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>典韦（160－197），陈留己吾（今河南商丘市宁陵县己吾城村）人。东汉末年曹操部将。相貌魁梧，膂力过人。建安二年（197），张绣背叛曹操，典韦为保护曹操而独挡叛军，击杀多人，但最终因寡不敌众而战死。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101009">
+    <Name>庞德</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_pangde.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_pangde.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_pangde.png"/>
+    </Images>
+    <Get type = "191400">300000</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>92</Leadership> <!-- 统帅 -->
+    <Force>94</Force> <!-- 武力 -->
+    <Intelligence>72</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101010">
+    <Name>郭嘉</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guojia.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guojia.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guojia.png"/>
+    </Images>
+    <Get type = "191500">16</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>85</Leadership> <!-- 统帅 -->
+    <Force>72</Force> <!-- 武力 -->
+    <Intelligence>98</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101011">
+    <Name>张郃</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhanghe.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhanghe.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhanghe.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>88</Leadership> <!-- 统帅 -->
+    <Force>89</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101012">
+    <Name>甄姬</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhenji.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhenji.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhenji.png"/>
+    </Images>
+    <Get type = "190200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>89</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>83</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710300">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101013">
+    <Name>荀彧</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xunyu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xunyu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xunyu.png"/>
+    </Images>
+    <Get type = "192200">300</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>70</Force> <!-- 武力 -->
+    <Intelligence>97</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101014">
+    <Name>邓艾</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dengai.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dengai.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dengai.png"/>
+    </Images>
+    <Get type = "191400">180000</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>83</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>82</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>邓艾（197－264），字士载，义阳棘阳（今河南新野）人。三国时期魏国杰出的军事家、将领。公元263年他与钟会分别率军攻打蜀汉，最后他率先进入成都，使得蜀汉灭亡。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101015">
+    <Name>徐庶</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xushu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xushu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xushu.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>82</Leadership> <!-- 统帅 -->
+    <Force>67</Force> <!-- 武力 -->
+    <Intelligence>91</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101016">
+    <Name>羊祜</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yangku.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yangku.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yangku.png"/>
+    </Images>
+    <Get type = "191400">160000</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>87</Leadership> <!-- 统帅 -->
+    <Force>66</Force> <!-- 武力 -->
+    <Intelligence>86</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101017">
+    <Name>郝昭</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_haozhao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_haozhao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_haozhao.png"/>
+    </Images>
+    <Get type = "195100">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>87</Leadership> <!-- 统帅 -->
+    <Force>74</Force> <!-- 武力 -->
+    <Intelligence>78</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>郝昭（185－229），字伯道，太原人，中国东汉末年至曹魏初年著名将领。郝昭少年从军，屡立战功，逐渐晋升为杂号将军，后受司马懿推荐镇守陈仓，防御蜀汉。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101018">
+    <Name>曹洪</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caohong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caohong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caohong.png"/>
+    </Images>
+    <Get type = "192200">200</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>82</Leadership> <!-- 统帅 -->
+    <Force>81</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101019">
+    <Name>曹仁</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caoren.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caoren.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caoren.png"/>
+    </Images>
+    <Get type = "191400">140000</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>83</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101020">
+    <Name>文聘</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wenpin.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wenpin.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wenpin.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>68</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101021">
+    <Name>荀攸</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xunyou.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xunyou.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xunyou.png"/>
+    </Images>
+    <Get type = "191500">15</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>79</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>94</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101022">
+    <Name>程昱</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_chengyu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_chengyu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_chengyu.png"/>
+    </Images>
+    <Get type = "191300">610020</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>77</Leadership> <!-- 统帅 -->
+    <Force>65</Force> <!-- 武力 -->
+    <Intelligence>90</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101023">
+    <Name>曹丕</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caopi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caopi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caopi.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>71</Force> <!-- 武力 -->
+    <Intelligence>85</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101024">
+    <Name>于禁</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yujin.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yujin.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yujin.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>84</Leadership> <!-- 统帅 -->
+    <Force>78</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101025">
+    <Name>夏侯霸</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xiahouba.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xiahouba.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xiahouba.png"/>
+    </Images>
+    <Get type = "191400">70000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>74</Leadership> <!-- 统帅 -->
+    <Force>84</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101026">
+    <Name>乐进</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lejin.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lejin.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lejin.png"/>
+    </Images>
+    <Get type = "191400">60000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>67</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101027">
+    <Name>满宠</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_manchong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_manchong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_manchong.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>81</Leadership> <!-- 统帅 -->
+    <Force>64</Force> <!-- 武力 -->
+    <Intelligence>83</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101028">
+    <Name>李典</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lidian.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lidian.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lidian.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>72</Leadership> <!-- 统帅 -->
+    <Force>77</Force> <!-- 武力 -->
+    <Intelligence>79</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101029">
+    <Name>钟会</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhonghui.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhonghui.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhonghui.png"/>
+    </Images>
+    <Get type = "191400">30000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>72</Leadership> <!-- 统帅 -->
+    <Force>67</Force> <!-- 武力 -->
+    <Intelligence>88</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101030">
+    <Name>郭淮</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guohuai.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guohuai.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guohuai.png"/>
+    </Images>
+    <Get type = "191400">40000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>79</Leadership> <!-- 统帅 -->
+    <Force>71</Force> <!-- 武力 -->
+    <Intelligence>77</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101031">
+    <Name>司马昭</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_simazhao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_simazhao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_simazhao.png"/>
+    </Images>
+    <Get type = "192200">50</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>78</Leadership> <!-- 统帅 -->
+    <Force>63</Force> <!-- 武力 -->
+    <Intelligence>85</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101032">
+    <Name>司马师</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_simashi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_simashi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_simashi.png"/>
+    </Images>
+    <Get type = "191300">610017</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>64</Force> <!-- 武力 -->
+    <Intelligence>82</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101033">
+    <Name>高览</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_gaolan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_gaolan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_gaolan.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>66</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101034">
+    <Name>文鸯</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wenyang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wenyang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wenyang.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>84</Force> <!-- 武力 -->
+    <Intelligence>64</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101035">
+    <Name>曹彰</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caozhang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caozhang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caozhang.png"/>
+    </Images>
+    <Get type = "191300">610016</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>61</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101036">
+    <Name>王双</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wangshuang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wangshuang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wangshuang.png"/>
+    </Images>
+    <Get type = "191400">5000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>75</Leadership> <!-- 统帅 -->
+    <Force>88</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101037">
+    <Name>曹真</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caozhen.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caozhen.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caozhen.png"/>
+    </Images>
+    <Get type = "191400">500</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>78</Leadership> <!-- 统帅 -->
+    <Force>71</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101038">
+    <Name>刘晔</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liuye.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liuye.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liuye.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>62</Leadership> <!-- 统帅 -->
+    <Force>62</Force> <!-- 武力 -->
+    <Intelligence>92</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>刘晔（176－？？），字子扬，淮南成德（今安徽寿州东南）人，是光武帝刘秀之子阜陵王刘延的后代，三国时期魏国著名的战略家。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101039">
+    <Name>陈群</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_chenqun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_chenqun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_chenqun.png"/>
+    </Images>
+    <Get type = "191300">610011</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>63</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>85</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101040">
+    <Name>杨修</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yangxiu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yangxiu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yangxiu.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>65</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>83</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101041">
+    <Name>华歆</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_huaxin.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_huaxin.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_huaxin.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>65</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>83</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101042">
+    <Name>曹冲</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caochong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caochong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caochong.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>85</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101043">
+    <Name>马钧</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_majun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_majun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_majun.png"/>
+    </Images>
+    <Get type = "192200">30</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>61</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>82</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710500">S</Adapt>
+    </Adapts>
+    <Desc>马钧（200－？？），字德衡，扶风（今陕西兴平）人，是我国古代科技史上最负盛名的机械发明家之一。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101044">
+    <Name>许攸</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xuyou.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xuyou.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xuyou.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>62</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>80</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101045">
+    <Name>曹植</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caozhi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caozhi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caozhi.png"/>
+    </Images>
+    <Get type = "191500">6</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="101046">
+    <Name>王朗</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wanglang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wanglang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wanglang.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>101000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>80</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102001">
+    <Name>赵云</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhaoyun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhaoyun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhaoyun.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>95</Leadership> <!-- 统帅 -->
+    <Force>96</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>赵云（168－229），字子龙，三国常山真定（今河北正定南）人。初从公孙瓒，后归刘备。曹操取荆州，刘备败于当阳长阪，他力战救护甘夫人和备子刘禅。建兴六年（公元228年），从诸葛亮攻关中，分兵拒曹真主力，以众寡不敌，退回汉中。次年卒。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102002">
+    <Name>诸葛亮</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhugeliang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhugeliang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhugeliang.png"/>
+    </Images>
+    <Get type = "192200">1000</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>97</Leadership> <!-- 统帅 -->
+    <Force>75</Force> <!-- 武力 -->
+    <Intelligence>100</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710500">S</Adapt>
+    </Adapts>
+    <Desc>诸葛亮（181－234），字孔明，号卧龙（也作伏龙），琅琊阳都（今山东临沂市沂南县）人，三国时期蜀汉丞相，杰出的政治家、军事家、发明家、文学家。在世时被封为武乡侯，死后追谥忠武侯。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102003">
+    <Name>关羽</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guanyu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guanyu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guanyu.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>95</Leadership> <!-- 统帅 -->
+    <Force>97</Force> <!-- 武力 -->
+    <Intelligence>77</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>关羽（162－220），字云长，河东解（今山西运城）人。东汉末年名将。刘备、诸葛亮等入蜀，关羽镇守荆州，刘备夺取汉中后，关羽乘势北伐曹魏，曾水淹七军、擒于禁、斩庞德、威震华夏，吓得曹操差点迁都躲避，但是东吴偷袭荆州，关羽兵败被害。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102004">
+    <Name>张飞</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangfei.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangfei.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangfei.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>94</Leadership> <!-- 统帅 -->
+    <Force>98</Force> <!-- 武力 -->
+    <Intelligence>72</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>张飞（167－221），字益德涿郡（治今河北涿州）人，三国时期蜀汉重要将领。官至车骑将军，封西乡侯。早年与刘备关羽桃园三结义，行三。性如烈火，嫉恶如仇，曾于长坂坡当阳桥头上一声吼，吓退曹操八十三万大军</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102005">
+    <Name>马超</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_machao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_machao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_machao.png"/>
+    </Images>
+    <Get type = "191400">500000</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>93</Leadership> <!-- 统帅 -->
+    <Force>97</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>马超（176－222），字孟起，扶风茂陵（今陕西兴平）人。三国时期蜀汉名将。刘备入蜀后马超投奔刘备，并为刘备作前驱，进入成都。公元221年马超被封为骠骑将军。公元222年，马超病逝。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102006">
+    <Name>黄忠</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_huangzhong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_huangzhong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_huangzhong.png"/>
+    </Images>
+    <Get type = "191300">610024</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>91</Leadership> <!-- 统帅 -->
+    <Force>93</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710200">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102007">
+    <Name>魏延</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_weiyan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_weiyan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_weiyan.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>92</Leadership> <!-- 统帅 -->
+    <Force>92</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102008">
+    <Name>庞统</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_pangtong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_pangtong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_pangtong.png"/>
+    </Images>
+    <Get type = "191300">610023</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>84</Leadership> <!-- 统帅 -->
+    <Force>73</Force> <!-- 武力 -->
+    <Intelligence>97</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102009">
+    <Name>姜维</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_jiangwei.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_jiangwei.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_jiangwei.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>85</Force> <!-- 武力 -->
+    <Intelligence>82</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710300">S</Adapt>
+    </Adapts>
+    <Desc>姜维（202－264），字伯约，天水冀（今甘肃甘谷东南）人。三国时期蜀汉著名军事家、军事统帅。原为曹魏天水郡的中郎将，后降蜀汉，官至凉州刺史、大将军（拥有最高军事指挥权）。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102010">
+    <Name>刘备</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liubei.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liubei.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liubei.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>90</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>83</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102011">
+    <Name>张星彩</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangxingcai.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangxingcai.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangxingcai.png"/>
+    </Images>
+    <Get type = "190200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>89</Leadership> <!-- 统帅 -->
+    <Force>83</Force> <!-- 武力 -->
+    <Intelligence>79</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102012">
+    <Name>黄月英</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_huangyueying.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_huangyueying.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_huangyueying.png"/>
+    </Images>
+    <Get type = "190200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>85</Leadership> <!-- 统帅 -->
+    <Force>78</Force> <!-- 武力 -->
+    <Intelligence>88</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">S</Adapt>
+    </Adapts>
+    <Desc>黄月英（186－？？），三国时荆州（今湖北襄阳）人，黄承彦之女，诸葛亮之妻，诸葛瞻之母。本名于史无载，“月英”是她在民间传说中的名字。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102013">
+    <Name>关平</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guanping.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guanping.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guanping.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>87</Leadership> <!-- 统帅 -->
+    <Force>85</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102014">
+    <Name>张苞</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangbao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangbao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangbao.png"/>
+    </Images>
+    <Get type = "191300">610021</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>85</Leadership> <!-- 统帅 -->
+    <Force>87</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102015">
+    <Name>关兴</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guanxing.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guanxing.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guanxing.png"/>
+    </Images>
+    <Get type = "192200">300</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>83</Leadership> <!-- 统帅 -->
+    <Force>86</Force> <!-- 武力 -->
+    <Intelligence>76</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102016">
+    <Name>法正</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_fazheng.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_fazheng.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_fazheng.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>82</Leadership> <!-- 统帅 -->
+    <Force>67</Force> <!-- 武力 -->
+    <Intelligence>94</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102017">
+    <Name>马岱</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_madai.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_madai.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_madai.png"/>
+    </Images>
+    <Get type = "195100">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>85</Leadership> <!-- 统帅 -->
+    <Force>86</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102018">
+    <Name>严颜</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yanyan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yanyan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yanyan.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>82</Leadership> <!-- 统帅 -->
+    <Force>83</Force> <!-- 武力 -->
+    <Intelligence>74</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102019">
+    <Name>王平</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wangping.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wangping.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wangping.png"/>
+    </Images>
+    <Get type = "191400">120000</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>73</Force> <!-- 武力 -->
+    <Intelligence>76</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102020">
+    <Name>李严</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liyan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liyan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liyan.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>79</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710200">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102021">
+    <Name>蒋琬</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_jiangwan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_jiangwan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_jiangwan.png"/>
+    </Images>
+    <Get type = "192200">200</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>63</Force> <!-- 武力 -->
+    <Intelligence>89</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>蒋琬（188－246），字公琰，零陵湘乡人。三国时期著名的政治家。初随刘备入蜀，诸葛亮卒后封大将军，录尚书事，封安阳亭侯，旋受命开府，加大司马，辅佐刘禅，总揽蜀汉军朝，统兵御魏。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102022">
+    <Name>关索</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guansuo.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guansuo.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guansuo.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>74</Leadership> <!-- 统帅 -->
+    <Force>85</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102023">
+    <Name>周仓</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhoucang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhoucang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhoucang.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>67</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102024">
+    <Name>费祎</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_feidai.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_feidai.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_feidai.png"/>
+    </Images>
+    <Get type = "192200">50</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>88</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102025">
+    <Name>刘封</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liufeng.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liufeng.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liufeng.png"/>
+    </Images>
+    <Get type = "191300">610018</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>81</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>68</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102026">
+    <Name>马谡</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_mashgu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_mashgu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_mashgu.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>73</Leadership> <!-- 统帅 -->
+    <Force>67</Force> <!-- 武力 -->
+    <Intelligence>87</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102027">
+    <Name>张嶷</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangyi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangyi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangyi.png"/>
+    </Images>
+    <Get type = "192200">40</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>79</Leadership> <!-- 统帅 -->
+    <Force>70</Force> <!-- 武力 -->
+    <Intelligence>76</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102028">
+    <Name>吴懿</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wuyi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wuyi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wuyi.png"/>
+    </Images>
+    <Get type = "191400">10000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>83</Leadership> <!-- 统帅 -->
+    <Force>73</Force> <!-- 武力 -->
+    <Intelligence>69</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102029">
+    <Name>廖化</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liaohua.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liaohua.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liaohua.png"/>
+    </Images>
+    <Get type = "191400">20000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>78</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102030">
+    <Name>邓芝</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dengzhi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dengzhi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dengzhi.png"/>
+    </Images>
+    <Get type = "192200">30</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>81</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>83</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102031">
+    <Name>马良</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_maliang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_maliang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_maliang.png"/>
+    </Images>
+    <Get type = "191500">11</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>72</Leadership> <!-- 统帅 -->
+    <Force>63</Force> <!-- 武力 -->
+    <Intelligence>88</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102032">
+    <Name>赵统</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhaotong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhaotong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhaotong.png"/>
+    </Images>
+    <Get type = "191300">610015</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>78</Leadership> <!-- 统帅 -->
+    <Force>72</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102033">
+    <Name>李恢</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lihui.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lihui.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lihui.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>77</Leadership> <!-- 统帅 -->
+    <Force>65</Force> <!-- 武力 -->
+    <Intelligence>78</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102034">
+    <Name>向宠</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xiangchong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xiangchong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xiangchong.png"/>
+    </Images>
+    <Get type = "191300">610013</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>67</Force> <!-- 武力 -->
+    <Intelligence>76</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710200">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102035">
+    <Name>陈到</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_chendao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_chendao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_chendao.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>71</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710400">C</Adapt>
+    </Adapts>
+    <Desc>陈到（?－230）字叔至，汝南（治今河南平舆）人。三国时期蜀汉名将，名位亚于赵云，以忠勇著称。官至护军、永安都督、征西将军，封亭侯。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102036">
+    <Name>董允</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dongyun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dongyun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dongyun.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>68</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>85</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102037">
+    <Name>伊籍</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yiji.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yiji.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yiji.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>68</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>83</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">C</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102038">
+    <Name>孙乾</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_sunqian.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_sunqian.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_sunqian.png"/>
+    </Images>
+    <Get type = "191500">8</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>69</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102039">
+    <Name>糜竺</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_mizhu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_mizhu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_mizhu.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>64</Leadership> <!-- 统帅 -->
+    <Force>63</Force> <!-- 武力 -->
+    <Intelligence>80</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102040">
+    <Name>秦宓</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_qinmi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_qinmi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_qinmi.png"/>
+    </Images>
+    <Get type = "191500">4</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>66</Force> <!-- 武力 -->
+    <Intelligence>78</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102041">
+    <Name>简雍</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_jianyong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_jianyong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_jianyong.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>68</Leadership> <!-- 统帅 -->
+    <Force>61</Force> <!-- 武力 -->
+    <Intelligence>74</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102042">
+    <Name>郭攸之</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guoyouzhi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guoyouzhi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guoyouzhi.png"/>
+    </Images>
+    <Get type = "192200">10</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>63</Leadership> <!-- 统帅 -->
+    <Force>63</Force> <!-- 武力 -->
+    <Intelligence>74</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="102043">
+    <Name>刘禅</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liushan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liushan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liushan.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>102000</Country> <!-- 国家 -->
+    <Leadership>75</Leadership> <!-- 统帅 -->
+    <Force>62</Force> <!-- 武力 -->
+    <Intelligence>63</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710200">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103001">
+    <Name>周瑜</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhouyu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhouyu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhouyu.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>97</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>96</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710300">S</Adapt>
+    </Adapts>
+    <Desc>周瑜（175－210）字公瑾，汉族，庐江舒县（今安徽省庐江县西南）人。东汉末年东吴名将，相貌英俊有“周郎”之称。周瑜精通军事，又善音律，江东向来有“曲有误，周郎顾”之语。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103002">
+    <Name>太史慈</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_taishici.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_taishici.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_taishici.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>92</Leadership> <!-- 统帅 -->
+    <Force>93</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103003">
+    <Name>陆逊</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_luxun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_luxun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_luxun.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>96</Leadership> <!-- 统帅 -->
+    <Force>72</Force> <!-- 武力 -->
+    <Intelligence>95</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710200">S</Adapt>
+    </Adapts>
+    <Desc>陆逊（183－245），本名陆议，字伯言，汉族，吴郡吴县（今江苏苏州）人。三国时期著名政治家、军事家，历任吴国大都督、上大将军、丞相。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103004">
+    <Name>吕蒙</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lvmeng.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lvmeng.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lvmeng.png"/>
+    </Images>
+    <Get type = "191300">610026</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>91</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>89</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">S</Adapt>
+      <Adapt id="710500">S</Adapt>
+    </Adapts>
+    <Desc>吕蒙（178－220），字子明，汝南富陂（今安徽阜南吕家岗）人。汉末三国时期东吴名将。曾经乘名将关羽北伐曹魏、荆州空虚之时，偷袭荆州成功</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103005">
+    <Name>孙策</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_sunce.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_sunce.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_sunce.png"/>
+    </Images>
+    <Get type = "190100">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>92</Leadership> <!-- 统帅 -->
+    <Force>95</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>孙策（175－200），字伯符，吴郡富春（今浙江富阳）人。孙坚长子，孙权长兄。东汉末年割据江东一带的军阀，汉末群雄之一，三国时期吴国的奠基者之一。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103006">
+    <Name>甘宁</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_ganning.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_ganning.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_ganning.png"/>
+    </Images>
+    <Get type = "192200">700</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>90</Leadership> <!-- 统帅 -->
+    <Force>92</Force> <!-- 武力 -->
+    <Intelligence>76</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">S</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>甘宁（174－？？），字兴霸，巴郡临江（今重庆忠县）人，祖籍荆州南阳郡。三国时期吴国大将。他为人暴躁记仇，少有气力，好游侠，为人勇猛刚强，忠心耿耿，勇往无前。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103007">
+    <Name>孙坚</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_sunjian.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_sunjian.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_sunjian.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>93</Leadership> <!-- 统帅 -->
+    <Force>90</Force> <!-- 武力 -->
+    <Intelligence>74</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>孙坚（155－191），字文台，汉族，吴郡富春（今浙江杭州富阳）人。东汉末期地方军阀，著名将领。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103008">
+    <Name>徐盛</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xusheng.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xusheng.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xusheng.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>89</Leadership> <!-- 统帅 -->
+    <Force>87</Force> <!-- 武力 -->
+    <Intelligence>78</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103009">
+    <Name>黄盖</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_huanggai.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_huanggai.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_huanggai.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>91</Leadership> <!-- 统帅 -->
+    <Force>85</Force> <!-- 武力 -->
+    <Intelligence>76</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103010">
+    <Name>孙权</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_sunquan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_sunquan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_sunquan.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>88</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>85</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103011">
+    <Name>孙尚香</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_sunshangxiang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_sunshangxiang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_sunshangxiang.png"/>
+    </Images>
+    <Get type = "192200">500</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>88</Force> <!-- 武力 -->
+    <Intelligence>77</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>孙尚香（193－？？），三国时期吴主孙权之妹，后嫁与刘备。被称为“弓腰姬”</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103012">
+    <Name>周泰</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhoutai.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhoutai.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhoutai.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>81</Leadership> <!-- 统帅 -->
+    <Force>92</Force> <!-- 武力 -->
+    <Intelligence>77</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103013">
+    <Name>程普</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_chengpu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_chengpu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_chengpu.png"/>
+    </Images>
+    <Get type = "195100">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>85</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>79</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103014">
+    <Name>陆抗</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lukang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lukang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lukang.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>91</Leadership> <!-- 统帅 -->
+    <Force>63</Force> <!-- 武力 -->
+    <Intelligence>87</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>陆抗（226－274），字幼节，吴郡吴县（今江苏苏州）人。三国时期吴国名将，陆逊次子，孙策外孙。年二十为建武校尉，领其父众五千人。后迁立节中郎将、镇军将军等。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103015">
+    <Name>鲁肃</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lusu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lusu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lusu.png"/>
+    </Images>
+    <Get type = "191500">14</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>85</Leadership> <!-- 统帅 -->
+    <Force>63</Force> <!-- 武力 -->
+    <Intelligence>92</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103016">
+    <Name>张昭</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangzhao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangzhao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangzhao.png"/>
+    </Images>
+    <Get type = "192200">300</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>79</Leadership> <!-- 统帅 -->
+    <Force>69</Force> <!-- 武力 -->
+    <Intelligence>92</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103017">
+    <Name>朱桓</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhuhuan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhuhuan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhuhuan.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>84</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103018">
+    <Name>大乔</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_daqiao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_daqiao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_daqiao.png"/>
+    </Images>
+    <Get type = "190200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>79</Leadership> <!-- 统帅 -->
+    <Force>73</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103019">
+    <Name>小乔</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xiaoqiao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xiaoqiao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xiaoqiao.png"/>
+    </Images>
+    <Get type = "190200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>77</Leadership> <!-- 统帅 -->
+    <Force>75</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103020">
+    <Name>诸葛瑾</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhugejin.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhugejin.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhugejin.png"/>
+    </Images>
+    <Get type = "192200">100</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>83</Leadership> <!-- 统帅 -->
+    <Force>64</Force> <!-- 武力 -->
+    <Intelligence>85</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103021">
+    <Name>丁奉</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dingfeng.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dingfeng.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dingfeng.png"/>
+    </Images>
+    <Get type = "191400">100000</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>81</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103022">
+    <Name>凌统</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lingtong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lingtong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lingtong.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>77</Leadership> <!-- 统帅 -->
+    <Force>87</Force> <!-- 武力 -->
+    <Intelligence>66</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103023">
+    <Name>韩当</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_handang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_handang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_handang.png"/>
+    </Images>
+    <Get type = "191400">80000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>85</Force> <!-- 武力 -->
+    <Intelligence>68</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103024">
+    <Name>潘璋</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_panzhang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_panzhang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_panzhang.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>76</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103025">
+    <Name>朱然</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhuran.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhuran.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhuran.png"/>
+    </Images>
+    <Get type = "192200">50</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>79</Leadership> <!-- 统帅 -->
+    <Force>75</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103026">
+    <Name>凌操</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lingcao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lingcao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lingcao.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>75</Leadership> <!-- 统帅 -->
+    <Force>81</Force> <!-- 武力 -->
+    <Intelligence>67</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103027">
+    <Name>全琮</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_quancong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_quancong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_quancong.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>78</Leadership> <!-- 统帅 -->
+    <Force>72</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103028">
+    <Name>董袭</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dongxi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dongxi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dongxi.png"/>
+    </Images>
+    <Get type = "191400">2000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>72</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103029">
+    <Name>张纮</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangkui.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangkui.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangkui.png"/>
+    </Images>
+    <Get type = "191500">13</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>70</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>91</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103030">
+    <Name>蒋钦</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_jiangqin.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_jiangqin.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_jiangqin.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>72</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>68</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103031">
+    <Name>吕范</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lvfan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lvfan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lvfan.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>73</Leadership> <!-- 统帅 -->
+    <Force>68</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103032">
+    <Name>朱治</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhuzhi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhuzhi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhuzhi.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>73</Leadership> <!-- 统帅 -->
+    <Force>66</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103033">
+    <Name>马忠</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_mazhong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_mazhong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_mazhong.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>70</Leadership> <!-- 统帅 -->
+    <Force>77</Force> <!-- 武力 -->
+    <Intelligence>64</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710200">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103034">
+    <Name>孙休</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_sunxiu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_sunxiu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_sunxiu.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>69</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>78</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103035">
+    <Name>虞翻</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yufan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yufan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yufan.png"/>
+    </Images>
+    <Get type = "191400">100</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>86</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103036">
+    <Name>祖茂</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zumao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zumao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zumao.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>70</Leadership> <!-- 统帅 -->
+    <Force>71</Force> <!-- 武力 -->
+    <Intelligence>62</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103037">
+    <Name>董昭</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dongzhao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dongzhao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dongzhao.png"/>
+    </Images>
+    <Get type = "191300">610007</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>81</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">C</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="103038">
+    <Name>孙瑜</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_sunyu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_sunyu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_sunyu.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>103000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>70</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104001">
+    <Name>吕布</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lvbu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lvbu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lvbu.png"/>
+    </Images>
+    <Get type = "192200">1000</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>98</Leadership> <!-- 统帅 -->
+    <Force>100</Force> <!-- 武力 -->
+    <Intelligence>72</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">S</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>吕布（156－198），字奉先，五原郡九原县（今内蒙古包头）人。东汉末年名将，汉末群雄之一，著名武将与割据军阀。曾先后为丁原、董卓的部将，也曾为袁术效力，被封为徐州牧，后自成一方势力，于建安三年（198）在下邳被曹操击败并处死。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104002">
+    <Name>贾诩</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_jiaxu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_jiaxu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_jiaxu.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>6</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>91</Leadership> <!-- 统帅 -->
+    <Force>72</Force> <!-- 武力 -->
+    <Intelligence>97</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">S</Adapt>
+      <Adapt id="710500">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104003">
+    <Name>高顺</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_gaoshun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_gaoshun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_gaoshun.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>90</Leadership> <!-- 统帅 -->
+    <Force>87</Force> <!-- 武力 -->
+    <Intelligence>79</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>高顺（162－198），中国东汉末年将领，吕布帐下中郎将。史载高顺为人清白有威严，不好饮酒，所统率的部队精锐非常，号称“陷阵营”。屡进忠言于吕布，吕布虽知其忠而不能用。曹操击破吕布后，高顺被曹操所杀。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104004">
+    <Name>张任</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangren.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangren.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangren.png"/>
+    </Images>
+    <Get type = "191400">250000</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>92</Leadership> <!-- 统帅 -->
+    <Force>84</Force> <!-- 武力 -->
+    <Intelligence>78</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>张任（169－214），蜀郡（治今四川成都）人，东汉末年名将，益州牧刘璋的属下，官至益州从事。当刘备进攻益州时，他率部与刘备交战，后被刘备所擒，誓死不降，遭斩首。</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104005">
+    <Name>祝融</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhurong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhurong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhurong.png"/>
+    </Images>
+    <Get type = "190200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>88</Leadership> <!-- 统帅 -->
+    <Force>85</Force> <!-- 武力 -->
+    <Intelligence>79</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104006">
+    <Name>孟获</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_menghuo.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_menghuo.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_menghuo.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>89</Leadership> <!-- 统帅 -->
+    <Force>88</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">S</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104007">
+    <Name>华雄</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_huaxiong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_huaxiong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_huaxiong.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>90</Leadership> <!-- 统帅 -->
+    <Force>92</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104008">
+    <Name>貂蝉</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_diaochan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_diaochan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_diaochan.png"/>
+    </Images>
+    <Get type = "192100">10</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>78</Force> <!-- 武力 -->
+    <Intelligence>87</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710200">A</Adapt>
+    </Adapts>
+    <Desc>貂蝉（176－？？），为东汉末年司徒王允家的义女，为拯救汉朝，由王允授意施行连环计，使董卓、吕布两人反目成仇，最终借吕布之手除掉了恶贼董卓</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104009">
+    <Name>吕玲绮</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lvlingqi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lvlingqi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lvlingqi.png"/>
+    </Images>
+    <Get type = "191100">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>89</Leadership> <!-- 统帅 -->
+    <Force>89</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104010">
+    <Name>华佗</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_huatuo.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_huatuo.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_huatuo.png"/>
+    </Images>
+    <Get type = "192200">500</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>75</Force> <!-- 武力 -->
+    <Intelligence>90</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104011">
+    <Name>文丑</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wenchou.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wenchou.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wenchou.png"/>
+    </Images>
+    <Get type = "195100">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>85</Leadership> <!-- 统帅 -->
+    <Force>94</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104012">
+    <Name>颜良</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yanliang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yanliang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yanliang.png"/>
+    </Images>
+    <Get type = "195100">0</Get>
+    <Color>5</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>93</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710400">S</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104013">
+    <Name>张角</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangjiao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangjiao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangjiao.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>92</Leadership> <!-- 统帅 -->
+    <Force>70</Force> <!-- 武力 -->
+    <Intelligence>86</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104014">
+    <Name>马腾</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_mateng.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_mateng.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_mateng.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>87</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>75</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104015">
+    <Name>陈宫</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_chengong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_chengong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_chengong.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>70</Force> <!-- 武力 -->
+    <Intelligence>89</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104016">
+    <Name>公孙瓒</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_gongsunzan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_gongsunzan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_gongsunzan.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>84</Leadership> <!-- 统帅 -->
+    <Force>83</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104017">
+    <Name>袁绍</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yuanshao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yuanshao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yuanshao.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>86</Leadership> <!-- 统帅 -->
+    <Force>76</Force> <!-- 武力 -->
+    <Intelligence>72</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104018">
+    <Name>蔡琰</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_caiyan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_caiyan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_caiyan.png"/>
+    </Images>
+    <Get type = "190200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>75</Force> <!-- 武力 -->
+    <Intelligence>78</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104019">
+    <Name>董卓</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dongzhuo.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dongzhuo.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dongzhuo.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>74</Leadership> <!-- 统帅 -->
+    <Force>87</Force> <!-- 武力 -->
+    <Intelligence>71</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104020">
+    <Name>纪灵</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_jiling.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_jiling.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_jiling.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>4</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>78</Leadership> <!-- 统帅 -->
+    <Force>83</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104021">
+    <Name>张宝</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangbao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangbao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangbao.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>81</Leadership> <!-- 统帅 -->
+    <Force>71</Force> <!-- 武力 -->
+    <Intelligence>77</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104022">
+    <Name>张梁</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangliang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangliang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangliang.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>81</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>68</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104023">
+    <Name>张绣</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangxiu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangxiu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangxiu.png"/>
+    </Images>
+    <Get type = "191400">50000</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>88</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104024">
+    <Name>韩遂</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_hansui.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_hansui.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_hansui.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>83</Leadership> <!-- 统帅 -->
+    <Force>70</Force> <!-- 武力 -->
+    <Intelligence>72</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104025">
+    <Name>沮授</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_jushou.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_jushou.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_jushou.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>78</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>87</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104026">
+    <Name>张燕</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangyan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangyan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangyan.png"/>
+    </Images>
+    <Get type = "195200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>82</Leadership> <!-- 统帅 -->
+    <Force>81</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710400">A</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104027">
+    <Name>沙摩柯</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_shamoke.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_shamoke.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_shamoke.png"/>
+    </Images>
+    <Get type = "192200">50</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>75</Leadership> <!-- 统帅 -->
+    <Force>84</Force> <!-- 武力 -->
+    <Intelligence>64</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710200">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104028">
+    <Name>田丰</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_tianfeng.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_tianfeng.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_tianfeng.png"/>
+    </Images>
+    <Get type = "191500">12</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>72</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>90</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104029">
+    <Name>皇甫嵩</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_huangfusong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_huangfusong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_huangfusong.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>87</Leadership> <!-- 统帅 -->
+    <Force>61</Force> <!-- 武力 -->
+    <Intelligence>73</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">A</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104030">
+    <Name>兀突骨</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wutugu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wutugu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wutugu.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>3</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>75</Leadership> <!-- 统帅 -->
+    <Force>82</Force> <!-- 武力 -->
+    <Intelligence>63</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">A</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104031">
+    <Name>徐荣</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xurong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xurong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xurong.png"/>
+    </Images>
+    <Get type = "195300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>80</Leadership> <!-- 统帅 -->
+    <Force>76</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104032">
+    <Name>李傕</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_lijue.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_lijue.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_lijue.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>62</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>86</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710400">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104033">
+    <Name>张松</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhangsong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhangsong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhangsong.png"/>
+    </Images>
+    <Get type = "191500">10</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>88</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710500">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104034">
+    <Name>忙牙长</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_mangyachang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_mangyachang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_mangyachang.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>68</Leadership> <!-- 统帅 -->
+    <Force>79</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710300">B</Adapt>
+      <Adapt id="710400">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104035">
+    <Name>张鲁</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_zhanglu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_zhanglu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_zhanglu.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>70</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>76</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710200">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104036">
+    <Name>孟优</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_mengyou.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_mengyou.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_mengyou.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>71</Leadership> <!-- 统帅 -->
+    <Force>73</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104037">
+    <Name>邢道荣</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_xingdaorong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_xingdaorong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_xingdaorong.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>63</Leadership> <!-- 统帅 -->
+    <Force>80</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104038">
+    <Name>程远志</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_chengyuanzhi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_chengyuanzhi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_chengyuanzhi.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>69</Leadership> <!-- 统帅 -->
+    <Force>74</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710300">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104039">
+    <Name>阿会喃</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_ahuinan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_ahuinan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_ahuinan.png"/>
+    </Images>
+    <Get type = "195400">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>69</Leadership> <!-- 统帅 -->
+    <Force>74</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710400">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104040">
+    <Name>刘琦</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liuqi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liuqi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liuqi.png"/>
+    </Images>
+    <Get type = "192200">10</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>70</Leadership> <!-- 统帅 -->
+    <Force>66</Force> <!-- 武力 -->
+    <Intelligence>67</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104041">
+    <Name>郭图</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guotu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guotu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guotu.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>82</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710400">B</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104042">
+    <Name>孔融</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_kongrong.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_kongrong.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_kongrong.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>68</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>74</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104043">
+    <Name>裴元绍</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_peiyuanshao.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_peiyuanshao.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_peiyuanshao.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>73</Leadership> <!-- 统帅 -->
+    <Force>69</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104044">
+    <Name>董荼那</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_dongtuna.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_dongtuna.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_dongtuna.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>68</Leadership> <!-- 统帅 -->
+    <Force>73</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104045">
+    <Name>王允</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_wangyun.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_wangyun.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_wangyun.png"/>
+    </Images>
+    <Get type = "190300">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>67</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>74</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710500">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104046">
+    <Name>郭汜</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_guosi.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_guosi.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_guosi.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>64</Leadership> <!-- 统帅 -->
+    <Force>76</Force> <!-- 武力 -->
+    <Intelligence>60</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710400">B</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104047">
+    <Name>严白虎</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_yanbaihu.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_yanbaihu.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_yanbaihu.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>60</Leadership> <!-- 统帅 -->
+    <Force>70</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">B</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104048">
+    <Name>刘璋</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_liuzhang.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_liuzhang.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_liuzhang.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>70</Leadership> <!-- 统帅 -->
+    <Force>60</Force> <!-- 武力 -->
+    <Intelligence>70</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710100">C</Adapt>
+      <Adapt id="710200">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+  <Hero id="104049">
+    <Name>韩玄</Name>  <!-- 名字 -->
+    <Images> <!-- 图标 -->
+      <Image name="head" url="./resource/icon/zm_head_hanxuan.png"/>
+      <Image name="headSmall" url="./resource/icon/xl_head_hanxuan.png"/>
+	    <Image name="headBackground" url="./resource/icon/wj_head_hanxuan.png"/>
+    </Images>
+    <Get type = "191200">0</Get>
+    <Color>2</Color> <!-- 品质 -->
+    <Country>104000</Country> <!-- 国家 -->
+    <Leadership>67</Leadership> <!-- 统帅 -->
+    <Force>64</Force> <!-- 武力 -->
+    <Intelligence>69</Intelligence> <!-- 智力 -->
+    <Skills> <!-- 技能 -->
+	 <Skill>0</Skill>
+    </Skills>
+    <Adapts> <!-- 适性 -->
+      <Adapt id="710200">C</Adapt>
+      <Adapt id="710300">C</Adapt>
+    </Adapts>
+    <Desc>简介欠奉，后续再补</Desc> <!-- 描述 -->
+  </Hero>
+</HeroTemplate>

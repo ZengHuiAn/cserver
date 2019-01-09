@@ -1,0 +1,42 @@
+﻿<Defenses> <!-- 城防配置表 -->
+  <Defense id="1">
+    <Name>陷阱</Name> <!-- 名称 -->
+    <Image>resource/icon/building/defense_xianjing.png</Image> <!-- 图标 -->
+    <Target>710100</Target> <!-- 攻击目标 -->
+    <Hurt>5000</Hurt> <!-- 伤害 -->
+    <Cost>50</Cost> <!-- 价格-->
+    <Desc>这是城防陷阱</Desc> <!-- 价格-->
+  </Defense>
+  <Defense id="2">
+    <Name>弩箭</Name> <!-- 名称 -->
+    <Image>resource/icon/building/defense_nujian.png</Image> <!-- 图标 -->
+    <Target>710200</Target> <!-- 攻击目标 -->
+    <Hurt>5000</Hurt> <!-- 伤害 -->
+    <Cost>50</Cost> <!-- 价格-->
+    <Desc>这是城防弩箭</Desc> <!-- 价格-->
+  </Defense>
+  <Defense id="3">
+    <Name>滚木</Name> <!-- 名称 -->
+    <Image>resource/icon/building/defense_gunmu.png</Image> <!-- 图标 -->
+    <Target>710300</Target> <!-- 攻击目标 -->
+    <Hurt>5000</Hurt> <!-- 伤害 -->
+    <Cost>50</Cost> <!-- 价格-->
+    <Desc>这是城防滚木</Desc> <!-- 价格-->
+  </Defense>
+  <Defense id="4">
+    <Name>拒马</Name> <!-- 名称 -->
+    <Image>resource/icon/building/defense_juma.png</Image> <!-- 图标 -->
+    <Target>710400</Target> <!-- 攻击目标 -->
+    <Hurt>5000</Hurt> <!-- 伤害 -->
+    <Cost>50</Cost> <!-- 价格-->
+    <Desc>这是城防拒马</Desc> <!-- 价格-->
+  </Defense>
+  <Defense id="5">
+    <Name>落石</Name> <!-- 名称 -->
+    <Image>resource/icon/building/defense_luoshi.png</Image> <!-- 图标 -->
+    <Target>710500</Target> <!-- 攻击目标 -->
+    <Hurt>5000</Hurt> <!-- 伤害 -->
+    <Cost>50</Cost> <!-- 价格-->
+    <Desc>这是城防落石</Desc> <!-- 价格-->
+  </Defense>
+</Defenses>

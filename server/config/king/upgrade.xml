@@ -1,0 +1,702 @@
+﻿<KingUpgrade> <!-- 君主升级表 -->
+  <Level level ="1">
+    <Condition> <!-- 依赖条件-->
+      <Exp>0</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>10000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="2">
+    <Condition> <!-- 依赖条件-->
+      <Exp>100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>20000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="3">
+    <Condition> <!-- 依赖条件-->
+      <Exp>300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>30000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="4">
+    <Condition> <!-- 依赖条件-->
+      <Exp>600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>40000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="5">
+    <Condition> <!-- 依赖条件-->
+      <Exp>1000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>50000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="6">
+    <Condition> <!-- 依赖条件-->
+      <Exp>1500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>60000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="7">
+    <Condition> <!-- 依赖条件-->
+      <Exp>2100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>70000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="8">
+    <Condition> <!-- 依赖条件-->
+      <Exp>2800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>80000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="9">
+    <Condition> <!-- 依赖条件-->
+      <Exp>3600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>90000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="10">
+    <Condition> <!-- 依赖条件-->
+      <Exp>4500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>100000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="11">
+    <Condition> <!-- 依赖条件-->
+      <Exp>5500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>110000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="12">
+    <Condition> <!-- 依赖条件-->
+      <Exp>6600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>120000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="13">
+    <Condition> <!-- 依赖条件-->
+      <Exp>7800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>130000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="14">
+    <Condition> <!-- 依赖条件-->
+      <Exp>9100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>140000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="15">
+    <Condition> <!-- 依赖条件-->
+      <Exp>10500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>150000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="16">
+    <Condition> <!-- 依赖条件-->
+      <Exp>12000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>160000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="17">
+    <Condition> <!-- 依赖条件-->
+      <Exp>13600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>170000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="18">
+    <Condition> <!-- 依赖条件-->
+      <Exp>15300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>180000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="19">
+    <Condition> <!-- 依赖条件-->
+      <Exp>17100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>0</Strategy> <!-- 策略值 -->
+    <Soldier>190000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="20">
+    <Condition> <!-- 依赖条件-->
+      <Exp>19000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>200</Strategy> <!-- 策略值 -->
+    <Soldier>200000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="21">
+    <Condition> <!-- 依赖条件-->
+      <Exp>21000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>210</Strategy> <!-- 策略值 -->
+    <Soldier>210000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="22">
+    <Condition> <!-- 依赖条件-->
+      <Exp>23100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>220</Strategy> <!-- 策略值 -->
+    <Soldier>220000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="23">
+    <Condition> <!-- 依赖条件-->
+      <Exp>25300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>230</Strategy> <!-- 策略值 -->
+    <Soldier>230000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="24">
+    <Condition> <!-- 依赖条件-->
+      <Exp>27600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>240</Strategy> <!-- 策略值 -->
+    <Soldier>240000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="25">
+    <Condition> <!-- 依赖条件-->
+      <Exp>30000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>250</Strategy> <!-- 策略值 -->
+    <Soldier>250000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="26">
+    <Condition> <!-- 依赖条件-->
+      <Exp>32500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>260</Strategy> <!-- 策略值 -->
+    <Soldier>260000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="27">
+    <Condition> <!-- 依赖条件-->
+      <Exp>35100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>270</Strategy> <!-- 策略值 -->
+    <Soldier>270000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="28">
+    <Condition> <!-- 依赖条件-->
+      <Exp>37800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>280</Strategy> <!-- 策略值 -->
+    <Soldier>280000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="29">
+    <Condition> <!-- 依赖条件-->
+      <Exp>40600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>290</Strategy> <!-- 策略值 -->
+    <Soldier>290000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="30">
+    <Condition> <!-- 依赖条件-->
+      <Exp>43500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>300</Strategy> <!-- 策略值 -->
+    <Soldier>300000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="31">
+    <Condition> <!-- 依赖条件-->
+      <Exp>46500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>310</Strategy> <!-- 策略值 -->
+    <Soldier>310000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="32">
+    <Condition> <!-- 依赖条件-->
+      <Exp>49600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>320</Strategy> <!-- 策略值 -->
+    <Soldier>320000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="33">
+    <Condition> <!-- 依赖条件-->
+      <Exp>52800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>330</Strategy> <!-- 策略值 -->
+    <Soldier>330000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="34">
+    <Condition> <!-- 依赖条件-->
+      <Exp>56100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>340</Strategy> <!-- 策略值 -->
+    <Soldier>340000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="35">
+    <Condition> <!-- 依赖条件-->
+      <Exp>59500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>350</Strategy> <!-- 策略值 -->
+    <Soldier>350000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="36">
+    <Condition> <!-- 依赖条件-->
+      <Exp>63000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>360</Strategy> <!-- 策略值 -->
+    <Soldier>360000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="37">
+    <Condition> <!-- 依赖条件-->
+      <Exp>66600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>370</Strategy> <!-- 策略值 -->
+    <Soldier>370000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="38">
+    <Condition> <!-- 依赖条件-->
+      <Exp>70300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>380</Strategy> <!-- 策略值 -->
+    <Soldier>380000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="39">
+    <Condition> <!-- 依赖条件-->
+      <Exp>74100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>390</Strategy> <!-- 策略值 -->
+    <Soldier>390000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="40">
+    <Condition> <!-- 依赖条件-->
+      <Exp>78000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>400</Strategy> <!-- 策略值 -->
+    <Soldier>400000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="41">
+    <Condition> <!-- 依赖条件-->
+      <Exp>82000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>410</Strategy> <!-- 策略值 -->
+    <Soldier>410000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="42">
+    <Condition> <!-- 依赖条件-->
+      <Exp>86100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>420</Strategy> <!-- 策略值 -->
+    <Soldier>420000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="43">
+    <Condition> <!-- 依赖条件-->
+      <Exp>90300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>430</Strategy> <!-- 策略值 -->
+    <Soldier>430000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="44">
+    <Condition> <!-- 依赖条件-->
+      <Exp>94600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>440</Strategy> <!-- 策略值 -->
+    <Soldier>440000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="45">
+    <Condition> <!-- 依赖条件-->
+      <Exp>99000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>450</Strategy> <!-- 策略值 -->
+    <Soldier>450000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="46">
+    <Condition> <!-- 依赖条件-->
+      <Exp>103500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>460</Strategy> <!-- 策略值 -->
+    <Soldier>460000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="47">
+    <Condition> <!-- 依赖条件-->
+      <Exp>108100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>470</Strategy> <!-- 策略值 -->
+    <Soldier>470000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="48">
+    <Condition> <!-- 依赖条件-->
+      <Exp>112800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>480</Strategy> <!-- 策略值 -->
+    <Soldier>480000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="49">
+    <Condition> <!-- 依赖条件-->
+      <Exp>117600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>490</Strategy> <!-- 策略值 -->
+    <Soldier>490000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="50">
+    <Condition> <!-- 依赖条件-->
+      <Exp>122500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>500</Strategy> <!-- 策略值 -->
+    <Soldier>500000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="51">
+    <Condition> <!-- 依赖条件-->
+      <Exp>127500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>510</Strategy> <!-- 策略值 -->
+    <Soldier>510000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="52">
+    <Condition> <!-- 依赖条件-->
+      <Exp>132600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>520</Strategy> <!-- 策略值 -->
+    <Soldier>520000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="53">
+    <Condition> <!-- 依赖条件-->
+      <Exp>137800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>530</Strategy> <!-- 策略值 -->
+    <Soldier>530000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="54">
+    <Condition> <!-- 依赖条件-->
+      <Exp>143100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>540</Strategy> <!-- 策略值 -->
+    <Soldier>540000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="55">
+    <Condition> <!-- 依赖条件-->
+      <Exp>148500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>550</Strategy> <!-- 策略值 -->
+    <Soldier>550000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="56">
+    <Condition> <!-- 依赖条件-->
+      <Exp>154000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>560</Strategy> <!-- 策略值 -->
+    <Soldier>560000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="57">
+    <Condition> <!-- 依赖条件-->
+      <Exp>159600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>570</Strategy> <!-- 策略值 -->
+    <Soldier>570000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="58">
+    <Condition> <!-- 依赖条件-->
+      <Exp>165300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>580</Strategy> <!-- 策略值 -->
+    <Soldier>580000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="59">
+    <Condition> <!-- 依赖条件-->
+      <Exp>171100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>590</Strategy> <!-- 策略值 -->
+    <Soldier>590000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="60">
+    <Condition> <!-- 依赖条件-->
+      <Exp>177000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>600</Strategy> <!-- 策略值 -->
+    <Soldier>600000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="61">
+    <Condition> <!-- 依赖条件-->
+      <Exp>183000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>610</Strategy> <!-- 策略值 -->
+    <Soldier>610000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="62">
+    <Condition> <!-- 依赖条件-->
+      <Exp>189100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>620</Strategy> <!-- 策略值 -->
+    <Soldier>620000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="63">
+    <Condition> <!-- 依赖条件-->
+      <Exp>195300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>630</Strategy> <!-- 策略值 -->
+    <Soldier>630000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="64">
+    <Condition> <!-- 依赖条件-->
+      <Exp>201600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>640</Strategy> <!-- 策略值 -->
+    <Soldier>640000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="65">
+    <Condition> <!-- 依赖条件-->
+      <Exp>208000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>650</Strategy> <!-- 策略值 -->
+    <Soldier>650000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="66">
+    <Condition> <!-- 依赖条件-->
+      <Exp>214500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>660</Strategy> <!-- 策略值 -->
+    <Soldier>660000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="67">
+    <Condition> <!-- 依赖条件-->
+      <Exp>221100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>670</Strategy> <!-- 策略值 -->
+    <Soldier>670000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="68">
+    <Condition> <!-- 依赖条件-->
+      <Exp>227800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>680</Strategy> <!-- 策略值 -->
+    <Soldier>680000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="69">
+    <Condition> <!-- 依赖条件-->
+      <Exp>234600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>690</Strategy> <!-- 策略值 -->
+    <Soldier>690000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="70">
+    <Condition> <!-- 依赖条件-->
+      <Exp>241500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>700</Strategy> <!-- 策略值 -->
+    <Soldier>700000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="71">
+    <Condition> <!-- 依赖条件-->
+      <Exp>248500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>710</Strategy> <!-- 策略值 -->
+    <Soldier>710000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="72">
+    <Condition> <!-- 依赖条件-->
+      <Exp>255600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>720</Strategy> <!-- 策略值 -->
+    <Soldier>720000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="73">
+    <Condition> <!-- 依赖条件-->
+      <Exp>262800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>730</Strategy> <!-- 策略值 -->
+    <Soldier>730000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="74">
+    <Condition> <!-- 依赖条件-->
+      <Exp>270100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>740</Strategy> <!-- 策略值 -->
+    <Soldier>740000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="75">
+    <Condition> <!-- 依赖条件-->
+      <Exp>277500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>750</Strategy> <!-- 策略值 -->
+    <Soldier>750000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="76">
+    <Condition> <!-- 依赖条件-->
+      <Exp>285000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>760</Strategy> <!-- 策略值 -->
+    <Soldier>760000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="77">
+    <Condition> <!-- 依赖条件-->
+      <Exp>292600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>770</Strategy> <!-- 策略值 -->
+    <Soldier>770000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="78">
+    <Condition> <!-- 依赖条件-->
+      <Exp>300300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>780</Strategy> <!-- 策略值 -->
+    <Soldier>780000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="79">
+    <Condition> <!-- 依赖条件-->
+      <Exp>308100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>790</Strategy> <!-- 策略值 -->
+    <Soldier>790000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="80">
+    <Condition> <!-- 依赖条件-->
+      <Exp>316000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>800</Strategy> <!-- 策略值 -->
+    <Soldier>800000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="81">
+    <Condition> <!-- 依赖条件-->
+      <Exp>324000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>810</Strategy> <!-- 策略值 -->
+    <Soldier>810000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="82">
+    <Condition> <!-- 依赖条件-->
+      <Exp>332100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>820</Strategy> <!-- 策略值 -->
+    <Soldier>820000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="83">
+    <Condition> <!-- 依赖条件-->
+      <Exp>340300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>830</Strategy> <!-- 策略值 -->
+    <Soldier>830000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="84">
+    <Condition> <!-- 依赖条件-->
+      <Exp>348600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>840</Strategy> <!-- 策略值 -->
+    <Soldier>840000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="85">
+    <Condition> <!-- 依赖条件-->
+      <Exp>357000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>850</Strategy> <!-- 策略值 -->
+    <Soldier>850000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="86">
+    <Condition> <!-- 依赖条件-->
+      <Exp>365500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>860</Strategy> <!-- 策略值 -->
+    <Soldier>860000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="87">
+    <Condition> <!-- 依赖条件-->
+      <Exp>374100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>870</Strategy> <!-- 策略值 -->
+    <Soldier>870000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="88">
+    <Condition> <!-- 依赖条件-->
+      <Exp>382800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>880</Strategy> <!-- 策略值 -->
+    <Soldier>880000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="89">
+    <Condition> <!-- 依赖条件-->
+      <Exp>391600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>890</Strategy> <!-- 策略值 -->
+    <Soldier>890000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="90">
+    <Condition> <!-- 依赖条件-->
+      <Exp>400500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>900</Strategy> <!-- 策略值 -->
+    <Soldier>900000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="91">
+    <Condition> <!-- 依赖条件-->
+      <Exp>409500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>910</Strategy> <!-- 策略值 -->
+    <Soldier>910000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="92">
+    <Condition> <!-- 依赖条件-->
+      <Exp>418600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>920</Strategy> <!-- 策略值 -->
+    <Soldier>920000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="93">
+    <Condition> <!-- 依赖条件-->
+      <Exp>427800</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>930</Strategy> <!-- 策略值 -->
+    <Soldier>930000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="94">
+    <Condition> <!-- 依赖条件-->
+      <Exp>437100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>940</Strategy> <!-- 策略值 -->
+    <Soldier>940000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="95">
+    <Condition> <!-- 依赖条件-->
+      <Exp>446500</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>950</Strategy> <!-- 策略值 -->
+    <Soldier>950000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="96">
+    <Condition> <!-- 依赖条件-->
+      <Exp>456000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>960</Strategy> <!-- 策略值 -->
+    <Soldier>960000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="97">
+    <Condition> <!-- 依赖条件-->
+      <Exp>465600</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>970</Strategy> <!-- 策略值 -->
+    <Soldier>970000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="98">
+    <Condition> <!-- 依赖条件-->
+      <Exp>475300</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>980</Strategy> <!-- 策略值 -->
+    <Soldier>980000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="99">
+    <Condition> <!-- 依赖条件-->
+      <Exp>485100</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>990</Strategy> <!-- 策略值 -->
+    <Soldier>990000</Soldier> <!-- 统兵上限 -->
+  </Level>
+  <Level level ="100">
+    <Condition> <!-- 依赖条件-->
+      <Exp>495000</Exp> <!-- 经验 -->
+    </Condition>
+    <Strategy>1000</Strategy> <!-- 策略值 -->
+    <Soldier>1000000</Soldier> <!-- 统兵上限 -->
+  </Level>
+</KingUpgrade>

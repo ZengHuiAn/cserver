@@ -1,0 +1,4902 @@
+package com.agame.protocol;
+
+enum int32 {
+	RET_SUCCESS	= 0;	//成功 
+	RET_ERROR	= 1;	//一般错误
+	RET_EXIST	= 2;	//目标已经存在
+	RET_NOT_EXIST	= 3;	//目标不存在
+	RET_PARAM_ERROR	= 4;	//参数错误
+	RET_INPROGRESS	= 5;	//目标忙碌
+	RET_MAX_LEVEL	= 6;	//已经到达最大等级
+	RET_DEPEND	= 7;	//不满足依赖条件
+	RET_RESOURCES	= 8;	//资源不足
+	RET_FULL	= 9;	//容器已满
+	RET_NOT_ENOUGH	= 10;	//数量不足
+	RET_PREMISSIONS = 11;	//权限不足
+	RET_COOLDOWN	= 12;	//cd中
+    RET_ALREADYAT   = 13;   //已经在活动中了
+	RET_DATABASEERROR	= 14;	//更新数据库存在错误发生
+};
+
+// 玩家
+message Player {
+	required uint64 id      = 1;
+	optional string name    = 2;
+	optional uint32 level   = 3;
+	optional uint32 country = 4;
+	optional uint32 sex     = 5;
+
+	optional uint32 login   = 8;
+	optional uint32 logout  = 10;
+
+	optional uint32 status  = 13;
+	optional uint32 exp     = 14;
+	optional uint32 vip     = 15; // vip 等级
+	optional uint32 today_online  = 16; // 当日在线时长
+	optional uint32 tower   = 17; // 试炼塔层数
+	optional Avatar avatar  = 18;
+    	optional uint32 salary  = 19; // 福利id
+	optional string ip      = 20; // ip地址
+	optional uint32 create  = 21; // 创建时间 
+	optional uint32 money	= 22; // 钻石数量 
+};
+
+message Morale {
+	optional uint32 attack = 1;
+	optional uint32 defense = 2;
+	optional uint32 init   = 3;
+};
+
+message HeroSpellResult {
+	required uint32 cast = 1;
+
+	message Selector {
+		required uint32 type  = 1;
+		required uint32 count = 2;
+	};
+	required Selector selector = 2;
+
+	message Change {
+		required uint32 type  = 1;
+		required int32  value = 2;
+	};
+	required Change change = 3;
+	optional uint32 view = 4;
+};
+
+message HeroSpell {
+	optional string name = 1;
+	repeated HeroSpellResult result = 2;
+
+	optional uint32 id     = 3;
+	optional uint32 effect = 4;
+};
+
+// 武将
+message Hero {
+	required uint32 id      = 1;
+
+	optional string name    = 2;
+	optional uint32 level   = 3;
+
+	optional uint32 attack  = 4;
+	optional uint32 defense = 5;
+	
+	optional Morale morale  = 6;
+
+	optional HeroSpell spell = 7;
+};
+
+// 兵种关系
+message Relation {
+	required uint32 target       = 1;
+	optional sint32 attack       = 2;
+	optional sint32 hurtIncrease = 3;
+	optional sint32 hurtReduce   = 4;
+	optional sint32 hit          = 5;
+	optional sint32 dodge        = 6;
+	optional sint32 block        = 7;
+	optional sint32 crit         = 8;
+};
+
+
+// 士兵
+message Soldier {
+
+	required uint32 type            = 1;
+	required uint32 level           = 2;
+
+	optional uint32 count           = 3;
+	optional uint32 health          = 4;
+
+	optional uint32 range           = 5;
+	optional uint32 move            = 6;
+	optional uint32 speed           = 7;
+
+	repeated Relation relations     = 8;
+
+	optional uint32 dead            = 9;
+	optional uint32 max		= 10;
+
+	optional Morale morale		= 11;
+};
+
+// 城防
+message TowerTool {
+	required uint32 id     = 1;
+	optional uint32 target = 2;
+
+	optional uint32 count  = 3;
+
+	optional uint32 used   = 4;
+	optional uint32 per    = 5;
+	optional uint32 hurt   = 6;
+};
+
+// 城墙
+message Tower {
+	optional uint32 pos      = 1;
+	required uint32 level    = 2;
+	required uint32 hp       = 3;
+	repeated TowerTool tools = 4;
+};
+
+// avatar
+message Avatar {
+	optional int32 banner_id    = 1;
+	optional int32 scale 		= 2;
+	optional int32 hero_skin_id = 3;
+	optional string hero_body_type = 4;
+	optional int32 weapon_skin_id = 5;
+	optional string weapon_body_type = 6;
+	optional int32 mount_skin_id = 7;
+	optional string mount_body_type = 8;
+        optional int32 pet_skin_id = 9;
+        optional string pet_body_type =10;
+};
+
+message Army {
+	optional uint32   pos       = 1;
+	required Hero     hero      = 2;
+	required Soldier  soldier   = 3;
+	optional Avatar   avatar    = 8;
+};
+
+// 资源
+message Resource {
+	required uint32 id = 1;
+	required uint32 value = 2;
+};
+
+/*
+// 奖励
+enum RewardType {
+	//REWARD_HERO_ID	= 10;
+	//REWARD_EQUIP	= 21;
+	//REWARD_QUEST	= 40;
+	//REWARD_BUILDING = 51;
+	//REWARD_STORY	= 80;
+
+	REWARD_RESOURCE     = 90;
+	REWARD_ITEM		    = 41;
+	REWARD_ARMAMENT     = 10;
+	REWARD_TACTIC	    = 23;
+	REWARD_KING		    = 1;
+	REWARD_ITEM_PACKAGE = 42;
+}
+*/
+
+message Reward {
+	required uint32      type   = 1;
+	required uint32      value  = 3;
+	optional uint32      id     = 4;
+	optional uint64      uuid   = 5;
+	repeated uint64      uuids  = 6;
+};
+
+enum NotifyType {
+	NOTIFY_PROPERTY		= 1;
+	NOTIFY_RESOURCE		= 2;	// 资源
+	NOTIFY_BUILDING		= 3;	// 建筑状态 key = building.id
+	NOTIFY_TECHNOLOGY	= 4;	// 科技状态 key = technology.id
+	NOTIFY_CITY			= 5;	// 城池属性
+	NOTIFY_HERO_LIST	= 6;	// 武将列表
+	NOTIFY_HERO			= 7;	// 武将属性 key = hero.id
+	NOTIFY_ITEM_COUNT	= 8;	// 道具数量 key = item.id
+	NOTIFY_COOLDOWN		= 9;	// CD	
+	NOTIFY_EQUIP_LIST	= 10;	// 装备列表
+	NOTIFY_EQUIP		= 11;	// 装备属性 key = equip.uuid
+	NOTIFY_FARM			= 12;	// 农场状态
+	NOTIFY_STRATEGY		= 13;	// 策略值
+	NOTIFY_STORY		= 14;	// 推图状态 key = story.id
+	NOTIFY_COMPOSE		= 15;	// 布阵
+	NOTIFY_DAILY		= 16;
+	NOTIFY_QUEST		= 17;	// 任务 key = quest.id
+
+	NOTIFY_ARENA_ATTACK	= 18;      // 竞技场挑战通知
+
+	NOTIFY_GUILD_INOUT	= 19;	// 军团成员加入退出通知
+		//[sn,result,id,name,type] type:1 加入 2：主动退出，3：被踢出
+	NOTIFY_GUILD_SETPOS	= 20;	//军团成员职位变化通知
+		//[sn,result,id,type]type:1提升为副军团张，2为降为普通成员，3为转让为新军团长
+	NOTIFY_GUILD_STATE	= 21;	//军团状态变化
+		//[sn,result,type]type:1 升级 type:2 解散
+};
+
+message aGameRequest {
+	optional uint32 sn = 1;
+};
+
+message aGameRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+};
+
+//C_ECHO 		 0 		//登入请求
+
+//C_LOGIN_REQUEST  1 		//登入请求
+// [sn, "account", "playerid"]
+message LoginRequest {
+	optional uint32 sn = 1;
+	required string name = 2;
+	required string auth = 3;
+}
+
+// 2
+//C_LOGIN_RESPOND  2 		//登入返回
+// [sn, result, id]
+message LoginRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+	optional uint32 id = 3;
+};
+
+
+//C_LOGOUT_REQUEST  3 		//登出请求
+message LogoutRequest {
+	optional uint32 sn     = 1;
+	optional uint32 reason = 2;
+};
+
+//C_LOGOUT_RESPOND  4 		//登出返回
+message LogoutRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+};
+
+//C_QUERY_PLAYER_REQUEST 5 	//查询玩家信息请求
+// [sn, playerid]
+message QueryPlayerRequest {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+};
+
+//C_QUERY_PLAYER_RESPOND 6 	//查询玩家信息返回
+// [sn, result, playerid, name,  sex, country, exp,
+//	level, horseExp, skill_id0, skill_id1, skill_id2, skill_id3, skill_id4]
+message QueryPlayerRespond {
+	optional uint32  sn       = 1;
+	required int32 result   = 2;
+	//required uint32  id       = 3;
+	//optional string  name     = 4;
+	//optional uint32  sex      = 5;
+	//optional uint32  country  = 6;
+	//optional uint32  exp      = 7;
+	//optional uint32  level    = 8;
+	//optional uint32  horseExp = 9;
+	optional int32  skill_id0 = 3;
+	optional int32  skill_id1 = 4;
+	optional int32  skill_id2 = 5;
+	optional int32  skill_id3 = 6;
+	optional int32  skill_id4 = 7;
+	optional uint32 star = 8;
+};
+
+//C_CREATE_PLAYER_REQUEST 7	//创建角色请求
+// [sn, name, country, sex]
+message CreatePlayerRequest {
+	optional uint32 sn      = 1;
+	required string name    = 2;
+	optional uint32 county  = 3;
+	optional uint32 sex     = 4;
+};
+
+//C_CREATE_PLAYER_RESPOND 8	//创建角色返回
+// 同 C_QUERY_PLAYER_RESPOND
+
+//C_UPGRADE_BUILDING_REQUEST 	9	//升级请求
+// [sn, type]
+message UpgradeBuildingRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+};
+
+//C_UPGRADE_BUILDING_RESPOND	10	//升级返回
+// [sn, result, "info"]
+message UpgradeBuildingRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  id     = 3;
+}
+
+//C_QUERY_BUILDING_REQUEST	11	//查询建筑请求
+// [sn]
+message QueryBuildingRequest {
+	optional uint32 sn = 1;
+};
+
+//C_QUERY_BUILDING_RESPOND	12	//查询建筑返回
+// [sn, result, [type, level, delay], ...]
+message QueryBuildingRespond {
+	optional uint32  sn = 1;
+	required int32 result = 2;
+
+	message Building {
+		required uint32 id    = 1;
+		required uint32 level = 2;
+		optional uint32 cd    = 3 [deprecated=true];
+	};
+	repeated Building _buildings = 3;
+}
+
+//C_CANCEL_BUILDING_REQUEST 	13	//取消建筑请求
+// [sn, type]
+
+//C_CANCEL_BUILDING_RESPOND	14	//取消建筑返回
+// [sn, result, "info"]
+
+//C_QUERY_RESOURCES_REQUEST	15	//查询资源请求
+// [sn]
+message QueryResourceRequest {
+	optional uint32 sn = 1;
+};
+
+//C_QUERY_RESOURCES_RESPOND	16	//查询资源返回
+// [
+//       sn, result,
+//       [wood, max, speed],
+//       [stone, max, speed],
+//       [bronze, max, speed],
+//       [food, max, speed], 
+//       [coin, max, speed],
+//       [work_people, total_people],
+//       [pre_soldier,  max, speed],
+//       [soldier_count]]
+// ]
+message QueryResourceRespond {
+	optional uint32  sn = 1;
+	required int32 result = 2;
+
+	message Resource {
+		required uint32 id    = 1;
+		required uint32 value = 2;
+		optional uint32 limit = 3[default=10000000];
+		optional uint32 speed = 4;
+	};
+	repeated Resource _resources = 3;
+};
+
+//C_QUERY_TECHNOLOGY_REQUEST	17	//查询科技请求
+// [sn]
+message QueryTechnologyRequest {
+	optional uint32 sn = 1;
+};
+
+//C_QUERY_TECHNOLOGY_RESPOND	18	//查询科技返回
+// [sn, result, [type, level, delay], ...]
+message QueryTechnologyRespond {
+	optional uint32  sn = 1;
+	required int32 result = 2;
+
+	message Technology {
+		required uint32 id    = 1;
+		required uint32 level = 2;
+		optional uint32 cd    = 3 [deprecated=true];
+	};
+	repeated Technology _technologys = 3;
+};
+
+//C_UPGRADE_TECHNOLOGY_REQUEST	19	//升级科技请求
+// [sn, type]
+message UpgradeTechnologyRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+};
+
+//C_UPGRADE_TECHNOLOGY_RESPOND	20	//升级科技返回
+// [sn, result, "info"]
+message UpgradeTechnologyRespond {
+	optional uint32  sn = 1;
+	required int32 result = 2;
+
+	optional uint32  id = 3;
+	optional uint32  level = 4;
+}
+
+//C_CANCEL_TECHNOLOGY_REQUEST	21	//取消升级科技请求
+// [sn, type]
+
+//C_CANCEL_TECHNOLOGY_RESPOND	22	//取消升级科技返回
+// [sn, result, "info"]
+
+//C_RECRUIT_SOLDIER_REQUEST	23	//征兵请求
+// [sn, count]
+
+//C_RECRUIT_SOLDIER_RESPOND	24	//征兵返回
+// 返回资源
+// [sn, result, "info"]
+
+//C_QUERY_HERO_REQUEST		25	//查询武将请求
+// [ sn, type]   1 当前武将 2 可招募  3 待招募 4 声望武将
+message QueryHeroRequest {
+	optional uint32 sn   = 1;
+	optional uint32 type = 2 [default=1]; // 查询类别
+	optional uint32 heroid = 3;
+};
+
+//C_QUERY_HERO_RESPOND		26	//查询武将返回
+// [sn, result, 1, 
+//     [type, exp, level, grow, stat,
+//          soldier_type, soldier_count,
+//          train_type, train_start_time, train_delay], ...]
+// [sn, result, 2, [type, exp, level, grow], ...]
+// [sn, result, 3, type, ...]
+// [sn, result, 4, [type, time, r], ...]
+message QueryHeroRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32 type    = 3; // 查询类别
+
+	message Hero {
+		required uint32 id          = 1;
+		optional uint32 exp         = 2;
+		optional uint32 level       = 3;
+		optional uint32 grow        = 4;
+		optional uint32 stat        = 5;
+		optional uint32 stype       = 6;  // 兵种
+		optional uint32 scount      = 7;  // 兵数
+		optional uint32 train_type  = 8;  // 训练类型
+		optional uint32 train_start = 9;  // 已训练时间
+		optional uint32 train_delay = 10; // 训练总时间
+		optional uint32 title       = 11; // 头衔
+		optional uint32 employ_time = 12; // 雇用时间
+	}
+
+	repeated Hero _heros = 4;
+}
+//TODO: visit_hero  idle_hero  special_hero
+
+//C_EMPLOY_HERO_REQUEST		27	//招募武将请求
+// [ sn, type]
+message EmployHeroRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+}
+
+//C_EMPLOY_HERO_RESPOND		28	//招募武将返回
+// [sn, result, "info"]
+message EmployHeroRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	required uint32  id     = 3;
+}
+
+//C_FIRE_HERO_REQUEST		29	//解散武将请求
+// [ sn, type]
+message FireHeroRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+}
+
+//C_FIRE_HERO_RESPOND		30	//解散武将返回
+// [sn, result, "info"]
+message FireHeroRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	required uint32  id     = 3;
+}
+
+//C_ASSIGN_SOLDIER_REQUEST	31	//配兵请求
+// [ sn, [hero_type, soldier_type, soldier_count], ...]
+
+//C_ASSIGN_SOLDIER_RESPOND	32	//配兵返回
+// [sn, result, heroid, soldier_type, soldier_count]
+
+//C_QUERY_BATTLE_REQUEST		33	//查询军情请求
+// [ sn ]
+
+//C_QUERY_BATTLE_RESPOND		34	//查询军情返回
+// [sn, result, [id,type,x,y,target,stat,left,fightid], ...]
+
+//C_START_BATTLE_REQUEST		35	//出征请求
+// [ sn, x,y,[hero,...]]
+
+//C_START_BATTLE_RESPOND		36	//出征返回
+// [sn, result, "info"]
+
+//C_CANCEL_BATTLE_REQUEST		37	//取消出征请求
+// [ sn, id];
+
+//C_CANCEL_BATTLE_RESPOND		38	//取消出征返回
+// [sn, result, "info"]
+
+//C_TICK_REQUEST			39	//心跳
+// [sn];
+message TickRequest {
+	optional uint32 sn = 1;
+};
+
+//C_TICK_RESPOND			40	//心跳
+// [sn, result, now]
+message TickRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  now    = 3;
+};
+
+//C_QUERY_FIGHT_REQUEST		41	//查询战斗请求
+// [sn, fightid]
+
+//C_QUERY_FIGHT_RESPOND		42	//查询战斗返回
+// [sn, result, 
+//      [[pos,playerid,hero,hero_level,soldier_type, soldier_level, soldier_count, soldier_dead, soldier_relive], ...],
+//      [[pos,playerid,hero,hero_level,soldier_type, soldier_level, soldier_count, soldier_dead, soldier_relive], ...],
+//      [[type,count,used],...]]
+
+//C_QUERY_MAP_REQUEST		43	//查询战斗请求
+// [sn, x, y]
+
+//C_QUERY_MAP_RESPOND		44	//查询战斗返回
+// [sn, result, [x, y, playerid], ...]
+
+//C_QUERY_COOLDOWN_REQUEST	45	//查询cd状态请求
+// [sn]
+message QueryCooldowRequest {
+	optional uint32  sn     = 1;
+};
+
+//C_QUERY_COOLDOWN_RESPOND	46	//查询cd状态返回
+// [sn, result, [type, limit, value], ...]
+message QueryCooldownRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Cooldown {
+		required uint32 id    = 1;
+		optional uint32 limit = 2;
+		optional uint32 value = 3;
+		optional uint32 type  = 4;
+	}
+
+	repeated Cooldown _cds = 3;
+}
+
+//C_QUERY_CITY_REQUEST		47	//查询城市请求
+// [sn]
+
+//C_QUERY_CITY_RESPOND		48	//查询城市返回
+// [sn, result, exp, level, x, y, guard ...]
+
+//C_SET_CITY_GUARD_REQUEST	49	//设置守卫请求
+// [sn, g1, g2, g3, g4, g5]
+
+//C_SET_CITY_GUARD_RESPOND	50	//设置守卫返回
+// [sn, result, info]
+
+//C_VISIT_HERO_REQUEST		51	//拜访武将请求
+// [sn, heroid, type]
+message VisitHeroRequest {
+	optional uint32 sn   = 1;
+	required uint32 id   = 2;
+	optional uint32 type = 3;
+}
+
+//C_VISIT_HERO_RESPOND		52	//拜访武将返回
+// [sn, result, heroid, get?, old, new]
+message VisitHeroRespond {
+	optional uint32  sn        = 1;
+	required int32 result    = 2;
+	
+	optional uint32  id        = 3;
+	optional uint32  get       = 4;
+	optional uint32  orelation = 5;
+	optional uint32  nrelation = 6;
+}
+
+//C_EXCHANGE_HERO_REQUEST		53	//武将传授请求
+// [sn, h1, h2]
+message ExchangeHeroRequest {
+	optional uint32 sn   = 1;
+	required uint32 h1   = 2;
+	required uint32 h2   = 3;
+	optional uint32 type = 4;
+};
+
+//C_EXCHANGE_HERO_RESPOND		54	//武将传授返回
+// [sn, result, h1, h2]
+message ExchangeHeroRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+	required uint32  h1      = 3;
+	required uint32  h2      = 4;
+};
+
+//C_GROW_HERO_REQUEST		55	//武将成长请求
+// [sn, heroid, type]
+message GrowHeroRequest {
+	optional uint32 sn   = 1;
+	required uint32 id   = 2;
+	optional uint32 type = 3;
+};
+
+//C_GROW_HERO_RESPOND		56	//武将成长返回
+// [sn, result, id, value]
+message GrowHeroRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+	optional uint32  id      = 3;
+	optional uint32  grow    = 4;
+}
+
+//C_QUERY_EQUIP_REQUEST		57	//查询装备列表请求
+// [sn]
+message QueryEquipRequest {
+	optional uint32 sn   = 1;
+	optional uint32 type = 2; //查询类型 0 所有 1 已装备 2 背包
+};
+
+//C_QUERY_EQUIP_RESPOND		58	//查询装备列表返回
+// [sn result, [uuid, id, limit, level, gem, ...], ... ]
+message QueryEquipRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Equip {
+		required uint32 uuid  = 1;
+		optional uint32 id    = 2;
+		optional uint32 limit = 3;
+		optional uint32 level = 4;
+		optional uint32 gem1  = 5;
+		optional uint32 gem2  = 6;
+		optional uint32 gem3  = 7 [deprecated=true];
+		optional uint32 hid   = 8;
+	};
+
+	optional uint32 type   = 3;
+	repeated Equip _equips = 4;
+}
+
+//C_USE_EQUIP_REQUEST		59	//使用装备请求
+// [sn, hero, uuid, uuid, uuid, uuid, uuid]
+message UseEquipRequest {
+	optional uint32 sn     = 1;
+	required uint32 hero   = 2;
+	optional uint32 weapon = 3;
+	optional uint32 mount  = 4;
+	optional uint32 chest  = 5;
+	optional uint32 head   = 6;
+	optional uint32 trink  = 7;
+};
+
+//C_USE_EQUIP_RESPOND		60	//使用装备返回
+// [sn, result, info]
+message UseEquipRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	required uint32  hero   = 3;
+
+	message HeroEuip {
+		optional uint32 weapon = 3;
+		optional uint32 mount  = 4;
+		optional uint32 chest  = 5;
+		optional uint32 head   = 6;
+		optional uint32 trink  = 7;
+	};
+
+	required HeroEuip old   = 4;
+	required HeroEuip new   = 5;
+}
+
+//C_UPGRADE_EQUIP_REQUEST		61	//升级装备请求
+// [sn, uuid, type]
+message UpgradeEquipRequest {
+	optional uint32 sn   = 1;
+	optional uint32 uuid = 2;
+	optional uint32 type = 3 [deprecated=true]; //0 升级 1 降级 2 降级至1
+};
+
+//C_UPGRADE_EQUIP_RESPOND		62	//升级装备返回
+// [sn, result, uuid, level]
+message UpgradeEquipRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32  type   = 3;
+	optional uint32  uuid   = 4;
+	optional uint32  level  = 5;
+}
+
+//C_EQUIP_SET_GEM_RQUEST		63	//镶嵌请求
+// [sn, uuid, gem1, gem2, gem3]
+message EquipSetGemRequest {
+	optional uint32 sn   = 1;
+	required uint32 uuid = 2;
+	optional uint32 gem1 = 3;
+	optional uint32 gem2 = 4;
+	optional uint32 gem3 = 5 [deprecated=true];
+};
+
+//C_EQUIP_SET_GEM_RESPOND		64	//向前返回
+// [sn, result, uuid];
+message EquipSetGemRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32  uuid   = 3;
+	message EquipGem {
+		optional uint32 gem1 = 1;
+		optional uint32 gem2 = 2;
+		optional uint32 gem3 = 3;
+	};
+
+	optional EquipGem old  = 4;
+	optional EquipGem new  = 5;
+}
+
+//C_BUY_EQUIP_REQUEST		65	//购买装备请求
+// [sn, type]
+message BuyEquipRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+};
+
+//C_BUY_EQUIP_RESPOND		66	//购买装备返回
+// [sn result, uuid, id, limit, level, gem, ...]
+message BuyEquipRespond {
+	optional uint32  sn = 1;
+	required int32 result = 2;
+
+	optional uint32  uuid = 3;
+	optional uint32  id   = 4;
+};
+
+//C_SELL_EQUIP_REQUEST		67	//出售装备请求
+// [sn, uuid]
+message SellEquipRequest {
+	optional uint32 sn   = 1;
+	required uint32 uuid = 2;
+};
+
+//C_SELL_EQUIP_RESPOND		68	//出售装备返回
+// [sn result, uuid]
+message SellEquipRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  uuid   = 3;
+};
+
+//C_QUERY_ITEM_REQUEST		69	//查询道具请求
+// [sn]
+message QueryItemRequest {
+	optional uint32  sn = 1;
+};
+
+//C_QUERY_ITEM_RESPOND		70	//查询道具返回
+// [sn, result, [id, count], ...]
+message QueryItemRepond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Item {
+		required uint32 id    = 1;
+		optional uint32 limit = 2;
+	};
+	repeated Item _items = 3;
+};
+
+//C_BUY_ITEM_REQUEST		71	//购买道具请求
+// [sn, id, count]
+message BuyItemRequest {
+	optional uint32 sn    = 1;
+	required uint32 id    = 2;
+	optional uint32 count = 3 [default=1];
+};
+
+//C_BUY_ITEM_RESPOND		72	//购买道具返回
+// [sn, result, id, count]
+message BuyItemRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32 id      = 3;
+	optional uint32 count   = 4;
+};
+
+//C_SELL_ITEM_REQUEST		73	//出售道具请求
+// [sn, id, count]
+message SellItemRequest {
+	optional uint32 sn    = 1;
+	optional uint32 id    = 2;
+	optional uint32 count = 3 [default=1];
+};
+//C_SELL_ITEM_RESPOND		74	//出售道具返回
+// [sn, result, id, count]
+message SellItemRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32 id      = 3;
+	optional uint32 count   = 4;
+};
+
+//C_USE_ITEM_REQUEST		75	//使用道具请求
+// [sn, id, count]
+message UseItemRequest {
+	optional uint32 sn    = 1;
+	optional uint32 id    = 2;
+	optional uint32 count = 3 [default=1];
+};
+
+//C_USE_ITEM_RESPOND		76	//使用道具返回
+// [sn, result id, count]
+message UseItemRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32 id      = 3;
+	optional uint32 count   = 4;
+};
+
+//C_TRAIN_HERO_REQUEST		77	//开始训练武将请求
+// [sn, hero, type, dely]
+message TrainHeroRequest {
+	optional uint32 sn   = 1;
+	required uint32 id   = 2;
+	optional uint32 type = 3;
+	optional uint32 time = 4 [default=3600];
+}
+
+//C_TRAIN_HERO_RESPOND		78	//开始训练武将返回
+// [sn, result, heroid]
+message TrainHeroRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32 id      = 3;
+}
+
+//C_FINISH_TRAIN_HERO_REQUEST	79	//结束训练请求
+// [sn, hero]
+message FinishTrainHeroRequest {
+	optional uint32 sn   = 1;
+	required uint32 id   = 2;
+};
+
+//C_FINISH_TRAIN_HERO_RESPOND	80	//结束训练返回
+// [sn, result, hero]
+message FinishTrainHeroRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32 id      = 3;
+}
+
+//C_GEMSTONE_COMPOSE_REQUEST	81	//宝石合成请求
+// [sn, id]
+message GemstoneComposeRequest {
+	optional uint32 sn = 1;
+	optional uint32 id = 2;
+};
+
+//C_GEMSTONE_COMPOSE_RESPOND	82	//宝石合成返回
+// [sn, result, info}]
+message GemstoneComposeRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  id     = 3;
+};
+
+//C_QUERY_FARM_REQUEST		83	//查询农场
+// [sn]
+message QueryFarmRequest {
+	optional uint32 sn = 1;
+};
+
+//C_QUERY_FARM_RESPOND		84	//查询农场
+// [sn, result, [id, type, plant_time], ...]
+message QueryFarmRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Farm {
+		required uint32 id     = 1;
+		optional uint32 seed   = 2; // 作物类型
+		optional uint32 growed = 3; // 成长时间
+	};
+
+	repeated Farm _farms    = 3;
+};
+
+//C_FARM_PLANT_REQUEST		85	//农场种植
+// [sn, id, type]
+message FarmPlantRequest {
+	optional uint32 sn   = 1;
+	required uint32 id   = 2;
+	optional uint32 seed = 3;
+};
+
+//C_FARM_PLANT_RESPOND		86	//农场种植
+// [sn, result, info]
+message FarmPlantRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32  id     = 3;
+	optional uint32  seed   = 4; // 作物类型
+}
+
+//C_FARM_GAIN_REQUEST		87	//农场收获
+// [sn, type, id]
+message FarmGainRequest {
+	optional uint32 sn    = 1;
+	optional bool   force = 2; // 是否强征收
+	optional uint32 id    = 3;
+};
+
+//C_FARM_GAIN_RESPOND		88	//农行收获
+// [sn, result, type, [id, [rtype, rvalue], ...]
+message FarmGainRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional bool    force  = 3;
+
+	message FarmGainInfo {
+		required uint32 id = 1;
+		message FramGainReward {
+			required uint32 type  = 1;
+			required uint32 value = 2;
+		};
+		repeated FramGainReward _rewards = 2;
+	};
+
+	optional FarmGainInfo info = 4;
+};
+
+//C_QUERY_STRATEGY_REQUEST	89	//查询策略请求
+// [sn]
+
+//C_QUERY_STRATEGY_RESPOND	90	//查询策略返回
+// [sn, result, [id, exp, level, cd], ...]
+
+//C_USE_STRATEGY_REQUEST		91	//使用策略请求
+// [sn, id]
+
+//C_USE_STRATEGY_RESPOND		92	//使用策略返回
+// [sn, result, id]
+
+//C_SET_KING_TITLE_REQUEST	93	//设置君主官职请求
+// [sn, titleid]
+message SetKingTitleRequest {
+	optional uint32 sn    = 1;
+	optional uint32 title = 2;
+};
+
+//C_SET_KING_TITLE_RESPOND	94	//设置君主官职返回
+// [sn, result, titleid]
+message SetKingTitleRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  title  = 3;
+};
+
+//C_SET_HERO_TITLE_REQUEST	95	//设置武将官职请求
+// [sn, heroid, titleid]
+message SetHeroTitleRequest {
+	optional uint32 sn    = 1;
+	required uint32 id    = 2;
+	optional uint32 title = 3;
+};
+
+//C_SET_HERO_TITLE_RESPOND	96	//设置武将官职返回
+// [sn, result, heroid, titleid]
+message SetHeroTitleRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	required uint32  id     = 3;
+	optional uint32  title  = 4;
+};
+
+//C_SET_PLAYER_POINT_REQUEST	97	//加点请求
+// [sn, force, power]
+
+//C_SET_PLAYER_POINT_RESPOND	98	//加点返回
+// [sn, result, force, power, freepoing]
+
+//C_SET_HERO_COMPOSE_REQUEST	99	//设置阵形
+// [sn, id, [h1, t1], ...]
+message SetHeroComposeRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2 [default=1000]; //阵型ID
+	message Hero {
+		required uint32 id    = 1;
+		optional uint32 stype = 2;
+	};
+
+	optional Hero   h1 = 3;
+	optional Hero   h2 = 4;
+	optional Hero   h3 = 5;
+	optional Hero   h4 = 6;
+	optional Hero   h5 = 7;
+};
+
+//C_SET_HERO_COMPOSE_RESPOND	100	//设置阵形
+// [sn, result, id, [h1, t1], ...]
+message SetHeroComposeRespond {
+	optional uint32  sn        = 1;
+	required int32 result    = 2;
+
+	optional uint32 id         = 3 [default=1000]; //阵型ID
+	message Hero {
+		required uint32 id     = 1;
+		optional uint32 stype  = 2;
+	};
+	optional Hero    h1        = 4;
+	optional Hero    h2        = 5;
+	optional Hero    h3        = 6;
+	optional Hero    h4        = 7;
+	optional Hero    h5        = 8;
+}
+
+//C_QUERY_HERO_COMPOSE_REQUEST	101	//查询阵形
+// [sn]
+message QueryHeroCompseRequest {
+	optional uint32 sn = 1;
+};
+
+//C_QUERY_HERO_COMPOSE_RESPOND	102	//查询阵形
+// [sn, [id, [h1, t1], ...], ...]
+message QueryHeroCompseRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message HeroCompose {
+		required uint32 id         = 1 [default=1000]; //阵型ID
+		message Hero {
+			required uint32 id     = 1;
+			optional uint32 stype  = 2;
+		};
+		optional Hero    h1        = 2;
+		optional Hero    h2        = 3;
+		optional Hero    h3        = 4;
+		optional Hero    h4        = 5;
+		optional Hero    h5        = 6;
+	};
+
+	repeated HeroCompose _composes = 3;
+}
+
+//C_DATA_CHANGE_REQUEST		103	//状态更新 (unused)
+
+//C_PLAYER_DATA_CHANGE 		104	//状态更新
+// [sn, result, [type, ...], ...]
+
+//C_QUERY_STORY_REQUEST		105	//查询剧情请求
+// [sn]
+message QueryStoryRequest {
+	optional uint32  sn     = 1;
+}
+
+//C_QUERY_STORY_RESPOND		106	//查询剧情返回
+// [sn, result, [id,flag], ...]
+message QueryStoryRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Story {
+		required uint32 id   = 1;
+		optional uint32 flag = 2;
+		optional uint32 daily_left = 3;
+	};
+
+	repeated Story _storys = 3;
+};
+
+//C_DO_STORY_REQUEST		107	//剧情战斗请求
+// [sn, id]
+message DoStoryRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+};
+
+//C_DO_STORY_RESPOND		108	//剧情战斗返回
+// [sn, result, info]
+message DoStoryRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+
+	optional uint32  id      = 3;
+	optional uint32  winner  = 4[default=1];
+	optional uint32  fightid = 5;
+};
+
+//C_BUILD_CITY_DEFENSE_REQUEST	109	//建造城防请求
+// [sn, id(1-5), count]
+
+//C_BUILD_CITY_DEFENSE_RESPOND	110	//建造城防返回
+// [sn, result, id, count]
+
+//C_LEVY_TAX_REQUEST		111	//征收请求
+// [sn, force]
+message LevyTaxRequest {
+	optional uint32 sn    = 1;
+	optional bool   force = 2;
+};
+
+//C_LEVY_TAX_RESPOND		112	//征收返回
+// [sn, result, value]
+message LevyTaxRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+
+	optional uint32  tax     = 3;
+	optional uint32  event   = 4;
+}
+
+//C_GET_SALARY_REQUEST		113	//领取俸禄请求
+// [sn]
+message GetSalaryRequest {
+	optional uint32 sn = 1;
+}
+
+//C_GET_SALARY_RESPOND		114	//领取俸禄返回
+// [sn, result, count]
+message GetSalaryRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+
+	optional uint32  salary  = 3;
+};
+
+//C_EXCHANGE_EQUIP_REQUEST	115     // 交换装备请求
+// [sn, hero1, hero2, position, ...]
+message ExchangeEquipRequeset {
+	optional uint32 sn  = 1;
+	required uint32 h1  = 2;
+	required uint32 h2  = 3;
+	repeated uint32 pos = 4;
+};
+
+//C_EXCHANGE_EQUIP_RESPOND	116 	// 交换装备返回
+// [sn, result, hero1, hero2]
+message ExchangeEquipRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32  h1     = 3;
+	optional uint32  h2     = 4;
+	repeated uint32  pos    = 5;
+};
+
+//C_QUERY_QUEST_REQUEST		117     // 查询任务请求
+// [sn, type] 
+message QueryQuestRequest {
+	optional uint32 sn = 1;
+};
+
+//C_QUERY_QUEST_RESPOND		118	// 查询任务返回
+// [sn, result, [id, status, count], ...]
+message QueryQuestRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Quest {
+		required uint32 id     = 1;
+		required uint32 status = 2;
+		optional uint32 count  = 3;
+	}
+
+	repeated Quest _quests  = 3;
+};
+
+//C_ACCEPT_QUEST_REQUEST		119	// 接受任务请求
+// [sn, id]
+
+//C_ACCEPT_QUEST_RESPOND		120	// 接受任务返回
+// [sn, result]
+
+//C_FINISH_QUEST_REQUEST		121	// 完成任务请求
+// [sn, id]
+
+//C_FINISH_QUEST_RESPOND		122	// 完成任务返回
+// [sn, result]
+
+//C_SUBMIT_QUEST_REQUEST		123	// 提交任务请求 
+// [sn, id]
+message SubmitQuestRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+}
+
+//C_SUBMIT_QUEST_RESPOND		124	// 提交任务返回
+// [sn, result]
+message SubmitQuestRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	required uint32  id     = 3;
+}
+
+//C_CANCEL_QUEST_REQUEST		125	// 取消任务请求 
+// [sn, id]
+
+//C_CANCEL_QUEST_RESPOND		126	// 取消任务返回
+// [sn, result]
+
+//C_CHANGE_BIO_REQUEST		127	// 修改bio请求
+// [sn, BIO];
+message ChangeBIORequest {
+	optional uint32 sn  = 1;
+	required string bio = 2;
+}
+//C_CHANGE_BIO_RESPOND		128	// 修改bio返回
+// [sn, result, info]
+// aGameRespond;
+
+//C_CHANGE_HEAD_REQUEST		129	// 修改头像请求
+// [sn, head]
+message ChangeHeadRequest {
+	optional uint32 sn   = 1;
+	required uint32 head = 2[default=1];
+};
+
+//C_CHANGE_HEAD_RESPOND		130	// 修改头像返回
+// [sn, result, info]
+// aGameRespond
+
+//C_FINISH_TAX_EVENT_REQUEST	131	// 征收事件请求
+// [sn, select]
+message FinishTaxEventRequest {
+	optional uint32 sn     = 1;
+	optional uint32 event  = 2[deprecated=true];
+	optional uint32 option = 3[default=1];
+};
+
+//C_FINISH_TAX_EVENT_RESPOND	132	// 征收事件返回
+// [sn, result, info]
+message FinishTaxEventRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  event  = 3[deprecated=true];
+	optional uint32  option = 4[default=1];
+};
+
+//C_QUERY_FLAG_REQUEST		133	// 查询标志位请求
+// [sn]
+message QueryFlagRequest {
+	optional uint32 sn = 1;
+};
+
+//C_QUERY_FLAG_RESPOND		134	// 查询标志位返回
+// [sn, result, flags, ...]
+message QueryFlagRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional string  flags  = 3;
+}
+
+//C_SET_FLAG_REQUEST		135	// 设置标志位请求
+// [sn, flag, ...]
+message SetFlagRequest {
+	optional uint32 sn  = 1;
+	required uint32 flag = 2;
+};
+
+//C_SET_FLAG_RESPOND		136	// 设置标志位返回
+// [sn, result ]
+message SetFlagRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  flag   = 3;
+};
+
+//C_FARM_GAIN_ALL_REQUEST		137	//农场全部收获
+// [sn, type]
+message FarmGainAllRequest {
+	optional uint32 sn    = 1;
+	optional bool   force = 2;
+};
+
+//C_FARM_GAIN_ALL_RESPOND		138	//农场全部收获
+// [sn, result, type, [id, [rtype, rvalue], ...], ...]
+message FarmGainAllRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional bool    force  = 3;
+	message FarmGainInfo {
+		required uint32 id = 1;
+		message FramGainReward {
+			required uint32 type  = 1;
+			required uint32 value = 2;
+		};
+		repeated FramGainReward _rewards = 2;
+	};
+	repeated FarmGainInfo info = 4;
+}
+
+//C_SET_COUNTRY_REQUEST		139	// 设置国家
+// [sn, country]
+message SetCountryRequest {
+	optional uint32 sn      = 1;
+	optional uint32 country = 2;
+};
+
+//C_SET_COUNTRY_RESPOND		140	// 设置国家
+// [sn, result, country]
+message SetCountryRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+	optional uint32  country = 3;
+};
+
+//C_CLEAN_COOLDOWN_REQEUST	141	// 清除建筑cd请求
+// [sn, id, ...]
+message CleanCooldownRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+};
+
+//C_CLEAN_COOLDOWN_RESPOND	142	// 清除建筑cd返回
+// [sn, result, id, ...]
+message CleanCooldownRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  id     = 3;
+};
+
+//C_FIRE_QUERY_REQUEST		143	// 火烧联营进度查询请求
+// [sn]
+message FireQueryRequest {
+	optional uint32 sn = 1;
+};
+
+//C_FIRE_QUERY_RESPOND		144	// 火烧联营进度查询返回
+// [sn, result, max, cur]
+message FireQueryRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  max    = 3;
+	optional uint32  cur    = 4;
+	optional uint32  left   = 5[default=10];
+}
+
+//C_FIRE_RESET_REQUEST		145	// 火烧联营进度重置请求
+// [sn]
+message FireResetRequest {
+	optional uint32 sn = 1;
+};
+
+//C_FIRE_RESET_RESPOND		146	// 火烧联营进度重置返回
+// [sn, result]
+// aGameRespond
+
+//C_FIRE_ATTACK_REQUEST		147	// 火烧联营战斗请求
+// [sn, id]
+message FireAttackRequest {
+	optional uint32 sn    = 1;
+	required uint32 layer = 2; // 层数
+}
+
+//C_FIRE_ATTACK_RESPOND		148	// 火烧联营战斗返回
+// [sn, result, id, winner]	
+message FireAttackRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+	optional uint32  max     = 3;
+	optional uint32  cur     = 4;
+	optional uint32  winner  = 5;
+	optional uint32  fightid = 6;
+}
+
+//C_FIRE_AUTO_REQUEST		149	// 火烧联营自动战斗请求
+// [sn]
+message FireAutoRequest {
+	optional uint32 sn = 1;
+}
+
+//C_FIRE_AUTO_RESPOND		150	// 火烧联营自动战斗返回
+// [sn, result, [id, ...], ...]
+message FireAutoRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+
+	message FireReward {
+		optional uint32 id = 1;
+	};
+	repeated FireReward _rewards = 3;
+};
+
+//C_HERO_SKILL_QUERY_REQUEST	151	// 查询
+// [sn]
+message TacticQueryRequest {
+	optional uint32 sn = 1;
+};
+
+//C_HERO_SKILL_QUERY_RESPOND	152
+// [sn, result, exp, teachers, [uuid, id, level, hero, pos], ...]
+message TacticQueryRespond {
+	optional uint32  sn      = 1;
+	required int32 result  = 2;
+
+	optional uint32  exp     = 3;
+	optional uint32  teacher = 4[default=1];
+
+	message Tactic {
+		required uint32 uuid  = 1;
+		required uint32 id    = 2;
+		optional uint32 level = 3[default=1];
+		optional uint32 hero  = 4;
+		optional uint32 pos   = 5;
+	}
+
+	repeated Tactic _tactics = 5;
+};
+
+//C_HERO_SKILL_VISIT_REQUEST	153	// 拜访
+// [sn, teacher]
+message TacticVistRequest {
+	optional uint32 sn      = 1;
+	optional uint32 teacher = 2[default=1];
+};
+
+//C_HERO_SKILL_VISIT_RESPOND	154
+// [sn, result, treacher, uuid, id, teachers]
+message TacticVistRespond {
+	optional uint32  sn       = 1;
+	required int32 result   = 2;
+	optional uint32  vteacher = 3;
+	optional uint32  uuid     = 4;
+	optional uint32  id       = 5;
+	optional uint32  rteacher = 6;
+	optional uint32  point    = 7;
+}
+
+//C_HERO_SKILL_MOVE_REQUEST	155	// 使用
+// [sn, uuid, heroid, pos]
+message TacticMoveRequest {
+	optional uint32 sn   = 1;
+
+	message MoveInfo {
+		required uint32 uuid = 1;
+		optional uint32 hero = 2;
+		optional uint32 pos  = 3;
+		optional uint32 flag = 4;
+	}
+
+	repeated MoveInfo _moves = 2;
+};
+
+//C_HERO_SKILL_MOVE_RESPOND	156
+// [sn, result, uuid, heroid, pos]
+message TacticMoveRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  uuid   = 3;
+	optional uint32  hero   = 4;
+	optional uint32  pos    = 5;
+};
+
+//C_HERO_SKILL_LEARN_REQUEST	157	// 学习
+// [sn, uuid]
+message TacticLearnRequest {
+	optional uint32 sn    = 1;
+	repeated uint32 _uuid = 2;
+};
+
+//C_HERO_SKILL_LEARN_RESPOND	158	 
+// [sn, result, uuid, exp]
+message TacticLearnRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  exp    = 3;
+}
+
+//C_HERO_SKILL_LEVELUP_REQUEST	159	// 升级
+// [sn, uuid]
+message TacticLevelupRequest {
+	optional uint32 sn   = 1;
+	optional uint32 uuid = 2;
+};
+
+//C_HERO_SKILL_LEVELUP_RESPOND	160	
+// [sn, result, uuid, level]
+message TacticLevelupRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  uuid   = 3;
+	optional uint32  level  = 4;
+}
+
+// C_KING_AVATAR_CHANGE_REQUEST	161	// 改变君主形象请求
+// [sn, banner_id, scale, hero_skin_id, hero_body_type, weapon_skin_id, weapon_body_type, mount_skin_id, mount_body_type]
+message SetKingAvatarRequest {
+	optional uint32 sn      	= 1;
+	optional int32 banner_id 	= 2;
+	optional int32 scale  		= 3;
+	optional int32 hero_skin_id	= 4;
+	optional string hero_body_type	= 5;
+	optional int32 weapon_skin_id	= 6;
+	optional string weapon_body_type	= 7;
+	optional int32 mount_skin_id	= 8;
+	optional string mount_body_type	= 9;
+	optional int32 flag_skin_id	= 10;
+        optional int32 pet_skin_id = 11;
+        optional string pet_body_type = 12;
+};
+
+// C_KING_AVATAR_CHANGE_RESPOND	162	// 改变君主形象返回
+// [sn, result]
+message SetKingAvatarRespond{
+	optional uint32 sn      = 1;
+	required int32 result = 2;
+};
+
+
+//C_INVITE_HERO_REQUEST		163	//邀请武将请求
+// [ sn, type]
+message InviteHeroRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+}
+
+//C_INVITE_HERO_RESPOND		164	//邀请武将返回
+// [sn, result, "info"]
+message InviteHeroRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	required uint32  id     = 3;
+}
+
+
+//C_QUERY_GEM_REQUEST		165	//查询宝石请求
+// [sn]
+message QueryGemRequest {
+	optional uint32  sn = 1;
+};
+
+//C_QUERY_GEM_RESPOND		166	//查询宝石返回
+// [sn, result, [id, count], ...]
+message QueryGemRepond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Gem {
+		required uint32 id    = 1;
+		optional uint32 count = 2;
+	};
+	repeated Gem _gems = 3;
+};
+
+//C_BUY_GEM_REQUEST		167	//购买宝石请求
+// [sn, id, count]
+message BuyGemRequest {
+	optional uint32 sn    = 1;
+	required uint32 id    = 2;
+	optional uint32 count = 3 [default=1];
+};
+
+
+//C_BUY_GEM_RESPOND		168	//购买宝石返回
+// [sn, result, id, count]
+message BuyGemRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32 id      = 3;
+	optional uint32 count   = 4;
+};
+
+//C_SELL_GEM_REQUEST		169	//出售宝石请求
+// [sn, id, count]
+message SellGemRequest {
+	optional uint32 sn    = 1;
+	optional uint32 id    = 2;
+	optional uint32 count = 3 [default=1];
+};
+//C_SELL_GEM_RESPOND		170	//出售宝石返回
+// [sn, result, id, count]
+message SellGemRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	optional uint32 id      = 3;
+	optional uint32 count   = 4;
+};
+
+// [sn, from, to]
+
+
+//C_BAG_MOVE_REQUEST		171	//移动装备/宝石/道具请求
+// [sn, from, to]
+message BagMoveRequest {
+	optional uint32 sn    = 1;
+	required uint32 from  = 2;
+	required uint32 to    = 3;
+};
+
+// C_BAG_MOVE_RESPOND		172	//移动装备/宝石/道具返回
+// [sn, result]
+// aGameRespond;
+
+
+// C_RESET_FIGHT_COUNT_REQUEST	173	// 重置战役战斗次数请求
+// [sn, battleid]
+message ResetStoryFightCountRequest {
+	optional uint32 sn = 1;
+	required uint32 battleid = 2;
+};
+
+// C_RESET_FIGHT_COUNT_RESPOND	174	// 重置战役战斗次数返回
+// [sn, result]
+// aGameRespond
+
+// C_SET_KING_FLAG_REQUEST		175	// 设置君主旗帜请求
+// [sn, flag]
+message SetKingFlagRequest {
+	optional uint32 sn = 1;
+	required uint32 flag = 2;
+};
+
+// C_SET_KING_FALG_RESPOND		176	// 设置君主旗帜返回
+// [sn, result, flag]
+message SetKingFlagRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;	
+	optional uint32 flag = 3;
+};
+
+
+// #define C_DO_STORY_AUTO_REQUEST		177	// 扫荡请求
+// [sn, fightid]
+// message DoStoryRequest;
+
+// #define C_DO_STORY_AUTO_RESPOND		178	// 扫荡返回
+// [sn, result, fightid, winner, fightid, [[type,id,count],...]]
+// message DoStoryRespond;
+
+
+// C_UPGRADE_EQUIP_REQUEST		179	//升阶装备请求
+// [sn, uuid, type]
+message UpgradeEquipRankRequest {
+	optional uint32 sn   = 1;
+	optional uint32 uuid = 2;
+};
+
+// C_UPGRADE_EQUIP_RESPOND		180	//升阶装备返回
+// [sn, result, uuid, level]
+message UpgradeEquipRankRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32  uuid   = 3;
+	optional uint32  id     = 4;
+}
+
+//C_BAG_MOVE_ADVANCE_REQUEST	181	// 挪背包，武将返回
+// [sn, frombag,  frompos, tobag, topos]
+message BagMoveAdvanceRequest {
+	optional uint32 sn = 1;
+	message Item {
+		required uint32 bag = 1;
+		required uint32 slot = 2;
+	};
+
+	required Item from = 2;
+	required Item to   = 3;
+};
+
+// C_BAG_MOVE_ADVANCE_RESPOND	182	// 挪背包，武将返回
+// [sn, result, frombag,  frompos, tobag, topos]
+message BagMoveAdvanceRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+	message Item {
+		required uint32 bag = 1;
+		required uint32 slot = 2;
+	};
+	required Item from = 3;
+	required Item to   = 4;
+};
+
+
+// C_EXCHANGE_REQUEST		183	// 兑换请求
+// [sn, id, count]
+message ExchangeRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+	optional uint32 count = 3 [default=1];
+};
+
+// C_EXCHANGE_RESPOND		184	// 兑换返回
+// [sn, result, id, count]
+message ExchangeRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+	required uint32 id = 3;
+	optional uint32 count = 4 [default=1];
+};
+
+////////////////////////////////////////////////////////////////////////////////
+// ARENA
+//C_ARENA_MIN			200	
+
+//C_ARENA_QUERY_REQUEST           200     // 竞技场查询请求
+// [sn, playerid]
+
+//C_ARENA_QUERY_RESPOND           201     // 竞技场查询返回
+// [sn, result, [pos, id]]
+
+//C_ARENA_ATTACK_REQUEST          202     // 竞技场攻击请求
+// [sn, pos]
+
+//C_ARENA_ATTACK_RESPOND          203     // 竞技场攻击返回 
+// [sn, result, [pos, id, name, level], fightid, winner, newpos]
+
+//C_ARENA_JOIN_REQUEST		204	// 加入竞技场请求
+// [sn]
+//C_ARENA_JOIN_RESPOND		205	// 加入竞技场返回
+// [sn, result, [pos, ...], [[pos id, name, level], ...], [[fightinfo], ...]
+
+//C_ARENA_REWARD_REQUEST		206	// 领取竞技场奖励请求
+// [sn]
+//C_ARENA_REWARD_RESPOND		207	// 领取竞技场奖励放回
+// [sn, result, count, prestige]
+
+//C_ARENA_RESET_CD_REQUEST	208	// 清除竞技场cd请求
+// [sn]
+
+//C_ARENA_RESET_CD_RESPOND	209	// 清除竞技场cd返回
+// [sn, result]
+
+
+// S_ARENA_QUERY_REQUEST  590	// 查询竞技场排名
+message PArenaQueryRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+};
+
+// S_ARENA_QUERY_RESPOND = 591 
+message PArenaQueryRespond {
+	optional uint32 sn      = 1;
+	required int32 result = 2;
+
+	optional uint64 pid     = 3;
+	required uint32 order   = 4;
+};
+
+// S_ARENA_QUERY_LIST_REQUEST  592	// 查询竞技场排名
+message PArenaQueryListRequest {
+	optional uint32 sn = 1;
+	// required uint64 pid = 2;
+};
+
+// S_ARENA_QUERY_LIST_RESPOND = 593 
+message PArenaQueryListRespond {
+	optional uint32 sn      = 1;
+	required int32 result = 2;
+
+	repeated uint32 list = 3;
+};
+
+
+//C_ARENA_MAX			299
+
+////////////////////////////////////////////////////////////////////////////////
+// GUILD
+//C_GUILD_MIN			300
+
+//C_GUILD_QUERY_REQUEST           300     //查询军团请求
+//[sn, guildid]
+//C_GUILD_QUERY_RESPOND           301     //查询军团返回
+//[sn,result,guildid,name,grade,rank,people,qq,exp,功勋,公告]
+
+//C_GUILD_CREATE_REQUEST          302     //创建军团请求
+//[sn, name]
+//C_GUILD_CREATE_RESPOND          303     //创建军团返回
+//[sn, Command.RET_SUCCESS, guild.id]
+
+
+//C_GUILD_JOIN_REQUEST            304     //加入军团请求
+// [sn, gid]
+//C_GUILD_JOIN_RESPOND            305     //加入军团返回
+// [sn, result, "success"/"failed"]
+
+//C_GUILD_LEAVE_REQUEST           306     //脱离军团请求
+//[sn]
+//C_GUILD_LEAVE_RESPOND           307     //脱离军团返回
+//[sn, result, "success"/"failed"]
+
+//C_GUILD_QUERY_GUILD_LIST_REQUEST        308     //查询军团列表请求
+//[sn]    
+//C_GUILD_QUERY_GUILD_LIST_RESPOND        309	 //查询军团列表返回
+//[sn, ret, [guild.id, guild.name, guild.leader.id, guild.leader.name, guild.mcount], ...]
+
+//C_GUILD_QUERY_MEMBERS_REQUEST     310     //查询军团成员列表请求
+//[sn]
+//C_GUILD_QUERY_MEMBERS_RESPOND     311     //查询军团成员列表返回
+//[sn, ret, [m.id, m.name, m.level], ...]
+
+//C_GUILD_QUERY_LOG_REQUEST         312	//查询军团日志请求
+//[sn,guild,pos,length,max]
+//C_GUILD_QUERY_LOG_RESPOND         313	//查询军团日志返回
+//[sn,result,guild,pos,[[log,time],...]]
+
+//C_GUILD_QUERY_ACTIVITIES_REQUEST  314	//查询军团活动请求
+//[sn,guild]
+//C_GUILD_QUERY_ACTIVITIES_RESPOND  315	//查询军团活动返回
+//[sn,guild,[[activityId,state,...],...]]
+
+//C_GUILD_QUERY_APPLY_REQUEST       316	//查询军团申请列表请求
+//[sn]
+//C_GUILD_QUERY_APPLY_RESPOND       317	//查询军团申请列表返回
+//[sn, ret, [playerid, name, level], ...];
+
+//C_GUILD_AUDIT_REQUEST             318	//军团审核请求
+//[sn, playerid, type] type:1 同意， 2 不同意
+//C_GUILD_AUDIT_RESPOND             319	//军团审核返回
+//[sn, result, "success"/"failed"]
+
+//C_GUILD_SETTING_REQUEST           320	//军团设置请求
+//[sn, notice]
+//C_GUILD_SETTING_RESPOND           321	//军团设置返回
+//[sn, result, "success"/"failed"]
+
+//C_GUILD_TRANSFER_REQUEST          322	//军团转让请求 【转让和职位设置可以合并到一起】
+//[sn,id]
+//C_GUILD_TRANSFER_RESPOND          323	//军团转让返回
+//[sn,result,id]
+
+//C_GUILD_SETPOS_REQUEST            324	//军团职位设置(目前只是副军团长)请求
+//[sn,id,type] type:1 提升为副军团长，2 降级为普通成员
+//C_GUILD_SETPOS_RESPOND            325	//军团职位设置(目前只是副军团长)返回
+//[sn,result,id,type]
+
+//C_GUILD_DISSOLVE_REQUEST          326	//解散军团请求
+//[sn]
+//C_GUILD_DISSOLVE_RESPOND          327	//解散军团返回
+//[sn,result,guildname]
+
+//C_GUILD_QUEYR_BY_PLAYER_REQUEST	  328	// 查询玩家所属军团请求
+//[sn, playerid]
+//C_GUILD_QUEYR_BY_PLAYER_RESPOND	  329	// 查询玩家所属军团返回
+//[sn,result,[pid,title],[gid,...]]  guildid = 0 表示没有军团
+
+//C_GUILD_SET_TITLE_REQUEST	330 	// 设置头衔请求
+//C_GUILD_SET_TITLE_RESPOND	331 	// 设置头衔返回
+//C_GUILD_INVITE_REQUEST		332    	// 邀请加入请求
+//C_GUILD_INVITE_RESPOND		333    	// 邀请加入返回
+
+//C_GUILD_QUERY_PLAYER_REQUEST	334	// 查询军团玩家信息请求
+// [sn, playerid]
+//C_GUILD_QUERY_PLAYER_RESPOND	335	// 查询军团玩家信息返回
+// [sn, pid, gid, [title, ...]]
+
+//C_GUILD_SET_LEADER_REQUEST	336	// 设置军团长请求
+// [sn, playerid]
+//C_GUILD_SET_LEADER_RESPOND	337	// 设置军团长返回
+// [sn, result, playerid]
+
+//C_GUILD_QUERY_BY_TITLE_REQUEST	338	// 通过职位查询角色请求
+// [sn, title]
+
+//C_GUILD_QUERY_BY_TITLE_RESPOND	339	// 通过职位查询角色返回
+// [sn, result, [playerid, name, level], ...]
+
+//C_GUILD_KICK_REQUEST		340	// 踢人请求
+// [sn, playerid]
+//C_GUILD_KICK_RESPOND		341	// 踢人返回
+// [sn, result, playerid]
+
+//C_GUILD_CLEAN_ALL_REQUEST        342     // 清除所有申请请求
+// [sn]
+//C_GUILD_CLEAN_ALL_RESPOND        343     // 清除所有申请请求
+// [sn, result]
+
+
+
+// S_GUILD_QUERY_BY_PLAYER_REQUEST	390 // 查询玩家所属军团请求
+message GuildQueryByPlayerRequest {
+	optional uint32 sn = 1;
+	required uint64 playerid = 2;
+};
+
+// S_GUILD_QUERY_BY_PLAYER_RESPOND	391 // 查询玩家所属军团返回
+message GuildQueryByPlayerRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+	optional uint32 id = 3;
+	optional uint32 title = 4;
+	message Guild {
+		required uint32 id = 1;
+		optional string name = 2;
+		message Leader {
+			optional uint32 id = 1;
+			optional string name = 2;
+		}
+		optional Leader leader = 4;
+		optional uint32 rank = 5;
+		optional uint32 member = 6;
+		optional uint32 exp = 7;
+		optional uint32 level = 8;
+		repeated uint64 members_id = 9;
+	};
+	optional Guild guild = 5;
+	optional uint32 jointime = 6;
+};
+
+
+message GuildQueryByGuildIdRequest {
+        optional uint32 sn = 1;
+        required uint64 gid = 2;
+};
+
+message GuildQueryByGuildIdRespond {
+        optional uint32 sn = 1;
+        required int32 result = 2;
+        repeated uint64 members_id = 3;
+};
+
+//C_GUILD_MAX			  399
+
+
+////////////////////////////////////////////////////////////////////////////////
+// 
+//C_I_AM_GOD_REQEUST		1000	//重置cd和资源最大化请求
+// [sn]
+
+message IAMGODRequest {
+	optional uint32 sn = 1;
+}
+
+//C_I_AM_GOD_RESPOND		1001	//重置cd和资源最大化返回
+// [sn, result, info]
+// aGameRespond
+
+//C_CALL_SCRIPT_REQUEST		1002	// 调用脚本请求
+// [sn, func, param, ...]
+//C_CALL_SCRIPT_RESPOND		1003	// 调用脚本返回
+// [sn, result]
+
+
+// 注册服务
+enum ServiceType {
+	GATEWAY = 1;
+	WORLD	= 2;
+	CHAT 	= 3;
+};
+
+message ServiceRegisterRequest {
+	optional uint32      sn   = 1;
+
+	required ServiceType type = 2;
+	optional uint32      id   = 3 [default=1];
+	repeated uint64      players = 4[packed=true];
+};
+
+message ServiceRegisterRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+};
+
+// 服务广播
+message ServiceBroadcastRequest {
+	optional uint32 sn   = 1;
+	required uint32 cmd  = 2;
+	required uint32 flag = 3[default=1];
+	required string msg  = 4;
+	repeated uint64 pid  = 5; // 用户列表(可选，没有则发送所有用户)
+};
+
+message ServiceBroadcastRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+};
+
+// hotfix请求
+message RunScriptRequest {
+	optional uint32 sn = 1;
+	optional string file = 2;
+};
+
+// hotfix 返回
+// aGameRespond
+
+////////////////////////////////////////////////////////////////////////////////
+// CHAT
+//C_JOIN_CHANNEL_REQUEST		2001
+// [sn, name, country, guildid, chanel, ...]
+
+//C_JOIN_CHANNEL_RESPOND		2002
+// [sn, result, info]
+
+//C_LEAVE_CHANNEL_REQUEST		2003
+// [sn]
+
+//C_LEAVE_CHANNEL_RESPOND		2004
+// [sn, result, info]
+
+//C_CHAT_MESSAGE_REQUEST		2005	//聊天信息请求
+//	CHAT_WORLD		   1    
+//	CHAT_COUNTRY		   2	
+//	CHAT_GUILD		   3	
+//	CHAT_SYSTEM		   4    
+//[sn, to, message]
+
+//C_CHAT_MESSAGE_RESPOND		2006	//聊天信息返回
+//[sn, result, info]
+
+//C_CHAT_MESSAGE_NOTIFY		2007	//聊天信息通知
+//[sn, [fromid, fromname], to, message]
+
+//S_CHAT_MESSAGE_REQUEST	2900
+message ChatMessageRequest {
+	optional uint32 sn      = 1;
+	optional uint64 from    = 2;
+	required uint64 channel = 3;
+	required string message = 4;
+};
+
+//S_CHAT_MESSAGE_RESPOND	2901
+message ChatMessageRespond {
+	optional uint32 sn      = 1;
+	required int32 result = 2;
+	optional string info    = 3;
+};
+
+// S_RECORD_NOTIRY_MESSAGE_REQUEST = 2902 -- 发送离线通知请求
+message RecordNotifyMessageRequest {
+	optional uint32 sn   = 1;
+	required uint32 to   = 2;
+	required uint32 cmd  = 3;
+	required string data = 4;
+}
+
+// S_RECORD_NOTIRY_MESSAGE_RESPOND = 2903 -- 发送离线通知返回
+// message aGameRespond 
+
+
+//S_CHANNEL_MESSAGE_REQUEST	2916
+message ChannelMessageRequest {
+	optional uint32 sn      = 1;
+	required uint32 channel = 2;
+	required uint32 cmd     = 3;
+	required string message = 4;
+	optional uint32 flag    = 5 [default=1];
+};
+
+//S_CHANNEL_CHAT_MESSAGE_RESPOND	2917
+// message aGameRespond;
+
+// S_CHANGE_CHAT_CHANNEL_REQUEST = 2918           -- 加入频道
+message ChangeChatChannelRequest {
+	optional uint32 sn      = 1;
+	required uint64 pid     = 2;
+	repeated uint32 join    = 3;
+	repeated uint32 leave   = 4;
+};
+
+// S_CHANGE_CHANNEL_RESPOND = 2919		
+// aGameRespond
+
+////////////////////////////////////////////////////////////////////////////////
+// SERVER
+//S_GET_PLAYER_ARMY_REQUEST	3001	// PGetPlayerArmyRequest
+message PGetPlayerArmyRequest {
+	optional uint32 sn = 1;
+	optional uint64 playerid = 2;
+}
+
+//S_GET_PLAYER_ARMY_RESPOND	3002	// PGetPlayerArmyRespond
+message PGetPlayerArmyRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional string  info   = 3;
+
+	//optional Player player  = 4;
+	repeated Army   armys   = 5;
+	optional Tower  tower   = 6;
+}
+
+//S_FIGHT_NOTIFICATION  		3003	// FightNotification
+//S_GET_PLAYER_INFO_REQUEST       3004	// PGetPlayerInfoRequest
+message PGetPlayerInfoRequest {
+	optional uint32 sn = 1;
+	optional uint64 playerid = 2;
+
+	optional string name = 3;	// 可选项 按照名字查询玩家
+}
+
+//S_GET_PLAYER_INFO_RESPOND       3005    // PGetPlayerInfoRespond
+message PGetPlayerInfoRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional string  info   = 3;
+
+	optional Player  player = 4;
+}
+
+//S_ADD_PLAYER_NOTIFICATION_REQUEST	3006 // PAddPlayerNotificationRequest 
+message PAddPlayerNotificationRequest {
+	optional uint32 sn = 1;
+
+	required uint64 playerid = 2;
+	required uint32 type   = 3;
+	required string data   = 4;
+}
+//S_ADD_PLAYER_NOTIFICATION_RESPOND	3007 // PAddPlayerNotificationRespond
+message PAddPlayerNotificationRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional string  info   = 3;
+}
+
+//S_ADMIN_REWARD_REQUEST		3008	//PAdminRewardRequest
+message PAdminRewardRequest {
+	optional uint32   sn = 1;
+	required uint64   playerid  = 2;	// 玩家
+	repeated Reward   reward  = 3;	// 奖励
+
+	message Consume {
+		required uint32 type  = 1 [default=41];
+		required uint32 id    = 2;
+		required uint32 value = 3;
+		repeated uint64 uuid  = 4;
+		required uint32 empty = 5 [default=0];
+	};
+	repeated Consume  consume = 4;	// 消耗
+	optional uint32   reason = 5;	// 原因
+
+	optional uint32   manual = 6; 	// 手工领取
+	optional uint32   limit  = 7;	// 有效期
+	optional string   name   = 8;   // 礼包名字
+
+	message Condition {
+		optional uint32   level    = 1; // 等级
+		optional uint32   vip      = 2; // vip
+		optional uint32   item     = 3; // 拥有某个道具
+		optional uint32   armament = 4; // 拥有某个武将
+		optional uint32   fire     = 5; // 试炼塔
+		optional uint32   star     = 6; // 星星数
+		optional uint32   power    = 7; // 战力
+
+		optional uint32   level_max = 8; // 等级
+		optional uint32   vip_max   = 9; // vip
+		optional uint32   fire_max  = 10; // 试炼塔
+		optional uint32   star_max  = 11; // 星星数
+		optional uint32   power_max = 12; // 战力
+		optional uint32   relationship = 13; // 情缘
+		optional uint32   daily_id  = 14; 	        // 每日限制id
+		optional uint32   daily_max_count  = 15;	// 每日限制次数
+	};
+	optional Condition condition = 9;
+
+
+	message Drop {
+		optional uint32 id = 1;
+		optional uint32 level = 2;
+	}
+
+	repeated Drop drops = 10;
+
+	repeated uint64 heros = 11;
+	optional uint32 first_time    = 12;
+	optional uint32 send_reward   = 13;
+};
+
+//S_ADMIN_REWARD_RESPOND		3009	//PAdminAddExpRespond
+//	REWARD_PLAYER_EXP	1
+//	REWARD_PLAYER_PRESTIGE	2
+//	REWARD_RESOURCES_VALUE	3
+//	REWARD_HERO_EXP		4
+message PAdminRewardRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional string  info   = 3;
+	repeated Reward rewards = 4;
+}
+
+
+// S_SET_PLAYER_LOCATION_REQUEST   3010	 // PSetPlyaerLocationRequest
+message PSetPlayerLocationRequest {
+	optional uint32 sn = 1;
+	required uint64 playerid = 2;
+	required uint32 id = 3;
+};
+
+// S_SET_PLAYER_LOCATION_RESPOND   3011  // PSetPlyaerLocationRespond
+message PSetPlayerLocationRespond {
+	optional uint32  sn = 1;
+	required int32 result = 2;
+	required uint64  playerid = 3;
+	required uint32  id = 4;
+};
+
+// S_GET_PLAYER_STORY_REQUEST 3012	// PGetPlayerStoryRequset
+message PGetPlayerStoryRequest {
+	optional uint32 sn = 1;
+	required uint64 playerid = 2;
+	repeated uint32 storys = 3;
+};
+
+// S_GET_PLAYER_STORY_RESPOND 3013	// PGetPlayerStoryRespond
+message PGetPlayerStoryRespond {
+	optional uint32  sn = 1;
+	required int32 result = 2;
+	repeated uint32  storys = 3;
+};
+
+// S_SET_PLAYER_STATUS_REQUEST		3014	//PSetPlayerStatusRequest
+message PSetPlayerStatusRequest {
+	optional uint32 sn       = 1;
+	required uint64 playerid = 2;
+	required uint32 status   = 3;
+};
+
+// S_SET_PLAYER_STATUS_RESPOND		3015	//PSetPlayerStatusRespond
+message PSetPlayerStatusRespond {
+        optional uint32  sn = 1;
+        required int32 result = 2;
+}
+// PLAYER_STATUS_NORMAL		0x00	//正常
+// PLAYER_STATUS_BAN		0x01	//封号
+// PLAYER_STATUS_MUTE		0x02	//禁言
+
+// S_ADMIN_PLAYER_KICK_REQUEST		3016	//PAdminPlayerKickRequest
+message PAdminPlayerKickRequest {
+	optional uint32 sn       = 1;
+	required uint64 playerid = 2;
+};
+
+// S_ADMIN_PLAYER_KICK_RESPOND		3017	//PAdminPlayerKickRespond
+message PAdminPlayerKickRespond {
+        optional uint32  sn = 1;
+        required int32 result = 2;
+}
+
+// S_GET_PLAYER_BUILDING_REQUEST = 3018	-- PGetPlayerBuildingRequest
+message PGetPlayerBuildingRequest {
+	optional uint32 sn       = 1;
+        required uint64 playerid = 2;
+};
+
+// S_GET_PLAYER_BUILDING_RESPOND = 3019	-- PGetPlayerBuildingRespond
+message PGetPlayerBuildingRespond {
+        optional uint32  sn       = 1;
+	required int32 result   = 2;
+	required uint64  playerid = 3;
+
+	message Building {
+		required uint32 id    = 1;
+		required uint32 level = 2;
+	};
+	repeated Building building = 4;
+};
+
+// S_GET_PLAYER_TECHNOLOGY_REQUEST	= 3020	-- PGetPlayerTechnologyRequest
+message PGetPlayerTechnologyRequest {
+	optional uint32 sn       = 1;
+        required uint64 playerid = 2;
+};
+
+// S_GET_PLAYER_TECHNOLOGY_RESPOND	= 3021	-- PGetPlayerTechnologyRespond
+message PGetPlayerTechnologyRespond {
+        optional uint32  sn       = 1;
+        required int32 result   = 2;
+        required uint64  playerid = 3;
+
+        message Technology {
+                required uint32 id    = 1;
+                required uint32 level = 2;
+        };
+        repeated Technology technology = 4;
+};
+
+
+// S_ADMIN_SET_ADULT_REQUEST = 3022
+message PAdminSetAdultRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	optional uint32 adult = 3 [default=1];
+};
+
+// S_ADMIN_SET_ADULT_RESPOND = 3023	-- aGameRespond
+
+
+// S_ADMIN_SET_CARD_REQUEST = 3024
+message PAdminSetCard {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	
+	message Card {
+		required uint32 id = 1;	
+		required Reward content = 2;
+	};
+	repeated Card cards = 3;
+};
+// S_ADMIN_SET_CARD_RESPOND = 3025 -- aGameRespond
+
+// S_GET_FORMATION_REQUEST = 3026	// 查询阵型请求 
+message GetFormationRequest {
+	optional uint32 sn   = 1;
+	required uint64 pid   = 2;
+}
+// S_GET_FORMATION_RESPOND = 3027	// 查询阵型返回
+message GetFormationRespond { 		
+	optional uint32 sn   = 1;
+	required int32 result = 2;
+	optional string data =3;
+}
+
+// S_GET_KING_REQUEST = 3028	// 查询君主请求 
+message GetKingRequest {
+	optional uint32 sn   = 1;
+	required uint64 pid   = 2;
+}
+// S_GET_KING_RESPOND = 3029	// 查询君主返回
+message GetKingRespond { 		
+	optional uint32 sn   = 1;
+	required int32 result = 2;
+	optional string data =3;
+}
+
+// S_GET_BOSS_FORMATION_REQUEST = 3030	// 查询阵型请求 
+message GetBossFormationRequest {
+	optional uint32 sn   = 1;
+	required uint32 fight_id = 2;
+	required uint32 level = 3;
+	repeated uint32 hp = 4;
+}
+// S_GET_FORMATION_RESPOND
+
+// S_GET_MONSTER_FORMATION_REQUEST = 3032	// 查询阵型请求 
+message GetMonsterFormationRequest {
+	optional uint32 sn   = 1;
+	required uint32 fight_id = 2;
+	required uint32 level = 3;
+}
+// S_GET_FORMATION_RESPOND
+
+// S_GET_NPC_KING_REQUEST = 3034	// 查询NPC君主请求 
+message GetNpcKingRequest {
+	optional uint32 sn   = 1;
+	required uint32 fight_id   = 2;
+	required uint32 level   = 3;
+}
+// S_GET_KING_RESPOND
+
+
+// S_GET_PLAYER_RETURN_INFO_REQUEST   3036	// PGetPlayerInfoRequest
+message PGetPlayerReturnInfoRequest {
+	optional uint32 sn = 1;
+	optional uint64 playerid = 2;
+
+	optional string name = 3;	// 可选项 按照名字查询玩家
+}
+
+//S_GET_PLAYER_RETURN_INFO_RESPOND    3037    // PGetPlayerInfoRespond
+message PGetPlayerReturnInfoRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint64  return_7_time  = 4;
+	optional uint64  return_15_time = 5;
+	optional uint64  return_30_time = 6;
+}
+
+// S_SET_PLAYER_SALARY_REQUEST 3094 // 设置玩家福利
+message PSetPlayerSalaryRequest {
+	optional uint32 sn     = 1;
+	optional uint64 pid    = 2;
+	optional uint32 salary = 3;
+}
+
+// S_SET_PLAYER_SALARY_RESPOND 3095 // 设置玩家福利
+// aGameRespond
+
+// S_ADMIN_ADD_ACTIVITY_INFO_REQUEST 1010  // 增加活跃度
+message PAdminAddActivityInfoRequest {
+	optional uint32 sn    = 1;
+	optional uint64 pid   = 2;
+	optional uint32 id    = 3;
+	optional uint32 value = 4;
+}
+// S_ADMIN_ADD_ACTIVITY_INFO_RESPOND 1011 // GameRespond
+
+// S_ADMIN_ADD_VIP_EXP_REQUEST 1012
+message PAdminAddVIPExpRequest {
+	optional uint32 sn  = 1;
+	optional uint64 pid = 2;
+	optional uint32 exp = 3;
+};
+
+
+// S_PLAYER_CHANGE_NOTIFY		1100	// SPlayerChangeNotify
+message SPlayerChangeNotify {
+	message Player {
+		optional uint64 pid     = 1;
+		optional uint32 flag    = 2;
+
+		optional uint32 level   = 3;
+		optional uint32 vip     = 4;
+		optional uint32 charge  = 5;
+		optional uint32 consume = 6;
+		optional uint32 tower   = 7;
+
+		message ChangeRecord {
+			required uint32 type   = 1;
+			required uint32 key    = 2;
+			required uint32 value  = 3;
+		};
+		repeated ChangeRecord records = 8;
+	};
+	repeated Player player = 1;
+};
+
+// S_ADMIN_ADD_VIP_EXP_RESPOND 1013
+// aGameRespond
+
+enum BossCreateType {
+	BOSS_TYPE_WORLD   = 1;
+	BOSS_TYPE_COUNTRY = 2;
+	BOSS_TYPE_GUILD   = 3;
+};
+
+// S_BOSS_CREATE_REQUEST 
+message PBossCreateRequest {
+	optional uint32         sn   = 1;
+	required BossCreateType type = 2;
+	required uint32         id   = 3;	
+	optional uint32         boss = 4;  // boss id
+	optional uint32         time = 5;  // 启动时间(默认立即启动)
+};
+
+// S_BOSS_CREATE_RESPOND
+message PBossCreateRespond {
+	optional uint32 sn        = 1;	
+	required int32 result   = 2;
+
+	optional BossCreateType type = 3;
+	optional uint32         id   = 4;	
+};
+
+//////////////////////////////////////
+// S_TIMING_NOTIFY_ADD_REQUEST
+message TimingNotifyAddRequest {
+	optional uint32 sn        = 1;	
+
+	required uint32 start		= 2;
+	required uint32 duration	= 3;
+	required uint32 interval	= 4;
+	required uint32 type		= 5;
+	required string message		= 6;
+	optional uint32 gm_id 		= 7;
+};
+
+// S_TIMING_NOTIFY_ADD_RESPOND
+message TimingNotifyAddRespond {
+	optional uint32 sn        = 1;	
+	required int32 result   = 2;
+
+	optional uint32 id = 3;
+};
+
+// S_TIMING_NOTIFY_QUERY_REQUEST
+message TimingNotifyQueryRequest {
+	optional uint32 sn        = 1;	
+};
+
+// S_TIMING_NOTIFY_QUERY_RESPOND
+message TimingNotifyQueryRespond {
+	optional uint32 sn        = 1;	
+	required int32 result   = 2;
+
+	message TimingNotify {
+		required uint32 id   		= 1;
+		required uint32 start		= 2;
+		required uint32 duration	= 3;
+		required uint32 interval	= 4;
+		required uint32 type		= 5;
+		required string message		= 6;
+	};
+	repeated TimingNotify allTimingNotify = 3;
+};
+
+// S_TIMING_NOTIFY_DEL_REQUEST
+message TimingNotifyDelRequest {
+	optional uint32 sn = 1;	
+	
+	required uint32 id = 2;
+	optional uint32 gm_id = 3;
+};
+/////////////////////////
+// S_ROOM_CHECK_REQUEST
+message S_ROOM_CHECK_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+	required uint32 roomId		= 3;
+};
+// aGameRespond
+
+// S_ROOM_CLEAN_REQUEST
+message S_ROOM_CLEAN_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+	required uint32 roomId		= 3;
+};
+// aGameRespond
+
+// S_ROOM_CLOSE_REQUEST
+message S_ROOM_CLOSE_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+	required uint32 roomId		= 3;
+};
+// aGameRespond
+
+// S_ROOM_CREATE_REQUEST
+message S_ROOM_CREATE_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+	required uint32 roomId		= 3;
+	required uint32 maximum		= 4;
+};
+// aGameRespond
+
+// S_ROOM_RECREATE_REQUEST
+message S_ROOM_RECREATE_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+	required uint32 roomId		= 3;
+	required uint32 maximum		= 4;
+	
+	message ROOM_PLAYER {
+		required uint32 id   		= 1;
+		required uint32 startX		= 2;
+		required uint32 startY		= 3;
+		required uint32 speed		= 4;
+	};
+	repeated ROOM_PLAYER players = 5;
+};
+// aGameRespond
+
+// S_ROOM_GETPOS_REQUEST
+message S_ROOM_GETPOS_REQUEST {
+	optional uint32 sn			= 1;
+	required uint64 playerId	= 2;
+};
+// S_ROOM_GETPOS_RESPOND
+message S_ROOM_GETPOS_RESPOND {
+	optional uint32 sn		= 1;	
+	required int32 result	= 2;
+
+	optional uint32 x		= 3;
+	optional uint32 y		= 4;
+};
+
+// S_ROOM_MOVE_REQUEST
+message S_ROOM_MOVE_REQUEST {
+	optional uint32 sn			= 1;
+	required uint64 playerId	= 2;
+	required uint32 x			= 3;
+	required uint32 y			= 4;
+};
+// aGameRespond
+
+// S_ROOM_ENTER_REQUEST
+message S_ROOM_ENTER_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+	required uint32 roomId		= 3;
+	required uint64 playerId	= 4;
+	required uint32 startX		= 5;
+	required uint32 startY		= 6;
+	required uint32 speed		= 7;
+};
+// aGameRespond
+
+// S_ROOM_GET_ROOMIDS_REQUEST
+message S_ROOM_GET_ROOMIDS_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+};
+// S_ROOM_GET_ROOMIDS_RESPOND
+message S_ROOM_GET_ROOMIDS_RESPOND {
+	optional uint32 sn		= 1;
+	required int32 result	= 2;
+
+	repeated uint32 roomIds = 3;
+};
+
+// S_ROOM_GET_PLAYERIDS_REQUEST
+message S_ROOM_GET_PLAYERIDS_REQUEST {
+	optional uint32 sn			= 1;
+	required uint32 roomType	= 2;
+	required uint32 roomId		= 3;
+};
+// S_ROOM_GET_PLAYERIDS_RESPOND
+message S_ROOM_GET_PLAYERIDS_RESPOND {
+	optional uint32 sn			= 1;
+	required int32 result		= 2;
+
+	repeated uint32 playerIds	= 3;
+};
+////////////////////////////////////////////
+
+// S_ADMIN_ADD_MAIL_REQUEST = 2910		-- 填加邮件
+message AdminAddMailRequest {
+	message Appendix{
+		required int32 type =1;
+		required int32 id =2;
+		required int32 value =3;
+	};
+	optional uint32 sn      = 1;
+
+	optional uint64 from    = 2;
+	required uint64 to      = 3;
+	required uint32 type    = 4;
+	required string title   = 5;
+	required string content = 6;
+	repeated Appendix appendix =7;
+};
+// S_ADMIN_ADD_MAIL_RESPOND = 2911
+// aGameRespond
+
+// S_ADMIN_QUERY_MAIL_REQUEST = 2912		-- 查询邮件
+message AdminQueryMailRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+// S_ADMIN_QUERY_MAIL_RESPOND = 2913		-- 查询邮件
+message AdminQueryMailRespond {
+	optional uint32 sn      = 1;	
+	required int32 result = 2;
+
+	message Player {
+		required uint64 id = 1;
+		optional string name = 2;
+	};
+
+	message Appendix{
+		required int32 type =1;
+		required int32 id =2;
+		required int32 value =3;
+	};
+
+	message Mail {
+		required uint32 id      = 1;
+		optional Player from    = 2;
+		required Player to      = 3;
+		required uint32 type    = 4;
+		required string title   = 5;
+		required string content = 6;
+		repeated Appendix appendix = 9;
+		required uint32 time    = 7;
+		required uint32 status  = 8;
+	};
+
+	repeated Mail mails = 3;
+}
+
+// S_ADMIN_DEL_MAIL_REQUEST = 2914		-- 删除邮件
+message AdminDelMailRequest {
+	optional uint32 sn = 1;
+	required uint32 id = 2;
+}
+// S_ADMIN_DEL_MAIL_RESPOND = 2915		-- 删除邮件
+// aGameRespond
+
+//////////////////////////////////////
+
+
+// S_GUILD_ADD_EXP_REQUEST
+message PGuildAddExpRequest {
+	optional uint32  sn  = 1;
+	optional uint32  gid = 2;
+	optional uint32  exp = 3;
+	optional uint64  pid = 4;  // 成员id
+};
+
+// S_GUILD_ADD_EXP_RESPOND
+// aGameRespond;
+
+////////////////////////////////////////////////////////////////////////////////
+// BATTLEFIELD
+//C_BATTLEFIELD_JOIN_REQUEST	4000	// 加入战场请求
+//C_BATTLEFIELD_JOIN_RESPOND	4001	// 加入战场返回
+
+//C_BATTLEFIELD_LEAVE_REQUEST	4002	// 离开战场请求
+//C_BATTLEFIELD_LEAVE_RESPOND	4003	// 离开战场返回
+
+////////////////////////////////////////////////////////////////////////////////
+// mail
+
+//MAIL_TYPE_NORMAL		0x01	// 普通邮件
+//MAIL_TYPE_MESSAGE		0x02	// 点对点消息
+//MAIL_TYPE_NOTIFICATION		0x04	// 通知消息
+
+//MAIL_STATUS_UNREAD		0x01	// 未读
+//MAIL_STATUS_READ		0x02	// 已读
+
+//C_MAIL_MIN			5000
+//C_MAIL_QUERY_REQUEST		5001	// 查询邮件列表请求
+// [sn, type, status]  过滤器  type: 邮件类型  status 邮件状态
+
+//C_MAIL_QUERY_RESPOND		5002	// 查询邮件列表返回
+// [sn, result, [id, type, title, status, [fromid, fromname]], ...]
+
+//C_MAIL_GET_REQUEST		5003	// 获取邮件内容请求
+// [sn, id, ...]
+
+//C_MAIL_GET_RESPOND		5004	// 获取邮件内容返回
+// [sn, result, [id, type, title, content], ...]
+
+//C_MAIL_MARK_REQUEST		5005	// 标记已读/未读请求
+// [sn, [id, status], ...]
+
+//C_MAIL_MARK_RESPOND		5006	// 标记已读/未读返回
+// [sn, result, [id, status], ...]
+
+//C_MAIL_DEL_REQUEST		5007	// 删除邮件请求
+// [sn, id, ...]
+
+//C_MAIL_DEL_RESPOND		5008	// 删除邮件返回
+// [sn, id, ...]
+
+//C_MAIL_SEND_REQUEST		5009	// 发送邮件请求
+// [sn, to, type, title, content]
+
+//C_MAIL_SEND_RESPOND		5010	// 发送邮件返回
+// [sn, result]
+
+//C_MAIL_CONTACT_GET_REQUEST	5011	// 获取联系人列表请求
+// [sn]
+
+//C_MAIL_CONTACT_GET_RESPOND	5012	// 获取联系人列表返回
+// [sn, result, [id, type, name], ...]
+
+//C_MAIL_CONTACT_ADD_REQUEST	5013	// 添加联系人列表请求
+// [sn, type,  id]
+
+//C_MAIL_CONTACT_ADD_RESPOND	5014	// 添加联系人请求列表
+// [sn, type, id, name]
+
+//C_MAIL_CONTACT_DEL_REQUEST	5015	// 删除联系人请求
+// [sn, id]
+
+//C_MAIL_CONTACT_DEL_RESPOND	5016	// 删除联系人返回
+// [sn, id]
+
+
+// S_MAIL_CONTACT_GET_REQUEST = 5901	// 查询好友列表请求
+message MailContactGetRequest {
+	optional uint32 sn   = 1;
+	required uint32 id   = 2;
+}
+
+// S_MAIL_CONTACT_GET_RESPOND = 5902	// 查询好友列表返回
+message MailContactGetRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Contact {
+		required uint32 id   = 1;
+		required uint32 type = 2;
+		optional string name = 3;
+		optional bool   online = 4;
+		optional uint32 level = 5;
+		optional uint32 rtype = 6;
+	};
+	repeated Contact contacts = 3;
+}
+
+//C_MAIL_MAX			5999
+
+// S_PVP_FIGHT_REQUEST = 6001 // PVP战斗请求
+message PvpFightRequest{
+	optional uint32  sn     = 1;
+	optional uint32  attack_pid = 2;
+	optional uint32  defend_pid = 3;
+}
+// S_PVP_FIGHT_RESPOND = 6002 // PVP战斗请求
+message PvpFightRespond{
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional int32  winner     = 3;
+	optional string  fight_data     = 4;
+	optional int64  fight_record_id     = 5;
+	optional int32 cool_down = 6;
+}
+// S_PVE_FIGHT_PREPARE_REQUEST = 6003 // PVE预备战斗请求
+message PveFightPrepareRequest{
+	optional uint32  sn     = 1;
+	optional uint64  playerid = 2;
+	optional uint32  fight_id = 3;
+	optional int32 level =4;
+	repeated double hp =5;
+
+}
+// S_PVE_FIGHT_PREPARE_RESPOND = 6004 // PVE预备战斗返回
+message PveFightPrepareRespond{
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional string  fight_data     = 3;
+	optional double fight_record_id=4;
+}
+
+// S_PVE_FIGHT_CHECK_REQUEST = 6005 // PVE清算战斗请求
+message PveFightCheckRequest{
+	optional uint32  sn     = 1;
+	optional uint64  playerid = 2;
+	optional string fight_data =3;
+	optional double fight_record_id=4;
+}
+// S_PVE_FIGHT_CHECK_RESPOND = 6006 // PVE清算战斗返回
+message PveFightCheckRespond{
+	message Reward{
+		optional int32 type =1;
+		optional int32 id =2;
+		optional int32 value =3;
+	}
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	repeated double hp =3;
+	optional int32  winner     = 4;
+	optional int32  cool_down  = 5;
+	repeated Reward reward_list =6;
+}
+
+// S_PVE_FIGHT_REQUEST = 6009 // PVE战斗请求
+message PveFightRequest{
+	optional uint32  sn = 1;
+	optional uint64  playerid = 2;
+	optional uint32  fight_id = 3;
+	optional int32 level =4;
+	repeated double hp =5;
+	optional int32 attack_factor =6;
+}
+// S_PVE_FIGHT_RESPOND = 6010 // PVE战斗请求
+message PveFightRespond{
+	optional uint32  sn = 1;
+	required int32 result = 2;
+	repeated double hp =3;
+	optional int32  winner = 4;
+	optional string  fight_data = 5;
+	optional int32 cool_down = 6;
+	optional double fight_record_id = 7;
+	repeated Reward reward_list =8;
+}
+
+// S_GET_ONLINE_PLAYER_REQUEST
+message GetOnlinePlayerRequest{
+	required uint32 world_id =1;
+}
+// S_GET_ONLINE_PLAYER_RESPOND
+message GetOnlinePlayerRespond{
+	required uint32 world_id =1;
+	repeated uint32 players =2;
+}
+
+// NOTIFY_TEMPLATE_LOGIN
+message TemplateLoginNotify{
+	optional int32 from_server_id =1;
+	optional int64 pid =2;
+}
+
+// NOTIFY_TEMPLATE_LOGOUT
+message TemplateLogoutNotify{
+	optional int32 from_server_id =1;
+	optional int64 pid =2;
+}
+
+// NOTIFY_TEMPLATE_ACTION
+message TemplateActionNotify{
+	optional int32 from_server_id =1;
+	optional int64 pid =2;
+	optional int32 action_id =3;
+}
+
+// NOTIFY_AI_ACTION
+message AIActionNotify{
+	required uint32 FromServerId =1;
+	required uint32 FromPid =2;
+	required uint32 ActionId =3;
+	repeated double Args=4;
+	repeated string StrArgs=5;
+}
+
+message QueryFormationFightInfoRequest{
+	optional uint32  sn     = 1;
+	optional int64 playerid =2;
+	optional int32 placeholder =3;
+};
+message QueryFormationFightInfoRespond{
+	optional uint32  sn     = 32;
+	optional int64 pos =31;
+	optional int64 hero_id=34;
+	optional int64 active =33;
+	optional int64 level =1;
+	optional int64 attack =2;
+	optional int64 defend =3;
+	optional int64 max_hp =4;
+	optional int64 hp =5;
+	optional int64 fix_hurt =6;
+	optional int64 fix_reduce_hurt =7;
+
+	optional int64 crit_ratio =8;
+	optional int64 crit_immune_ratio =9;
+	optional int64 crit_hurt =10;
+	optional int64 crit_immune_hurt =11;
+
+	optional int64 disparry_ratio =12;
+	optional int64 parry_ratio =13;
+
+	optional int64 init_power =14;
+	optional int64 incr_power =15;
+	optional int64 attack_speed =16;
+	optional int64 move_speed =17;
+	optional int64 field_of_view =18;
+	optional int64 true_blood_ratio =19;
+
+	optional int64 skill0_id =20;
+	optional int64 skill1_id =21;
+
+	optional int64 scale =22;
+	optional int64 hero_skin_id =23;
+	optional string hero_body_type =24;
+	optional int64 weapon_skin_id =25;
+	optional string weapon_body_type =26;
+	optional int64 mount_skin_id =27;
+	optional string mount_body_type =28;
+
+	optional string name =29;
+	optional int64 quality =30;
+	optional int64 weapon_id =35;
+
+	optional int64 flag_skin_id =36;
+	optional int64 tenacity =37;
+	optional int64 strength =38;
+
+	repeated int64 buffs = 39;
+
+	optional int64 pet_skin_id = 40;
+        optional string pet_body_type = 41;
+};
+
+// S_GUILD_STORY_FIGHT_REQUEST // 军团副本战斗请求
+message GuildStoryFightRequest{
+	optional uint32  sn     = 1;
+	repeated QueryFormationFightInfoRespond player_character_infos=2;
+	optional int32 guild_leader_pid=6;
+	optional int32  fight_id= 3;
+	optional int32  force_lv= 4;
+	repeated int64 npc_hp =5;
+};
+// S_GUILD_STORY_FIGHT_RESPOND // 军团副本战斗请求
+message GuildStoryFightRespond{
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional string  fight_data     = 3;
+	optional int64 fight_record_id     = 4;
+	optional int32  winner     = 5;
+	optional int32 cool_down = 6;
+	repeated int64 npc_hp =7;
+	message Reward{
+		optional int32 type =1;
+		optional int32 id =2;
+		optional int32 value =3;
+	}
+	repeated Reward reward_list =8;
+};
+
+// S_UNLOAD_PLAYER_REQUEST // 卸载玩家请求
+message UnloadPlayerRequest{
+	optional uint32  sn     = 1;
+	optional uint64  playerid= 4;
+};
+// S_UNLOAD_PLAYER_RESPOND // 卸载玩家返回
+// aGameRespond
+
+// S_BUY_MONTH_CARD_REQUEST // 购买月卡请求
+message BuyMonthCardRequest{
+	optional uint32  sn     = 1;
+	optional uint64  playerid= 4;
+};
+// S_BUY_MONTH_CARD_RESPOND // 购买月卡返回
+// aGameRespond
+
+// S_AUTH_REQUEST //认证请求
+message AuthRequest{
+	required uint32  sn        = 1;
+	required string  account   = 2;
+	required string  token     = 3;
+};
+// S_AUTH_RESPOND //认证返回
+message AuthRespond{
+	required uint32  sn        = 1;
+	required int32 result    = 2;
+	required string  account   = 3;
+};
+
+// S_FIGHT_SERVER_TEST_REQUEST
+message FightServerTestRequest{
+	required uint32  sn        = 1;
+	required int64   left      = 2;
+	required int64   right     = 3;
+};
+// S_FIGHT_SERVER_TEST_RESPOND
+message FightServerTestRespond{
+	required uint32  sn        = 1;
+	required int32 result    = 2;
+	required int64   value     = 3;
+};
+
+// S_FIGHT_SERVER_RUN_REQUEST = 40003// 战斗运行请求
+message FightServerRunRequest{
+	required uint32  sn = 1;
+	required int64   uuid = 2;
+	required string  client_fight_data = 3;
+	required string  server_fight_data = 4;
+}
+// S_FIGHT_SERVER_RUN_RESPOND = 40004 // 战斗运行返回
+message FightServerRunRespond{
+	required uint32  sn = 1;
+	required int32 result = 2;
+	required int64   uuid = 3;
+	required string  result_fight_data = 4;
+}
+// S_COMPENSATION_ADD_REQUEST = 15025 // GM补偿请求
+message CompensationAddRequest{
+	required uint32  sn = 1;
+	required uint64  pid = 2;
+	required uint32  gold = 3;
+}
+
+// S_QUERY_ALL_BONUS_REQUEST // 查询所有双倍请求
+message QueryAllBonusRequest{
+	required uint32  sn = 1;
+}
+// S_QUERY_ALL_BONUS_RESPOND // 查询所有双倍返回
+message QueryAllBonusRespond{
+	message TimeRange{
+		required int64 uuid   =1;
+		required int64 ratio  =2;
+		required int64 begin_time =3;
+		required int64 end_time   =4;
+	};
+	message Bonus{
+		required int64   bonus_id = 1;
+		repeated TimeRange reward =2;
+		repeated TimeRange count =3;
+	};
+	required uint32  sn = 1;
+	required int32 result = 2;
+	repeated Bonus bonus =3;
+}
+// S_QUERY_BONUS_REQUEST = 6021 // 查询双倍请求
+message QueryBonusRequest{
+	required uint32  sn = 1;
+	required int64   bonus_id = 2;
+}
+// S_QUERY_BONUS_RESPOND = 6022 // 查询双倍返回
+message QueryBonusRespond{
+	message TimeRange{
+		required int64 uuid   =1;
+		required int64 ratio  =2;
+		required int64 begin_time =3;
+		required int64 end_time   =4;
+	};
+	required uint32  sn = 1;
+	required int32 result = 2;
+	required int64   bonus_id = 3;
+	repeated TimeRange reward =4;
+	repeated TimeRange count =5;
+}
+// S_REPLACE_BONUS_REQUEST = 6023 // 替换双倍请求
+message ReplaceBonusRequest{
+	message TimeRange{
+		required int64   ratio    =1;
+		required int64 begin_time =2;
+		required int64 end_time   =3;
+	};
+	required uint32  sn = 1;
+	required int64   bonus_id = 2;
+	repeated TimeRange reward =3;
+	repeated TimeRange count =4;
+}
+// S_REPLACE_BONUS_RESPOND = 6024 // 替换双倍返回
+// QueryBonusRespond
+
+// S_REMOVE_BONUS_REQUEST = 6031 // 删除双倍请求
+message RemoveBonusRequest{
+	required uint32  sn = 1;
+	required int64   bonus_id = 2;
+	required int64   uuid = 3;
+}
+// S_REMOVE_BONUS_RESPOND = 6032 // 删除双倍返回
+// aGameRespond
+
+// S_ADD_BONUS_TIME_RANGE_REQUEST = 6025 // 删除双倍请求
+message AddBonusTimeRangeRequest{
+	required uint32  sn = 1;
+	required int64   bonus_id = 2;
+	required int64   flag     = 3;
+	required int64   ratio      = 4;
+	required int64   begin_time = 5;
+	required int64   end_time   = 6;
+}
+// S_ADD_BONUS_TIME_RANGE_RESPOND = 6026 // 删除双倍返回
+message AddBonusTimeRangeRespond{
+	required uint32  sn = 1;
+	required int32 result = 2;
+	optional int64   uuid = 3;
+}
+
+// S_SET_BONUS_TIME_RANGE_REQUEST = 6027 // 设置双倍请求
+message SetBonusTimeRangeRequest{
+	required uint32  sn = 1;
+	required int64   bonus_id = 2;
+	required int64   uuid = 3;
+	required int64   ratio      = 4;
+	required int64   begin_time = 5;
+	required int64   end_time   = 6;
+}
+// S_SET_BONUS_TIME_RANGE_RESPOND = 6028 // 设置双倍返回
+// aGameRespond
+
+// S_DEL_BONUS_TIME_RANGE_REQUEST = 6029 // 删除双倍请求
+message DelBonusTimeRangeRequest{
+	required uint32  sn = 1;
+	required int64   bonus_id = 2;
+	required int64   uuid = 3;
+}
+// S_DEL_BONUS_TIME_RANGE_RESPOND = 6030 // 删除双倍返回
+// aGameRespond
+
+// S_GM_HOT_UPDATE_BONUS_REQUEST = 70001 // GM热更新请求
+message GmHotUpdateBonusRequest{
+	required uint32  sn = 1;
+	optional int64   bonus_id = 2;
+}
+// S_GM_HOT_UPDATE_BONUS_RESPOND = 70002 // GM热更新返回
+// aGameRespond
+
+message QueryExchangeGiftRewardRequest{
+	required uint32  sn = 1;
+}
+message QueryExchangeGiftRewardRespond{
+	message Reward{
+		required int64 consume_value =1;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+		required int64 flag =5;
+	}
+	required uint32  sn = 1;
+	required int32 result =2;
+	optional int64   open_time = 3;
+	repeated Reward reward =4;
+}
+message ReplaceExchangeGiftRewardRequest{
+	message Reward{
+		required int64 consume_value =1;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+		required int64 flag =5;
+	}
+	required uint32  sn = 1;
+	optional int64   open_time = 3;
+	repeated Reward reward =4;
+}
+message QueryAccumulateConsumeGoldRewardRequest{
+	required uint32  sn = 1;
+}
+message QueryAccumulateConsumeGoldRewardRespond{
+	message Reward{
+		required int64 consume_value =1;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+		required int64 flag =5;
+	}
+	required uint32  sn = 1;
+	required int32 result =2;
+	optional int64 begin_time =3;
+	optional int64 end_time =4;
+	repeated Reward reward =5;
+}
+message ReplaceAccumulateConsumeGoldRewardRequest{
+	message Reward{
+		required int64 consume_value =1;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+		required int64 flag =5;
+	}
+	required uint32  sn = 1;
+	required int64 begin_time =2;
+	required int64 end_time =3;
+	repeated Reward reward =4;
+}
+
+message QueryItemPackageRequest{
+	required uint32  sn = 1;
+}
+message QueryItemPackageRespond{
+	message Item{
+		required int64 type  =1;
+		required int64 id    =2;
+		required int64 value =3;
+	}
+	message Package{
+		required int64 package_id =1;
+		repeated Item item =2;
+	}
+	required uint32  sn     = 1;
+	required int32 result = 2;
+	repeated Package package= 3;
+}
+
+message SetItemPackageRequest{
+	message Item{
+		required int64 type  =1;
+		required int64 id    =2;
+		required int64 value =3;
+	}
+	required uint32  sn = 1;
+	required int64 package_id =2;
+	repeated Item item =3;
+}
+message DelItemPackageRequest{
+	required uint32  sn = 1;
+	required int64 package_id =2;
+}
+
+
+//S_ADMIN_FRESH_POINT_REWARD_REQUEST = 15025
+message AdminFreshPointRewardRequest{
+	message Item{
+		required int64 pool_type  = 1;
+		required int64 begin_time = 2;
+		required int64 end_time   = 3;
+    }	
+	required uint32  sn = 1;
+    repeated Item items =2;
+}
+//S_ADMIN_FRESH_POINT_REWARD_RESPOND = 15026
+//aGameRespond
+
+//S_ADMIN_QUERY_POINT_REWARD_INFO_REQUEST = 15027
+message AdminQueryPointRewardRequest{
+	required uint32  sn = 1;
+}
+
+//S_ADMIN_QUERY_POINT_REWARD_INFO_RESPOND = 15028
+message AdminQueryPointRewardRespond{
+	message Item{
+		required int64 pool_type  = 1;
+		required int64 begin_time = 2;
+		required int64 end_time   = 3;
+    }	
+	required uint32  sn = 1;
+	required int32 result = 2;
+    repeated Item items = 3;
+}
+
+message QueryFestivalRewardRequest{
+	required uint32  sn = 1;
+}
+message QueryFestivalRewardRespond{
+	message Reward{
+		required int64 offset=1;
+		required int64 date=5;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+	}
+	required uint32  sn = 1;
+	required int32 result =2;
+	repeated Reward reward =5;
+}
+message ReplaceFestivalRewardRequest{
+	message Reward{
+		required int64 offset=1;
+		required int64 date=5;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+	}
+	required uint32  sn = 1;
+	repeated Reward reward =5;
+}
+message QueryAccumulateExchangeRewardRequest{
+	required uint32  sn = 1;
+}
+message QueryAccumulateExchangeRewardRespond{
+	message Reward{
+		required int64 exchange_value =1;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+	}
+	required uint32  sn = 1;
+	required int32 result =2;
+	optional int64 begin_time =3;
+	optional int64 end_time =4;
+	repeated Reward reward =5;
+}
+message ReplaceAccumulateExchangeRewardRequest{
+	message Reward{
+		required int64 exchange_value =1;
+		required int64 type =2;
+		required int64 id =3;
+		required int64 value =4;
+	}
+	required uint32  sn = 1;
+	required int64 begin_time =2;
+	required int64 end_time =3;
+	repeated Reward reward =4;
+}
+
+// guild pvp
+message GuildPvpFightRequest{
+	optional uint32  sn     = 1;
+	optional uint32  attack_pid = 2;
+	optional uint32  attack_inspire = 3;
+	optional uint32  defend_pid = 4;
+	optional uint32  defend_inspire = 5;
+}
+message GuildPvpFightRespond{
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional int32  winner     = 3;
+	optional string  fight_data     = 4;
+	optional int64  fight_record_id     = 5;
+	optional int32 cool_down = 6;
+}
+
+message PvpFightAndCheckRequest{
+	optional uint32  sn             = 1;
+	optional uint64  playerid       = 2;
+	optional uint32  no_check     = 3;
+	optional string  fight_encode_data = 4;
+    optional string  cli_opt_data      = 5;
+}
+
+message PvpFightAndCheckRespond{
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional int32   winner = 3;
+	optional int64   fight_record_id = 4;
+	optional int32   cool_down = 5;
+	repeated Reward reward_list =6;
+    repeated int64   npc_hp  = 7;
+}
+
+message AdminFreshLimitedShopRequest {
+	optional uint32 sn=1;
+	optional uint32 begin_time =2;
+	optional uint32 end_time =3;
+}
+//aGameResopnd
+message AdminGetLimitedShopTimeRequest {
+	optional uint32 sn=1 ;
+}
+message AdminGetLimitedShopTimeRespond{
+	optional uint32 sn =1;
+	optional uint32 begin_time=2;
+	optional uint32 end_time =3;
+}
+// bind7725
+message Bind7725Request{
+	optional uint32  sn  = 1;
+	optional uint64  pid = 2;
+}
+// aGameRespond
+
+// SortMilitaryPowerRequest
+message SortMilitaryPowerRequest{
+	optional uint32  sn  = 1;
+	repeated int64  pids = 2;
+}
+// SortMilitaryPowerRespond
+message SortMilitaryPowerRespond{
+	optional uint32  sn  = 1;
+	optional int32 result  = 2;
+	repeated int64  pids = 3;
+	repeated int64  military_powers= 4;
+}
+
+// GetMilitaryPowerRequest
+message GetMilitaryPowerRequest{
+	optional uint32  sn  = 1;
+	repeated int64  pids = 2;
+}
+// GetMilitaryPowerRespond
+message GetMilitaryPowerRespond{
+	optional uint32  sn  = 1;
+	optional int32 result  = 2;
+	repeated int64  pids = 3;
+	repeated int64  military_powers= 4;
+}
+
+// ChangeArmamentPlaceholderRequest
+message ChangeArmamentPlaceholderRequest{
+	optional uint32 sn  = 1;
+	optional uint64 playerid= 2;
+	optional int64 placeholder = 3;
+	optional int64 armament_id = 4;
+}
+
+// QueryArmamentInfoRequest
+message QueryArmamentInfoRequest{
+	optional uint32 sn  = 1;
+	optional uint64 playerid= 2;
+	optional int64 armament_id = 3;
+}
+// QueryArmamentInfoRespond
+message QueryArmamentInfoRespond{
+	optional uint32  sn  = 1;
+	optional int32 result  = 2;
+	optional int64 armament_id = 3;
+	optional int64 placeholder = 4;
+	optional int64 level = 5;
+	optional int64 stage = 6;
+	optional int64 quality= 7;
+}
+
+message QueryFightFormationRequest{
+	optional uint32  sn     = 1;
+	optional int64 playerid =2;
+};
+message CharacterInfo{
+	optional int64 level =1;
+	optional int64 attack =2;
+	optional int64 defend =3;
+	optional int64 max_hp =4;
+	optional int64 hp =5;
+	optional int64 fix_hurt =6;
+	optional int64 fix_reduce_hurt =7;
+
+	optional int64 crit_ratio =8;
+	optional int64 crit_immune_ratio =9;
+	optional int64 crit_hurt =10;
+	optional int64 crit_immune_hurt =11;
+
+	optional int64 disparry_ratio =12;
+	optional int64 parry_ratio =13;
+
+	optional int64 init_power =14;
+	optional int64 incr_power =15;
+	optional int64 attack_speed =16;
+	optional int64 move_speed =17;
+	optional int64 field_of_view =18;
+	optional int64 true_blood_ratio =19;
+
+	optional int64 skill0_id =20;
+	optional int64 skill1_id =21;
+
+	optional int64 scale =22;
+	optional int64 hero_skin_id =23;
+	optional string hero_body_type =24;
+	optional int64 weapon_skin_id =25;
+	optional string weapon_body_type =26;
+	optional int64 mount_skin_id =27;
+	optional string mount_body_type =28;
+
+	optional string name =29;
+	optional int64 quality =30;
+
+	optional int64 flag_skin_id =31;
+	optional int64 tenacity =32;
+	optional int64 strength =33;
+	optional int64 active =34;
+	repeated int64 buffs  =35;
+    optional int64 hero_id=36;
+
+	optional int64 pet_skin_id = 37;
+	optional string pet_body_type = 38;
+};
+message QueryFightFormationRespond{
+	optional int64 sn =1;
+	optional int32 result  = 2;
+	repeated CharacterInfo placeholder =3;
+};
+
+message QueryKingFightInfoRequest{
+	optional uint32  sn     = 1;
+	optional int64 playerid=2;
+};
+
+message KingFightInfo{
+	optional string name =1;
+	optional int64 level =2;
+	repeated int64 skill_id =3;
+
+	optional int64 banner_id =4;
+	optional int64 scale =5;
+	optional int64 hero_skin_id =6;
+	optional string hero_body_type =7;
+
+	optional int64 weapon_skin_id =8;
+	optional string weapon_body_type =9;
+
+	optional int64 mount_skin_id =10;
+	optional string mount_body_type =11;
+
+	optional int64 flag_skin_id =12;
+
+	optional int64 quality =13;
+
+	repeated uint64 ensign = 14;
+        
+  	optional int64 pet_skin_id = 15;
+	optional string pet_body_type = 16;
+};
+message QueryKingFightInfoRespond{
+	optional uint32  sn     = 1;
+	optional int32 result  = 2;
+	optional KingFightInfo info =3;
+};
+
+
+// #define S_QUERY_STORY_FIGHT_INFO_REQUEST 6079 // 查询玩家战斗数据请求
+message QueryStoryFightInfoRequest {
+	optional uint32 sn  = 1;
+	optional uint32 story_id = 2;
+}
+
+// #define S_QUERY_STORY_FIGHT_INFO_RESPOND 6080 // 查询玩家战斗数据返回
+message QueryStoryFightInfoRespond {
+	optional uint32        sn     = 1;
+	optional int32       result = 2;
+	required uint64        pid    = 3;
+	required KingFightInfo king   = 4;
+	repeated CharacterInfo heros  = 5;
+};
+
+// #define S_SET_STORY_PASS_REQUEST 6081 // 查询玩家战斗数据请求
+message SetStoryPassRequest {
+	optional uint32 sn  = 1;
+	optional uint64 pid = 2;
+	optional uint32 story_id = 3;
+}
+
+// #define S_SET_STORY_PASS_RESPOND 6082 // 查询玩家战斗数据返回
+message SetStoryPassRespond {
+	optional uint32        sn     = 1;
+	optional int32       result = 2;
+    repeated Reward        reward_list = 3;
+};
+
+
+//#define S_QUERY_STORY_STATUS_REQUEST 6083 // 查询副本状态 0未开放，1已开放，2已通过
+message QueryStoryStatusRequest {
+	optional uint32 sn  = 1;
+	optional uint64 pid = 2;
+	optional uint32 story_id = 3;
+}
+//#define S_QUERY_STORY_STATUS_RESPOND 6084
+message QueryStoryStatusRespond {
+	optional uint32   sn     = 1;
+	optional int32  result = 2;
+    optional uint32   status = 3;
+};
+
+// cross arena fight
+message CrossArenaFightRequest{
+	optional uint32  sn     = 1;
+	optional uint32 attacker_pid =2;
+	repeated CharacterInfo defender_formation =3;
+	optional KingFightInfo defender_king =4;
+	optional int64 defender_level =5;
+	optional int64 defender_attack_addition=6;
+	optional int64 defender_defend_addition=7;
+	optional int64 attacker_attack_addition=8;
+};
+message CrossArenaFightRespond{
+	optional uint32  sn     = 1;
+	optional int32 result  = 2;
+	optional int32  winner     = 3;
+	optional string  fight_data     = 4;
+	optional int64  fight_record_id     = 5;
+	optional int32 cool_down = 6;
+};
+
+// cross arena config
+message CrossArenaServerConfig{
+	optional int64 id =1;
+	optional string name =2;
+	optional int64 defender_addition =3;
+};
+message CrossArenaSetArenaRequest{
+	optional uint32  sn     = 1;
+	optional int64 arena_id =2;
+	optional int64 begin_time =3;
+	optional int64 end_time =4;
+	optional int64 reward_time =5;
+	repeated CrossArenaServerConfig server_list =6;
+};
+message CrossArenaDelArenaRequest{
+	optional uint32  sn     = 1;
+	optional int64 arena_id =2;
+};
+message CrossArenaConfig{
+	optional int64 id =1;
+	optional int64 begin_time =2;
+	optional int64 end_time =3;
+	optional int64 reward_time =4;
+	repeated CrossArenaServerConfig server_list =5;
+};
+message CrossArenaQueryArenaRequest{
+	optional uint32  sn     = 1;
+};
+message CrossArenaQueryArenaRespond{
+	optional uint32  sn     = 1;
+	optional int32 result  = 2;
+	repeated CrossArenaConfig arena_list =3;
+};
+
+message NotifyArmament{
+	required uint64 playerid =1;	
+	required uint32 gid =2;	
+	required uint32 placeholder =3;	
+	required uint32 action =4;	
+};
+
+
+// S_ADSUPPORT_EVENT_INSERT_EVENT_NUM_REQUEST          = 14006 -- adsupport 插入每天的任务数和具体任务的总数
+message NotifyADSupportEventRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	required uint32 eventid = 3;
+	required uint32 value = 4;
+};
+
+
+
+//S_ADSUPPORT_GMADDGROUP_RESPOND                 = 14021
+// aGameRespond
+
+message ADSupportAddGroupRequest {
+	optional uint32 sn = 1;
+	required uint32 gid = 2;
+	required uint32 begintime = 3;
+	required uint32 endtime = 4;
+	required uint32 period = 5;
+	message Reward {
+		required uint32 type = 1;
+		required uint32 id = 2;
+		required uint32 value = 3;
+	}
+	required Reward sumreward = 6;
+}
+
+//S_ADSUPPORT_GMADDQUEST_RESPOND                 = 14023
+// aGameRespond
+
+
+message ADSupportAddQuestRequest {
+        optional uint32 sn = 1;
+        required uint32 gid = 2;
+        required uint32 questid = 3;
+        required uint32 eventid = 4;
+        required uint32 eventvalue = 5;
+        message Reward {
+                required uint32 type = 1;
+                required uint32 id = 2;
+                required uint32 value = 3;
+        }
+        required Reward  eventreward = 6;
+}
+
+message ADSupportGetGroupidRequest{
+        optional uint32 sn = 1;
+        required uint32 gid = 2;
+}
+
+message ADSupportreloadConfigRequest{
+        optional uint32 sn = 1;
+}
+
+
+message ADSupportAddLoginGroupRequest {
+    optional uint32 sn = 1;
+    required uint32 gid = 2;
+    required uint32 begintime = 3;
+    required uint32 endtime = 4;
+    required uint32 viewtime = 5;
+    required uint32 period = 6;
+    message Reward {
+        required uint32 type = 1;
+        required uint32 id = 2;
+        required uint32 value = 3;
+    }
+    repeated Reward reward = 7;
+}
+
+message ADSupportAddInvestGroupRequest {
+    optional uint32 sn = 1;
+    required uint32 gid = 2;
+    required uint32 begintime = 3;
+    required uint32 endtime = 4;
+    required uint32 rid = 5;
+}
+
+message AdminFreshPetGradeRankConfig {
+    optional uint32 sn = 1;
+    required uint32 begin_time = 2;
+    required uint32 end_time = 3;
+    required uint32 pool_type = 4;
+    required uint32 petid = 5;
+}
+
+message TranspondLuckyDraw {
+    optional uint32 sn = 1;
+    required uint32 pool_type = 2;
+    required uint64 pid = 3;
+    optional uint32 result = 4;
+    message Reward {
+        required uint32 type = 1;
+        required uint32 id = 2;
+        required uint32 value = 3;
+    }
+    repeated Reward reward = 5;
+}
+
+
+
+// fight info
+
+message FightProperty {
+	required uint32 type = 1;
+	required int32 value = 2;
+}
+
+message FightRole {
+	required uint32 refid = 1;
+
+	required uint32 id = 2;
+	required uint32 level = 4 [default = 1];
+
+	repeated FightProperty propertys = 5;
+
+	required uint32 pos = 6;
+	required uint32 wave = 7 [default = 1];
+
+	required uint32 mode = 8;
+
+	repeated uint32 skills = 9;
+
+	optional float x = 10;
+	optional float y = 11;
+	optional float z = 12;
+
+	optional uint32  share_mode  = 13;
+	optional uint32  share_count = 14;
+
+	message AssistSkill {
+		optional uint32 id = 1;
+		optional uint32 weight = 2;
+	};
+
+	repeated AssistSkill assist_skills = 15;
+	optional uint32 assist_cd = 16;
+
+	repeated uint32 equips = 17;
+
+	optional uint64 uuid = 18;
+
+	repeated uint32 drop_id = 19;
+
+	optional uint32 grow_stage = 20;
+	optional uint32 grow_star  = 21;
+}
+
+message FightPlayer {
+	required uint64 pid = 1;
+	optional string name = 2;
+	repeated FightRole  roles = 3;
+
+	optional bool npc = 4 [default=false];
+
+	optional uint32 level = 5;
+
+	repeated FightRole  assists = 6;
+}
+
+message FightData {
+	required uint64 id = 1;	
+ 
+	required FightPlayer attacker = 2;
+	required FightPlayer defender = 3;
+
+	optional string scene = 4;
+
+	required uint32 seed = 5;
+
+	message StarCondition {
+		required uint32 type = 1;
+		optional uint32 v1 = 2;
+		optional uint32 v2 = 3;
+	}
+
+	repeated StarCondition star = 6;
+
+	optional uint32 fight_type = 7;
+	optional uint32 win_type   = 8;
+	optional uint32 win_para   = 9;
+	optional uint32 duration   = 10;
+}
+
+
+message FightCommand {
+    enum CommandType {
+		UNKNOWN              = 1;
+        INPUT                = 2;
+        MONSTER_ENTER        = 3;
+        MONSTER_COUNT_CHANGE = 4;
+        MONSTER_HP_CHANGE    = 5;
+        PLAYER_STATUS_CHANGE = 6;
+    }
+
+    message Command {
+        optional uint32 tick      = 1;
+        required CommandType type = 2;
+        optional uint64 pid       = 3;
+        optional int32  s_index   = 4; // 服务器命令索引
+        optional uint32 refid     = 5;
+        optional uint32 sync_id   = 6;
+        optional uint32 skill     = 7;
+        optional uint32 target    = 8;
+        optional int32  value     = 9;
+    }
+
+    optional int32 tick = 1;
+    repeated Command commands = 2;
+}
+
+message FightInput {
+	message Operation {
+		optional uint32 refid       = 1;
+		optional uint32 skill       = 2;
+		optional uint32 target      = 3;
+	}
+
+	repeated Operation operations  = 1;
+}
+
+// #define S_QUERY_PLAYER_FIGHT_INFO_REQUEST 6075 // 查询玩家战斗数据请求
+message QueryPlayerFightInfoRequest {
+	optional uint32 sn  = 1;
+	optional uint64 pid = 2;
+	optional bool npc = 3 [default=false];
+	optional uint32 ref = 4;
+	optional uint64 check_player_id = 5;
+	repeated uint64 heros = 6;
+	repeated uint64 assists = 7;
+	optional uint32 level = 8;
+	optional uint32 target_fight = 9;
+}
+
+// #define S_QUERY_PLAYER_FIGHT_INFO_RESPOND 6076 // 查询玩家战斗数据返回
+message QueryPlayerFightInfoRespond {
+	optional uint32        sn     = 1;
+	optional int32         result = 2;
+	required FightPlayer   player = 3;
+}
+
+// #define S_QUERY_RECOMMEND_FIGHT_INFO_REQUEST 6078 // 查询指定阵容战斗数据请求
+message QueryRecommendFightInfoRequest {
+	optional uint32 sn  = 1;
+	optional uint64 pid = 2;
+	optional uint64 fight_id = 3;
+	optional uint32 ref = 4;
+	optional uint64 check_player_id = 5;
+	repeated uint64 heros = 6;
+	repeated uint64 assists = 7;
+}
+
+message PlayerFightPrepareRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	required uint32 fightid = 3;
+	repeated uint64 heros = 4;
+	repeated uint64 assists = 5;
+	optional uint32 level = 6;
+}
+
+message PlayerFightPrepareRespond {
+	optional uint32        sn     = 1;
+	required int32         result = 2;
+	required FightData     fight_data = 3;
+}
+
+message PlayerFightConfirmRequest {
+	optional uint32 sn      = 1;
+	required uint64 pid     = 2;
+	required uint32 fightid = 3;
+	repeated uint64 heros   = 4;
+	required uint32 star    = 5;
+}
+
+message PlayerFightConfirmRespond {
+	optional uint32   sn     = 1;
+	required int32  result = 2;
+	repeated Reward   rewards = 3;
+}
+
+message DatabaseRequest {
+	required string sql = 1;
+}
+
+message DatabaseRespond {
+	required int32 errno = 1;
+
+	enum Type {
+		INTEGER = 1;
+		STRING  = 2;
+		FLOAT   = 3;
+	}
+
+	message Value {
+		required Type   type = 1;		
+		optional int64  intValue   = 2;
+		optional string strValue   = 3;
+		optional double floatValue = 4;
+	}
+
+	message Row {
+		repeated Value value = 1;
+	}
+
+	repeated string fields = 2;
+	repeated Value  rows   = 3;
+
+	optional uint64 last_id = 4;
+}
+
+//S_GET_PLAYER_HERO_INFO_REQUEST       3011	// PGetPlayerHeroInfoRequest
+message PGetPlayerHeroInfoRequest {
+	optional uint32 sn       = 1;
+	optional uint64 playerid = 2;
+	optional uint32 gid      = 3;
+	optional uint64 uuid     = 4;
+}
+/*int exp;
+			unsigned int level;
+			int stage;
+			int star;
+			int stage_slot;
+			int weapon_stage;
+			int weapon_star;
+			int weapon_level;
+			int weapon_stage_slot;
+			int weapon_exp;
+			int placeholder;
+*/
+//S_GET_PLAYER_HERO_INFO_RESPOND       3011    // PGetPlayerHeroInfoRespond
+message PGetPlayerHeroInfoRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+
+	message Hero {
+		optional uint32 gid               =  1;
+		optional uint64 uuid              =  2;
+		optional uint32 exp               =  3;
+		optional uint32 level             =  4;
+		optional uint32 stage             =  5;		
+		optional uint32 star              =  6;		
+		optional uint32 stage_slot        =  7;		
+		optional uint32 weapon_stage      =  8;		
+		optional uint32 weapon_star       =  9;		
+		optional uint32 weapon_level      = 10;		
+		optional uint32 weapon_stage_slot = 11;		
+		optional uint32 weapon_exp        = 12;		
+		optional uint32 placeholder       = 13;		
+	};
+
+	optional Hero hero      = 3; 
+	repeated Hero heros     = 4;
+}
+
+message PGetPlayerQuestInfoRequest {
+	optional uint32 sn    = 1;
+	optional uint64 pid   = 2;
+	optional bool   include_finished_and_canceled = 3;
+	repeated int32  types = 4;
+};
+
+message PGetPlayerQuestInfoRespond {
+	optional uint32 sn = 1;
+	optional int32  result = 2;
+	
+	message Quest {
+		optional uint64 uuid    = 1;
+		optional uint32 id      = 2;
+		optional uint32 status  = 3;
+		optional uint32 type    = 4;
+		repeated uint32 records = 5;
+		optional uint64 accept_time = 6;
+		optional uint64 submit_time = 7;
+	}
+	repeated Quest quests = 3;
+};
+
+message PSetPlayerQuestRequest {
+	optional uint32 sn      = 1;
+	optional uint64 pid     = 2;
+	optional uint64 uuid    = 3;
+	optional uint64 id      = 4;
+	optional uint32 status  = 5;
+	repeated uint32 records = 6;
+	optional bool   rich_reward = 7 [default=false];
+	optional uint32 expired_time = 8;
+	optional uint32 pool    = 9;
+};
+
+message PSetPlayerQuestRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+	optional uint64 uuid = 3;
+};
+
+// S_GUILD_QUERY_BUILDING_LEVEL_REQUEST	3036// 查询玩家军团建筑等级
+message GuildQueryBuildingLevelRequest {
+	optional uint32 sn = 1;
+	optional uint64 playerid = 2;
+	optional uint32 building_type = 3;
+};
+
+// S_GUILD_QUERY_BUILDING_LEVEL_RESPOND	3037 // 查询玩家军团建筑等级
+message GuildQueryBuildingLevelRespond {
+	optional uint32 sn = 1;	
+	optional int32  result = 2;	
+	optional uint32 gid = 3;
+	optional uint32 level = 4;
+};
+
+message event {
+	optional uint32 type   = 1;
+	optional uint32 id     = 2;
+	optional uint32 count  = 3;
+}
+
+message PNotifyPlayerQuestEventRequest {
+	optional uint32 sn    = 1;
+	optional uint64 pid   = 2;
+	repeated event events = 3;
+}
+ 
+message ArenaGetRankListRequest {	// ArenaGetRankListRequest
+	optional uint32 sn = 1;
+	optional uint32 topcnt = 2;
+}; 
+
+message Rank {
+	required uint64 pid = 1;
+	optional uint32 level = 2;
+	optional string name = 3;
+	optional uint32 rank = 4;
+};
+
+message ArenaGetRankListRespond {	// ArenaGetRankListRespond
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	
+	repeated Rank ranks = 3;	
+};
+
+message MapLoginRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message MapLogoutRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message MapQueryPosRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message MapQueryPosRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint32 mapid = 3;
+	optional float x = 4;
+	optional float y = 5;
+	optional float z = 6;
+	optional uint32 channel = 7;
+	optional uint64 room = 8;
+}
+
+message MapMoveRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional float x = 3;
+	optional float y = 4;
+	optional float z = 5;
+	optional uint32 mapid = 6;
+	optional uint32 channel = 7;
+	optional uint64 room = 8;		
+}
+
+message TeamQueryInfoRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 tid = 3;
+}
+
+message TeamQueryInfoRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint64 teamid = 3;
+	optional uint32 grup = 4;
+	optional uint64 leader = 5;
+	optional uint32 inplace_checking = 6;
+	message member {
+		optional uint64 pid = 1;
+		optional uint32 level = 2;
+		optional uint32 ready = 3;
+	}
+	repeated member members = 7;
+	optional bool auto_confirm = 8;
+	optional bool auto_match = 9;
+	repeated uint64 afk_list = 10;
+}
+
+message TeamCreateRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 grup = 3;
+	optional uint32 lower_limit = 4;
+	optional uint32 upper_limit = 5;
+}
+
+message TeamCreateRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+	optional uint64 teamid = 3;
+	optional uint32 leader_level = 4;
+}
+
+message TeamLeaveRequest {
+	optional uint32 sn = 1;
+	optional uint64 opt_id = 2;
+	optional uint64 pid = 3;
+}
+
+message TeamDissolveRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message NotifyAITeamPlayerEnterRequest {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 teamid = 3;
+	optional uint64 pid = 4;
+	optional uint32 level = 5;
+}
+
+message NotifyAITeamPlayerLeaveRequest {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 teamid = 3;
+	optional uint64 pid = 4;
+	optional uint64 opt_pid = 5;
+	optional float x = 6;
+	optional float y = 7;
+	optional float z = 8;
+	optional uint32 mapid = 9;
+	optional uint32 channel = 10;
+	optional uint64 room = 11;
+}
+
+message TeamSetAutoConfirmRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 teamid = 3;
+} 
+
+message TeamInplaceCheckRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 teamid = 3;
+	optional uint64 type = 4;
+}
+
+message TeamInplaceReadyRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 teamid = 3;
+	optional uint64 ready = 4;
+	optional uint64 type = 5;
+}
+
+message NotifyAITeamPlayerReadyRequest {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 teamid = 3;
+	optional uint64 pid = 4;
+	optional uint64 ready  = 5;
+}
+
+message TeamStartActivityFightRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 fight_id = 3;
+	optional uint64 fight_level = 4;
+}
+
+message TeamFightReadyRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message NotifyAITeamFightFinishRequest {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint32 winner = 3;
+	optional uint32 fight_id = 4;
+} 
+
+message TeamSyncRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 cmd = 3;
+	repeated uint64 data = 4;
+}
+
+message NotifyAIRollGameCreate {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 game_id = 3;
+	optional uint32 reward_count = 4;
+}
+
+message NotifyAIRollGameFinish {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 game_id = 3;
+}
+
+message TeamRollRewardRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 game_id = 3;
+	optional uint32 idx = 4;
+	optional bool want = 5;
+}
+
+message TeamGetTeamProgressRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 teamid = 3;
+	repeated uint32 fights = 4;
+}
+
+message TeamGetTeamProgressRespond {
+	optional uint32 sn = 1;
+	optional int32 result = 2;
+	message pro {
+		optional uint32 fight_id = 1;
+		optional uint32 progress = 2;	
+	}
+	repeated pro progress = 3;
+}
+
+message TeamChangeLeaderRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 new_leader = 3;
+}
+
+// 
+message PQueryUnactiveAIRequest {
+	optional uint32 sn = 1;
+	optional uint32 ref_level = 2;
+}
+
+message PQueryUnactiveAIRespond {
+	optional uint32 sn = 1;
+	optional int32 result = 2;
+	optional uint64 pid = 3;
+	optional uint32 level = 4;
+}
+
+message PUpdateAIActiveTimeRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 time = 3;
+}
+
+message TeamFindNpcRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 fight_id = 3;
+}
+
+message AITeamAutomatchRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional bool auto_match = 3;
+}
+
+message AIAutomatchRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 grup = 3;
+	optional uint64 teamid = 4;
+}
+
+message GetAutomatchTeamCountRequest {
+	optional uint32 sn = 1;
+	optional uint32 grup = 2;
+	optional uint32 level = 3;
+}
+
+message GetAutomatchTeamCountRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint32 count = 3;
+}
+
+message QueryAutoMatchTeamRequest {
+	optional uint32 sn = 1;
+}
+
+message QueryAutoMatchTeamRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	message teamInfo {
+		optional uint32 grup = 1;
+		optional uint64 teamid = 2;
+	};
+	repeated teamInfo team_list = 3;
+}
+
+message NotifyAITeamFightStart {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+}
+
+message NotifyAITeamInplaceCheck {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+}
+
+message NotifyAITeamLeaderChange {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 leader = 3;
+	optional float x = 4;
+	optional float y = 5;
+	optional float z = 6;
+	optional uint32 mapid = 7;
+	optional uint32 channel = 8;
+	optional uint64 room = 9;
+}
+
+message NotifyAITeamGroupChange {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 grup = 3;
+}
+
+message NotifyAITeamAutoMatchChange {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional bool auto_match = 3;
+}
+
+// AI赠送体力
+message PresentEnergyNotify {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+// AI添加好友
+message AddFriendNotify {
+	optional uint32 sn = 1;
+	repeated uint64 friends = 2;
+}
+
+// 查询获赠记录
+message QueryResentRecordRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+message QueryResentRecordRespond {
+	optional uint32 sn = 1;	
+	repeated uint64 donors = 2;
+	required int32 result = 3;
+}
+
+// 通过pid查询军团信息
+message QueryGuildByPidRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+message QueryGuildByPidRespond {
+	optional uint32 sn = 1;
+	required int32 result = 2;
+	required uint32 gid = 3;
+	optional uint32 leader = 4;
+	optional uint32 help_count = 5;
+	optional uint64 join_time =6;
+}
+
+// 申请加入军团
+message ApplyGuildNotify {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+// 申请军团的回复
+message NotifyGuildApply {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	required uint32 gid = 3;
+}
+
+// 军团取消或者踢人（AI）的通知
+message NotifyGuildDispear {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	required uint32 gid = 3;
+}
+
+// 军团建设值捐献
+message DonateExpNotify {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	required uint32 donateType = 3;
+}
+
+// 寻求祈愿协助
+message SeekPrayHelpNotify {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+// 帮助其他人完成祈愿
+message HelpPrayNotify {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+message BountyStartRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 activity_id = 3;
+}
+
+message BountyStartRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint32 quest = 3;
+	optional uint32 record = 4;
+	optional uint32 next_fight_time = 5;
+}
+
+message BountyFightRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 activity_id = 3;
+}
+
+message BountyFightRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint32 next_fight_time = 3;
+}
+
+message BountyQueryRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message BountyQueryRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	message quest {
+		optional uint32 quest = 1;
+		optional uint32 record = 2;
+		optional uint32 next_fight_time = 3;
+		optional uint32 activity_id = 4;
+	}
+	repeated quest quest_info = 3;
+}
+
+message NotifyAIBountyChange {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint64 id = 3;
+	optional uint32 quest = 4;
+	optional uint32 record = 5;
+	optional uint32 next_fight_time = 6;
+	optional uint32 activity_id = 7; 
+	optional bool finish = 8; 
+	optional int32 winner = 9; 
+}
+
+
+message PVPFightPrepareRequest {
+	optional uint32 sn = 1;
+	
+	required uint64 attacker = 2;
+	required uint64 defender = 3;
+	optional bool auto = 4 [default=false];
+	optional string scene = 5 [default="18hao"];
+
+	optional FightPlayer attacker_data = 6;
+	optional FightPlayer defender_data = 7;
+}
+
+message PVPFightPrepareRespond {
+	message Role {
+		required uint32 refid = 1;
+		required uint32 hp = 2; 
+	};
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint64 id = 3;
+	optional uint32 winner = 4;
+	optional uint32 seed = 5;
+	repeated Role roles = 6;
+}
+
+message PVPFightCheckRequest {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+}
+
+message PVPFightCheckRespond {
+	optional uint32 sn = 1;
+    optional uint32 result = 2;
+    optional uint64 winner = 3;
+}
+
+message PChangeAINickNameRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional string name = 3;
+	optional uint32 head = 4;
+}
+
+// gm
+message GMRequest {
+	optional uint32 sn = 1;
+	required string command = 2;
+	optional string json = 3;
+}
+
+message GMRespond {
+	optional uint32 sn = 1;
+	optional int32 result = 2;
+	optional string json = 3;
+}
+
+message ArenaAIEnterNotify {
+	required uint32 id = 1;
+}
+
+message AdminAddMultiMailRequest {
+	message Appendix{
+		required int32 type =1;
+		required int32 id =2;
+		required int32 value =3;
+	};
+	optional uint32 sn      = 1;
+
+	optional uint64 from    = 2;
+	repeated uint64 pids    = 3;
+	required uint32 type    = 4;
+	required string title   = 5;
+	required string content = 6;
+	repeated Appendix appendix = 7;
+};
+
+message PChangeBuffRequest {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	optional int32 add = 3;
+	optional uint32 buff_id = 4;	
+	optional uint32 buff_value = 5;	
+}
+
+message GuildExploreNotify {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+message DoLeaderWorkNotify {
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+}
+
+message ArenaAddWealthRequest {
+	optional uint64 sn = 1;
+	required uint64 pid = 2;
+	required int64 wealth = 3;
+}
+
+message PVEFightPrepareRequest {
+	optional uint32 sn = 1;
+	optional uint64 attacker = 2;
+	optional uint64 target = 3;
+	optional uint32 npc = 4;
+	repeated uint64 heros = 5;
+	repeated uint64 assists = 6;
+}
+
+message PVEFightPrepareRespond {
+	optional uint32 sn = 1;	
+	optional uint32 result = 2;
+	optional uint64 fightID = 3;
+	optional string fightData = 4;
+}
+
+message PVEFightCheckRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 fightid = 3;
+	optional uint32 starValue = 4;
+	optional string code = 5;
+}
+
+message PVEFightCheckRespond {
+	optional uint32 sn = 1;	
+	optional uint32 result = 2;
+	optional uint32 winner = 3;
+	repeated Reward rewards = 4;
+}
+
+message NotifyActiveAI {
+	optional uint32 sn = 1;
+	optional uint32 level = 2;
+	optional uint32 first_target = 3; 
+}
+
+message GetPlayerAIRatioRequest {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	repeated uint32 targets = 3;
+}
+
+message GetPlayerAIRatioRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	message t_priority {
+		optional uint32 target = 1;
+		optional float priority = 2;
+	} 
+	repeated t_priority targets_priority = 3;
+}
+
+message NotifyAIPlayerApplyToBeLeader {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 candidate = 3;
+}
+
+message TeamVoteRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 candidate = 3;
+	optional uint32 agree = 4;
+}
+
+message NotifyAINewJoinRequest {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 pid = 3;
+	optional uint32 level = 4;
+}
+
+message TeamJoinConfirmRequest {
+	optional uint32 sn = 1;
+	optional uint64 opt_id = 2;
+	optional uint64 pid = 3;
+}
+
+message QueryPlayerPropertyRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	repeated uint32 types = 3;
+}
+
+message QueryPlayerPropertyRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	repeated uint32 data = 3;
+}
+
+message ModifyPlayerPropertyRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 typa = 3;
+	repeated uint32 tab = 4; 
+}
+
+message AddActivityRewardNotify {
+	message Reward {
+		optional int32 type = 1;
+		optional int32 id = 2;
+		optional int32 value = 3;
+	}
+	optional uint32 sn = 1;
+	required uint64 pid = 2;
+	required uint32 quest_id = 3;
+	repeated Reward rewards = 4;
+} 
+
+message AILoginNotify {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message AILogoutNotify {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+}
+
+message PSaveHeroCapacityRequest {
+	optional uint32 sn = 1;
+	optional uint64 playerid = 2;
+	message hero_capacity {
+		optional uint64 hero_uuid = 1;
+		optional uint32 capacity = 2;
+	}
+	repeated hero_capacity heros = 3;
+} 
+
+message AddFavorNotify {
+	required uint64 pid1 = 1;
+	required uint64 pid2 = 2;
+	required uint32 source = 3;
+}
+
+message ShopBuyParam {
+	repeated uint64 consume_uuid = 1;
+	message GuildInfo {
+		optional uint32 type = 1;	
+		optional uint32 level = 2;
+	}
+	optional GuildInfo guild = 2;
+	optional uint32 product_index = 3;
+	optional uint64 hero_uuid = 4;
+}
+
+
+message ServerInfoRequest {
+	optional uint32 sn = 1;
+}
+	
+message ServerInfoRespond {
+	optional uint32 sn = 1;
+	required uint32 result = 2;
+	required uint32 max_level = 3;
+}
+
+message TeamFightStartRequest {
+	optional uint32 sn = 1;
+	repeated uint64 pids = 2;
+	required uint32 fight_id = 3;
+	optional uint32 fight_level = 4;
+
+	message attacker {
+		required uint64 pid = 1;
+		optional FightPlayer fight_data = 2;
+	}
+
+	repeated attacker attacker_data = 5;
+	optional FightPlayer defender_data = 6;
+} 
+
+message TeamFightStartRespond {
+	optional uint32 sn = 1;
+	optional uint32 result = 2;
+	optional uint64 winner = 3;
+	
+	message hp_info {
+		optional uint32 refid = 1;
+		optional uint32 hp = 2;
+	}
+
+	repeated hp_info attacker_hp = 4;
+	repeated hp_info defender_hp = 5;
+}
+
+message QueryTeamBattleTimeRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 battle_id = 3;
+}
+
+message QueryTeamBattleTimeRespond {
+	optional uint32 sn = 1;
+	optional uint32 battle_begin_time = 2;
+	optional uint32 battle_end_time = 3;
+}
+
+message TeamEnterBattleRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 battle_id = 3;
+}
+
+message NotifyAIBattleTimeChange {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint32 battle_begin_time = 3;
+	optional uint32 battle_end_time = 4;
+}
+
+message TradeWithSystemRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint32 equip_gid = 3;	
+	optional uint64 equip_uuid = 4;
+	optional uint32 sell = 5;	
+	message Consume {
+		required uint32 type  = 1 [default=41];
+		required uint32 id    = 2;
+		required uint32 value = 3;
+	};
+	repeated Consume consume = 6;	
+
+} 
+
+message TradeWithSystemRespond {
+	optional uint32  sn     = 1;
+	required int32 result = 2;
+	optional uint32 level = 3;
+	optional uint32 quality = 4;
+	optional uint32 uuid = 5;
+}
+
+message NotifyAITeamPlayerAFK {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 pid = 3;
+} 
+
+message NotifyAITeamPlayerBackToTeam {
+	optional uint32 sn = 1;
+	optional uint64 id = 2;
+	optional uint64 pid = 3;
+} 
+
+message RankListUpdateDatumRequest {
+	optional uint32 sn = 1;
+	optional uint64 pid = 2;
+	optional uint64 rankid = 3;
+	optional uint64 score = 4;
+	optional uint64 sociaty = 5;
+}
+
+/*
+message NotifyTeamMembers {
+	optional uint32 sn = 1;
+	optional uint32 teamid = 2;
+	optional uint32 cmd = 3;
+	repeated uint64 msg = 4;
+	repeated uint64 pids = 5;
+	optional bool include_afk_mem = 6;
+}*/

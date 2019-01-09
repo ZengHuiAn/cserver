@@ -1,0 +1,42 @@
+<WorldConfig>
+	<Listen>
+		<host>0.0.0.0</host>
+		<port>9811</port>
+		<backlog>100</backlog>
+	</Listen>
+
+	<Chat>
+		<host>127.0.0.1</host>
+		<port>9805</port>
+	</Chat>
+
+	<Arena>
+		<host>127.0.0.1</host>
+		<port>9807</port>
+	</Arena>
+
+	<Guild>
+		<host>127.0.0.1</host>
+		<port>9806</port>
+	</Guild>
+
+	<Database>
+		<Redis>
+			<host>127.0.0.1</host>
+			<port>6379</port>
+		</Redis>
+
+		<Mysql>
+			<!-- host>127.0.0.1</host -->
+			<host>192.168.1.230</host>
+			<port>3306</port>
+			<user>agame</user>
+			<passwd>agame@123</passwd>
+			<db>aGameX</db>
+		</Mysql>
+	</Database>
+
+	<Story>
+		<Prefix>/var/www/html/aGame/fight</Prefix>
+	</Story>
+</WorldConfig>

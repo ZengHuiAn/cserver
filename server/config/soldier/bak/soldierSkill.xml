@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="soldierSkill.xsl"?>
+
+<SoldierSkills>
+	<Skill id = "1021">
+		<Name>大盾</Name>
+		<SoldierType>1</SoldierType>
+		<TargetType>2</TargetType>
+		<HurtIncrease>0</HurtIncrease>
+		<HurtReduce>5</HurtReduce>
+		<Desc>重步兵配以坚固的大盾，减少被弓兵攻击时所受的伤害</Desc>
+	</Skill>
+	<Skill id = "1031">
+		<Name>铁壁</Name>
+		<SoldierType>1</SoldierType>
+		<TargetType>0</TargetType>
+		<HurtIncrease>0</HurtIncrease>
+		<HurtReduce>5</HurtReduce>
+		<Desc>近卫兵列阵，防守坚如铁壁，减少被所有兵种攻击时所受的伤害</Desc>
+	</Skill>
+	<Skill id = "2021">
+		<Name>强矢</Name>
+		<SoldierType>2</SoldierType>
+		<TargetType>3</TargetType>
+		<HurtIncrease>5</HurtIncrease>
+		<HurtReduce>0</HurtReduce>
+		<Desc>配以强矢，威力倍增。增加攻击枪兵时的伤害</Desc>
+	</Skill>
+	<Skill id = "2031">
+		<Name>箭雨</Name>
+		<SoldierType>2</SoldierType>
+		<TargetType>0</TargetType>
+		<HurtIncrease>5</HurtIncrease>
+		<HurtReduce>0</HurtReduce>
+		<Desc>密集射击，箭如雨下。增加攻击所有兵种时的伤害</Desc>
+	</Skill>
+	<Skill id = "3021">
+		<Name>穿刺</Name>
+		<SoldierType>3</SoldierType>
+		<TargetType>4</TargetType>
+		<HurtIncrease>5</HurtIncrease>
+		<HurtReduce>0</HurtReduce>
+		<Desc>寒森的枪尖穿刺透过战马。增加攻击骑兵时的伤害</Desc>
+	</Skill>
+	<Skill id = "3031">
+		<Name>隐匿</Name>
+		<SoldierType>3</SoldierType>
+		<TargetType>0</TargetType>
+		<HurtIncrease>0</HurtIncrease>
+		<HurtReduce>5</HurtReduce>
+		<Desc>利用地形将部队隐匿起来，减少被所有兵种攻击时所受的伤害</Desc>
+	</Skill>
+	<Skill id = "4021">
+		<Name>铁蹄</Name>
+		<SoldierType>4</SoldierType>
+		<TargetType>1</TargetType>
+		<HurtIncrease>5</HurtIncrease>
+		<HurtReduce>0</HurtReduce>
+		<Desc>重骑兵铁蹄踏过之处所向披靡，增加攻击步兵时的伤害</Desc>
+	</Skill>
+	<Skill id = "4031">
+		<Name>铁甲</Name>
+		<SoldierType>4</SoldierType>
+		<TargetType>0</TargetType>
+		<HurtIncrease>0</HurtIncrease>
+		<HurtReduce>5</HurtReduce>
+		<Desc>战马全身包裹着铁甲，减少被所有兵种攻击时所受的伤害</Desc>
+	</Skill>
+	<Skill id = "5021">
+		<Name>精确</Name>
+		<SoldierType>5</SoldierType>
+		<TargetType>0</TargetType>
+		<HurtIncrease>5</HurtIncrease>
+		<HurtReduce>0</HurtReduce>
+		<Desc>调整后的弹道更为精确，增加攻击所有兵种时的伤害</Desc>
+	</Skill>
+	<Skill id = "5031">
+		<Name>巧匠</Name>
+		<SoldierType>5</SoldierType>
+		<TargetType>0</TargetType>
+		<HurtIncrease>0</HurtIncrease>
+		<HurtReduce>5</HurtReduce>
+		<Desc>能工巧匠发挥其才智改进器械抗打击能力，减少被所有兵种攻击时所受的伤害</Desc>
+	</Skill>
+</SoldierSkills>

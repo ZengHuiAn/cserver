@@ -1,0 +1,12 @@
+<WorldConfig>
+	<Listen>
+		<host>0.0.0.0</host>
+		<port>9815</port>
+		<backlog>100</backlog>
+	</Listen>
+
+	<Database>
+		<host>127.0.0.1</host>
+		<port>6389</port>
+	</Database>
+</WorldConfig>

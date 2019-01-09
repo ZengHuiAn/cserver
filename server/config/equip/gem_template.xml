@@ -1,0 +1,452 @@
+﻿<GemTemplate> <!-- 宝石模版 -->
+  <Gem id="220101">
+    <Name>近攻宝石1级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi1ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MeleeAttack>50</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220102">
+    <Name>近攻宝石2级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi2ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MeleeAttack>100</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220103">
+    <Name>近攻宝石3级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi3ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MeleeAttack>200</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>3000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>3000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220104">
+    <Name>近攻宝石4级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi4ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MeleeAttack>300</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220105">
+    <Name>近攻宝石5级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi5ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MeleeAttack>400</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>5000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>5000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220106">
+    <Name>近攻宝石6级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi6ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MeleeAttack>500</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>6000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>6000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220107">
+    <Name>近攻宝石7级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi7ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MeleeAttack>700</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>7000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>7000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220108">
+    <Name>近攻宝石8级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi8ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MeleeAttack>900</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220109">
+    <Name>近攻宝石9级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi9ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MeleeAttack>1200</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>9000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>9000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220110">
+    <Name>近攻宝石10级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jingongbaoshi10ji.png</Image>  <!-- 图标 -->
+    <Type>220100</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MeleeAttack>1500</MeleeAttack> <!-- 近攻 -->
+    <PriceBuy>10000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>10000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220201">
+    <Name>远攻宝石1级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi1ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <RangeAttack>50</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220202">
+    <Name>远攻宝石2级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi2ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <RangeAttack>100</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220203">
+    <Name>远攻宝石3级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi3ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <RangeAttack>200</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>3000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>3000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220204">
+    <Name>远攻宝石4级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi4ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <RangeAttack>300</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220205">
+    <Name>远攻宝石5级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi5ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <RangeAttack>400</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>5000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>5000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220206">
+    <Name>远攻宝石6级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi6ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <RangeAttack>500</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>6000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>6000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220207">
+    <Name>远攻宝石7级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi7ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <RangeAttack>700</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>7000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>7000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220208">
+    <Name>远攻宝石8级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi8ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <RangeAttack>900</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220209">
+    <Name>远攻宝石9级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi9ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <RangeAttack>1200</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>9000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>9000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220210">
+    <Name>远攻宝石10级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuangongbaoshi10ji.png</Image>  <!-- 图标 -->
+    <Type>220200</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <RangeAttack>1500</RangeAttack> <!-- 远攻 -->
+    <PriceBuy>10000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>10000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220301">
+    <Name>近防宝石1级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi1ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <MeleeDefense>50</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220302">
+    <Name>近防宝石2级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi2ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MeleeDefense>100</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220303">
+    <Name>近防宝石3级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi3ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <MeleeDefense>200</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>3000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>3000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220304">
+    <Name>近防宝石4级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi4ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MeleeDefense>300</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220305">
+    <Name>近防宝石5级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi5ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <MeleeDefense>400</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>5000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>5000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220306">
+    <Name>近防宝石6级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi6ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MeleeDefense>500</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>6000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>6000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220307">
+    <Name>近防宝石7级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi7ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <MeleeDefense>700</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>7000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>7000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220308">
+    <Name>近防宝石8级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi8ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MeleeDefense>900</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220309">
+    <Name>近防宝石9级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi9ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <MeleeDefense>1200</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>9000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>9000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220310">
+    <Name>近防宝石10级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_jinfangbaoshi10ji.png</Image>  <!-- 图标 -->
+    <Type>220300</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <MeleeDefense>1500</MeleeDefense> <!-- 近防 -->
+    <PriceBuy>10000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>10000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220401">
+    <Name>远防宝石1级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi1ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <RangeDefense>50</RangeDefense> <!-- 远防 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220402">
+    <Name>远防宝石2级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi2ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <RangeDefense>100</RangeDefense> <!-- 远防 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220403">
+    <Name>远防宝石3级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi3ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <RangeDefense>200</RangeDefense> <!-- 远防 -->
+    <PriceBuy>3000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>3000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220404">
+    <Name>远防宝石4级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi4ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <RangeDefense>300</RangeDefense> <!-- 远防 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220405">
+    <Name>远防宝石5级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi5ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <RangeDefense>400</RangeDefense> <!-- 远防 -->
+    <PriceBuy>5000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>5000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220406">
+    <Name>远防宝石6级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi6ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <RangeDefense>500</RangeDefense> <!-- 远防 -->
+    <PriceBuy>6000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>6000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220407">
+    <Name>远防宝石7级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi7ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <RangeDefense>700</RangeDefense> <!-- 远防 -->
+    <PriceBuy>7000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>7000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220408">
+    <Name>远防宝石8级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi8ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <RangeDefense>900</RangeDefense> <!-- 远防 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220409">
+    <Name>远防宝石9级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi9ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <RangeDefense>1200</RangeDefense> <!-- 远防 -->
+    <PriceBuy>9000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>9000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220410">
+    <Name>远防宝石10级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_yuanfangbaoshi10ji.png</Image>  <!-- 图标 -->
+    <Type>220400</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <RangeDefense>1500</RangeDefense> <!-- 远防 -->
+    <PriceBuy>10000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>10000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220501">
+    <Name>兵力宝石1级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi1ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>1</Color> <!-- 品质 -->
+    <Soldier>30</Soldier> <!-- 兵力 -->
+    <PriceBuy>1000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>1000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220502">
+    <Name>兵力宝石2级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi2ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <Soldier>60</Soldier> <!-- 兵力 -->
+    <PriceBuy>2000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>2000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220503">
+    <Name>兵力宝石3级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi3ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>2</Color> <!-- 品质 -->
+    <Soldier>120</Soldier> <!-- 兵力 -->
+    <PriceBuy>3000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>3000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220504">
+    <Name>兵力宝石4级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi4ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <Soldier>180</Soldier> <!-- 兵力 -->
+    <PriceBuy>4000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>4000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220505">
+    <Name>兵力宝石5级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi5ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>3</Color> <!-- 品质 -->
+    <Soldier>240</Soldier> <!-- 兵力 -->
+    <PriceBuy>5000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>5000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220506">
+    <Name>兵力宝石6级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi6ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <Soldier>300</Soldier> <!-- 兵力 -->
+    <PriceBuy>6000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>6000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220507">
+    <Name>兵力宝石7级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi7ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>4</Color> <!-- 品质 -->
+    <Soldier>420</Soldier> <!-- 兵力 -->
+    <PriceBuy>7000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>7000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220508">
+    <Name>兵力宝石8级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi8ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <Soldier>540</Soldier> <!-- 兵力 -->
+    <PriceBuy>8000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>8000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220509">
+    <Name>兵力宝石9级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi9ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>5</Color> <!-- 品质 -->
+    <Soldier>720</Soldier> <!-- 兵力 -->
+    <PriceBuy>9000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>9000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+  <Gem id="220510">
+    <Name>兵力宝石10级</Name>  <!-- 名称 -->
+    <Image>resource/icon/gem/gem_binglibaoshi10ji.png</Image>  <!-- 图标 -->
+    <Type>220500</Type> <!-- 类型 -->
+    <Color>6</Color> <!-- 品质 -->
+    <Soldier>900</Soldier> <!-- 兵力 -->
+    <PriceBuy>10000</PriceBuy> <!-- 购买价格 -->
+    <PriceSale>10000</PriceSale> <!-- 出售价格 -->
+  </Gem>
+</GemTemplate>

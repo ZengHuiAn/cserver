@@ -1,0 +1,15 @@
+[2014-12-31 12:09:43]pid =1
+Unable to select game database:Access denied for user 'agame'@'localhost' to database 'aGameMobile_10004'
+[2014-12-31 12:10:24]pid =1
+1 is not a valid player id
+[2014-12-31 12:10:45]pid =1
+1 is not a valid player id
+[2014-12-31 12:12:13]pid =1
+1 is not a valid player id
+[2014-12-31 12:13:20]pid =100007
+[2014-12-31 12:16:52]pid =100007
+[2014-12-31 12:20:45]pid =100007
+[2014-12-31 12:20:48]pid =100007
+[2014-12-31 12:22:23]pid =100007
+100007 consume value is 0
+100007 status is 0

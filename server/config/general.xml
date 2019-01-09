@@ -1,0 +1,57 @@
+﻿<General>
+	<Building>
+		<Guanfu type="510100"> <!-- 官府 -->
+			<CoinLimitPerLevel>200000</CoinLimitPerLevel> <!-- 每级官府提供铜币上限 -->
+		</Guanfu>
+		<Wall type="510200">          <!-- 城墙 -->
+			<WallHPPerLevel>50000</WallHPPerLevel> <!-- 每级城墙HP -->
+			<DefenseCountPerLevel>100</DefenseCountPerLevel> <!-- 每级城墙城防空间 -->
+		</Wall>
+		<Train type="510400">         <!-- 训练馆 -->
+			<Normal>			 <!-- 普通训练 -->
+				<HeroLevel>1</HeroLevel> <!-- 每级提供武将等级上限 -->
+				<Exp>120</Exp>		 <!-- 每级训练馆每小时获得经验 -->
+				<Hour>10</Hour>	 <!-- 最大训练时间(小时) -->
+				<Cost type="2">35</Cost> <!-- 每级训练馆每小时花费 -->
+			</Normal>
+			<Advance>			   <!-- 高级训练 -->
+				<Hour>24</Hour>	   <!-- 最大训练时间(小时) -->
+				<Cost type="6">1</Cost>    <!-- 每个武将每小时花费 -->
+				<Exp>180</Exp>		   <!-- 每级训练馆每小时获得经验 -->
+			</Advance>
+		</Train>
+		<IronFactory type="510500">    <!-- 铁匠铺 -->
+			<EquipLevel>0.5</EquipLevel>  <!-- 每级铁匠铺提供装备等级上限 -->
+		</IronFactory>
+		<Market type="510600"> <!-- 市场 -->
+			<TaxRate>0.01</TaxRate>      <!-- 征收额外收益 -->
+			<TaxCount>0.1</TaxCount>	     <!-- 征收额外次数 -->
+		</Market>
+		<WareHouse type="510700"> <!-- 粮仓 -->
+			<CapacityPerLevel>100000</CapacityPerLevel> <!-- 每级容量-->
+		</WareHouse>
+
+		<Residence type="511100"> <!-- 民居 -->
+			<PeoplePerLevel>100</PeoplePerLevel> <!-- 每个级民居提供人口 -->
+		</Residence>
+		<Barracks type="511000"> <!-- 军营 -->
+			<PerSoldierLimitPerLevel>1000</PerSoldierLimitPerLevel> 	<!-- 每级军营提供新兵数 -->
+			<PerSoldierSpeed>0.1</PerSoldierSpeed> <!-- 新兵增长速度占新兵上限的比值 -->
+			<SoldierCost>0.1</SoldierCost>  <!-- 征兵消耗 -->
+		</Barracks>
+	</Building>
+
+	<King>
+		<Force>  <!-- 武力点 -->
+			<SoldierLimitPerPoint>1000</SoldierLimitPerPoint> <!-- 每点提供统兵上限 -->
+			<HeroSoldierLimitPerPoint>10</HeroSoldierLimitPerPoint> <!-- 每点提供武将统兵上限 -->
+		</Force>
+		<Power> <!-- 政治点 -->
+			<FoodRate>0.005</FoodRate>  <!-- 每点提供粮草额外收益 -->
+			<TaxRate>0.005</TaxRate>    <!-- 每点提供征收额外收益 -->
+		</Power>
+		<FreePoint>
+			<PointPerLevel>2</PointPerLevel>  <!-- 每级获得的潜力点数 -->
+		</FreePoint>
+	</King>
+</General>

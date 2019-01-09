@@ -1,0 +1,4 @@
+auth.c: In function ‘void do_amf_auth(resid_t, const char*, size_t, network*, const char*, size_t)’:
+auth.c:177: warning: comparison between signed and unsigned integer expressions
+auth.c: In function ‘size_t process_message(network*, resid_t, const char*, size_t, void*)’:
+auth.c:249: warning: comparison between signed and unsigned integer expressions

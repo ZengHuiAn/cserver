@@ -1,0 +1,43 @@
+localhost:7811 reward {"pid":100016,"reason":1040,"limit":0,"name":"降臨神將排行獎勵补偿","manual":true,"type":"reward","content":[{"type":"item","id":202001,"count":10},{"type":"item","id":240114,"count":5}]}
+
+
+localhost:7811 notify {"start":1422611251,"type":1,"interval":10,"duration":86400,"message":"我爱'\\胡萝卜"}
+
+localhost:7811 fresh_limited_shop {"begin_time":1423065600,"end_time":1423411200}
+localhost:7811 bind7725 {"Pid":2102182}
+localhost:7811 fresh_limited_shop {"shop_type":19,"fresh_period":86400,"fresh_count":9999,"begin_time":1423065600,"end_time":1423411200}  
+
+localhost:7811 replace_accumulate_exchange {"begin_time":1419436800,"end_time":1422547200,"rewards":[{"exchange_value":1000,"type":42,"id":430106,"value":1},{"exchange_value":2000,"type":42,"id":430107,"value":1},{"exchange_value":5000,"type":42,"id":430108,"value":1},{"exchange_value":10000,"type":42,"id":430109,"value":1},{"exchange_value":20000,"type":42,"id":430110,"value":1},{"exchange_value":30000,"type":42,"id":430223,"value":1},{"exchange_value":50000,"type":42,"id":430224,"value":1},{"exchange_value":80000,"type":42,"id":430225,"value":1},{"exchange_value":100000,"type":42,"id":430226,"value":1}]}
+
+
+10.1.2.79:21001 set_item_package {"package_id":430196,"items":[{"type":90,"id":6,"value":40},{"type":41,"id":400003,"value":1},{"type":41,"id":410009,"value":10},{"type":41,"id":410010,"value":4},{"type":41,"id":410007,"value":1},{"type":41,"id":410006,"value":1}]}
+10.1.2.79:21001 set_item_package {"package_id":430197,"items":[{"type":90,"id":6,"value":50},{"type":41,"id":400003,"value":1},{"type":41,"id":410009,"value":10},{"type":41,"id":410010,"value":4},{"type":41,"id":410007,"value":2},{"type":41,"id":410006,"value":1}]}
+10.1.2.79:21001 set_item_package {"package_id":430198,"items":[{"type":90,"id":6,"value":60},{"type":41,"id":400003,"value":1},{"type":41,"id":410009,"value":10},{"type":41,"id":410010,"value":4},{"type":41,"id":410007,"value":2},{"type":41,"id":410006,"value":2}]}
+10.1.2.79:21001 set_item_package {"package_id":430199,"items":[{"type":90,"id":6,"value":70},{"type":41,"id":400003,"value":1},{"type":41,"id":410009,"value":10},{"type":41,"id":410010,"value":4},{"type":41,"id":410007,"value":3},{"type":41,"id":410006,"value":2}]}
+10.1.2.79:21001 set_item_package {"package_id":430200,"items":[{"type":90,"id":6,"value":80},{"type":41,"id":400003,"value":1},{"type":41,"id":410009,"value":10},{"type":41,"id":410010,"value":4},{"type":41,"id":410007,"value":3},{"type":41,"id":410006,"value":3}]}
+10.1.2.79:21001 set_item_package {"package_id":430201,"items":[{"type":90,"id":6,"value":90},{"type":41,"id":400003,"value":1},{"type":41,"id":410009,"value":10},{"type":41,"id":410010,"value":4},{"type":41,"id":410007,"value":4},{"type":41,"id":410006,"value":3}]}
+10.1.2.79:21001 set_item_package {"package_id":430202,"items":[{"type":90,"id":6,"value":100},{"type":41,"id":400003,"value":1},{"type":41,"id":410009,"value":10},{"type":41,"id":410010,"value":4},{"type":41,"id":410007,"value":4},{"type":41,"id":410006,"value":4}]}
+
+
+localhost:7811 query { "Pid":2102182 }
+localhost:7811 query { "UserName":"fool@00"}
+
+#replace_accumulate_gift {"begin_time":1419782400,"end_time":1420987199,"rewards":[{"consume_value":1000,"type":42,"id":430106,"value":1,"flag":2},{"consume_value":2000,"type":42,"id":430107,"value":1,"flag":2},{"consume_value":5000,"type":42,"id":430108,"value":1,"flag":2},{"consume_value":10000,"type":42,"id":430109,"value":1,"flag":2},{"consume_value":20000,"type":42,"id":430110,"value":1,"flag":2},{"consume_value":30000,"type":42,"id":430223,"value":1,"flag":2},{"consume_value":50000,"type":42,"id":430224,"value":1,"flag":2},{"consume_value":80000,"type":42,"id":430225,"value":1,"flag":2},{"consume_value":100000,"type":42,"id":430226,"value":1,"flag":2}]}
+#replace_exchange_gift {"open_time":1419868800,"rewards":[{"consume_value":28000,"type":42,"id":430231,"value":1,"flag":2},{"consume_value":6000,"type":42,"id":430117,"value":1,"flag":1},{"consume_value":6000,"type":42,"id":430227,"value":1,"flag":1},{"consume_value":6000,"type":42,"id":430228,"value":1,"flag":1},{"consume_value":6000,"type":42,"id":430229,"value":1,"flag":1},{"consume_value":6000,"type":42,"id":430230,"value":1,"flag":1}]}
+#replace_festival_reward {"rewards":[{"offset":1,"date":101,"type":42,"id":430101,"value":1},{"offset":2,"date":102,"type":42,"id":430102,"value":1},{"offset":3,"date":103,"type":42,"id":430103,"value":1},{"offset":4,"date":104,"type":42,"id":430104,"value":1},{"offset":5,"date":105,"type":42,"id":430105,"value":1},{"offset":6,"date":106,"type":42,"id":430221,"value":1},{"offset":7,"date":107,"type":42,"id":430222,"value":1}]}
+#query_festival_reward {}
+
+
+
+query_accumulate_gift {}
+
+
+
+query_exchange_gift {}
+
+
+del_item_package {"package_id":430208}
+
+set_item_package {"package_id":430208,"items":[{"type":41,"id":420013,"value":1},{"type":41,"id":420003,"value":1},{"type":90,"id":6,"value":20000}]}
+query_item_package {}
+
