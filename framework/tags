@@ -1,0 +1,1326 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AG_CODEQUEEU_RESERVE	codequeue.c	13;"	d	file:
+ALIGN	buffer.c	20;"	d	file:
+ALIGN	lrm.c	26;"	d	file:
+AMF_INTEGER_MAX	amf.h	19;"	d
+AMF_TYPE	amf.h	/^typedef  enum amf_type  AMF_TYPE ;$/;"	t	typeref:enum:amf_type
+ASSERT_RETURN	amf.c	571;"	d	file:
+CHAT_COUNTRY	package.h	1304;"	d
+CHAT_GUILD	package.h	1305;"	d
+CHAT_SYSTEM	package.h	1306;"	d
+CHAT_WORLD	package.h	1303;"	d
+CHECK	buffer.c	70;"	d	file:
+CQ	codequeue.c	/^typedef struct codequeue CQ;$/;"	t	typeref:struct:codequeue	file:
+CQLength	codequeue.c	70;"	d	file:
+CQRead	codequeue.c	/^static size_t CQRead(CQ * queue, size_t begin, void * data, size_t len)$/;"	f	file:
+CQSize	codequeue.c	69;"	d	file:
+CQWrite	codequeue.c	/^static size_t CQWrite(CQ * queue, size_t end, const void * data, size_t len)$/;"	f	file:
+C_ACCEPT_QUEST_REQUEST	package.h	632;"	d
+C_ACCEPT_QUEST_RESPOND	package.h	635;"	d
+C_ACCOUNT_REWARD_FOR_GRADE_DRAW_REQUEST	package.h	1026;"	d
+C_ACCOUNT_REWARD_FOR_GRADE_DRAW_RESPOND	package.h	1027;"	d
+C_ACCOUNT_REWARD_FOR_GRADE_QUERY_DRAWABLE_REQUEST	package.h	1023;"	d
+C_ACCOUNT_REWARD_FOR_GRADE_QUERY_DRAWABLE_RESPOND	package.h	1024;"	d
+C_ACCOUNT_REWARD_FOR_LOGIN_DRAW_REQUEST	package.h	1008;"	d
+C_ACCOUNT_REWARD_FOR_LOGIN_DRAW_RESPOND	package.h	1009;"	d
+C_ACCOUNT_REWARD_FOR_LOGIN_QUERY_STATUS_REQUEST	package.h	1005;"	d
+C_ACCOUNT_REWARD_FOR_LOGIN_QUERY_STATUS_RESPOND	package.h	1006;"	d
+C_ACCOUNT_REWARD_FOR_ONLINE_DRAW_REQUEST	package.h	1014;"	d
+C_ACCOUNT_REWARD_FOR_ONLINE_DRAW_RESPOND	package.h	1015;"	d
+C_ACCOUNT_REWARD_FOR_ONLINE_QUERY_REQUEST	package.h	1011;"	d
+C_ACCOUNT_REWARD_FOR_ONLINE_QUERY_RESPOND	package.h	1012;"	d
+C_ACCOUNT_REWARD_FOR_TOKEN_DRAW_REQUEST	package.h	1020;"	d
+C_ACCOUNT_REWARD_FOR_TOKEN_DRAW_RESPOND	package.h	1021;"	d
+C_ACCOUNT_REWARD_FOR_TOKEN_QUERY_STATUS_REQUEST	package.h	1017;"	d
+C_ACCOUNT_REWARD_FOR_TOKEN_QUERY_STATUS_RESPOND	package.h	1018;"	d
+C_ACTIVITY_INFO_QUERY_REQUEST	package.h	894;"	d
+C_ACTIVITY_INFO_QUERY_RESPOND	package.h	896;"	d
+C_ACTIVITY_REWARD_REQUEST	package.h	899;"	d
+C_ACTIVITY_REWARD_RESPOND	package.h	901;"	d
+C_ARENA_ATTACK_REQUEST	package.h	1093;"	d
+C_ARENA_ATTACK_RESPOND	package.h	1096;"	d
+C_ARENA_JOIN_REQUEST	package.h	1099;"	d
+C_ARENA_JOIN_RESPOND	package.h	1101;"	d
+C_ARENA_MAX	package.h	1115;"	d
+C_ARENA_MIN	package.h	1085;"	d
+C_ARENA_QUERY_REQUEST	package.h	1087;"	d
+C_ARENA_QUERY_RESPOND	package.h	1090;"	d
+C_ARENA_RESET_CD_REQUEST	package.h	1109;"	d
+C_ARENA_RESET_CD_RESPOND	package.h	1112;"	d
+C_ARENA_REWARD_REQUEST	package.h	1104;"	d
+C_ARENA_REWARD_RESPOND	package.h	1106;"	d
+C_ARMAMENT_ADJUST_PLACEHOLDER_REQUEST	package.h	1080;"	d
+C_ARMAMENT_ADJUST_PLACEHOLDER_RESPOND	package.h	1081;"	d
+C_ARMAMENT_LEVEL_UP_REQUEST	package.h	938;"	d
+C_ARMAMENT_LEVEL_UP_RESPOND	package.h	941;"	d
+C_ARMAMENT_REBORN_REQUEST	package.h	950;"	d
+C_ARMAMENT_REBORN_RESPOND	package.h	953;"	d
+C_ARMAMENT_STAGE_UP_REQUEST	package.h	944;"	d
+C_ARMAMENT_STAGE_UP_RESPOND	package.h	947;"	d
+C_ARMAMENT_SWAP_PLACEHOLDER_REQUEST	package.h	1074;"	d
+C_ARMAMENT_SWAP_PLACEHOLDER_RESPOND	package.h	1075;"	d
+C_ARMAMENT_SWAP_PLACEHOLDER_SPECIAL_REQUEST	package.h	1077;"	d
+C_ARMAMENT_SWAP_PLACEHOLDER_SPECIAL_RESPOND	package.h	1078;"	d
+C_ARMAMENT_TAKE_OFF_REQUEST	package.h	962;"	d
+C_ARMAMENT_TAKE_OFF_RESPOND	package.h	965;"	d
+C_ASSIGN_SOLDIER_REQUEST	package.h	377;"	d
+C_ASSIGN_SOLDIER_RESPOND	package.h	380;"	d
+C_BAG_MOVE_ADVANCE_REQUEST	package.h	809;"	d
+C_BAG_MOVE_ADVANCE_RESPOND	package.h	812;"	d
+C_BAG_MOVE_REQUEST	package.h	785;"	d
+C_BAG_MOVE_RESPOND	package.h	788;"	d
+C_BATTLEFIELD_JOIN_REQUEST	package.h	1401;"	d
+C_BATTLEFIELD_JOIN_RESPOND	package.h	1402;"	d
+C_BATTLEFIELD_LEAVE_REQUEST	package.h	1404;"	d
+C_BATTLEFIELD_LEAVE_RESPOND	package.h	1405;"	d
+C_BUILD_CITY_DEFENSE_REQUEST	package.h	602;"	d
+C_BUILD_CITY_DEFENSE_RESPOND	package.h	605;"	d
+C_BUY_EQUIP_REQUEST	package.h	481;"	d
+C_BUY_EQUIP_RESPOND	package.h	483;"	d
+C_BUY_GEM_REQUEST	package.h	496;"	d
+C_BUY_GEM_RESPOND	package.h	499;"	d
+C_BUY_ITEM_REQUEST	package.h	773;"	d
+C_BUY_ITEM_RESPOND	package.h	776;"	d
+C_CALL_SCRIPT_REQUEST	package.h	1250;"	d
+C_CALL_SCRIPT_RESPOND	package.h	1252;"	d
+C_CANCEL_BATTLE_REQUEST	package.h	395;"	d
+C_CANCEL_BATTLE_RESPOND	package.h	398;"	d
+C_CANCEL_BUILDING_REQUEST	package.h	305;"	d
+C_CANCEL_BUILDING_RESPOND	package.h	308;"	d
+C_CANCEL_QUEST_REQUEST	package.h	650;"	d
+C_CANCEL_QUEST_RESPOND	package.h	653;"	d
+C_CANCEL_TECHNOLOGY_REQUEST	package.h	339;"	d
+C_CANCEL_TECHNOLOGY_RESPOND	package.h	342;"	d
+C_CHANGE_ARMAMENT_PLACEHOLDER_REQUEST	package.h	932;"	d
+C_CHANGE_ARMAMENT_PLACEHOLDER_RESPOND	package.h	935;"	d
+C_CHANGE_BIO_REQUEST	package.h	656;"	d
+C_CHANGE_BIO_RESPOND	package.h	658;"	d
+C_CHANGE_HEAD_REQUEST	package.h	661;"	d
+C_CHANGE_HEAD_RESPOND	package.h	663;"	d
+C_CHANGE_VISIT_HERO_REQUEST	package.h	864;"	d
+C_CHANGE_VISIT_HERO_RESPOND	package.h	867;"	d
+C_CHAT_MESSAGE_NOTIFY	package.h	1312;"	d
+C_CHAT_MESSAGE_REQUEST	package.h	1302;"	d
+C_CHAT_MESSAGE_RESPOND	package.h	1309;"	d
+C_CLEAN_COOLDOWN_REQEUST	package.h	692;"	d
+C_CLEAN_COOLDOWN_RESPOND	package.h	695;"	d
+C_CREATE_PLAYER_REQUEST	package.h	286;"	d
+C_CREATE_PLAYER_RESPOND	package.h	289;"	d
+C_DATA_CHANGE_REQUEST	package.h	591;"	d
+C_DONATE_REQUEST	package.h	920;"	d
+C_DONATE_RESPOND	package.h	921;"	d
+C_DO_STORY_QUERY_LOG_REQUEST	package.h	909;"	d
+C_DO_STORY_QUERY_LOG_RESPOND	package.h	911;"	d
+C_ECHO	package.h	269;"	d
+C_EMPLOY_HERO_REQUEST	package.h	365;"	d
+C_EMPLOY_HERO_RESPOND	package.h	368;"	d
+C_EQUIP_SET_GEM_RESPOND	package.h	478;"	d
+C_EQUIP_SET_GEM_RQUEST	package.h	475;"	d
+C_EXCHANGE_BATTLE_STAR_REQUEST	package.h	975;"	d
+C_EXCHANGE_BATTLE_STAR_RESPOND	package.h	978;"	d
+C_EXCHANGE_EQUIP_REQUEST	package.h	620;"	d
+C_EXCHANGE_EQUIP_RESPOND	package.h	623;"	d
+C_EXCHANGE_HERO_REQUEST	package.h	446;"	d
+C_EXCHANGE_HERO_RESPOND	package.h	449;"	d
+C_EXCHANGE_REQUEST	package.h	815;"	d
+C_EXCHANGE_RESPOND	package.h	818;"	d
+C_FARM_GAIN_ALL_REQUEST	package.h	682;"	d
+C_FARM_GAIN_ALL_RESPOND	package.h	684;"	d
+C_FARM_GAIN_REQUEST	package.h	543;"	d
+C_FARM_GAIN_RESPOND	package.h	546;"	d
+C_FARM_PLANT_REQUEST	package.h	537;"	d
+C_FARM_PLANT_RESPOND	package.h	540;"	d
+C_FINISH_QUEST_REQUEST	package.h	638;"	d
+C_FINISH_QUEST_RESPOND	package.h	641;"	d
+C_FINISH_TAX_EVENT_REQUEST	package.h	666;"	d
+C_FINISH_TAX_EVENT_RESPOND	package.h	669;"	d
+C_FINISH_TRAIN_HERO_REQUEST	package.h	519;"	d
+C_FINISH_TRAIN_HERO_RESPOND	package.h	522;"	d
+C_FIRE_ATTACK_REQUEST	package.h	711;"	d
+C_FIRE_ATTACK_RESPOND	package.h	714;"	d
+C_FIRE_AUTO_FIGHT_REQUEST	package.h	1059;"	d
+C_FIRE_AUTO_FIGHT_RESPOND	package.h	1061;"	d
+C_FIRE_AUTO_REQUEST	package.h	717;"	d
+C_FIRE_AUTO_RESPOND	package.h	720;"	d
+C_FIRE_CHECK_FIGHT_REQUEST	package.h	1054;"	d
+C_FIRE_CHECK_FIGHT_RESPOND	package.h	1056;"	d
+C_FIRE_HERO_REQUEST	package.h	371;"	d
+C_FIRE_HERO_RESPOND	package.h	374;"	d
+C_FIRE_PREPARE_FIGHT_REQUEST	package.h	1049;"	d
+C_FIRE_PREPARE_FIGHT_RESPOND	package.h	1051;"	d
+C_FIRE_QUERY_REQUEST	package.h	699;"	d
+C_FIRE_QUERY_RESPOND	package.h	702;"	d
+C_FIRE_RESET_REQUEST	package.h	705;"	d
+C_FIRE_RESET_RESPOND	package.h	708;"	d
+C_GEMSTONE_COMPOSE_REQUEST	package.h	526;"	d
+C_GEMSTONE_COMPOSE_RESPOND	package.h	529;"	d
+C_GET_SALARY_REQUEST	package.h	614;"	d
+C_GET_SALARY_RESPOND	package.h	617;"	d
+C_GET_SERVICE_STATUS_REQUEST	package.h	1265;"	d
+C_GET_SERVICE_STATUS_RESPOND	package.h	1268;"	d
+C_GROW_HERO_REQUEST	package.h	452;"	d
+C_GROW_HERO_RESPOND	package.h	455;"	d
+C_GUILD_AUDIT_REQUEST	package.h	1167;"	d
+C_GUILD_AUDIT_RESPOND	package.h	1169;"	d
+C_GUILD_CLEAN_ALL_REQUEST	package.h	1223;"	d
+C_GUILD_CLEAN_ALL_RESPOND	package.h	1225;"	d
+C_GUILD_CREATE_REQUEST	package.h	1126;"	d
+C_GUILD_CREATE_RESPOND	package.h	1128;"	d
+C_GUILD_INVITE_REQUEST	package.h	1199;"	d
+C_GUILD_INVITE_RESPOND	package.h	1200;"	d
+C_GUILD_JOIN_REQUEST	package.h	1132;"	d
+C_GUILD_JOIN_RESPOND	package.h	1134;"	d
+C_GUILD_KICK_REQUEST	package.h	1218;"	d
+C_GUILD_KICK_RESPOND	package.h	1220;"	d
+C_GUILD_LEAVE_REQUEST	package.h	1137;"	d
+C_GUILD_LEAVE_RESPOND	package.h	1139;"	d
+C_GUILD_MAX	package.h	1240;"	d
+C_GUILD_MIN	package.h	1119;"	d
+C_GUILD_QUERY_APPLY_REQUEST	package.h	1162;"	d
+C_GUILD_QUERY_APPLY_RESPOND	package.h	1164;"	d
+C_GUILD_QUERY_BY_TITLE_REQUEST	package.h	1212;"	d
+C_GUILD_QUERY_BY_TITLE_RESPOND	package.h	1215;"	d
+C_GUILD_QUERY_GUILD_LIST_REQUEST	package.h	1142;"	d
+C_GUILD_QUERY_GUILD_LIST_RESPOND	package.h	1144;"	d
+C_GUILD_QUERY_MEMBERS_REQUEST	package.h	1147;"	d
+C_GUILD_QUERY_MEMBERS_RESPOND	package.h	1149;"	d
+C_GUILD_QUERY_PLAYER_REQUEST	package.h	1202;"	d
+C_GUILD_QUERY_PLAYER_RESPOND	package.h	1204;"	d
+C_GUILD_QUERY_REQUEST	package.h	1121;"	d
+C_GUILD_QUERY_RESPOND	package.h	1123;"	d
+C_GUILD_QUEYR_BY_PLAYER_REQUEST	package.h	1192;"	d
+C_GUILD_QUEYR_BY_PLAYER_RESPOND	package.h	1194;"	d
+C_GUILD_SETTING_REQUEST	package.h	1172;"	d
+C_GUILD_SETTING_RESPOND	package.h	1174;"	d
+C_GUILD_SET_LEADER_REQUEST	package.h	1207;"	d
+C_GUILD_SET_LEADER_RESPOND	package.h	1209;"	d
+C_GUILD_SET_TITLE_REQUEST	package.h	1197;"	d
+C_GUILD_SET_TITLE_RESPOND	package.h	1198;"	d
+C_GUILD_TRANSFER_REQUEST	package.h	1177;"	d
+C_GUILD_TRANSFER_RESPOND	package.h	1179;"	d
+C_INVITE_HERO_REQUEST	package.h	761;"	d
+C_INVITE_HERO_RESPOND	package.h	764;"	d
+C_I_AM_GOD_REQEUST	package.h	1245;"	d
+C_I_AM_GOD_RESPOND	package.h	1247;"	d
+C_JOIN_CHANNEL_REQUEST	package.h	1290;"	d
+C_JOIN_CHANNEL_RESPOND	package.h	1293;"	d
+C_KING_AVATAR_CHANGE_REQUEST	package.h	755;"	d
+C_KING_AVATAR_CHANGE_RESPOND	package.h	758;"	d
+C_LEAVE_CHANNEL_REQUEST	package.h	1296;"	d
+C_LEAVE_CHANNEL_RESPOND	package.h	1299;"	d
+C_LEVY_TAX_REQUEST	package.h	608;"	d
+C_LEVY_TAX_RESPOND	package.h	611;"	d
+C_LOGIN_REQUEST	package.h	271;"	d
+C_LOGIN_RESPOND	package.h	273;"	d
+C_LOGOUT_REQUEST	package.h	276;"	d
+C_LOGOUT_RESPOND	package.h	277;"	d
+C_MAIL_CONTACT_ADD_REQUEST	package.h	1454;"	d
+C_MAIL_CONTACT_ADD_RESPOND	package.h	1457;"	d
+C_MAIL_CONTACT_DEL_REQUEST	package.h	1460;"	d
+C_MAIL_CONTACT_DEL_RESPOND	package.h	1463;"	d
+C_MAIL_CONTACT_GET_REQUEST	package.h	1448;"	d
+C_MAIL_CONTACT_GET_RESPOND	package.h	1451;"	d
+C_MAIL_DEL_REQUEST	package.h	1436;"	d
+C_MAIL_DEL_RESPOND	package.h	1439;"	d
+C_MAIL_GET_NOTIRY_MESSAGE_REQUEST	package.h	1466;"	d
+C_MAIL_GET_NOTIRY_MESSAGE_RESPOND	package.h	1469;"	d
+C_MAIL_GET_REQUEST	package.h	1424;"	d
+C_MAIL_GET_RESPOND	package.h	1427;"	d
+C_MAIL_MARK_REQUEST	package.h	1430;"	d
+C_MAIL_MARK_RESPOND	package.h	1433;"	d
+C_MAIL_MAX	package.h	1479;"	d
+C_MAIL_MIN	package.h	1417;"	d
+C_MAIL_QUERY_REQUEST	package.h	1418;"	d
+C_MAIL_QUERY_RESPOND	package.h	1421;"	d
+C_MAIL_SEND_REQUEST	package.h	1442;"	d
+C_MAIL_SEND_RESPOND	package.h	1445;"	d
+C_MERCHANDISE_REQUEST	package.h	827;"	d
+C_MERCHANDISE_RESPOND	package.h	830;"	d
+C_PLAYER_DATA_CHANGE	package.h	593;"	d
+C_QUERY_ARMAMENT_REQUEST	package.h	926;"	d
+C_QUERY_ARMAMENT_RESPOND	package.h	929;"	d
+C_QUERY_BATTLE_REQUEST	package.h	383;"	d
+C_QUERY_BATTLE_RESPOND	package.h	386;"	d
+C_QUERY_BATTLE_REWARD_STATUS_REQUEST	package.h	1065;"	d
+C_QUERY_BATTLE_REWARD_STATUS_RESPOND	package.h	1068;"	d
+C_QUERY_BATTLE_STAR_COUNT_REQUEST	package.h	969;"	d
+C_QUERY_BATTLE_STAR_COUNT_RESPOND	package.h	972;"	d
+C_QUERY_BUILDING_REQUEST	package.h	298;"	d
+C_QUERY_BUILDING_RESPOND	package.h	301;"	d
+C_QUERY_CITY_REQUEST	package.h	428;"	d
+C_QUERY_CITY_RESPOND	package.h	431;"	d
+C_QUERY_COOLDOWN_REQUEST	package.h	422;"	d
+C_QUERY_COOLDOWN_RESPOND	package.h	425;"	d
+C_QUERY_EQUIP_REQUEST	package.h	458;"	d
+C_QUERY_EQUIP_RESPOND	package.h	460;"	d
+C_QUERY_FARM_REQUEST	package.h	532;"	d
+C_QUERY_FARM_RESPOND	package.h	534;"	d
+C_QUERY_FIGHT_DATA_REQUEST	package.h	839;"	d
+C_QUERY_FIGHT_DATA_RESPOND	package.h	842;"	d
+C_QUERY_FIGHT_REQUEST	package.h	407;"	d
+C_QUERY_FIGHT_RESPOND	package.h	410;"	d
+C_QUERY_FLAG_REQUEST	package.h	672;"	d
+C_QUERY_FLAG_RESPOND	package.h	674;"	d
+C_QUERY_FORMATION_FIGHT_INFO_REQUEST	package.h	956;"	d
+C_QUERY_FORMATION_FIGHT_INFO_RESPOND	package.h	959;"	d
+C_QUERY_GEM_REQUEST	package.h	491;"	d
+C_QUERY_GEM_RESPOND	package.h	493;"	d
+C_QUERY_HERO_COMPOSE_REQUEST	package.h	585;"	d
+C_QUERY_HERO_COMPOSE_RESPOND	package.h	588;"	d
+C_QUERY_HERO_REQUEST	package.h	352;"	d
+C_QUERY_HERO_RESPOND	package.h	355;"	d
+C_QUERY_HORSE_REQUEST	package.h	914;"	d
+C_QUERY_HORSE_RESPOND	package.h	915;"	d
+C_QUERY_ITEM_REQUEST	package.h	767;"	d
+C_QUERY_ITEM_RESPOND	package.h	770;"	d
+C_QUERY_KING_AVATAR_REQUEST	package.h	999;"	d
+C_QUERY_KING_AVATAR_RESPOND	package.h	1000;"	d
+C_QUERY_KING_FIGHT_INFO_REQUEST	package.h	1002;"	d
+C_QUERY_KING_FIGHT_INFO_RESPOND	package.h	1003;"	d
+C_QUERY_MAP_REQUEST	package.h	416;"	d
+C_QUERY_MAP_RESPOND	package.h	419;"	d
+C_QUERY_MERCHANDISE_REQUEST	package.h	821;"	d
+C_QUERY_MERCHANDISE_RESPOND	package.h	824;"	d
+C_QUERY_OTHER_HERO_REQUEST	package.h	833;"	d
+C_QUERY_OTHER_HERO_RESPOND	package.h	836;"	d
+C_QUERY_PLAYER_REQUEST	package.h	279;"	d
+C_QUERY_PLAYER_RESPOND	package.h	281;"	d
+C_QUERY_QUEST_REQUEST	package.h	626;"	d
+C_QUERY_QUEST_RESPOND	package.h	629;"	d
+C_QUERY_RANK_REQUEST	package.h	904;"	d
+C_QUERY_RANK_RESPOND	package.h	906;"	d
+C_QUERY_RESOURCES_REQUEST	package.h	311;"	d
+C_QUERY_RESOURCES_RESPOND	package.h	314;"	d
+C_QUERY_REWARD_REQUEST	package.h	845;"	d
+C_QUERY_REWARD_RESPOND	package.h	848;"	d
+C_QUERY_STORY_REQUEST	package.h	596;"	d
+C_QUERY_STORY_RESPOND	package.h	598;"	d
+C_QUERY_STRATEGY_REQUEST	package.h	549;"	d
+C_QUERY_STRATEGY_RESPOND	package.h	552;"	d
+C_QUERY_TECHNOLOGY_REQUEST	package.h	327;"	d
+C_QUERY_TECHNOLOGY_RESPOND	package.h	330;"	d
+C_QUERY_TOTAL_STAR_COUNT_REQUEST	package.h	981;"	d
+C_QUERY_TOTAL_STAR_COUNT_RESPOND	package.h	984;"	d
+C_QUERY_TOTAL_STAR_RANK_REQUEST	package.h	987;"	d
+C_QUERY_TOTAL_STAR_RANK_RESPOND	package.h	990;"	d
+C_RECEIVE_REWARD_REQUEST	package.h	851;"	d
+C_RECEIVE_REWARD_RESPOND	package.h	854;"	d
+C_RECRUIT_SOLDIER_REQUEST	package.h	345;"	d
+C_RECRUIT_SOLDIER_RESPOND	package.h	348;"	d
+C_RESET_FIGHT_COUNT_REQUEST	package.h	791;"	d
+C_RESET_FIGHT_COUNT_RESPOND	package.h	794;"	d
+C_SELL_EQUIP_REQUEST	package.h	486;"	d
+C_SELL_EQUIP_RESPOND	package.h	488;"	d
+C_SELL_GEM_REQUEST	package.h	502;"	d
+C_SELL_GEM_RESPOND	package.h	504;"	d
+C_SELL_ITEM_REQUEST	package.h	779;"	d
+C_SELL_ITEM_RESPOND	package.h	782;"	d
+C_SET_CITY_GUARD_REQUEST	package.h	434;"	d
+C_SET_CITY_GUARD_RESPOND	package.h	437;"	d
+C_SET_COUNTRY_REQUEST	package.h	687;"	d
+C_SET_COUNTRY_RESPOND	package.h	689;"	d
+C_SET_FLAG_REQUEST	package.h	677;"	d
+C_SET_FLAG_RESPOND	package.h	679;"	d
+C_SET_HERO_COMBAT_EFFECTIVE_REQUEST	package.h	858;"	d
+C_SET_HERO_COMBAT_EFFECTIVE_RESPOND	package.h	861;"	d
+C_SET_HERO_COMPOSE_REQUEST	package.h	579;"	d
+C_SET_HERO_COMPOSE_RESPOND	package.h	582;"	d
+C_SET_HERO_TITLE_REQUEST	package.h	567;"	d
+C_SET_HERO_TITLE_RESPOND	package.h	570;"	d
+C_SET_KING_FLAG_REQUEST	package.h	797;"	d
+C_SET_KING_FLAG_RESPOND	package.h	800;"	d
+C_SET_KING_TITLE_REQUEST	package.h	561;"	d
+C_SET_KING_TITLE_RESPOND	package.h	564;"	d
+C_SET_PLAYER_POINT_REQUEST	package.h	573;"	d
+C_SET_PLAYER_POINT_RESPOND	package.h	576;"	d
+C_SIGN_QUERY_REQUEST	package.h	870;"	d
+C_SIGN_QUERY_RESPOND	package.h	873;"	d
+C_SIGN_REWARD_REQUEST	package.h	888;"	d
+C_SIGN_REWARD_RESPOND	package.h	891;"	d
+C_SIGN_SIGN_REQUEST	package.h	882;"	d
+C_SIGN_SIGN_RESPOND	package.h	885;"	d
+C_START_BATTLE_REQUEST	package.h	389;"	d
+C_START_BATTLE_RESPOND	package.h	392;"	d
+C_STORY_CHECK_FIGHT_REQUEST	package.h	1034;"	d
+C_STORY_CHECK_FIGHT_RESPOND	package.h	1036;"	d
+C_STORY_FIGHT_BATCH_REQUEST	package.h	1044;"	d
+C_STORY_FIGHT_BATCH_RESET_COOL_DOWN_REQUEST	package.h	1071;"	d
+C_STORY_FIGHT_BATCH_RESET_COOL_DOWN_RESPOND	package.h	1072;"	d
+C_STORY_FIGHT_BATCH_RESPOND	package.h	1046;"	d
+C_STORY_FINISH_FIGHT_REQUEST	package.h	1039;"	d
+C_STORY_FINISH_FIGHT_RESPOND	package.h	1041;"	d
+C_STORY_PREPARE_FIGHT_REQUEST	package.h	1029;"	d
+C_STORY_PREPARE_FIGHT_RESPOND	package.h	1031;"	d
+C_SUBMIT_QUEST_REQUEST	package.h	644;"	d
+C_SUBMIT_QUEST_RESPOND	package.h	647;"	d
+C_TACTIC_LEARN_REQUEST	package.h	742;"	d
+C_TACTIC_LEARN_RESPOND	package.h	745;"	d
+C_TACTIC_LEVELUP_REQUEST	package.h	748;"	d
+C_TACTIC_LEVELUP_RESPOND	package.h	751;"	d
+C_TACTIC_MOVE_REQUEST	package.h	736;"	d
+C_TACTIC_MOVE_RESPOND	package.h	739;"	d
+C_TACTIC_QUERY_REQUEST	package.h	724;"	d
+C_TACTIC_QUERY_RESPOND	package.h	727;"	d
+C_TACTIC_VISIT_REQUEST	package.h	730;"	d
+C_TACTIC_VISIT_RESPOND	package.h	733;"	d
+C_TICK_REQUEST	package.h	401;"	d
+C_TICK_RESPOND	package.h	404;"	d
+C_TRAIN_HERO_REQUEST	package.h	513;"	d
+C_TRAIN_HERO_RESPOND	package.h	516;"	d
+C_TRAIN_HORSE_BATCH_RESPOND	package.h	996;"	d
+C_TRAIN_HORSE_BATCH__REQUEST	package.h	993;"	d
+C_TRAIN_HORSE_REQUEST	package.h	917;"	d
+C_TRAIN_HORSE_RESPOND	package.h	918;"	d
+C_UPGRADE_BUILDING_REQUEST	package.h	292;"	d
+C_UPGRADE_BUILDING_RESPOND	package.h	295;"	d
+C_UPGRADE_EQUIP_RANK_REQUEST	package.h	803;"	d
+C_UPGRADE_EQUIP_RANK_RESPOND	package.h	806;"	d
+C_UPGRADE_EQUIP_REQUEST	package.h	469;"	d
+C_UPGRADE_EQUIP_RESPOND	package.h	472;"	d
+C_UPGRADE_TECHNOLOGY_REQUEST	package.h	333;"	d
+C_UPGRADE_TECHNOLOGY_RESPOND	package.h	336;"	d
+C_USE_CARD_REQUEST	package.h	923;"	d
+C_USE_CARD_RESPOND	package.h	924;"	d
+C_USE_EQUIP_REQUEST	package.h	463;"	d
+C_USE_EQUIP_RESPOND	package.h	466;"	d
+C_USE_ITEM_REQUEST	package.h	507;"	d
+C_USE_ITEM_RESPOND	package.h	510;"	d
+C_USE_STRATEGY_REQUEST	package.h	555;"	d
+C_USE_STRATEGY_RESPOND	package.h	558;"	d
+C_VISIT_HERO_REQUEST	package.h	440;"	d
+C_VISIT_HERO_RESPOND	package.h	443;"	d
+DATA_POP	amf.c	7;"	d	file:
+DECLARE_GET_KEY_FUNC	hash.h	41;"	d
+DECLARE_MODULE	module.h	16;"	d
+DEFAULT_BUFFER_SIZE	network.c	95;"	d	file:
+F	md5.c	105;"	d	file:
+F	md5.c	107;"	d	file:
+F	md5.c	126;"	d	file:
+F	md5.c	128;"	d	file:
+F	md5.c	147;"	d	file:
+F	md5.c	149;"	d	file:
+F	md5.c	168;"	d	file:
+F	md5.c	86;"	d	file:
+FREE	memory.h	23;"	d
+GET_UINT32	md5.c	26;"	d	file:
+GetCriticalData	codequeue.c	/^static void GetCriticalData(CQ * queue, size_t * begin, size_t * end)$/;"	f	file:
+HAVE_BOOL	network.h	14;"	d
+HAVE_RESID_T	lrm.h	7;"	d
+HAVE_RESID_T	network.h	21;"	d
+IMPORT_MODULE	module.h	22;"	d
+INVALID_ID	lrm.h	10;"	d
+INVALID_ID	network.h	24;"	d
+KEY_FUNC	hash.h	49;"	d
+LOGOUT_ADDICTED	package.h	23;"	d
+LOGOUT_ADMIN_BAN	package.h	26;"	d
+LOGOUT_ADMIN_KICK	package.h	24;"	d
+LOGOUT_ANOTHER_LOGIN	package.h	22;"	d
+LOGOUT_CONNECT	package.h	25;"	d
+LOGOUT_NORMAL	package.h	21;"	d
+LOG_DEBUG	log.h	14;"	d
+LOG_ERROR	log.h	17;"	d
+LOG_INFO	log.h	15;"	d
+LOG_LEVEL	log.h	19;"	d
+LOG_LEVEL_DESC	log.c	/^static const char * LOG_LEVEL_DESC[] = {$/;"	v	file:
+LOG_WARNING	log.h	16;"	d
+LRM_RESOURCES_AT	lrm.c	28;"	d	file:
+LoadMatrix	matrix.c	/^Matrix * LoadMatrix(const char * filename, char sep_field, char sep_row)$/;"	f
+MAIL_STATUS_READ	package.h	1415;"	d
+MAIL_STATUS_UNREAD	package.h	1414;"	d
+MAIL_TYPE_MESSAGE	package.h	1411;"	d
+MAIL_TYPE_NORMAL	package.h	1410;"	d
+MAIL_TYPE_NOTIFICATION	package.h	1412;"	d
+MALLOC	memory.h	22;"	d
+MALLOC	xmlHelper.c	14;"	d	file:
+MALLOC_N	memory.h	27;"	d
+MFileHeader	mfile.c	/^struct MFileHeader $/;"	s	file:
+MFileIndex	mfile.c	/^struct MFileIndex $/;"	s	file:
+Matrix	matrix.c	/^struct Matrix {$/;"	s	file:
+Matrix	matrix.h	/^typedef struct Matrix Matrix;$/;"	t	typeref:struct:Matrix
+MatrixField	matrix.c	/^struct  MatrixField$/;"	s	file:
+MatrixField	matrix.h	/^typedef struct MatrixField MatrixField;$/;"	t	typeref:struct:MatrixField
+MatrixFieldFree	matrix.c	/^static void MatrixFieldFree(MatrixField * field)$/;"	f	file:
+MatrixFieldNew	matrix.c	/^static MatrixField * MatrixFieldNew(const char * msg, size_t len)$/;"	f	file:
+MatrixFieldValue	matrix.c	/^const char * MatrixFieldValue(MatrixField * field)$/;"	f
+MatrixFree	matrix.c	/^void MatrixFree(Matrix * matrix)$/;"	f
+MatrixGet	matrix.c	/^MatrixRow * MatrixGet(Matrix * matrix, size_t row)$/;"	f
+MatrixNew	matrix.c	/^static Matrix *  MatrixNew()$/;"	f	file:
+MatrixPush	matrix.c	/^static void MatrixPush(Matrix * matrix, MatrixRow * row)$/;"	f	file:
+MatrixResize	matrix.c	/^static void MatrixResize(Matrix * matrix)$/;"	f	file:
+MatrixRow	matrix.c	/^struct MatrixRow $/;"	s	file:
+MatrixRow	matrix.h	/^typedef struct MatrixRow MatrixRow;$/;"	t	typeref:struct:MatrixRow
+MatrixRowFree	matrix.c	/^static void MatrixRowFree(MatrixRow * row)$/;"	f	file:
+MatrixRowGet	matrix.c	/^MatrixField * MatrixRowGet(MatrixRow * row, size_t field)$/;"	f
+MatrixRowNew	matrix.c	/^static MatrixRow *  MatrixRowNew()$/;"	f	file:
+MatrixRowPush	matrix.c	/^static void MatrixRowPush(MatrixRow * row, MatrixField * field)$/;"	f	file:
+MatrixRowResize	matrix.c	/^static void MatrixRowResize(MatrixRow * row)$/;"	f	file:
+MatrixRowSize	matrix.c	/^size_t MatrixRowSize(MatrixRow * row)$/;"	f
+MatrixSize	matrix.c	/^size_t MatrixSize(Matrix * matrix)$/;"	f
+NOTIFY_ACTIVITY_INFO_CHANGE	package.h	256;"	d
+NOTIFY_ACTIVITY_REWARD_CHANGE	package.h	257;"	d
+NOTIFY_ADDICTED_CHANGE	package.h	247;"	d
+NOTIFY_ARENA_ATTACK	package.h	200;"	d
+NOTIFY_ARMAMENT	package.h	264;"	d
+NOTIFY_BATTLEFIELD_ACTIVITY_STATUS	package.h	246;"	d
+NOTIFY_BATTLEFIELD_ATTACK	package.h	220;"	d
+NOTIFY_BATTLEFIELD_ATTACK_WALL	package.h	221;"	d
+NOTIFY_BATTLEFIELD_CITY_CHANGE	package.h	233;"	d
+NOTIFY_BATTLEFIELD_COUNTRY_CHANGE	package.h	234;"	d
+NOTIFY_BATTLEFIELD_CREATE	package.h	232;"	d
+NOTIFY_BATTLEFIELD_FINISHED	package.h	222;"	d
+NOTIFY_BATTLEFIELD_JOIN	package.h	217;"	d
+NOTIFY_BATTLEFIELD_LEAVE	package.h	218;"	d
+NOTIFY_BATTLEFIELD_LINE_CHANGE	package.h	219;"	d
+NOTIFY_BATTLEFIELD_LINE_GETOUT	package.h	223;"	d
+NOTIFY_BATTLEFIELD_PLAYER_PRIVATE_INFO_CHANGE	package.h	235;"	d
+NOTIFY_BATTLEFIELD_PLAYER_PUBLIC_INFO_CHANGE	package.h	239;"	d
+NOTIFY_BUFFER	package.h	259;"	d
+NOTIFY_BUILDING	package.h	184;"	d
+NOTIFY_CARD	package.h	263;"	d
+NOTIFY_CITY	package.h	186;"	d
+NOTIFY_COMPOSE	package.h	196;"	d
+NOTIFY_CONTACT_ADD	package.h	249;"	d
+NOTIFY_COOLDOWN	package.h	190;"	d
+NOTIFY_DAILY	package.h	197;"	d
+NOTIFY_DISPLAY_MESSAGE	package.h	229;"	d
+NOTIFY_EQUIP	package.h	192;"	d
+NOTIFY_EQUIP_LIST	package.h	191;"	d
+NOTIFY_FARM	package.h	193;"	d
+NOTIFY_FIRE	package.h	212;"	d
+NOTIFY_GEM_COUNT	package.h	189;"	d
+NOTIFY_GUILD_5XING_CHANGE	package.h	251;"	d
+NOTIFY_GUILD_5XING_PLAYER_TIMES_CHANGE	package.h	253;"	d
+NOTIFY_GUILD_5XING_REWARD	package.h	252;"	d
+NOTIFY_GUILD_AUDIT	package.h	208;"	d
+NOTIFY_GUILD_BOSS_SETTING	package.h	243;"	d
+NOTIFY_GUILD_JOIN	package.h	203;"	d
+NOTIFY_GUILD_LEADER	package.h	206;"	d
+NOTIFY_GUILD_LEAVE	package.h	204;"	d
+NOTIFY_GUILD_NOTIFY	package.h	205;"	d
+NOTIFY_GUILD_REQUEST	package.h	202;"	d
+NOTIFY_GUILD_TITLE	package.h	207;"	d
+NOTIFY_HERO	package.h	188;"	d
+NOTIFY_HERO_LIST	package.h	187;"	d
+NOTIFY_HORSE	package.h	262;"	d
+NOTIFY_ITEM_COUNT	package.h	227;"	d
+NOTIFY_KING_AVATAR_CHANGE	package.h	225;"	d
+NOTIFY_MAIL_NEW	package.h	210;"	d
+NOTIFY_MERCHANDISE_CHANGE	package.h	237;"	d
+NOTIFY_PROPERTY	package.h	182;"	d
+NOTIFY_QUEST	package.h	198;"	d
+NOTIFY_RESOURCE	package.h	183;"	d
+NOTIFY_RESOURCE_AUTO_INCREASE	package.h	241;"	d
+NOTIFY_REWARD_CHANGE	package.h	245;"	d
+NOTIFY_SIGN_REWARD_CHANGE	package.h	255;"	d
+NOTIFY_STORY	package.h	195;"	d
+NOTIFY_STRATEGY	package.h	194;"	d
+NOTIFY_TACTIC	package.h	214;"	d
+NOTIFY_TACTIC_STATUS	package.h	215;"	d
+NOTIFY_TECHNOLOGY	package.h	185;"	d
+NOTIFY_VIP_CHANGE	package.h	260;"	d
+P	md5.c	76;"	d	file:
+PLAYER_STATUS_BAN	package.h	1371;"	d
+PLAYER_STATUS_MUTE	package.h	1372;"	d
+PLAYER_STATUS_NORMAL	package.h	1370;"	d
+PUT_UINT32	md5.c	34;"	d	file:
+REALLOC	memory.h	24;"	d
+RET_ALREADYAT	package.h	41;"	d
+RET_ARENA_COOLDOWN	package.h	152;"	d
+RET_ARENA_LIMIT	package.h	153;"	d
+RET_ARENA_POSITION_INVALID	package.h	154;"	d
+RET_BAG_FULL	package.h	116;"	d
+RET_BATTLE_EXIST	package.h	156;"	d
+RET_BATTLE_INVALID	package.h	157;"	d
+RET_BATTLE_NOT_EXIST	package.h	158;"	d
+RET_BUILDING_INVALID	package.h	68;"	d
+RET_BUILDING_LEVEL_SCHOOL	package.h	69;"	d
+RET_BUILDING_MAX_LEVEL	package.h	70;"	d
+RET_CHANNEL_INVALID	package.h	166;"	d
+RET_CHARACTER_EXIST	package.h	53;"	d
+RET_CHARACTER_NAME_EXIST	package.h	54;"	d
+RET_CHARACTER_NOT_EXIST	package.h	44;"	d
+RET_CHARACTER_STATUS_ADDICTED	package.h	48;"	d
+RET_CHARACTER_STATUS_BAN	package.h	46;"	d
+RET_CHARACTER_STATUS_MUTE	package.h	47;"	d
+RET_COMPOSE	package.h	63;"	d
+RET_CONTACT_SELF	package.h	167;"	d
+RET_COOLDOWN	package.h	40;"	d
+RET_COOLDOWN_HERO_EXCHANGE	package.h	122;"	d
+RET_COOLDOWN_HERO_VISIT	package.h	123;"	d
+RET_COUNTRY_BATTLE	package.h	160;"	d
+RET_COUNTRY_FRIEND	package.h	161;"	d
+RET_COUNTRY_LINK	package.h	162;"	d
+RET_COUNTRY_MATCH	package.h	163;"	d
+RET_COUNTRY_PROTECTED	package.h	164;"	d
+RET_DAILY_LIMIT_DONATE	package.h	131;"	d
+RET_DAILY_LIMIT_FIRE	package.h	125;"	d
+RET_DAILY_LIMIT_HORSE	package.h	130;"	d
+RET_DAILY_LIMIT_MERCHANDISE	package.h	126;"	d
+RET_DAILY_LIMIT_SALARY	package.h	127;"	d
+RET_DAILY_LIMIT_STORY	package.h	128;"	d
+RET_DAILY_LIMIT_TAX	package.h	129;"	d
+RET_DEPEND	package.h	35;"	d
+RET_EQUIP_GEM_REPEAT	package.h	101;"	d
+RET_EQUIP_INUSE	package.h	102;"	d
+RET_EQUIP_INVALID	package.h	103;"	d
+RET_EQUIP_LEVEL	package.h	104;"	d
+RET_EQUIP_MAX_LEVEL	package.h	105;"	d
+RET_EQUIP_MIN_LEVEL	package.h	106;"	d
+RET_EQUIP_NOT_EXIST	package.h	107;"	d
+RET_EQUIP_POS	package.h	108;"	d
+RET_EQUIP_TYPE	package.h	109;"	d
+RET_ERROR	package.h	29;"	d
+RET_EXIST	package.h	30;"	d
+RET_FIGHT_FAILED	package.h	55;"	d
+RET_FIRE_LAYER_ERROR	package.h	135;"	d
+RET_FULL	package.h	37;"	d
+RET_GEM_INVALID	package.h	112;"	d
+RET_GEM_MAX_LEVEL	package.h	113;"	d
+RET_GEM_NOT_ENOUGH	package.h	114;"	d
+RET_GEM_NOT_EXIST	package.h	115;"	d
+RET_GUILD_EXIST	package.h	169;"	d
+RET_GUILD_LEADER	package.h	170;"	d
+RET_GUILD_MEMBER	package.h	171;"	d
+RET_GUILD_NAME_EXIST	package.h	172;"	d
+RET_GUILD_NOT_EXIST	package.h	173;"	d
+RET_GUILD_PREMISSION	package.h	174;"	d
+RET_GUILD_PREMISSIONS	package.h	175;"	d
+RET_GUILD_REQUEST_INPROGRESS	package.h	176;"	d
+RET_GUILD_REQUEST_NOT_EXIST	package.h	177;"	d
+RET_HERO_BUSY	package.h	75;"	d
+RET_HERO_EXIST	package.h	76;"	d
+RET_HERO_GROW_LIMIT	package.h	77;"	d
+RET_HERO_INUSE	package.h	78;"	d
+RET_HERO_INUSE_FULL	package.h	90;"	d
+RET_HERO_INVALID	package.h	79;"	d
+RET_HERO_LEVEL	package.h	80;"	d
+RET_HERO_NOT_EXIST	package.h	81;"	d
+RET_HERO_NOT_INUSE	package.h	82;"	d
+RET_HERO_NOT_TRANING	package.h	83;"	d
+RET_HERO_NOT_VISIT	package.h	84;"	d
+RET_HERO_RELATIONSHIP	package.h	85;"	d
+RET_HERO_RELATIONSHIP_FULL	package.h	86;"	d
+RET_HERO_TITLE_INVALID	package.h	87;"	d
+RET_HERO_TRANING	package.h	88;"	d
+RET_HERO_VISIT	package.h	89;"	d
+RET_INPROGRESS	package.h	33;"	d
+RET_ITEM_NOT_ENOUGH	package.h	111;"	d
+RET_KING_COUNTRY	package.h	58;"	d
+RET_KING_LEVEL	package.h	59;"	d
+RET_KING_LEVEL_NOT_ENOUGH	package.h	178;"	d
+RET_KING_PRESTIGE	package.h	60;"	d
+RET_KING_TITLE	package.h	61;"	d
+RET_KING_TITLE_INVALID	package.h	62;"	d
+RET_MAX_LEVEL	package.h	34;"	d
+RET_MERCHANDISE_INVALID	package.h	98;"	d
+RET_NOT_ENOUGH	package.h	38;"	d
+RET_NOT_EXIST	package.h	31;"	d
+RET_PARAM_ERROR	package.h	32;"	d
+RET_PREMISSIONS	package.h	39;"	d
+RET_QUEST_DOING	package.h	118;"	d
+RET_QUEST_DONE	package.h	119;"	d
+RET_QUEST_INVALID	package.h	120;"	d
+RET_RESOURCES	package.h	36;"	d
+RET_RESOURCE_COIN_NOT_ENOUGH	package.h	93;"	d
+RET_RESOURCE_MDEAL_NOT_ENOUGH	package.h	94;"	d
+RET_RESOURCE_MONEY_NOT_ENOUGH	package.h	95;"	d
+RET_RESOURCE_MONEY_NOT_ENOUGH_2	package.h	99;"	d
+RET_RESOURCE_NOT_ENOUGH	package.h	92;"	d
+RET_RESOURCE_ORDER_NOT_ENOUGH	package.h	96;"	d
+RET_RESOURCE_WOOD_NOT_ENOUGH	package.h	97;"	d
+RET_REWARD_DONE	package.h	147;"	d
+RET_REWARD_EXPIRED	package.h	148;"	d
+RET_REWARD_INVALID	package.h	146;"	d
+RET_REWARD_NOT_EXIST	package.h	56;"	d
+RET_SALARY_NOT_EXIST	package.h	65;"	d
+RET_SERVICE_STATUS_ERROR	package.h	42;"	d
+RET_SIGN_ALREADY_SIGNED	package.h	150;"	d
+RET_SIGN_FULL	package.h	149;"	d
+RET_STORY_COOLDOWN	package.h	136;"	d
+RET_STORY_INVALID	package.h	133;"	d
+RET_STORY_NOT_OPEN	package.h	134;"	d
+RET_SUCCESS	package.h	28;"	d
+RET_TACTIC_BAG_FULL	package.h	138;"	d
+RET_TACTIC_EXP_NOT_ENOUGH	package.h	139;"	d
+RET_TACTIC_INVALID	package.h	140;"	d
+RET_TACTIC_MAX_LEVEL	package.h	141;"	d
+RET_TACTIC_NOT_EXIST	package.h	142;"	d
+RET_TACTIC_TEACHER_INVALID	package.h	143;"	d
+RET_TACTIC_TEACHER_NOT_EXIST	package.h	144;"	d
+RET_TARGET_NOT_EXIST	package.h	52;"	d
+RET_TAX_LIMIT	package.h	66;"	d
+RET_TECHNOLOGY_INVALID	package.h	72;"	d
+RET_TECHNOLOGY_MAX_LEVEL	package.h	73;"	d
+RET_VIP_PREMISSIONS	package.h	50;"	d
+REWARD_EQUIP	package.h	1362;"	d
+REWARD_GEM	package.h	1361;"	d
+REWARD_HERO_EXP_SPEC	package.h	1359;"	d
+REWARD_HERO_ID	package.h	1363;"	d
+REWARD_ITEM	package.h	1360;"	d
+REWARD_PLAYER_EXP	package.h	1356;"	d
+REWARD_PLAYER_PRESTIGE	package.h	1357;"	d
+REWARD_RESOURCES_VALUE	package.h	1358;"	d
+S	md5.c	74;"	d	file:
+S2UInt29	amf.c	/^uint32_t S2UInt29(int32_t i) $/;"	f
+SERVICE_BEGIN	service.h	13;"	d
+SERVICE_END	service.h	16;"	d
+SEX_FEMALE	package.h	267;"	d
+SEX_MALE	package.h	266;"	d
+S_ADD_PLAYER_NOTIFICATION_REQUEST	package.h	1352;"	d
+S_ADD_PLAYER_NOTIFICATION_RESPOND	package.h	1353;"	d
+S_ADMIN_ADD_ACTIVITY_INFO_REQUEST	package.h	1271;"	d
+S_ADMIN_ADD_ACTIVITY_INFO_RESPOND	package.h	1273;"	d
+S_ADMIN_ADD_MAIL_REQUEST	package.h	1335;"	d
+S_ADMIN_ADD_MAIL_RESPOND	package.h	1336;"	d
+S_ADMIN_ADD_VIP_EXP_REQUEST	package.h	1276;"	d
+S_ADMIN_ADD_VIP_EXP_RESPOND	package.h	1278;"	d
+S_ADMIN_DEL_MAIL_REQUEST	package.h	1341;"	d
+S_ADMIN_DEL_MAIL_RESPOND	package.h	1342;"	d
+S_ADMIN_PLAYER_KICK_REQUEST	package.h	1374;"	d
+S_ADMIN_PLAYER_KICK_RESPOND	package.h	1375;"	d
+S_ADMIN_QUERY_MAIL_REQUEST	package.h	1338;"	d
+S_ADMIN_QUERY_MAIL_RESPOND	package.h	1339;"	d
+S_ADMIN_REWARD_REQUEST	package.h	1354;"	d
+S_ADMIN_REWARD_RESPOND	package.h	1355;"	d
+S_ADMIN_SET_ADULT_REQUEST	package.h	1383;"	d
+S_ADMIN_SET_ADULT_RESPOND	package.h	1384;"	d
+S_ADMIN_SET_CARD_REQUEST	package.h	1386;"	d
+S_ADMIN_SET_CARD_RESPOND	package.h	1387;"	d
+S_CHAT_MESSAGE_REQUEST	package.h	1315;"	d
+S_CHAT_MESSAGE_RESPOND	package.h	1317;"	d
+S_FIGHT_NOTIFICATION	package.h	1349;"	d
+S_GET_BOSS_FORMATION_REQUEST	package.h	1395;"	d
+S_GET_FORMATION_REQUEST	package.h	1389;"	d
+S_GET_FORMATION_RESPOND	package.h	1390;"	d
+S_GET_KING_REQUEST	package.h	1392;"	d
+S_GET_KING_RESPOND	package.h	1393;"	d
+S_GET_MONSTER_FORMATION_REQUEST	package.h	1396;"	d
+S_GET_NPC_KING_REQUEST	package.h	1397;"	d
+S_GET_PLAYER_ARMY_REQUEST	package.h	1347;"	d
+S_GET_PLAYER_ARMY_RESPOND	package.h	1348;"	d
+S_GET_PLAYER_BUILDING_REQUEST	package.h	1377;"	d
+S_GET_PLAYER_BUILDING_RESPOND	package.h	1378;"	d
+S_GET_PLAYER_INFO_REQUEST	package.h	1350;"	d
+S_GET_PLAYER_INFO_RESPOND	package.h	1351;"	d
+S_GET_PLAYER_STORY_REQUEST	package.h	1366;"	d
+S_GET_PLAYER_STORY_RESPOND	package.h	1367;"	d
+S_GET_PLAYER_TECHNOLOGY_REQUEST	package.h	1380;"	d
+S_GET_PLAYER_TECHNOLOGY_RESPOND	package.h	1381;"	d
+S_GUILD_ADD_EXP_REQUEST	package.h	1234;"	d
+S_GUILD_ADD_EXP_RESPOND	package.h	1237;"	d
+S_GUILD_QUERY_BY_PLAYER_REQUEST	package.h	1228;"	d
+S_GUILD_QUERY_BY_PLAYER_RESPOND	package.h	1231;"	d
+S_MAIL_CONTACT_GET_REQUEST	package.h	1472;"	d
+S_MAIL_CONTACT_GET_RESPOND	package.h	1475;"	d
+S_PLAYER_CHANGE_NOTIFY	package.h	1281;"	d
+S_PVE_FIGHT_CHECK_REQUEST	package.h	1489;"	d
+S_PVE_FIGHT_CHECK_RESPOND	package.h	1490;"	d
+S_PVE_FIGHT_PREPARE_REQUEST	package.h	1486;"	d
+S_PVE_FIGHT_PREPARE_RESPOND	package.h	1487;"	d
+S_PVE_FIGHT_REQUEST	package.h	1492;"	d
+S_PVE_FIGHT_RESPOND	package.h	1494;"	d
+S_PVP_FIGHT_REQUEST	package.h	1481;"	d
+S_PVP_FIGHT_RESPOND	package.h	1483;"	d
+S_RECORD_NOTIRY_MESSAGE_REQUEST	package.h	1320;"	d
+S_RECORD_NOTIRY_MESSAGE_RESPOND	package.h	1323;"	d
+S_SERVICE_BROADCAST_REQUEST	package.h	1260;"	d
+S_SERVICE_BROADCAST_RESPOND	package.h	1262;"	d
+S_SERVICE_REGISTER_REQUEST	package.h	1255;"	d
+S_SERVICE_REGISTER_RESPOND	package.h	1257;"	d
+S_SET_PLAYER_LOCATION_REQUEST	package.h	1364;"	d
+S_SET_PLAYER_LOCATION_RESPOND	package.h	1365;"	d
+S_SET_PLAYER_STATUS_REQUEST	package.h	1368;"	d
+S_SET_PLAYER_STATUS_RESPOND	package.h	1369;"	d
+S_TIMING_NOTIFY_ADD_REQUEST	package.h	1326;"	d
+S_TIMING_NOTIFY_ADD_RESPOND	package.h	1327;"	d
+S_TIMING_NOTIFY_DEL_REQUEST	package.h	1332;"	d
+S_TIMING_NOTIFY_DEL_RESPOND	package.h	1333;"	d
+S_TIMING_NOTIFY_QUERY_REQUEST	package.h	1329;"	d
+S_TIMING_NOTIFY_QUERY_RESPOND	package.h	1330;"	d
+SetCriticalData	codequeue.c	/^static void SetCriticalData(CQ * queue, size_t begin, size_t end)$/;"	f	file:
+U2SInt29	amf.c	/^int32_t U2SInt29(uint32_t i) $/;"	f
+Usage	main.c	/^static void Usage(const char * prog)$/;"	f	file:
+Version	main.c	/^static void Version()$/;"	f	file:
+WRITE_DEBUG_LOG	log.h	70;"	d
+WRITE_ERROR_LOG	log.h	74;"	d
+WRITE_INFO_LOG	log.h	78;"	d
+WRITE_LOG	log.h	52;"	d
+WRITE_LOG	log.h	57;"	d
+WRITE_TIME	log.h	39;"	d
+WRITE_WARNING_LOG	log.h	82;"	d
+_AGAME_MFILE_H_	mfile.h	2;"	d
+_A_GAME_ARRAY_H_	array.h	2;"	d
+_A_GAME_COMM_AMF_H_	amf.h	2;"	d
+_A_GAME_COMM_BASE_H_	base.h	2;"	d
+_A_GAME_COMM_BUFFER_H_	buffer.h	2;"	d
+_A_GAME_COMM_CONFIG_H_	config.h	2;"	d
+_A_GAME_COMM_HASH_H_	hash.h	2;"	d
+_A_GAME_COMM_LRM_H_	lrm.h	2;"	d
+_A_GAME_COMM_MEMORY_H_	memory.h	2;"	d
+_A_GAME_COMM_MODULES_LOG_H_	log.h	2;"	d
+_A_GAME_COMM_MODULES_PIPE_H_	pipe.h	2;"	d
+_A_GAME_COMM_MODULES_TIME_H_	mtime.h	2;"	d
+_A_GAME_COMM_MODULE_H_	module.h	2;"	d
+_A_GAME_COMM_NETWORK_H_	network.h	2;"	d
+_A_GAME_COMM_PACKAGE_H_	package.h	2;"	d
+_A_GAME_COMM_XML_HELPER_H_	xmlHelper.h	2;"	d
+_A_GAME_NETWORK_CODEQUEUE_H_	codequeue.h	2;"	d
+_A_GAME_NETWORK_SERVICE_H_	service.h	2;"	d
+_A_GAME_SHM_H_	shm.h	2;"	d
+_COMM_DLIST_H_	dlist.h	2;"	d
+_MAP_H_	map.h	2;"	d
+_MATRIX_H_	matrix.h	2;"	d
+_MD5_H	md5.h	2;"	d
+_agB_align	buffer.c	/^static void _agB_align(struct buffer * buf)$/;"	f	file:
+_agB_buffer	buffer.c	/^void * _agB_buffer(struct buffer * buf, size_t len)$/;"	f
+_agB_free	buffer.c	/^void _agB_free(struct buffer * buf)$/;"	f
+_agB_getc	buffer.c	/^char   _agB_getc(struct buffer * buf)$/;"	f
+_agB_new	buffer.c	/^struct buffer * _agB_new(size_t size)$/;"	f
+_agB_peek	buffer.c	/^void * _agB_peek(struct buffer * buf, size_t len)$/;"	f
+_agB_putc	buffer.c	/^int    _agB_putc(struct buffer * buf, char c)$/;"	f
+_agB_read	buffer.c	/^void * _agB_read(struct buffer * buf, size_t len)$/;"	f
+_agB_resize	buffer.c	/^static int _agB_resize(struct buffer * buf, size_t size)$/;"	f	file:
+_agB_size	buffer.c	/^size_t _agB_size(struct buffer * buf)$/;"	f
+_agB_statistic	buffer.c	/^void _agB_statistic()$/;"	f
+_agB_write	buffer.c	/^int _agB_write(struct buffer * buf, const void * data, size_t len)$/;"	f
+_agL_close	log.c	/^void _agL_close(struct logger * log)$/;"	f
+_agL_flush	log.c	/^void _agL_flush(struct logger * log)$/;"	f
+_agL_open	log.c	/^struct logger * _agL_open (const char * filename, int level)$/;"	f
+_agL_set_level	log.c	/^int  _agL_set_level(struct logger * log, int level)$/;"	f
+_agL_write	log.c	/^int  _agL_write(struct logger * log, int level, const char * fmt, ...)$/;"	f
+_agL_writev	log.c	/^int  _agL_writev(struct logger * log, int level, const char * fmt, va_list args)$/;"	f
+_agMH_alloc	memory.c	/^void* _agMH_alloc(struct heap *h, int size) {$/;"	f
+_agMH_delete	memory.c	/^void _agMH_delete(struct heap *h) {$/;"	f
+_agMH_new	memory.c	/^struct heap * _agMH_new(int pagesize) {$/;"	f
+_agM_dump	memory.c	/^void  _agM_dump()$/;"	f
+_agM_free	memory.c	/^void _agM_free(void * p, const char * file, int line)$/;"	f
+_agM_malloc	memory.c	/^void * _agM_malloc(size_t sz, const char * file, int line)$/;"	f
+_agM_realloc	memory.c	/^void * _agM_realloc(void *p, size_t sz, const char * file, int line)$/;"	f
+_agM_statistic	memory.c	/^void   _agM_statistic()$/;"	f
+_agMap_delete	map.c	/^void _agMap_delete(struct map * map) {$/;"	f
+_agMap_empty	map.c	/^void  _agMap_empty(struct map * map, void (*cb_free)(void * p))$/;"	f
+_agMap_ip_foreach	map.c	/^void _agMap_ip_foreach(struct map * map, void (*func)(uint64_t key, void *p, void * ctx), void * ctx)$/;"	f
+_agMap_ip_get	map.c	/^void * _agMap_ip_get(struct map * map, uint64_t key)$/;"	f
+_agMap_ip_set	map.c	/^void * _agMap_ip_set(struct map * map, uint64_t key, void * p)$/;"	f
+_agMap_new	map.c	/^struct map * _agMap_new(struct heap * heap)$/;"	f
+_agMap_next	map.c	/^struct map_element * _agMap_next(struct map * map, struct map_element * ite)$/;"	f
+_agMap_size	map.c	/^size_t _agMap_size(struct map * map)$/;"	f
+_agMap_sp_foreach	map.c	/^void _agMap_sp_foreach(struct map *map, void (*func)(const char * key, void *p, void * ctx), void * ctx)$/;"	f
+_agMap_sp_get	map.c	/^void * _agMap_sp_get(struct map * map, const char * key)$/;"	f
+_agMap_sp_next	map.c	/^void * _agMap_sp_next(struct map * map, const char ** key)$/;"	f
+_agMap_sp_set	map.c	/^void * _agMap_sp_set(struct map * map, const char * key, void * p)$/;"	f
+_agN_attach	network.c	/^resid_t _agN_attach(struct network * net, int fd, network_handler * handler, void * ctx)$/;"	f
+_agN_buffer	network.c	/^void * _agN_buffer(struct network * net, resid_t conn, size_t len)$/;"	f
+_agN_close	network.c	/^void _agN_close(struct network * net, resid_t conn)$/;"	f
+_agN_connect	network.c	/^resid_t _agN_connect(struct network * net, $/;"	f
+_agN_detach	network.c	/^int _agN_detach (struct network * net, resid_t conn)$/;"	f
+_agN_free	network.c	/^void _agN_free(struct network * net)$/;"	f
+_agN_get_fd	network.c	/^int _agN_get_fd(struct network * net, resid_t conn)$/;"	f
+_agN_listen	network.c	/^resid_t _agN_listen (struct network * net,$/;"	f
+_agN_loop	network.c	/^int _agN_loop(struct network * net)$/;"	f
+_agN_new	network.c	/^struct network * _agN_new (size_t max)$/;"	f
+_agN_send	network.c	/^int _agN_send(struct network * net, resid_t conn, const void * buff, size_t len)$/;"	f
+_agN_set_handler	network.c	/^int _agN_set_handler(struct network * net, resid_t conn, network_handler * handler, void * ctx)$/;"	f
+_agN_set_tick	network.c	/^void _agN_set_tick(struct network * net, void (*cb)(void *), void * ctx)$/;"	f
+_agN_set_timer	network.c	/^void _agN_set_timer(struct network * net, void (*cb)(time_t now, void *), void * ctx)$/;"	f
+_agN_stop	network.c	/^void _agN_stop(struct network * net)$/;"	f
+_agN_tick	network.c	/^int _agN_tick(struct network * net, int timeout)$/;"	f
+_agN_writev	network.c	/^int _agN_writev (struct network * net, resid_t conn, struct iovec *iov, int iovcnt)$/;"	f
+_agRM_free	lrm.c	/^void _agRM_free(struct lrm * lrm)$/;"	f
+_agRM_new	lrm.c	/^struct lrm * _agRM_new(int max, size_t objsize)$/;"	f
+_agR_free	lrm.c	/^void _agR_free(struct lrm * lrm, resid_t id)$/;"	f
+_agR_get	lrm.c	/^void *  _agR_get(struct lrm * lrm, resid_t id)$/;"	f
+_agR_new	lrm.c	/^resid_t _agR_new(struct lrm * lrm)$/;"	f
+_agR_next	lrm.c	/^resid_t _agR_next(struct lrm * lrm, resid_t ite)$/;"	f
+_agR_statistic	lrm.c	/^void    _agR_statistic()$/;"	f
+_alloc	map.c	/^static void * _alloc(struct heap * heap, size_t s)$/;"	f	file:
+_doc	config.c	/^static xml_doc_t * _doc = 0;$/;"	v	file:
+_find_first	map.c	/^static struct map_element * _find_first(struct map * map, size_t from)$/;"	f	file:
+_free	map.c	/^static void _free(struct heap * heap, void * p)$/;"	f	file:
+_free_element	map.c	/^static void _free_element(struct map * map, struct map_element * element)$/;"	f	file:
+_g_free	buffer.c	/^static unsigned int _g_free = 0;$/;"	v	file:
+_g_free	lrm.c	/^unsigned int _g_free   = 0;$/;"	v
+_g_free	memory.c	/^static unsigned int _g_free    = 0;$/;"	v	file:
+_g_malloc	buffer.c	/^static unsigned int _g_malloc = 0;$/;"	v	file:
+_g_malloc	lrm.c	/^unsigned int _g_malloc = 0;$/;"	v
+_g_malloc	memory.c	/^static unsigned int _g_malloc  = 0;$/;"	v	file:
+_g_max_size	buffer.c	/^static size_t _g_max_size = 0;$/;"	v	file:
+_g_realloc	memory.c	/^static unsigned int _g_realloc = 0;$/;"	v	file:
+_g_resize	buffer.c	/^static unsigned int _g_resize = 0;$/;"	v	file:
+_insert_element	map.c	/^static void _insert_element(struct map * map, struct map_element * element)$/;"	f	file:
+_ip_find	map.c	/^static struct map_element * _ip_find(struct map * map, uint64_t key, struct map_element ** pparent)$/;"	f	file:
+_net_instance	network.c	/^static struct network * _net_instance = 0;$/;"	v	typeref:struct:network	file:
+_network_active	network.c	/^static void _network_active(struct network * net, struct conn * c)$/;"	f	file:
+_new_element	map.c	/^static struct map_element * _new_element(struct map * map)$/;"	f	file:
+_read_amf	amf.c	/^static amf_value * _read_amf(const char * data, size_t dlen, size_t * plen)$/;"	f	file:
+_read_array	amf.c	/^static amf_value * _read_array(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_byte_array	amf.c	/^static amf_value * _read_byte_array(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_double	amf.c	/^static amf_value * _read_double(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_false	amf.c	/^static amf_value * _read_false(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_integer	amf.c	/^static amf_value * _read_integer(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_null	amf.c	/^static amf_value * _read_null(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_sinteger	amf.c	/^static amf_value * _read_sinteger(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_string	amf.c	/^static amf_value * _read_string(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_true	amf.c	/^static amf_value * _read_true(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_undefine	amf.c	/^static amf_value * _read_undefine(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_resize	map.c	/^static void _resize(struct map * map, size_t s)$/;"	f	file:
+_s_calc_hash	map.c	/^static size_t _s_calc_hash(const char * name)$/;"	f	file:
+_sp_find	map.c	/^static struct map_element * _sp_find(struct map * map, size_t hash, const char * key, struct map_element ** pparent)$/;"	f	file:
+_xmlGetChild	xmlHelper.c	/^static xml_node_t * _xmlGetChild(xml_node_t * node, const char * name) $/;"	f	file:
+accept_once	network.c	/^static int accept_once(struct network * net, struct conn * c)$/;"	f	file:
+active_list	network.c	/^	struct conn * active_list;$/;"	m	struct:network	typeref:struct:network::conn	file:
+agCQ_attach	codequeue.c	/^struct codequeue * agCQ_attach(void * ptr)$/;"	f
+agCQ_open	codequeue.c	/^struct codequeue * agCQ_open(void * ptr, size_t size)$/;"	f
+agCQ_pop	codequeue.c	/^size_t agCQ_pop(struct codequeue * _queue, void * data, size_t len)$/;"	f
+agCQ_push	codequeue.c	/^size_t agCQ_push(struct codequeue * _queue, const void * data, size_t len)$/;"	f
+agCQ_pushf	codequeue.c	/^size_t agCQ_pushf(struct codequeue * queue, ...)$/;"	f
+agCQ_pushv	codequeue.c	/^size_t agCQ_pushv(struct codequeue * _queue, va_list args)$/;"	f
+agC_close	config.c	/^void agC_close()$/;"	f
+agC_get	config.h	17;"	d
+agC_get_integer	config.c	/^int agC_get_integer(const char * key, ...)$/;"	f
+agC_get_l	config.c	/^xml_node_t * agC_get_l(const char * key, ...)$/;"	f
+agC_get_string	config.c	/^const char * agC_get_string(const char * key, ...)$/;"	f
+agC_open	config.c	/^int agC_open(const char * file)$/;"	f
+agC_vget	config.c	/^xml_node_t * agC_vget(const char * key, va_list args)$/;"	f
+agL_flush	log.c	/^void agL_flush()$/;"	f
+agL_open	log.c	/^int  agL_open (const char * filename, int level)$/;"	f
+agL_set_level	log.c	/^int  agL_set_level(int level)$/;"	f
+agL_write	log.c	/^int  agL_write(int level, const char * fmt, ...)$/;"	f
+agN_attach	network.c	/^resid_t agN_attach(int fd, network_handler * handler, void * ctx)$/;"	f
+agN_close	network.c	/^void agN_close(resid_t conn)$/;"	f
+agN_connect	network.c	/^resid_t agN_connect(const char * host, short port, int timeout, network_handler * handler, void * ctx)$/;"	f
+agN_detach	network.c	/^int agN_detach (struct network * net, resid_t conn)$/;"	f
+agN_free	network.c	/^void agN_free()$/;"	f
+agN_get_fd	network.c	/^int agN_get_fd(resid_t conn)$/;"	f
+agN_init	network.c	/^int agN_init(size_t max)$/;"	f
+agN_listen	network.c	/^resid_t agN_listen (const char * host, short port, int backlog, network_handler * handler, void * ctx)$/;"	f
+agN_loop	network.c	/^int agN_loop()$/;"	f
+agN_send	network.c	/^int agN_send(resid_t conn, const void * buff, int len)$/;"	f
+agN_set_handler	network.c	/^int agN_set_handler(resid_t conn, network_handler * handler, void * ctx)$/;"	f
+agN_set_tick	network.c	/^void    agN_set_tick(void (*cb)(void *), void * ctx)$/;"	f
+agN_set_timer	network.c	/^void agN_set_timer(void (*cb)(time_t now, void *), void * ctx)$/;"	f
+agN_stop	network.c	/^void agN_stop()$/;"	f
+agN_writev	network.c	/^int agN_writev (resid_t conn, struct iovec *iov, int iovcnt)$/;"	f
+agP_buffer	pipe.c	/^void * agP_buffer(struct pipe * p, size_t len)$/;"	f
+agP_close	pipe.c	/^void agP_close(struct pipe * p)$/;"	f
+agP_open	pipe.c	/^struct pipe * agP_open(size_t size)$/;"	f
+agP_peek	pipe.c	/^const void * agP_peek(struct pipe * p, size_t len)$/;"	f
+agP_read	pipe.c	/^const void * agP_read(struct pipe * p, size_t len)$/;"	f
+agP_size	pipe.c	/^size_t agP_size(struct pipe * p)$/;"	f
+agP_write	pipe.c	/^int agP_write(struct pipe * p, const void * data, size_t len)$/;"	f
+agT_current	mtime.c	/^time_t agT_current()$/;"	f
+agT_delay	mtime.c	/^int agT_delay(time_t t, void(*cb)(time_t, void*), void * data)$/;"	f
+alloc_element	hash.c	/^static struct element * alloc_element()$/;"	f	file:
+alloc_size	amf.c	/^			size_t alloc_size;$/;"	m	struct:amf_value::__anon2::__anon3	file:
+alloced	matrix.c	/^	size_t alloced;$/;"	m	struct:Matrix	file:
+alloced	matrix.c	/^	size_t alloced;$/;"	m	struct:MatrixRow	file:
+amf_array	amf.h	/^	amf_array = 0x09,$/;"	e	enum:amf_type
+amf_byte_array	amf.h	/^	amf_byte_array = 0x0C,$/;"	e	enum:amf_type
+amf_date	amf.h	/^	amf_date = 0x08,$/;"	e	enum:amf_type
+amf_decode_array	amf.c	/^size_t amf_decode_array(const char * data, size_t len, size_t * sz)$/;"	f
+amf_decode_byte_array	amf.c	/^size_t amf_decode_byte_array(const char * data, size_t len, struct amf_slice * slice)$/;"	f
+amf_decode_double	amf.c	/^size_t amf_decode_double(const char * data, size_t len, double * d)$/;"	f
+amf_decode_false	amf.c	/^size_t amf_decode_false(const char * data, size_t dlen)$/;"	f
+amf_decode_i29	amf.c	/^size_t amf_decode_i29(const char * data, size_t len, int32_t * v)$/;"	f
+amf_decode_integer	amf.c	/^size_t amf_decode_integer(const char * data, size_t len, uint32_t * v)$/;"	f
+amf_decode_null	amf.c	/^size_t amf_decode_null(const char * data, size_t dlen)$/;"	f
+amf_decode_sinteger	amf.c	/^size_t amf_decode_sinteger(const char * data, size_t len, int32_t * v)$/;"	f
+amf_decode_string	amf.c	/^size_t amf_decode_string(const char * data, size_t len, struct amf_slice * slice)$/;"	f
+amf_decode_true	amf.c	/^size_t amf_decode_true(const char * data, size_t dlen)$/;"	f
+amf_decode_u29	amf.c	/^size_t amf_decode_u29(const char * data, size_t len, uint32_t * v)$/;"	f
+amf_decode_undefine	amf.c	/^size_t amf_decode_undefine(const char * data, size_t dlen)$/;"	f
+amf_double	amf.h	/^	amf_double = 0x05,$/;"	e	enum:amf_type
+amf_dump	amf.c	/^void amf_dump(const char * data, size_t len)$/;"	f
+amf_dump_array	amf.c	/^size_t amf_dump_array(const char * data, size_t len, int deep)$/;"	f
+amf_dump_double	amf.c	/^static size_t amf_dump_double(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_false	amf.c	/^static size_t amf_dump_false(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_integer	amf.c	/^static size_t amf_dump_integer(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_null	amf.c	/^static size_t amf_dump_null(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_r	amf.c	/^static size_t amf_dump_r(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_sinteger	amf.c	/^static size_t amf_dump_sinteger(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_string	amf.c	/^static size_t amf_dump_string(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_true	amf.c	/^static size_t amf_dump_true(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_undefine	amf.c	/^static size_t amf_dump_undefine(const char * data, size_t len, int deep)$/;"	f	file:
+amf_encode	amf.c	/^size_t amf_encode(char * data, size_t dlen, amf_value * v)$/;"	f
+amf_encode_array	amf.c	/^size_t amf_encode_array(char * data, size_t len, size_t size)$/;"	f
+amf_encode_byte_array	amf.c	/^size_t amf_encode_byte_array(char * data, size_t len, const char * ptr, size_t sz)$/;"	f
+amf_encode_double	amf.c	/^size_t amf_encode_double(char * data, size_t len, double d)$/;"	f
+amf_encode_false	amf.c	/^size_t amf_encode_false(char * data, size_t dlen)$/;"	f
+amf_encode_i29	amf.c	/^static size_t amf_encode_i29(char * data, size_t len, int32_t val)$/;"	f	file:
+amf_encode_integer	amf.c	/^size_t amf_encode_integer(char * data, size_t len, uint32_t integer)$/;"	f
+amf_encode_integer_with_type	amf.c	/^size_t amf_encode_integer_with_type(char * data, size_t len, uint32_t integer, enum amf_type type)$/;"	f
+amf_encode_null	amf.c	/^size_t amf_encode_null(char * data, size_t dlen)$/;"	f
+amf_encode_sinteger	amf.c	/^size_t amf_encode_sinteger(char * data, size_t len, int32_t integer)$/;"	f
+amf_encode_string	amf.c	/^size_t amf_encode_string(char * data, size_t len,$/;"	f
+amf_encode_true	amf.c	/^size_t amf_encode_true(char * data, size_t dlen)$/;"	f
+amf_encode_u29	amf.c	/^static size_t amf_encode_u29(char * data, size_t len, uint32_t val)$/;"	f	file:
+amf_encode_undefine	amf.c	/^size_t amf_encode_undefine(char * data, size_t dlen)$/;"	f
+amf_false	amf.h	/^	amf_false = 0x02,$/;"	e	enum:amf_type
+amf_free	amf.c	/^void amf_free(amf_value * v)$/;"	f
+amf_get	amf.c	/^amf_value *  amf_get(amf_value * v, size_t pos)$/;"	f
+amf_get_byte_array	amf.c	/^const char *  amf_get_byte_array(amf_value * v, size_t * len)$/;"	f
+amf_get_double	amf.c	/^double amf_get_double(amf_value * v)$/;"	f
+amf_get_encode_length	amf.c	/^size_t amf_get_encode_length(amf_value * v)$/;"	f
+amf_get_integer	amf.c	/^uint32_t amf_get_integer(amf_value * v)$/;"	f
+amf_get_length_array	amf.c	/^static size_t amf_get_length_array(size_t size)$/;"	f	file:
+amf_get_length_byte_array	amf.c	/^static size_t amf_get_length_byte_array(size_t str_len)$/;"	f	file:
+amf_get_length_double	amf.c	/^static size_t amf_get_length_double()$/;"	f	file:
+amf_get_length_false	amf.c	/^static size_t amf_get_length_false()$/;"	f	file:
+amf_get_length_i29	amf.c	/^static size_t amf_get_length_i29(int32_t val)$/;"	f	file:
+amf_get_length_integer	amf.c	/^static size_t amf_get_length_integer(uint32_t integer)$/;"	f	file:
+amf_get_length_null	amf.c	/^static size_t amf_get_length_null()$/;"	f	file:
+amf_get_length_sinteger	amf.c	/^static size_t amf_get_length_sinteger(int32_t integer)$/;"	f	file:
+amf_get_length_string	amf.c	/^static size_t amf_get_length_string(size_t str_len)$/;"	f	file:
+amf_get_length_true	amf.c	/^static size_t amf_get_length_true()$/;"	f	file:
+amf_get_length_u29	amf.c	/^static size_t amf_get_length_u29(uint32_t val)$/;"	f	file:
+amf_get_length_undefine	amf.c	/^static size_t amf_get_length_undefine()$/;"	f	file:
+amf_get_sinteger	amf.c	/^int32_t amf_get_sinteger(amf_value * v)$/;"	f
+amf_get_string	amf.c	/^const char * amf_get_string(amf_value * v)$/;"	f
+amf_integer	amf.h	/^	amf_integer = 0x04,$/;"	e	enum:amf_type
+amf_new	amf.c	/^amf_value * amf_new()$/;"	f
+amf_new_array	amf.c	/^amf_value * amf_new_array(size_t size)$/;"	f
+amf_new_byte_array	amf.c	/^amf_value * amf_new_byte_array(const char * ptr, size_t size)$/;"	f
+amf_new_double	amf.c	/^amf_value * amf_new_double(double d)$/;"	f
+amf_new_false	amf.c	/^amf_value * amf_new_false()$/;"	f
+amf_new_integer	amf.c	/^amf_value * amf_new_integer(uint32_t integer)$/;"	f
+amf_new_null	amf.c	/^amf_value * amf_new_null()$/;"	f
+amf_new_sinteger	amf.c	/^amf_value * amf_new_sinteger(int32_t integer)$/;"	f
+amf_new_string	amf.c	/^amf_value * amf_new_string(const char * string, size_t size)$/;"	f
+amf_new_true	amf.c	/^amf_value * amf_new_true()$/;"	f
+amf_next_type	amf.c	/^enum amf_type amf_next_type(const char * data, size_t len)$/;"	f
+amf_null	amf.h	/^	amf_null = 0x01,$/;"	e	enum:amf_type
+amf_object	amf.h	/^	amf_object = 0x0A,$/;"	e	enum:amf_type
+amf_push	amf.c	/^void amf_push(amf_value * a, amf_value * v)$/;"	f
+amf_read	amf.c	/^amf_value * amf_read(const char * data, size_t dlen, size_t * plen)$/;"	f
+amf_resize	amf.c	/^static void amf_resize(amf_value * a, size_t size)$/;"	f	file:
+amf_set	amf.c	/^amf_value * amf_set(amf_value * a, size_t pos, amf_value * v)$/;"	f
+amf_set_double	amf.c	/^void amf_set_double(amf_value * v, double d)$/;"	f
+amf_set_integer	amf.c	/^void amf_set_integer(amf_value * v, uint32_t integer)$/;"	f
+amf_set_null	amf.c	/^void amf_set_null(amf_value * v)$/;"	f
+amf_set_sinteger	amf.c	/^void amf_set_sinteger(amf_value * v, int32_t integer)$/;"	f
+amf_sinteger	amf.h	/^	amf_sinteger = 0x0D$/;"	e	enum:amf_type
+amf_size	amf.c	/^size_t amf_size(amf_value * v)$/;"	f
+amf_skip	amf.c	/^size_t amf_skip(const char * data, size_t len)$/;"	f
+amf_slice	amf.h	/^struct amf_slice {$/;"	s
+amf_string	amf.h	/^	amf_string = 0x06,$/;"	e	enum:amf_type
+amf_true	amf.h	/^	amf_true = 0x03,$/;"	e	enum:amf_type
+amf_type	amf.c	/^enum amf_type amf_type(amf_value * v)$/;"	f
+amf_type	amf.h	/^enum amf_type {$/;"	g
+amf_undefine	amf.h	/^	amf_undefine = 0x00,$/;"	e	enum:amf_type
+amf_value	amf.c	/^struct amf_value {$/;"	s	file:
+amf_value	amf.h	/^typedef struct amf_value amf_value;$/;"	t	typeref:struct:amf_value
+amf_value_list	amf.c	/^static amf_value * amf_value_list = 0;$/;"	v	file:
+amf_xml	amf.h	/^	amf_xml = 0x0B,$/;"	e	enum:amf_type
+amf_xml_doc	amf.h	/^	amf_xml_doc = 0x07,$/;"	e	enum:amf_type
+array	array.c	/^struct array$/;"	s	file:
+array_count	array.c	/^size_t array_count(struct array * a)$/;"	f
+array_empty	array.c	/^int array_empty(struct array * a)$/;"	f
+array_free	array.c	/^void array_free(struct array *a )$/;"	f
+array_full	array.c	/^int array_full(struct array * a)$/;"	f
+array_get	array.c	/^void * array_get(struct array * a, size_t i)$/;"	f
+array_new	array.c	/^struct array * array_new(size_t s)$/;"	f
+array_push	array.c	/^size_t array_push(struct array * a, void * p)$/;"	f
+array_set	array.c	/^void * array_set(struct array * a, size_t i, void * p)$/;"	f
+array_size	array.c	/^size_t array_size(struct array * a)$/;"	f
+begin	codequeue.c	/^	size_t begin;$/;"	m	struct:codequeue	file:
+bool	network.h	/^typedef int bool;$/;"	t
+buckets	hash.c	/^	element ** buckets;$/;"	m	struct:hash	file:
+buckets	map.c	/^	struct map_element ** buckets;$/;"	m	struct:map	typeref:struct:map::map_element	file:
+buckets_size	hash.c	/^	unsigned int buckets_size;$/;"	m	struct:hash	file:
+buckets_size	map.c	/^	size_t buckets_size;$/;"	m	struct:map	file:
+buf	pipe.c	/^	struct buffer * buf;$/;"	m	struct:pipe	typeref:struct:pipe::buffer	file:
+buffer	amf.h	/^	void * buffer;$/;"	m	struct:amf_slice
+buffer	buffer.c	/^struct buffer {$/;"	s	file:
+buffer	md5.h	/^	uint8 buffer[64];$/;"	m	struct:__anon5
+build_file	mfile.c	/^static FILE * build_file(const char * fname)$/;"	f	file:
+c	array.c	/^	size_t c;$/;"	m	struct:array	file:
+cb	network.c	/^		void (*cb)(time_t, void *);$/;"	m	struct:network::__anon6	file:
+cb	network.c	/^		void (*cb)(void *);$/;"	m	struct:network::__anon7	file:
+cfile	config.c	/^char cfile[256] = {0};$/;"	v
+check_connecting	network.c	/^static void check_connecting(struct network * net , struct conn * c)$/;"	f	file:
+check_path	base.c	/^static int check_path(const char * path) $/;"	f	file:
+child	amf.c	/^			amf_value ** child;$/;"	m	struct:amf_value::__anon2::__anon3	file:
+child	xmlHelper.c	/^	xml_node_t * child;$/;"	m	struct:xml_node_t	file:
+cleanClient	network.c	/^static void cleanClient(struct network * net)$/;"	f	file:
+client_header	package.h	/^struct client_header {$/;"	s
+closing_list	network.c	/^	struct conn * closing_list;$/;"	m	struct:network	typeref:struct:network::conn	file:
+cmd	package.h	/^	uint32_t cmd;$/;"	m	struct:client_header
+cmd	package.h	/^	uint32_t cmd;$/;"	m	struct:translate_header
+cmp_func	hash.h	/^typedef int (*cmp_func)(void * key1, size_t len1, void * key2, size_t len2);$/;"	t
+cmp_key	hash.c	/^	cmp_func  cmp_key;$/;"	m	struct:hash	file:
+codequeue	codequeue.c	/^struct codequeue {$/;"	s	file:
+conn	network.c	/^struct conn $/;"	s	file:
+conn_set_event	network.c	/^static int conn_set_event(struct network * net, struct conn * c, unsigned int events)$/;"	f	file:
+conn_status	network.c	/^enum conn_status {$/;"	g	file:
+connect_to	base.c	/^int connect_to(const char * host, unsigned short port, int * done)$/;"	f
+connect_to_unix	base.c	/^static int connect_to_unix(const char * path, int * done)$/;"	f	file:
+count	matrix.c	/^	size_t count;$/;"	m	struct:Matrix	file:
+count	matrix.c	/^	size_t count;$/;"	m	struct:MatrixRow	file:
+cs_closed	network.c	/^	cs_closed = 0,$/;"	e	enum:conn_status	file:
+cs_closing	network.c	/^	cs_closing = 4,$/;"	e	enum:conn_status	file:
+cs_connected	network.c	/^	cs_connected  = 3,$/;"	e	enum:conn_status	file:
+cs_connected_wait_cb	network.c	/^	cs_connected_wait_cb = 5,$/;"	e	enum:conn_status	file:
+cs_connecting	network.c	/^	cs_connecting = 2,$/;"	e	enum:conn_status	file:
+cs_listening	network.c	/^	cs_listening = 1,$/;"	e	enum:conn_status	file:
+ctx	network.c	/^		void * ctx;$/;"	m	struct:network::__anon6	file:
+ctx	network.c	/^		void * ctx;$/;"	m	struct:network::__anon7	file:
+ctx	network.c	/^	void * ctx;$/;"	m	struct:conn	file:
+cur_ref	amf.c	/^static unsigned int cur_ref = 0;$/;"	v	file:
+current	memory.c	/^	struct heap_page *current;$/;"	m	struct:heap	typeref:struct:heap::heap_page	file:
+current	mtime.c	/^static time_t current = 0;$/;"	v	file:
+d	amf.c	/^		double d;$/;"	m	union:amf_value::__anon2	file:
+data	buffer.c	/^	char * data;$/;"	m	struct:buffer	file:
+data	dlist.h	/^    void * data;$/;"	m	struct:dlist_node
+data	hash.c	/^	void * data;$/;"	m	struct:element	file:
+data	hash.h	/^	void * data;$/;"	m	struct:hash_iterator
+data	lrm.c	/^	char * data; \/\/[1];$/;"	m	struct:lrm	file:
+default_cmp_key	hash.c	/^static int default_cmp_key(void *key1, size_t len1, void * key2, size_t len2)$/;"	f	file:
+default_hash_key	hash.c	/^static unsigned int default_hash_key(void *key , size_t len)$/;"	f	file:
+default_logger	log.c	/^static struct logger * default_logger = 0;$/;"	v	typeref:struct:logger	file:
+dlist_init	dlist.h	84;"	d
+dlist_init_with	dlist.h	93;"	d
+dlist_init_x	dlist.h	82;"	d
+dlist_insert_after	dlist.h	86;"	d
+dlist_insert_after_with	dlist.h	99;"	d
+dlist_insert_after_x	dlist.h	25;"	d
+dlist_insert_before	dlist.h	85;"	d
+dlist_insert_before_with	dlist.h	96;"	d
+dlist_insert_before_x	dlist.h	16;"	d
+dlist_insert_head	dlist.h	87;"	d
+dlist_insert_head_with	dlist.h	102;"	d
+dlist_insert_head_x	dlist.h	35;"	d
+dlist_insert_tail	dlist.h	88;"	d
+dlist_insert_tail_with	dlist.h	105;"	d
+dlist_insert_tail_x	dlist.h	47;"	d
+dlist_next	dlist.h	90;"	d
+dlist_next_with	dlist.h	111;"	d
+dlist_next_x	dlist.h	76;"	d
+dlist_node	dlist.h	/^typedef struct dlist_node{$/;"	s
+dlist_node	dlist.h	/^} dlist_node;$/;"	t	typeref:struct:dlist_node
+dlist_prev	dlist.h	91;"	d
+dlist_prev_with	dlist.h	114;"	d
+dlist_prev_x	dlist.h	79;"	d
+dlist_remove	dlist.h	89;"	d
+dlist_remove_with	dlist.h	108;"	d
+dlist_remove_x	dlist.h	57;"	d
+do_close	network.c	/^static void do_close(struct network * net, struct conn * c)$/;"	f	file:
+do_conn_error	network.c	/^static void do_conn_error(struct network * net, struct conn * c)$/;"	f	file:
+do_conn_event	network.c	/^static void do_conn_event(struct network * net, struct conn * c, uint32_t event)$/;"	f	file:
+do_conn_read	network.c	/^static void do_conn_read(struct network * net, struct conn * c)$/;"	f	file:
+do_conn_write	network.c	/^static void do_conn_write(struct network * net, struct conn * c) $/;"	f	file:
+dump_amf	amf.c	/^void dump_amf(amf_value * v, FILE  * out)$/;"	f
+dump_amf_x	amf.c	/^static void dump_amf_x(amf_value * v, int deep, FILE * out)$/;"	f	file:
+dump_hash	hash.c	/^void dump_hash(struct hash * h, dump_val dv)$/;"	f
+dump_val	hash.h	/^typedef void (*dump_val)(void * data);$/;"	t
+efd	network.c	/^	int efd;$/;"	m	struct:network	file:
+element	hash.c	/^typedef struct element {$/;"	s	file:
+element	hash.c	/^} element;$/;"	t	typeref:struct:element	file:
+end	codequeue.c	/^	size_t end;$/;"	m	struct:codequeue	file:
+events	network.c	/^	unsigned int events;$/;"	m	struct:conn	file:
+fd	network.c	/^	int fd;$/;"	m	struct:conn	file:
+field	matrix.c	/^	MatrixField ** field;$/;"	m	struct:MatrixRow	file:
+file	log.c	/^	FILE * file;$/;"	m	struct:logger	file:
+find_element	hash.c	/^static struct element * find_element(struct hash * h, int index,$/;"	f	file:
+finish_connecting	network.c	/^static void finish_connecting(struct network * net, struct conn * c) $/;"	f	file:
+flag	package.h	/^	uint32_t flag;$/;"	m	struct:client_header
+flag	package.h	/^	uint32_t flag;$/;"	m	struct:translate_header
+foreachChildNodeWithName	xmlHelper.c	/^int foreachChildNodeWithName(xml_node_t * node, const char * name, int (*cb)(xml_node_t *, void *), void *data)$/;"	f
+fp	xmlHelper.c	/^	FILE * fp;$/;"	m	struct:xml_doc_t	file:
+freeNode	xmlHelper.c	/^static void freeNode(xml_node_t * node)$/;"	f	file:
+free_element	hash.c	/^static void free_element(struct element * e)$/;"	f	file:
+free_element_list	hash.c	/^static element * free_element_list = 0;$/;"	v	file:
+free_record	memory.c	/^static void free_record()$/;"	f	file:
+g_sid	main.c	/^unsigned int g_sid = 0;$/;"	v
+get_key	hash.c	/^	key_func  get_key;$/;"	m	struct:hash	file:
+get_lresource	lrm.c	/^static struct lresource * get_lresource(struct lrm * lrm, resid_t id)$/;"	f	file:
+get_lresource_by_index	lrm.c	/^static struct lresource * get_lresource_by_index(struct lrm * lrm, int index)$/;"	f	file:
+handler	network.c	/^	struct network_handler handler;$/;"	m	struct:conn	typeref:struct:conn::network_handler	file:
+hash	hash.c	/^struct hash$/;"	s	file:
+hash	hash.h	/^typedef struct hash hash;$/;"	t	typeref:struct:hash
+hash	map.h	/^	size_t hash;$/;"	m	struct:map_element
+hash_create	hash.c	/^struct hash * hash_create(key_func get_key,$/;"	f
+hash_create_with_number_key	hash.c	/^struct hash * hash_create_with_number_key(key_func get_key)$/;"	f
+hash_create_with_string_key	hash.c	/^struct hash * hash_create_with_string_key(key_func get_key)$/;"	f
+hash_destory	hash.c	/^void hash_destory(hash * h)$/;"	f
+hash_func	hash.h	/^typedef unsigned int (*hash_func)(void * key, size_t len);$/;"	t
+hash_get	hash.c	/^void * hash_get(struct hash * h, void * key, size_t key_len)$/;"	f
+hash_insert	hash.c	/^void * hash_insert(struct hash * h, void * data)$/;"	f
+hash_insert_element	hash.c	/^static void hash_insert_element(struct hash * h, struct element * e)$/;"	f	file:
+hash_iterator	hash.h	/^struct hash_iterator {$/;"	s
+hash_key	hash.c	/^	hash_func hash_key;$/;"	m	struct:hash	file:
+hash_next	hash.c	/^struct hash_iterator * hash_next(struct hash * h, struct hash_iterator * ite)$/;"	f
+hash_number_key	hash.c	/^unsigned int hash_number_key(void  * key, size_t len)$/;"	f
+hash_remove	hash.c	/^void * hash_remove(struct hash * h, void * key, size_t key_len)$/;"	f
+hash_resize	hash.c	/^static void hash_resize(struct hash * h, unsigned int new_size)$/;"	f	file:
+hash_size	hash.c	/^size_t hash_size(struct hash * h)$/;"	f
+hash_val	hash.c	/^	unsigned int hash_val;$/;"	m	struct:element	file:
+heap	map.c	/^	struct heap * heap;$/;"	m	struct:map	typeref:struct:map::heap	file:
+heap	memory.c	/^struct heap {$/;"	s	file:
+heap_page	memory.c	/^struct heap_page {$/;"	s	file:
+i	map.h	/^		uint64_t     i;$/;"	m	union:map_element::__anon4
+id	lrm.c	/^	resid_t id;$/;"	m	struct:lresource	file:
+id	network.c	/^	resid_t id;$/;"	m	struct:conn	file:
+idle	lrm.c	/^	struct lresource * idle;$/;"	m	struct:lrm	typeref:struct:lrm::lresource	file:
+init_lrm_idle_list	lrm.c	/^static void init_lrm_idle_list(struct lrm * lrm)$/;"	f	file:
+integer	amf.c	/^		uint32_t integer;$/;"	m	union:amf_value::__anon2	file:
+isComment	xmlHelper.c	/^static int isComment(mxml_node_t * node) $/;"	f	file:
+item_count	hash.c	/^	unsigned int item_count;$/;"	m	struct:hash	file:
+item_count	map.c	/^	size_t item_count;$/;"	m	struct:map	file:
+key	map.h	/^	} key;$/;"	m	struct:map_element	typeref:union:map_element::__anon4
+key_func	hash.h	/^typedef void * (*key_func)(void * data, size_t * len);$/;"	t
+last	main.c	/^static time_t    last = 0;$/;"	v	file:
+last	network.c	/^		time_t last;$/;"	m	struct:network::__anon6	file:
+last_error	mfile.c	/^static const char * last_error = "";$/;"	v	file:
+len	amf.c	/^	size_t len;$/;"	m	struct:__anon1	file:
+len	amf.h	/^	size_t len;$/;"	m	struct:amf_slice
+len	package.h	/^	uint32_t len;$/;"	m	struct:client_header
+len	package.h	/^	uint32_t len;$/;"	m	struct:translate_header
+level	log.c	/^	int    level;$/;"	m	struct:logger	file:
+listen_on	base.c	/^int listen_on(const char * host, unsigned short port, int backlog)$/;"	f
+listen_on_unix	base.c	/^static int listen_on_unix(const char * path, unsigned backlog)$/;"	f	file:
+lock	memory.c	/^static void lock()$/;"	f	file:
+log	amf.c	84;"	d	file:
+log	log.h	/^DECLARE_MODULE(log);$/;"	v
+log_level_count	log.c	/^static const int log_level_count = sizeof(LOG_LEVEL_DESC) \/ sizeof(LOG_LEVEL_DESC[0]);$/;"	v	file:
+logger	log.c	/^struct logger$/;"	s	file:
+lresource	lrm.c	/^struct lresource {$/;"	s	file:
+lrm	lrm.c	/^struct lrm {$/;"	s	file:
+lrm	network.c	/^	struct lrm * lrm;$/;"	m	struct:network	typeref:struct:network::lrm	file:
+main	main.c	/^int main(int argc, char * argv[])$/;"	f
+main	md5.c	/^int main( int argc, char *argv[] )$/;"	f
+malloc_record	memory.c	/^static void malloc_record() {$/;"	f	file:
+map	map.c	/^struct map$/;"	s	file:
+map_element	map.h	/^struct map_element {$/;"	s
+map_element	map.h	/^} map_element;$/;"	v	typeref:struct:map_element
+max	lrm.c	/^	int max;$/;"	m	struct:lrm	file:
+max_record	mfile.c	/^static const unsigned int max_record = 0x1 << 20;$/;"	v	file:
+md5_context	md5.h	/^} md5_context;$/;"	t	typeref:struct:__anon5
+md5_finish	md5.c	/^void md5_finish( md5_context *ctx, uint8 digest[16] )$/;"	f
+md5_padding	md5.c	/^static uint8 md5_padding[64] =$/;"	v	file:
+md5_process	md5.c	/^void md5_process( md5_context *ctx, uint8 data[64] )$/;"	f
+md5_starts	md5.c	/^void md5_starts( md5_context *ctx )$/;"	f
+md5_update	md5.c	/^void md5_update( md5_context *ctx, uint8 *input, uint32 length )$/;"	f
+md5sum	md5.c	/^char * md5sum(void * input, size_t length, char * result)$/;"	f
+mfile_lasterror	mfile.c	/^const char * mfile_lasterror()$/;"	f
+mfile_read	mfile.c	/^int mfile_read (unsigned int ref, char * buff, size_t len, const char * prefix)$/;"	f
+mfile_tag	mfile.c	/^static const unsigned int mfile_tag = 0x6164662e;$/;"	v	file:
+mfile_write	mfile.c	/^unsigned int mfile_write(unsigned int ref, const char * buff, size_t len, const char * prefix)$/;"	f
+module	module.h	/^struct module {$/;"	s
+module_log_load	log.c	/^int module_log_load(int argc, char * argv[])$/;"	f
+module_log_reload	log.c	/^int module_log_reload()$/;"	f
+module_log_unload	log.c	/^void module_log_unload()$/;"	f
+module_log_update	log.c	/^void module_log_update(time_t now)$/;"	f
+module_time_load	mtime.c	/^int module_time_load(int argc, char * argv[])$/;"	f
+module_time_reload	mtime.c	/^int module_time_reload()$/;"	f
+module_time_unload	mtime.c	/^void module_time_unload()$/;"	f
+module_time_update	mtime.c	/^void module_time_update(time_t now)$/;"	f
+msg	md5.c	/^static char *msg[] = $/;"	v	file:
+mutex	memory.c	/^static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+name	log.c	/^	char   name[256];$/;"	m	struct:logger	file:
+name	module.h	/^	const char * name;$/;"	m	struct:module
+network	network.c	/^struct network$/;"	s	file:
+network_handler	network.h	/^typedef struct network_handler {$/;"	s
+network_handler	network.h	/^} network_handler;$/;"	t	typeref:struct:network_handler
+newNode	xmlHelper.c	/^static xml_node_t * newNode(mxml_node_t * node)$/;"	f	file:
+next	amf.c	/^		struct amf_value * next;$/;"	m	union:amf_value::__anon2	typeref:struct:amf_value::__anon2::amf_value	file:
+next	dlist.h	/^    struct dlist_node * next;$/;"	m	struct:dlist_node	typeref:struct:dlist_node::dlist_node
+next	hash.c	/^	struct element * next;$/;"	m	struct:element	typeref:struct:element::element	file:
+next	lrm.c	/^	struct lresource * next;	\/\/ next == 0 表示正在使用$/;"	m	struct:lresource	typeref:struct:lresource::lresource	file:
+next	map.h	/^	struct map_element * next;$/;"	m	struct:map_element	typeref:struct:map_element::map_element
+next	memory.c	/^	struct heap_page * next;$/;"	m	struct:heap_page	typeref:struct:heap_page::heap_page	file:
+next	network.c	/^	struct conn * next;$/;"	m	struct:conn	typeref:struct:conn::conn	file:
+next	xmlHelper.c	/^	xml_node_t * next;$/;"	m	struct:xml_node_t	file:
+node	xmlHelper.c	/^	mxml_node_t * node;$/;"	m	struct:xml_node_t	file:
+objsize	lrm.c	/^	size_t objsize;$/;"	m	struct:lrm	file:
+offset	mfile.c	/^	uint32_t offset;$/;"	m	struct:MFileIndex	file:
+on_accept	network.h	/^	void   (*on_accept)   (struct network * net, resid_t l, resid_t c, void * ctx);$/;"	m	struct:network_handler
+on_closed	network.h	/^	void   (*on_closed)   (struct network * net, resid_t c, int error, void * ctx);$/;"	m	struct:network_handler
+on_connected	network.h	/^	void   (*on_connected)(struct network * net, resid_t c, void * ctx);$/;"	m	struct:network_handler
+on_load	module.h	/^	int  (*on_load)(int argc, char * argv[]);$/;"	m	struct:module
+on_message	network.h	/^	size_t (*on_message)  (struct network * net, resid_t c, const char * msg, size_t len, void * ctx);$/;"	m	struct:network_handler
+on_reload	module.h	/^	int  (*on_reload)();$/;"	m	struct:module
+on_signal	service.c	/^static void on_signal(int sig)$/;"	f	file:
+on_unload	module.h	/^	void (*on_unload)();$/;"	m	struct:module
+on_update	module.h	/^	void (*on_update)(time_t now);$/;"	m	struct:module
+p	array.c	/^	void * p[1];$/;"	m	struct:array	file:
+pipe	pipe.c	/^struct pipe {$/;"	s	file:
+playerid	package.h	/^	uint32_t playerid;$/;"	m	struct:translate_header
+prev	dlist.h	/^    struct dlist_node * prev;$/;"	m	struct:dlist_node	typeref:struct:dlist_node::dlist_node
+process_conn_message	network.c	/^static size_t process_conn_message(struct network * net, struct conn * c, char * data, size_t len)$/;"	f	file:
+ptr	amf.c	/^	const char * ptr;$/;"	m	struct:__anon1	file:
+rbuf	network.c	/^	struct buffer * rbuf;$/;"	m	struct:conn	typeref:struct:conn::buffer	file:
+reopen_log_file	log.c	/^static FILE * reopen_log_file(const char * name, time_t now)$/;"	f	file:
+resid_t	lrm.h	/^typedef unsigned int resid_t; $/;"	t
+resid_t	network.h	/^typedef unsigned int resid_t; $/;"	t
+resource_list_end	lrm.c	/^static struct lresource resource_list_end;$/;"	v	typeref:struct:lresource	file:
+revert	mfile.c	/^	char  revert[12];$/;"	m	struct:MFileHeader	file:
+revert	mfile.c	/^	uint32_t revert;$/;"	m	struct:MFileIndex	file:
+root	xmlHelper.c	/^	xml_node_t * root;$/;"	m	struct:xml_doc_t	file:
+row	matrix.c	/^	MatrixRow ** row;$/;"	m	struct:Matrix	file:
+rpos	buffer.c	/^	size_t rpos;$/;"	m	struct:buffer	file:
+s	array.c	/^	size_t s;$/;"	m	struct:array	file:
+s	map.h	/^		const char * s;$/;"	m	union:map_element::__anon4
+service_init	service.c	/^int service_init(int argc, char * argv[])$/;"	f
+service_reload	service.c	/^int service_reload()$/;"	f
+service_unload	service.c	/^void service_unload()$/;"	f
+service_update	service.c	/^void service_update(time_t now)$/;"	f
+setnblock	base.c	/^int setnblock(int fd)$/;"	f
+setreuse	base.c	/^static int setreuse(int fd)$/;"	f	file:
+shm_attach	shm.c	/^void * shm_attach(const char * name, int id)$/;"	f
+shm_create	shm.c	/^void * shm_create(const char * name, int id, size_t size)$/;"	f
+shm_destory	shm.c	/^void   shm_destory(const char * name, int id)$/;"	f
+sinteger	amf.c	/^		int32_t  sinteger;$/;"	m	union:amf_value::__anon2	file:
+size	amf.c	/^	size_t size;$/;"	m	struct:amf_value	file:
+size	buffer.c	/^	size_t size;$/;"	m	struct:buffer	file:
+size	codequeue.c	/^	size_t size;$/;"	m	struct:codequeue	file:
+size	memory.c	/^	int size;$/;"	m	struct:heap	file:
+size	mfile.c	/^	uint32_t size;$/;"	m	struct:MFileIndex	file:
+socktoaddr	base.c	/^static int socktoaddr(const char* host, unsigned short port, $/;"	f	file:
+state	md5.h	/^	uint32 state[4];$/;"	m	struct:__anon5
+status	network.c	/^	enum conn_status status;$/;"	m	struct:conn	typeref:enum:conn::conn_status	file:
+stop	network.c	/^	int stop;$/;"	m	struct:network	file:
+string	amf.c	/^		char * string;$/;"	m	union:amf_value::__anon2	file:
+string_ref	amf.c	/^} string_ref[1024];$/;"	v	typeref:struct:__anon1	file:
+tag	mfile.c	/^	uint32_t tag;	$/;"	m	struct:MFileHeader	file:
+tick	network.c	/^	} tick;$/;"	m	struct:network	typeref:struct:network::__anon7	file:
+time	mfile.c	/^	uint32_t time;$/;"	m	struct:MFileIndex	file:
+time	mtime.h	/^DECLARE_MODULE(time);$/;"	v
+timer	main.c	/^static void timer(time_t t, void * ctx)$/;"	f	file:
+timer	network.c	/^	} timer;$/;"	m	struct:network	typeref:struct:network::__anon6	file:
+timesub	network.c	/^static int timesub(struct timeval * t1, struct timeval * t2)$/;"	f	file:
+topen	log.c	/^	time_t topen;$/;"	m	struct:logger	file:
+total	md5.h	/^	uint32 total[2];$/;"	m	struct:__anon5
+translate_header	package.h	/^struct translate_header {$/;"	s
+tree	xmlHelper.c	/^	mxml_node_t * tree;$/;"	m	struct:xml_doc_t	file:
+type	amf.c	/^	enum amf_type type;$/;"	m	struct:amf_value	typeref:enum:amf_value::amf_type	file:
+uint32	md5.h	9;"	d
+uint8	md5.h	5;"	d
+unlock	memory.c	/^static void unlock()$/;"	f	file:
+used	memory.c	/^	int used;$/;"	m	struct:heap	file:
+val	md5.c	/^static char *val[] =$/;"	v	file:
+value	map.h	/^	void * value;$/;"	m	struct:map_element
+value	matrix.c	/^	char * value;$/;"	m	struct:MatrixField	file:
+wbuf	network.c	/^	struct buffer * wbuf;$/;"	m	struct:conn	typeref:struct:conn::buffer	file:
+wpos	buffer.c	/^	size_t wpos;$/;"	m	struct:buffer	file:
+xmlClose	xmlHelper.c	/^void xmlClose(xml_doc_t * doc)$/;"	f
+xmlDocGetRoot	xmlHelper.c	/^xml_node_t * xmlDocGetRoot(xml_doc_t * doc)$/;"	f
+xmlGetAttribute	xmlHelper.c	/^const char * xmlGetAttribute(xml_node_t * node, const char * attribute, const char * def)$/;"	f
+xmlGetAttributeCount	xmlHelper.c	/^unsigned int xmlGetAttributeCount(xml_node_t * node)$/;"	f
+xmlGetAttributeN	xmlHelper.c	/^const char * xmlGetAttributeN(xml_node_t * node, unsigned int n, const char ** key)$/;"	f
+xmlGetChild	xmlHelper.c	166;"	d	file:
+xmlGetChild	xmlHelper.h	26;"	d
+xmlGetChild_	xmlHelper.c	/^xml_node_t * xmlGetChild_(xml_node_t * node, ...)$/;"	f
+xmlGetFirstChild	xmlHelper.c	/^xml_node_t * xmlGetFirstChild(xml_node_t * node)$/;"	f
+xmlGetName	xmlHelper.c	/^const char * xmlGetName(xml_node_t * node)$/;"	f
+xmlGetNextSibling	xmlHelper.c	/^xml_node_t * xmlGetNextSibling(xml_node_t * node)$/;"	f
+xmlGetValue	xmlHelper.c	/^const char * xmlGetValue(xml_node_t * node, const char * def)$/;"	f
+xmlOpen	xmlHelper.c	/^xml_doc_t  * xmlOpen(const char * file)$/;"	f
+xml_doc_t	xmlHelper.c	/^struct xml_doc_t {$/;"	s	file:
+xml_doc_t	xmlHelper.h	/^typedef struct xml_doc_t  xml_doc_t;$/;"	t	typeref:struct:xml_doc_t
+xml_node_t	xmlHelper.c	/^struct xml_node_t {$/;"	s	file:
+xml_node_t	xmlHelper.h	/^typedef struct xml_node_t xml_node_t;$/;"	t	typeref:struct:xml_node_t

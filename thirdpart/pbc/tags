@@ -1,0 +1,687 @@
+number (	build/descriptor.pb	/^number (:$/;"	l
+SourceCodeInfo	build/descriptor.pb	/^SourceCodeInfo:$/;"	l
+uninterpreted_optionç (2$.google.protobuf.UninterpretedOption"	build/descriptor.pb	/^uninterpreted_optionç (2$.google.protobuf.UninterpretedOption":$/;"	l
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR = ar rc$/;"	m
+BUILD	Makefile	/^BUILD = build$/;"	m
+BUILD_O	Makefile	/^BUILD_O = $(BUILD)\/o$/;"	m
+BUILD_temp	Makefile	/^define BUILD_temp$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -fPIC -O2$/;"	m
+CHECK_BIT32	src/context.h	135;"	d
+CHECK_BIT64	src/context.h	136;"	d
+CHECK_FILE_DEPENDENCY	src/register.c	246;"	d	file:
+CHECK_FILE_EXIST	src/register.c	245;"	d	file:
+CHECK_FILE_OK	src/register.c	244;"	d	file:
+CHECK_LEND	src/context.h	124;"	d
+CHECK_VARINT	src/context.h	134;"	d
+COUNT	test/test.c	7;"	d	file:
+CTYPE_ARRAY	src/context.h	25;"	d
+CTYPE_BOOL	src/context.h	22;"	d
+CTYPE_DOUBLE	src/context.h	19;"	d
+CTYPE_FLOAT	src/context.h	20;"	d
+CTYPE_INT16	src/context.h	24;"	d
+CTYPE_INT32	src/context.h	17;"	d
+CTYPE_INT64	src/context.h	18;"	d
+CTYPE_INT8	src/context.h	23;"	d
+CTYPE_PACKED	src/context.h	27;"	d
+CTYPE_POINTER	src/context.h	21;"	d
+CTYPE_VAR	src/context.h	26;"	d
+D	src/bootstrap.c	246;"	d	file:
+F	src/bootstrap.c	245;"	d	file:
+FieldOptions	build/descriptor.pb	/^FieldOptions:$/;"	l
+HMALLOC	src/alloc.h	18;"	d
+INNER_ATOM	src/context.c	11;"	d	file:
+INNER_FIELD	src/array.c	14;"	d	file:
+LABEL_OPTIONAL	src/proto.h	17;"	d
+LABEL_PACKED	src/proto.h	20;"	d
+LABEL_REPEATED	src/proto.h	19;"	d
+LABEL_REQUIRED	src/proto.h	18;"	d
+LIBNAME	Makefile	/^LIBNAME = libpbc.a$/;"	m
+LIBSRCS	Makefile	/^LIBSRCS = context.c varint.c array.c pattern.c register.c proto.c map.c alloc.c rmessage.c wmessage.c bootstrap.c stringpool.c decode.c$/;"	m
+LIB_O	Makefile	/^LIB_O :=$/;"	m
+PAGE_SIZE	src/stringpool.c	6;"	d	file:
+PBC_ARRAY_CAP	pbc.h	7;"	d
+PBC_BOOL	pbc.h	12;"	d
+PBC_BYTES	pbc.h	18;"	d
+PBC_CONTEXT_CAP	src/context.h	8;"	d
+PBC_ENUM	pbc.h	13;"	d
+PBC_FIXED32	pbc.h	17;"	d
+PBC_FIXED64	pbc.h	16;"	d
+PBC_INT	pbc.h	10;"	d
+PBC_INT64	pbc.h	19;"	d
+PBC_MESSAGE	pbc.h	15;"	d
+PBC_NOEXIST	pbc.h	9;"	d
+PBC_REAL	pbc.h	11;"	d
+PBC_REPEATED	pbc.h	22;"	d
+PBC_STRING	pbc.h	14;"	d
+PBC_UINT	pbc.h	20;"	d
+PBC_UNKNOWN	pbc.h	21;"	d
+PROTO	Makefile	/^PROTO :=$/;"	m
+PROTOBUFC_PROTO_H	src/proto.h	2;"	d
+PROTOBUF_C_ALLOC_H	src/alloc.h	2;"	d
+PROTOBUF_C_ARRAY_H	src/array.h	2;"	d
+PROTOBUF_C_BOOTSTRAP_H	src/bootstrap.h	2;"	d
+PROTOBUF_C_CONTEXT_H	src/context.h	2;"	d
+PROTOBUF_C_H	pbc.h	2;"	d
+PROTOBUF_C_MAP_H	src/map.h	2;"	d
+PROTOBUF_C_PATTERN_H	src/pattern.h	2;"	d
+PROTOBUF_C_STRINGPOOL_H	src/stringpool.h	2;"	d
+PROTOBUF_C_VARINT_H	src/varint.h	2;"	d
+PROTOSRCS	Makefile	/^PROTOSRCS = addressbook.proto descriptor.proto float.proto test.proto$/;"	m
+PROTO_temp	Makefile	/^define PROTO_temp$/;"	m
+PTYPE_BOOL	src/context.h	36;"	d
+PTYPE_BYTES	src/context.h	40;"	d
+PTYPE_DOUBLE	src/context.h	29;"	d
+PTYPE_ENUM	src/context.h	42;"	d
+PTYPE_FIXED32	src/context.h	35;"	d
+PTYPE_FIXED64	src/context.h	34;"	d
+PTYPE_FLOAT	src/context.h	30;"	d
+PTYPE_GROUP	src/context.h	38;"	d
+PTYPE_INT32	src/context.h	33;"	d
+PTYPE_INT64	src/context.h	31;"	d
+PTYPE_MESSAGE	src/context.h	39;"	d
+PTYPE_SFIXED32	src/context.h	43;"	d
+PTYPE_SFIXED64	src/context.h	44;"	d
+PTYPE_SINT32	src/context.h	45;"	d
+PTYPE_SINT64	src/context.h	46;"	d
+PTYPE_STRING	src/context.h	37;"	d
+PTYPE_UINT32	src/context.h	41;"	d
+PTYPE_UINT64	src/context.h	32;"	d
+SET_PATTERN	src/bootstrap.c	240;"	d	file:
+SIZE_ARRAY	src/rmessage.c	39;"	d	file:
+SIZE_MESSAGE	src/rmessage.c	40;"	d	file:
+SIZE_VAR	src/rmessage.c	38;"	d	file:
+TEST	Makefile	/^TEST :=$/;"	m
+TESTSRCS	Makefile	/^TESTSRCS = addressbook.c pattern.c pbc.c float.c map.c test.c decode.c$/;"	m
+TEST_temp	Makefile	/^define TEST_temp$/;"	m
+TOOL	Makefile	/^TOOL := $(BUILD)\/dump$/;"	m
+TYPENAME	src/decode.c	/^static const char * TYPENAME[] = {$/;"	v	file:
+WMESSAGE_SIZE	src/wmessage.c	13;"	d	file:
+WT_BIT32	src/context.h	15;"	d
+WT_BIT64	src/context.h	13;"	d
+WT_LEND	src/context.h	14;"	d
+WT_VARINT	src/context.h	12;"	d
+_Free	binding/lua/pbc-lua.c	16;"	d	file:
+_Free	binding/lua/pbc-lua.c	24;"	d	file:
+_R_meta:__index	binding/lua/protobuf.lua	/^function _R_meta:__index(key)$/;"	f
+__gc 	binding/lua/protobuf.lua	/^	__gc = function(t)$/;"	f
+__index 	binding/lua/protobuf.lua	/^	__index = function(self, key)$/;"	f
+__index 	binding/lua/protobuf.lua	/^	__index = function(t, key)$/;"	f
+_add_nested_message	binding/lua/parser.lua	/^local function _add_nested_message(self, item)$/;"	f
+_check_ctype	src/pattern.c	/^_check_ctype(struct _field * field, struct _pattern_field *f) {$/;"	f	file:
+_check_file_name	src/register.c	/^_check_file_name(struct pbc_env * p , struct pbc_rmessage * file, const char ** fname) {$/;"	f	file:
+_comp_field	src/pattern.c	/^_comp_field(const void * a, const void * b) {$/;"	f	file:
+_concat_name	src/register.c	/^_concat_name(struct _stringpool *p , const char *prefix ,  int prefix_sz , const char *name , int name_sz, int *sz) {$/;"	f	file:
+_copy_string	src/pattern.c	/^_copy_string(const char *format , char ** temp) {$/;"	f	file:
+_count	src/proto.c	/^_count(void *p, void *ud) {$/;"	f	file:
+_ctype	src/pattern.c	/^_ctype(const char * ctype) {$/;"	f	file:
+_ctype_size	src/pattern.c	/^_ctype_size(const char *ctype) {$/;"	f	file:
+_data	pbc.h	/^typedef struct _pbc_array { char _data[PBC_ARRAY_CAP]; } pbc_array[1];$/;"	m	struct:_pbc_array
+_data	src/context.h	/^typedef struct _pbc_ctx { char _data[PBC_CONTEXT_CAP]; } pbc_ctx[1];$/;"	m	struct:_pbc_ctx
+_decode	binding/lua/pbc-lua.c	/^_decode(lua_State *L) {$/;"	f	file:
+_decode_type_meta:__index	binding/lua/protobuf.lua	/^function _decode_type_meta:__index(key)$/;"	f
+_decode_varint	src/context.c	/^_decode_varint(uint8_t * buffer, int size , struct atom * a) {$/;"	f	file:
+_encode_type_meta:__index	binding/lua/protobuf.lua	/^function _encode_type_meta:__index(key)$/;"	f
+_enum	src/proto.h	/^struct _enum {$/;"	s
+_enum_fullname	binding/lua/parser.lua	/^local function _enum_fullname(prefix, enum , all)$/;"	f
+_env_delete	binding/lua/pbc-lua.c	/^_env_delete(lua_State *L) {$/;"	f	file:
+_env_new	binding/lua/pbc-lua.c	/^_env_new(lua_State *L) {$/;"	f	file:
+_env_register	binding/lua/pbc-lua.c	/^_env_register(lua_State *L) {$/;"	f	file:
+_env_type	binding/lua/pbc-lua.c	/^_env_type(lua_State *L) {$/;"	f	file:
+_expand	src/wmessage.c	/^_expand(struct pbc_wmessage *m, int sz) {$/;"	f	file:
+_field	src/proto.h	/^struct _field {$/;"	s
+_find_first	src/map.c	/^_find_first(struct map_sp *map)$/;"	f	file:
+_find_next	src/map.c	/^_find_next(struct map_sp *map, const char *key)$/;"	f	file:
+_fix32_encode	src/pattern.c	/^_fix32_encode(uint32_t v , uint8_t *buffer) {$/;"	f	file:
+_fix64_encode	src/pattern.c	/^_fix64_encode(struct longlong *v , uint8_t *buffer) {$/;"	f	file:
+_fix_extension	binding/lua/parser.lua	/^local function _fix_extension(namespace, ext, all)$/;"	f
+_fix_field	binding/lua/parser.lua	/^local function _fix_field(namespace , field, all)$/;"	f
+_fix_message	binding/lua/parser.lua	/^local function _fix_message(msg , all)$/;"	f
+_fix_typename	binding/lua/parser.lua	/^local function _fix_typename(file , all)$/;"	f
+_g	src/alloc.c	/^static int _g = 0;$/;"	v	file:
+_gen_fullname	binding/lua/parser.lua	/^local function _gen_fullname(file , all)$/;"	f
+_get_array_value	binding/lua/pbc-lua.c	/^_get_array_value(lua_State *L, pbc_array array, char type) {$/;"	f	file:
+_get_packed	src/wmessage.c	/^_get_packed(struct pbc_wmessage *m , struct _field *f , const char *key) {$/;"	f	file:
+_get_value	binding/lua/pbc-lua.c	/^_get_value(lua_State *L, int index, char * ptr, char type) {$/;"	f	file:
+_inject	src/map.c	/^_inject(struct map_kv * table, struct map_ip *map)$/;"	f	file:
+_is_default	src/pattern.c	/^_is_default(struct _pattern_field * pf, void * in) {$/;"	f	file:
+_iter	src/proto.c	/^struct _iter {$/;"	s	file:
+_last_error	binding/lua/pbc-lua.c	/^_last_error(lua_State *L) {$/;"	f	file:
+_match_name	binding/lua/parser.lua	/^local function _match_name(namespace , n , all)$/;"	f
+_message	src/proto.h	/^struct _message {$/;"	s
+_message_fullname	binding/lua/parser.lua	/^local function _message_fullname(prefix , msg , all)$/;"	f
+_open_packed_varint	src/context.c	/^_open_packed_varint(struct context * ctx , uint8_t * buffer, int size) {$/;"	f	file:
+_pack_field	src/pattern.c	/^_pack_field(struct _pattern_field *pf , int ctype, struct pbc_slice *s, void *input) {$/;"	f	file:
+_pack_number	src/pattern.c	/^_pack_number(int ptype , int ctype , struct pbc_slice *s, void *input) {$/;"	f	file:
+_pack_packed	src/pattern.c	/^_pack_packed(struct _pattern_field *pf , struct pbc_slice *s, pbc_array array) {$/;"	f	file:
+_pack_packed	src/wmessage.c	/^_pack_packed(void *p, void *ud) {$/;"	f	file:
+_pack_packed_32	src/wmessage.c	/^_pack_packed_32(struct _packed *p,struct pbc_wmessage *m) {$/;"	f	file:
+_pack_packed_64	src/wmessage.c	/^_pack_packed_64(struct _packed *p,struct pbc_wmessage *m) {$/;"	f	file:
+_pack_packed_fixed	src/pattern.c	/^_pack_packed_fixed(struct _pattern_field *pf , int width, struct pbc_slice *s, pbc_array array) {$/;"	f	file:
+_pack_packed_varint	src/pattern.c	/^_pack_packed_varint(struct _pattern_field *pf , struct pbc_slice *slice, pbc_array array) {$/;"	f	file:
+_pack_packed_varint	src/wmessage.c	/^_pack_packed_varint(struct _packed *p,struct pbc_wmessage *m) {$/;"	f	file:
+_pack_repeated	src/pattern.c	/^_pack_repeated(struct _pattern_field *pf , struct pbc_slice *s, pbc_array array) {$/;"	f	file:
+_pack_sint32	src/pattern.c	/^_pack_sint32(uint32_t v, struct pbc_slice *s) {$/;"	f	file:
+_pack_sint64	src/pattern.c	/^_pack_sint64(uint64_t v, struct pbc_slice *s) {$/;"	f	file:
+_pack_varint64	src/pattern.c	/^_pack_varint64(uint64_t i64, struct pbc_slice *s) {$/;"	f	file:
+_pack_wiretype	src/pattern.c	/^_pack_wiretype(uint32_t wt, struct pbc_slice *s) {$/;"	f	file:
+_packed	src/wmessage.c	/^struct _packed {$/;"	s	file:
+_packed_integer	src/wmessage.c	/^_packed_integer(struct pbc_wmessage *m, struct _field *f, const char *key , uint32_t low, uint32_t hi) {$/;"	f	file:
+_packed_real	src/wmessage.c	/^_packed_real(struct pbc_wmessage *m, struct _field *f, const char *key , double v) {$/;"	f	file:
+_pattern_create	binding/lua/protobuf.lua	/^local function _pattern_create(pattern)$/;"	f
+_pattern_delete	binding/lua/pbc-lua.c	/^_pattern_delete(lua_State *L) {$/;"	f	file:
+_pattern_field	src/pattern.h	/^struct _pattern_field {$/;"	s
+_pattern_new	binding/lua/pbc-lua.c	/^_pattern_new(lua_State *L) {$/;"	f	file:
+_pattern_new	src/pattern.c	/^_pattern_new(struct _message *m, const char *format) {$/;"	f
+_pattern_pack	binding/lua/pbc-lua.c	/^_pattern_pack(lua_State *L) {$/;"	f	file:
+_pattern_set_default	src/pattern.c	/^_pattern_set_default(struct _pattern_field *field, char *output) {$/;"	f	file:
+_pattern_size	binding/lua/pbc-lua.c	/^_pattern_size(lua_State *L) {$/;"	f	file:
+_pattern_unpack	binding/lua/pbc-lua.c	/^_pattern_unpack(lua_State *L) {$/;"	f	file:
+_pbcA_close	src/array.c	/^_pbcA_close(pbc_array _array) {$/;"	f
+_pbcA_index	src/array.c	/^_pbcA_index(pbc_array _array, int idx, pbc_var var)$/;"	f
+_pbcA_index_p	src/array.c	/^_pbcA_index_p(pbc_array _array, int idx)$/;"	f
+_pbcA_open	src/array.c	/^_pbcA_open(pbc_array _array) {$/;"	f
+_pbcA_open_heap	src/array.c	/^_pbcA_open_heap(pbc_array _array, struct heap *h) {$/;"	f
+_pbcA_push	src/array.c	/^_pbcA_push(pbc_array _array, pbc_var var) {$/;"	f
+_pbcB_init	src/bootstrap.c	/^_pbcB_init(struct pbc_env * p) {$/;"	f
+_pbcB_register_fields	src/bootstrap.c	/^_pbcB_register_fields(struct pbc_env *p, pbc_array queue) {$/;"	f
+_pbcC_close	src/context.c	/^_pbcC_close(pbc_ctx _ctx) {$/;"	f
+_pbcC_open	src/context.c	/^_pbcC_open(pbc_ctx _ctx , void *buffer, int size) {$/;"	f
+_pbcC_open_packed	src/context.c	/^_pbcC_open_packed(pbc_ctx _ctx, int ptype, void *buffer, int size) {$/;"	f
+_pbcH_alloc	src/alloc.c	/^_pbcH_alloc(struct heap *h, int size) {$/;"	f
+_pbcH_delete	src/alloc.c	/^_pbcH_delete(struct heap *h) {$/;"	f
+_pbcH_new	src/alloc.c	/^_pbcH_new(int pagesize) {$/;"	f
+_pbcM_free	src/alloc.c	/^void _pbcM_free(void *p) {$/;"	f
+_pbcM_ip_combine	src/map.c	/^_pbcM_ip_combine(struct map_ip *a, struct map_ip *b)$/;"	f
+_pbcM_ip_delete	src/map.c	/^_pbcM_ip_delete(struct map_ip * map)$/;"	f
+_pbcM_ip_new	src/map.c	/^_pbcM_ip_new(struct map_kv * table, int size)$/;"	f
+_pbcM_ip_new_hash	src/map.c	/^_pbcM_ip_new_hash(struct map_kv * table, int size)$/;"	f	file:
+_pbcM_ip_query	src/map.c	/^_pbcM_ip_query(struct map_ip * map, int id)$/;"	f
+_pbcM_ip_slot	src/map.c	/^struct _pbcM_ip_slot {$/;"	s	file:
+_pbcM_malloc	src/alloc.c	/^void * _pbcM_malloc(size_t sz) {$/;"	f
+_pbcM_memory	src/alloc.c	/^void _pbcM_memory() {$/;"	f
+_pbcM_realloc	src/alloc.c	/^void* _pbcM_realloc(void *p, size_t sz) {$/;"	f
+_pbcM_si_delete	src/map.c	/^_pbcM_si_delete(struct map_si *map)$/;"	f
+_pbcM_si_new	src/map.c	/^_pbcM_si_new(struct map_kv * table, int size)$/;"	f
+_pbcM_si_query	src/map.c	/^_pbcM_si_query(struct map_si *map, const char *key, int *result) $/;"	f
+_pbcM_si_slot	src/map.c	/^struct _pbcM_si_slot {$/;"	s	file:
+_pbcM_sp_delete	src/map.c	/^_pbcM_sp_delete(struct map_sp *map)$/;"	f
+_pbcM_sp_foreach	src/map.c	/^_pbcM_sp_foreach(struct map_sp *map, void (*func)(void *p))$/;"	f
+_pbcM_sp_foreach_ud	src/map.c	/^_pbcM_sp_foreach_ud(struct map_sp *map, void (*func)(void *p, void *ud), void *ud)$/;"	f
+_pbcM_sp_insert	src/map.c	/^_pbcM_sp_insert(struct map_sp *map, const char *key, void * value)$/;"	f
+_pbcM_sp_insert_hash	src/map.c	/^_pbcM_sp_insert_hash(struct map_sp *map, const char *key, size_t hash_full, void * value)$/;"	f	file:
+_pbcM_sp_new	src/map.c	/^_pbcM_sp_new(int max , struct heap *h)$/;"	f
+_pbcM_sp_next	src/map.c	/^_pbcM_sp_next(struct map_sp *map, const char ** key)$/;"	f
+_pbcM_sp_query	src/map.c	/^_pbcM_sp_query(struct map_sp *map, const char *key)$/;"	f
+_pbcM_sp_query_insert	src/map.c	/^_pbcM_sp_query_insert(struct map_sp *map, const char *key)$/;"	f
+_pbcM_sp_query_insert_hash	src/map.c	/^_pbcM_sp_query_insert_hash(struct map_sp *map, const char *key, size_t hash_full)$/;"	f	file:
+_pbcM_sp_rehash	src/map.c	/^_pbcM_sp_rehash(struct map_sp *map) {$/;"	f	file:
+_pbcM_sp_slot	src/map.c	/^struct _pbcM_sp_slot {$/;"	s	file:
+_pbcP_get_message	src/proto.c	/^_pbcP_get_message(struct pbc_env * p , const char *name) {$/;"	f
+_pbcP_init_message	src/proto.c	/^_pbcP_init_message(struct pbc_env * p, const char *name) {$/;"	f
+_pbcP_message_default	src/proto.c	/^_pbcP_message_default(struct _message * m, const char * name, pbc_var defv) {$/;"	f
+_pbcP_new	src/pattern.c	/^_pbcP_new(struct pbc_env * env, int n) {$/;"	f
+_pbcP_push_enum	src/proto.c	/^_pbcP_push_enum(struct pbc_env * p, const char *name, struct map_kv *table, int sz) {$/;"	f
+_pbcP_push_message	src/proto.c	/^_pbcP_push_message(struct pbc_env * p, const char *name, struct _field *f , pbc_array queue) {$/;"	f
+_pbcP_type	src/proto.c	/^_pbcP_type(struct _field * field, const char ** type) {$/;"	f
+_pbcP_unpack_packed	src/pattern.c	/^_pbcP_unpack_packed(uint8_t *buffer, int size, int ptype, pbc_array array) {$/;"	f
+_pbcS_build	src/stringpool.c	/^_pbcS_build(struct _stringpool *pool, const char * str , int sz) {$/;"	f
+_pbcS_delete	src/stringpool.c	/^_pbcS_delete(struct _stringpool *pool) {$/;"	f
+_pbcS_new	src/stringpool.c	/^_pbcS_new(void) {$/;"	f
+_pbcV_decode	src/varint.c	/^_pbcV_decode(uint8_t buffer[10], struct longlong *result) {$/;"	f
+_pbcV_dezigzag32	src/varint.c	/^_pbcV_dezigzag32(struct longlong *r)$/;"	f
+_pbcV_dezigzag64	src/varint.c	/^_pbcV_dezigzag64(struct longlong *r)$/;"	f
+_pbcV_encode	src/varint.c	/^_pbcV_encode(uint64_t number, uint8_t buffer[10]) $/;"	f
+_pbcV_encode32	src/varint.c	/^_pbcV_encode32(uint32_t number, uint8_t buffer[10])$/;"	f
+_pbcV_zigzag	src/varint.c	/^_pbcV_zigzag(int64_t n, uint8_t buffer[10])$/;"	f
+_pbcV_zigzag32	src/varint.c	/^_pbcV_zigzag32(int32_t n, uint8_t buffer[10])$/;"	f
+_pbc_array	pbc.h	/^typedef struct _pbc_array { char _data[PBC_ARRAY_CAP]; } pbc_array[1];$/;"	s
+_pbc_ctx	src/context.h	/^typedef struct _pbc_ctx { char _data[PBC_CONTEXT_CAP]; } pbc_ctx[1];$/;"	s
+_pbc_rmessage_new	src/rmessage.c	/^_pbc_rmessage_new(struct pbc_rmessage * ret , struct _message * type , void *buffer, int size , struct heap *h) {$/;"	f	file:
+_pbc_var	src/array.h	/^typedef union _pbc_var {$/;"	u
+_push_array	binding/lua/pbc-lua.c	/^_push_array(lua_State *L, pbc_array array, char type, int index) {$/;"	f	file:
+_push_value	binding/lua/pbc-lua.c	/^_push_value(lua_State *L, char * ptr, char type) {$/;"	f	file:
+_reader:bool	binding/lua/protobuf.lua	/^function _reader:bool(key)$/;"	f
+_reader:bool_repeated	binding/lua/protobuf.lua	/^function _reader:bool_repeated(key)$/;"	f
+_reader:int	binding/lua/protobuf.lua	/^function _reader:int(key)$/;"	f
+_reader:int32	binding/lua/protobuf.lua	/^function _reader:int32(key)$/;"	f
+_reader:int32_repeated	binding/lua/protobuf.lua	/^function _reader:int32_repeated(key)$/;"	f
+_reader:int52	binding/lua/protobuf.lua	/^function _reader:int52(key)$/;"	f
+_reader:int52_repeated	binding/lua/protobuf.lua	/^function _reader:int52_repeated(key)$/;"	f
+_reader:int64	binding/lua/protobuf.lua	/^function _reader:int64(key)$/;"	f
+_reader:int64_repeated	binding/lua/protobuf.lua	/^function _reader:int64_repeated(key)$/;"	f
+_reader:int_repeated	binding/lua/protobuf.lua	/^function _reader:int_repeated(key)$/;"	f
+_reader:message	binding/lua/protobuf.lua	/^function _reader:message(key, message_type)$/;"	f
+_reader:message_repeated	binding/lua/protobuf.lua	/^function _reader:message_repeated(key, message_type)$/;"	f
+_reader:real	binding/lua/protobuf.lua	/^function _reader:real(key)$/;"	f
+_reader:real_repeated	binding/lua/protobuf.lua	/^function _reader:real_repeated(key)$/;"	f
+_reader:string	binding/lua/protobuf.lua	/^function _reader:string(key)$/;"	f
+_reader:string_repeated	binding/lua/protobuf.lua	/^function _reader:string_repeated(key)$/;"	f
+_reader:uint52	binding/lua/protobuf.lua	/^function _reader:uint52(key)$/;"	f
+_reader:uint52_repeated	binding/lua/protobuf.lua	/^function _reader:uint52_repeated(key)$/;"	f
+_reader[10] 	binding/lua/protobuf.lua	/^_reader[10] = function(msg) return _reader.int52 end$/;"	f
+_reader[11] 	binding/lua/protobuf.lua	/^_reader[11] = function(msg) return _reader.uint52 end$/;"	f
+_reader[128+10] 	binding/lua/protobuf.lua	/^_reader[128+10] = function(msg) return _reader.int52_repeated end$/;"	f
+_reader[128+11] 	binding/lua/protobuf.lua	/^_reader[128+11] = function(msg) return _reader.uint52_repeated end$/;"	f
+_reader[128+1] 	binding/lua/protobuf.lua	/^_reader[128+1] = function(msg) return _reader.int_repeated end$/;"	f
+_reader[128+2] 	binding/lua/protobuf.lua	/^_reader[128+2] = function(msg) return _reader.real_repeated end$/;"	f
+_reader[128+3] 	binding/lua/protobuf.lua	/^_reader[128+3] = function(msg) return _reader.bool_repeated end$/;"	f
+_reader[128+4] 	binding/lua/protobuf.lua	/^_reader[128+4] = function(msg) return _reader.string_repeated end$/;"	f
+_reader[128+5] 	binding/lua/protobuf.lua	/^_reader[128+5] = function(msg) return _reader.string_repeated end$/;"	f
+_reader[128+6] 	binding/lua/protobuf.lua	/^_reader[128+6] = function(msg)$/;"	f
+_reader[128+7] 	binding/lua/protobuf.lua	/^_reader[128+7] = function(msg) return _reader.int64_repeated end$/;"	f
+_reader[128+8] 	binding/lua/protobuf.lua	/^_reader[128+8] = function(msg) return _reader.int32_repeated end$/;"	f
+_reader[1] 	binding/lua/protobuf.lua	/^_reader[1] = function(msg) return _reader.int end$/;"	f
+_reader[2] 	binding/lua/protobuf.lua	/^_reader[2] = function(msg) return _reader.real end$/;"	f
+_reader[3] 	binding/lua/protobuf.lua	/^_reader[3] = function(msg) return _reader.bool end$/;"	f
+_reader[4] 	binding/lua/protobuf.lua	/^_reader[4] = function(msg) return _reader.string end$/;"	f
+_reader[5] 	binding/lua/protobuf.lua	/^_reader[5] = function(msg) return _reader.string end$/;"	f
+_reader[6] 	binding/lua/protobuf.lua	/^_reader[6] = function(msg)$/;"	f
+_reader[7] 	binding/lua/protobuf.lua	/^_reader[7] = function(msg) return _reader.int64 end$/;"	f
+_reader[8] 	binding/lua/protobuf.lua	/^_reader[8] = function(msg) return _reader.int32 end$/;"	f
+_register	src/register.c	/^_register(struct pbc_env *p, struct pbc_rmessage * file, struct _stringpool *pool) {$/;"	f	file:
+_register_enum	src/register.c	/^_register_enum(struct pbc_env *p, struct _stringpool *pool, struct pbc_rmessage * enum_type, const char *prefix, int prefix_sz) {$/;"	f	file:
+_register_extension	src/register.c	/^_register_extension(struct pbc_env *p, struct _stringpool *pool , const char * prefix, int prefix_sz, struct pbc_rmessage * msg, pbc_array queue) {$/;"	f	file:
+_register_field	src/register.c	/^_register_field(struct pbc_rmessage * field, struct _field * f, struct _stringpool *pool) {$/;"	f	file:
+_register_message	src/register.c	/^_register_message(struct pbc_env *p, struct _stringpool *pool, struct pbc_rmessage * message_type, const char *prefix, int prefix_sz, pbc_array queue) {$/;"	f	file:
+_register_no_dependency	src/register.c	/^_register_no_dependency(struct pbc_env * p,struct pbc_rmessage ** files , int n ) {$/;"	f	file:
+_rmessage_delete	binding/lua/pbc-lua.c	/^_rmessage_delete(lua_State *L) {$/;"	f	file:
+_rmessage_int32	binding/lua/pbc-lua.c	/^_rmessage_int32(lua_State *L) {$/;"	f	file:
+_rmessage_int52	binding/lua/pbc-lua.c	/^_rmessage_int52(lua_State *L) {$/;"	f	file:
+_rmessage_int64	binding/lua/pbc-lua.c	/^_rmessage_int64(lua_State *L) {$/;"	f	file:
+_rmessage_integer	binding/lua/pbc-lua.c	/^_rmessage_integer(lua_State *L) {$/;"	f	file:
+_rmessage_message	binding/lua/pbc-lua.c	/^_rmessage_message(lua_State *L) {$/;"	f	file:
+_rmessage_new	binding/lua/pbc-lua.c	/^_rmessage_new(lua_State *L) {$/;"	f	file:
+_rmessage_real	binding/lua/pbc-lua.c	/^_rmessage_real(lua_State *L) {$/;"	f	file:
+_rmessage_size	binding/lua/pbc-lua.c	/^_rmessage_size(lua_State *L) {$/;"	f	file:
+_rmessage_string	binding/lua/pbc-lua.c	/^_rmessage_string(lua_State *L) {$/;"	f	file:
+_rmessage_uint52	binding/lua/pbc-lua.c	/^_rmessage_uint52(lua_State *L) {$/;"	f	file:
+_scan_pattern	src/pattern.c	/^_scan_pattern(const char * format , char * temp) {$/;"	f	file:
+_set_default	src/register.c	/^_set_default(struct _stringpool *pool, struct _field *f , int ptype, const char *value, int sz) {$/;"	f	file:
+_set_double	src/bootstrap.c	/^_set_double(struct _pattern_field * f) {$/;"	f	file:
+_set_int32	src/bootstrap.c	/^_set_int32(struct _pattern_field * f) {$/;"	f	file:
+_set_int32_array	src/bootstrap.c	/^_set_int32_array(struct _pattern_field * f) {$/;"	f	file:
+_set_message_array	src/bootstrap.c	/^_set_message_array(struct _pattern_field *f) {$/;"	f	file:
+_set_string	src/bootstrap.c	/^_set_string(struct _pattern_field * f) {$/;"	f	file:
+_set_string_array	src/bootstrap.c	/^_set_string_array(struct _pattern_field * f) {$/;"	f	file:
+_set_table	src/proto.c	/^_set_table(void *p, void *ud) {$/;"	f	file:
+_stringpool	src/stringpool.c	/^struct _stringpool {$/;"	s	file:
+_var	src/rmessage.c	/^union _var {$/;"	u	file:
+_wmessage_buffer	binding/lua/pbc-lua.c	/^_wmessage_buffer(lua_State *L) {$/;"	f	file:
+_wmessage_buffer_string	binding/lua/pbc-lua.c	/^_wmessage_buffer_string(lua_State *L) {$/;"	f	file:
+_wmessage_delete	binding/lua/pbc-lua.c	/^_wmessage_delete(lua_State *L) {$/;"	f	file:
+_wmessage_int32	binding/lua/pbc-lua.c	/^_wmessage_int32(lua_State *L) {$/;"	f	file:
+_wmessage_int52	binding/lua/pbc-lua.c	/^_wmessage_int52(lua_State *L) {$/;"	f	file:
+_wmessage_int64	binding/lua/pbc-lua.c	/^_wmessage_int64(lua_State *L) {$/;"	f	file:
+_wmessage_integer	binding/lua/pbc-lua.c	/^_wmessage_integer(lua_State *L) {$/;"	f	file:
+_wmessage_message	binding/lua/pbc-lua.c	/^_wmessage_message(lua_State *L) {$/;"	f	file:
+_wmessage_new	binding/lua/pbc-lua.c	/^_wmessage_new(lua_State *L) {$/;"	f	file:
+_wmessage_new	src/wmessage.c	/^_wmessage_new(struct heap *h, struct _message *msg) {$/;"	f	file:
+_wmessage_real	binding/lua/pbc-lua.c	/^_wmessage_real(lua_State *L) {$/;"	f	file:
+_wmessage_string	binding/lua/pbc-lua.c	/^_wmessage_string(lua_State *L) {$/;"	f	file:
+_wmessage_uint52	binding/lua/pbc-lua.c	/^_wmessage_uint52(lua_State *L) {$/;"	f	file:
+_writer:bool	binding/lua/protobuf.lua	/^function _writer:bool(k,v)$/;"	f
+_writer:bool_repeated	binding/lua/protobuf.lua	/^function _writer:bool_repeated(k,v)$/;"	f
+_writer:int32_repeated	binding/lua/protobuf.lua	/^function _writer:int32_repeated(k,v)$/;"	f
+_writer:int52_repeated	binding/lua/protobuf.lua	/^function _writer:int52_repeated(k,v)$/;"	f
+_writer:int64_repeated	binding/lua/protobuf.lua	/^function _writer:int64_repeated(k,v)$/;"	f
+_writer:int_repeated	binding/lua/protobuf.lua	/^function _writer:int_repeated(k,v)$/;"	f
+_writer:message	binding/lua/protobuf.lua	/^function _writer:message(k, v , message_type)$/;"	f
+_writer:message_repeated	binding/lua/protobuf.lua	/^function _writer:message_repeated(k,v, message_type)$/;"	f
+_writer:real_repeated	binding/lua/protobuf.lua	/^function _writer:real_repeated(k,v)$/;"	f
+_writer:string_repeated	binding/lua/protobuf.lua	/^function _writer:string_repeated(k,v)$/;"	f
+_writer:uint52_repeated	binding/lua/protobuf.lua	/^function _writer:uint52_repeated(k,v)$/;"	f
+_writer[10] 	binding/lua/protobuf.lua	/^_writer[10] = function(msg) return _writer.int52 end$/;"	f
+_writer[11] 	binding/lua/protobuf.lua	/^_writer[11] = function(msg) return _writer.uint52 end$/;"	f
+_writer[128+10] 	binding/lua/protobuf.lua	/^_writer[128+10] = function(msg) return _writer.int52_repeated end$/;"	f
+_writer[128+11] 	binding/lua/protobuf.lua	/^_writer[128+11] = function(msg) return _writer.uint52_repeated end$/;"	f
+_writer[128+1] 	binding/lua/protobuf.lua	/^_writer[128+1] = function(msg) return _writer.int_repeated end$/;"	f
+_writer[128+2] 	binding/lua/protobuf.lua	/^_writer[128+2] = function(msg) return _writer.real_repeated end$/;"	f
+_writer[128+3] 	binding/lua/protobuf.lua	/^_writer[128+3] = function(msg) return _writer.bool_repeated end$/;"	f
+_writer[128+4] 	binding/lua/protobuf.lua	/^_writer[128+4] = function(msg) return _writer.string_repeated end$/;"	f
+_writer[128+5] 	binding/lua/protobuf.lua	/^_writer[128+5] = function(msg) return _writer.string_repeated end$/;"	f
+_writer[128+6] 	binding/lua/protobuf.lua	/^_writer[128+6] = function(msg)$/;"	f
+_writer[128+7] 	binding/lua/protobuf.lua	/^_writer[128+7] = function(msg) return _writer.int64_repeated end$/;"	f
+_writer[128+8] 	binding/lua/protobuf.lua	/^_writer[128+8] = function(msg) return _writer.int32_repeated end$/;"	f
+_writer[1] 	binding/lua/protobuf.lua	/^_writer[1] = function(msg) return _writer.int end$/;"	f
+_writer[2] 	binding/lua/protobuf.lua	/^_writer[2] = function(msg) return _writer.real end$/;"	f
+_writer[3] 	binding/lua/protobuf.lua	/^_writer[3] = function(msg) return _writer.bool end$/;"	f
+_writer[4] 	binding/lua/protobuf.lua	/^_writer[4] = function(msg) return _writer.string end$/;"	f
+_writer[5] 	binding/lua/protobuf.lua	/^_writer[5] = function(msg) return _writer.string end$/;"	f
+_writer[6] 	binding/lua/protobuf.lua	/^_writer[6] = function(msg)$/;"	f
+_writer[7] 	binding/lua/protobuf.lua	/^_writer[7] = function(msg) return _writer.int64 end$/;"	f
+_writer[8] 	binding/lua/protobuf.lua	/^_writer[8] = function(msg) return _writer.int32 end$/;"	f
+a	src/array.c	/^	union _pbc_var * a;$/;"	m	struct:array	typeref:union:array::_pbc_var	file:
+a	src/context.h	/^	struct atom * a;$/;"	m	struct:context	typeref:struct:context::atom
+array	src/array.c	/^struct array {$/;"	s	file:
+array	src/map.c	/^	void ** array;$/;"	m	struct:map_ip	file:
+array	src/rmessage.c	/^	pbc_array array;$/;"	m	union:_var	file:
+array_size	src/map.c	/^	size_t array_size;$/;"	m	struct:map_ip	file:
+atom	src/context.h	/^struct atom {$/;"	s
+bsearch_pattern	src/pattern.c	/^bsearch_pattern(struct pbc_pattern *pat, int id)$/;"	f	file:
+buffer	pbc.h	/^	void *buffer;$/;"	m	struct:pbc_slice
+buffer	src/context.h	/^	char * buffer;$/;"	m	struct:context
+buffer	src/stringpool.c	/^	char * buffer;$/;"	m	struct:_stringpool	file:
+buffer	src/wmessage.c	/^	uint8_t * buffer;$/;"	m	struct:pbc_wmessage	file:
+calc_hash	src/map.c	/^calc_hash(const char *name)$/;"	f	file:
+call_array	src/decode.c	/^call_array(pbc_decoder pd, void * ud, struct _field *f, uint8_t * buffer , int size) {$/;"	f	file:
+call_type	src/decode.c	/^call_type(pbc_decoder pd, void * ud, struct _field *f, struct atom *a, uint8_t * start) {$/;"	f	file:
+call_unknown	src/decode.c	/^call_unknown(pbc_decoder f, void * ud, int id, struct atom *a, uint8_t * start) {$/;"	f	file:
+cap	src/map.c	/^	size_t cap;$/;"	m	struct:map_sp	file:
+check	binding/lua/protobuf.lua	/^function check(typename , field)$/;"	f
+checkuserdata	binding/lua/pbc-lua.c	/^checkuserdata(lua_State *L, int index) {$/;"	f	file:
+clear_pat	binding/lua/protobuf.lua	/^local function clear_pat()$/;"	f
+context	src/context.h	/^struct context {$/;"	s
+count	src/pattern.h	/^	int count;$/;"	m	struct:pbc_pattern
+count	src/proto.c	/^	int count;$/;"	m	struct:_iter	file:
+count_lines	binding/lua/parser.lua	/^local function count_lines(_,pos, parser_state)$/;"	f
+ctype	src/pattern.h	/^	int ctype;$/;"	m	struct:_pattern_field
+current	src/alloc.c	/^	struct heap_page *current;$/;"	m	struct:heap	typeref:struct:heap::heap_page	file:
+data	src/wmessage.c	/^	pbc_array data;$/;"	m	struct:_packed	file:
+deal:enum	binding/lua/parser.lua	/^function deal:enum(v)$/;"	f
+deal:extend	binding/lua/parser.lua	/^function deal:extend(v)$/;"	f
+deal:extensions	binding/lua/parser.lua	/^function deal:extensions(v)$/;"	f
+deal:import	binding/lua/parser.lua	/^function deal:import(v)$/;"	f
+deal:message	binding/lua/parser.lua	/^function deal:message(v)$/;"	f
+deal:option	binding/lua/parser.lua	/^function deal:option(v)$/;"	f
+deal:package	binding/lua/parser.lua	/^function deal:package(v)$/;"	f
+decode	binding/lua/protobuf.lua	/^function decode(typename, buffer, length)$/;"	f
+decode	test/varint.c	/^decode(uint8_t buffer[10])$/;"	f	file:
+decode_all	test/decode.c	/^decode_all(void *ud , int type, const char * typename , union pbc_value *v, int id, const char *key) {$/;"	f	file:
+decode_cb	binding/lua/pbc-lua.c	/^decode_cb(void *ud, int type, const char * typename, union pbc_value *v, int id, const char *key) {$/;"	f	file:
+decode_message	binding/lua/protobuf.lua	/^local function decode_message( message , buffer, length)$/;"	f
+decode_message_cb	binding/lua/protobuf.lua	/^local function decode_message_cb(typename, buffer)$/;"	f
+decode_message_mt.__index	binding/lua/protobuf.lua	/^function decode_message_mt.__index(tbl, key)$/;"	f
+decode_message_mt.__pairs	binding/lua/protobuf.lua	/^function decode_message_mt.__pairs(tbl)$/;"	f
+def	src/proto.h	/^	struct pbc_rmessage * def;	\/\/ default message$/;"	m	struct:_message	typeref:struct:_message::pbc_rmessage
+default_integer	src/bootstrap.c	/^	int32_t default_integer;$/;"	m	struct:field_t	file:
+default_real	src/bootstrap.c	/^	double default_real;$/;"	m	struct:field_t	file:
+default_string	src/bootstrap.c	/^	struct pbc_slice default_string;$/;"	m	struct:field_t	typeref:struct:field_t::pbc_slice	file:
+default_table	binding/lua/protobuf.lua	/^local function default_table(typename)$/;"	f
+default_v	src/proto.h	/^	pbc_var default_v;$/;"	m	struct:_enum
+default_v	src/proto.h	/^	pbc_var default_v;$/;"	m	struct:_field
+defv	src/pattern.h	/^	pbc_var defv;$/;"	m	struct:_pattern_field
+delete_all	binding/lua/protobuf.lua	/^local function delete_all(self)$/;"	f
+dependency	src/bootstrap.c	/^	pbc_array dependency;	\/\/ string$/;"	m	struct:file_t	file:
+double_encode	src/context.h	/^double_encode(double v , uint8_t * buffer) {$/;"	f
+dump	test/addressbook.c	/^dump(uint8_t *buffer, int sz) {$/;"	f	file:
+dump	test/float.c	/^dump(uint8_t *buffer, int sz) {$/;"	f	file:
+dump	test/pattern.c	/^dump(uint8_t *buffer, int sz) {$/;"	f	file:
+dump	test/varint.c	/^dump(uint8_t buffer[10], int s)$/;"	f	file:
+dump	tool/dump.c	/^dump(const char *proto, const char * message, struct pbc_slice *data) {$/;"	f	file:
+dump_message	tool/dump.c	/^dump_message(struct pbc_rmessage *m, int level) {$/;"	f	file:
+dump_value	tool/dump.c	/^dump_value(struct pbc_rmessage *m, const char *key, int type, int idx, int level) {$/;"	f	file:
+e	pbc.h	/^	} e;$/;"	m	union:pbc_value	typeref:struct:pbc_value::__anon6
+e	src/array.h	/^	} e;$/;"	m	union:_pbc_var	typeref:struct:_pbc_var::__anon3
+e	src/proto.h	/^		struct _enum * e;$/;"	m	union:_field::__anon4	typeref:struct:_field::__anon4::_enum
+email	test/pattern.c	/^	struct pbc_slice email;$/;"	m	struct:person	typeref:struct:person::pbc_slice	file:
+encode	binding/lua/protobuf.lua	/^function encode( message, t , func)$/;"	f
+encode	test/varint.c	/^encode(uint64_t n)$/;"	f	file:
+encode_message	binding/lua/protobuf.lua	/^local function encode_message(CObj, message_type, t)$/;"	f
+end	src/context.h	/^	int end;$/;"	m	struct:slice
+endptr	src/wmessage.c	/^	uint8_t * endptr;$/;"	m	struct:pbc_wmessage	file:
+enum_id	src/bootstrap.c	/^	pbc_array enum_id;	\/\/ int32$/;"	m	struct:file_t	file:
+enum_name	src/bootstrap.c	/^	pbc_array enum_name;	\/\/ string$/;"	m	struct:file_t	file:
+enum_size	src/bootstrap.c	/^	pbc_array enum_size;	\/\/ int32$/;"	m	struct:file_t	file:
+enum_string	src/bootstrap.c	/^	pbc_array enum_string;	\/\/ string$/;"	m	struct:file_t	file:
+enums	src/proto.h	/^	struct map_sp * enums;	\/\/ string -> _enum$/;"	m	struct:pbc_env	typeref:struct:pbc_env::map_sp
+env	src/pattern.h	/^	struct pbc_env * env;$/;"	m	struct:pbc_pattern	typeref:struct:pbc_pattern::pbc_env
+env	src/proto.h	/^	struct pbc_env * env;$/;"	m	struct:_message	typeref:struct:_message::pbc_env
+expand	binding/lua/protobuf.lua	/^local function expand(tbl)$/;"	f
+f	pbc.h	/^	double f;$/;"	m	union:pbc_value
+f	src/pattern.h	/^	struct _pattern_field f[1];$/;"	m	struct:pbc_pattern	typeref:struct:pbc_pattern::_pattern_field
+field_t	src/bootstrap.c	/^struct field_t {$/;"	s	file:
+file_t	src/bootstrap.c	/^struct file_t {$/;"	s	file:
+files	src/proto.h	/^	struct map_sp * files;	\/\/ string -> void *$/;"	m	struct:pbc_env	typeref:struct:pbc_env::map_sp
+fix	binding/lua/parser.lua	/^local function fix(r)$/;"	f
+float_encode	src/context.h	/^float_encode(float v , uint8_t * buffer) {$/;"	f
+free	src/alloc.h	21;"	d
+free_enum	src/proto.c	/^free_enum(void *p) {$/;"	f	file:
+free_msg	src/proto.c	/^free_msg(void *p) {$/;"	f	file:
+free_stringpool	src/proto.c	/^free_stringpool(void *p) {$/;"	f	file:
+hash	src/map.c	/^	size_t hash;$/;"	m	struct:_pbcM_si_slot	file:
+hash	src/map.c	/^	size_t hash;$/;"	m	struct:_pbcM_sp_slot	file:
+hash_size	src/map.c	/^	size_t hash_size;$/;"	m	struct:map_ip	file:
+heap	src/alloc.c	/^struct heap {$/;"	s	file:
+heap	src/array.c	/^	struct heap *heap;$/;"	m	struct:array	typeref:struct:array::heap	file:
+heap	src/map.c	/^	struct heap *heap;$/;"	m	struct:map_sp	typeref:struct:map_sp::heap	file:
+heap	src/rmessage.c	/^		struct heap * heap;$/;"	m	struct:pbc_rmessage	typeref:struct:pbc_rmessage::heap	file:
+heap	src/wmessage.c	/^	struct heap * heap;$/;"	m	struct:pbc_wmessage	typeref:struct:pbc_wmessage::heap	file:
+heap_page	src/alloc.c	/^struct heap_page {$/;"	s	file:
+hi	pbc.h	/^		uint32_t hi;$/;"	m	struct:pbc_value::__anon5
+hi	src/varint.h	/^	uint32_t hi;$/;"	m	struct:longlong
+i	pbc.h	/^	} i;$/;"	m	union:pbc_value	typeref:struct:pbc_value::__anon5
+i	src/context.h	/^		struct longlong i;$/;"	m	union:atom::__anon1	typeref:struct:atom::__anon1::longlong
+id	pbc.h	/^		int id;$/;"	m	struct:pbc_value::__anon6
+id	src/array.h	/^		int id;$/;"	m	struct:_pbc_var::__anon3
+id	src/bootstrap.c	/^	int32_t id;$/;"	m	struct:field_t	file:
+id	src/map.c	/^	int id;$/;"	m	struct:_pbcM_ip_slot	file:
+id	src/map.c	/^	int id;$/;"	m	struct:_pbcM_si_slot	file:
+id	src/map.h	/^	int id;$/;"	m	struct:map_kv
+id	src/pattern.h	/^	int id;$/;"	m	struct:_pattern_field
+id	src/proto.h	/^	int id;$/;"	m	struct:_field
+id	src/proto.h	/^	struct map_ip * id;	\/\/ id -> _field$/;"	m	struct:_message	typeref:struct:_message::map_ip
+id	src/proto.h	/^	struct map_ip * id;$/;"	m	struct:_enum	typeref:struct:_enum::map_ip
+id	src/wmessage.c	/^	int id;$/;"	m	struct:_packed	file:
+id	test/pattern.c	/^	int32_t id;$/;"	m	struct:person	file:
+index	src/rmessage.c	/^		struct map_sp * index;	\/\/ key -> struct value *$/;"	m	struct:pbc_rmessage	typeref:struct:pbc_rmessage::map_sp	file:
+insert	binding/lua/parser.lua	/^local function insert(tbl, k,v)$/;"	f
+int32_encode	src/wmessage.c	/^int32_encode(uint32_t low, uint8_t * buffer) {$/;"	f	file:
+int64_encode	src/wmessage.c	/^int64_encode(uint32_t low, uint32_t hi , uint8_t * buffer) {$/;"	f	file:
+integer	src/array.h	/^	struct longlong integer;$/;"	m	union:_pbc_var	typeref:struct:_pbc_var::longlong
+key	src/map.c	/^	const char *key;$/;"	m	struct:_pbcM_si_slot	file:
+key	src/map.c	/^	const char *key;$/;"	m	struct:_pbcM_sp_slot	file:
+key	src/proto.h	/^	const char * key;$/;"	m	struct:_enum
+key	src/proto.h	/^	const char * key;$/;"	m	struct:_message
+label	src/bootstrap.c	/^	int32_t label;$/;"	m	struct:field_t	file:
+label	src/pattern.h	/^	int label;$/;"	m	struct:_pattern_field
+label	src/proto.h	/^	int label;$/;"	m	struct:_field
+lasterror	binding/lua/protobuf.lua	/^function lasterror()$/;"	f
+lasterror	src/proto.h	/^	const char * lasterror;$/;"	m	struct:pbc_env
+len	pbc.h	/^	int len;$/;"	m	struct:pbc_slice
+len	src/array.h	/^		int len;$/;"	m	struct:_pbc_var::__anon2
+len	src/stringpool.c	/^	size_t len;$/;"	m	struct:_stringpool	file:
+link_parent	binding/lua/protobuf.lua	/^local function link_parent(self, parent)$/;"	f
+local exception 	binding/lua/parser.lua	/^local exception = lpeg.Cmt( lpeg.Carg(1) , function ( _ , pos, parser_state)$/;"	f
+longlong	src/varint.h	/^struct longlong {$/;"	s
+low	pbc.h	/^		uint32_t low;$/;"	m	struct:pbc_value::__anon5
+low	src/varint.h	/^	uint32_t low;$/;"	m	struct:longlong
+luaL_addsize	binding/lua/pbc-lua.c	17;"	d	file:
+luaL_addsize	binding/lua/pbc-lua.c	18;"	d	file:
+luaL_buffinit	binding/lua/pbc-lua.c	14;"	d	file:
+luaL_checkversion	binding/lua/pbc-lua.c	20;"	d	file:
+luaL_newlib	binding/lua/pbc-lua.c	13;"	d	file:
+luaL_prepbuffsize	binding/lua/pbc-lua.c	15;"	d	file:
+luaL_pushresult	binding/lua/pbc-lua.c	19;"	d	file:
+lua_rawlen	binding/lua/pbc-lua.c	12;"	d	file:
+luaopen_protobuf_c	binding/lua/pbc-lua.c	/^luaopen_protobuf_c(lua_State *L) {$/;"	f
+m	src/array.h	/^	struct pbc_slice m;$/;"	m	union:_pbc_var	typeref:struct:_pbc_var::pbc_slice
+m	src/proto.h	/^		struct _message * m;$/;"	m	union:_field::__anon4	typeref:struct:_field::__anon4::_message
+main	test/addressbook.c	/^main()$/;"	f
+main	test/array.c	/^main()$/;"	f
+main	test/decode.c	/^main(int argc, char *argv[])$/;"	f
+main	test/float.c	/^main()$/;"	f
+main	test/map.c	/^main()$/;"	f
+main	test/pattern.c	/^main()$/;"	f
+main	test/pbc.c	/^main(int argc, char *argv[])$/;"	f
+main	test/test.c	/^main() {$/;"	f
+main	test/varint.c	/^main()$/;"	f
+main	tool/dump.c	/^main(int argc , char * argv[])$/;"	f
+malloc	src/alloc.h	20;"	d
+map_ip	src/map.c	/^struct map_ip {$/;"	s	file:
+map_kv	src/map.h	/^struct map_kv {$/;"	s
+map_si	src/map.c	/^struct map_si {$/;"	s	file:
+map_sp	src/map.c	/^struct map_sp {$/;"	s	file:
+memory	src/alloc.h	23;"	d
+message	src/rmessage.c	/^	struct pbc_rmessage message;$/;"	m	union:_var	typeref:struct:_var::pbc_rmessage	file:
+message_field	src/bootstrap.c	/^	pbc_array message_field;	\/\/ field_t$/;"	m	struct:file_t	file:
+message_name	src/bootstrap.c	/^	pbc_array message_name;	\/\/ string$/;"	m	struct:file_t	file:
+message_size	src/bootstrap.c	/^	pbc_array message_size;	\/\/ int32$/;"	m	struct:file_t	file:
+msg	src/rmessage.c	/^		struct _message * msg;$/;"	m	struct:pbc_rmessage	typeref:struct:pbc_rmessage::_message	file:
+msgs	src/proto.h	/^	struct map_sp * msgs;	\/\/ string -> _message$/;"	m	struct:pbc_env	typeref:struct:pbc_env::map_sp
+n	src/proto.h	/^		const char * n;$/;"	m	union:_field::__anon4
+name	pbc.h	/^		const char * name;$/;"	m	struct:pbc_value::__anon6
+name	src/array.h	/^		const char * name;$/;"	m	struct:_pbc_var::__anon3
+name	src/bootstrap.c	/^	struct pbc_slice name;	\/\/ string$/;"	m	struct:file_t	typeref:struct:file_t::pbc_slice	file:
+name	src/bootstrap.c	/^	struct pbc_slice name;$/;"	m	struct:field_t	typeref:struct:field_t::pbc_slice	file:
+name	src/proto.h	/^	const char *name;$/;"	m	struct:_field
+name	src/proto.h	/^	struct map_si * name;$/;"	m	struct:_enum	typeref:struct:_enum::map_si
+name	src/proto.h	/^	struct map_sp * name;	\/\/ string -> _field$/;"	m	struct:_message	typeref:struct:_message::map_sp
+name	test/pattern.c	/^	struct pbc_slice name;$/;"	m	struct:person	typeref:struct:person::pbc_slice	file:
+new_array	binding/lua/pbc-lua.c	/^new_array(lua_State *L, int id, const char *key) {$/;"	f	file:
+next	src/alloc.c	/^	struct heap_page * next;$/;"	m	struct:heap_page	typeref:struct:heap_page::heap_page	file:
+next	src/map.c	/^	int next;$/;"	m	struct:_pbcM_ip_slot	file:
+next	src/map.c	/^	int next;$/;"	m	struct:_pbcM_si_slot	file:
+next	src/map.c	/^	int next;$/;"	m	struct:_pbcM_sp_slot	file:
+next	src/stringpool.c	/^	struct _stringpool *next;$/;"	m	struct:_stringpool	typeref:struct:_stringpool::_stringpool	file:
+number	src/array.c	/^	int number;$/;"	m	struct:array	file:
+number	src/context.h	/^	int number;$/;"	m	struct:context
+number	test/pattern.c	/^	struct pbc_slice number;$/;"	m	struct:person_phone	typeref:struct:person_phone::pbc_slice	file:
+offset	src/pattern.h	/^	int offset;$/;"	m	struct:_pattern_field
+p	src/array.h	/^	void * p[2];$/;"	m	union:_pbc_var
+pack	binding/lua/protobuf.lua	/^function pack(pattern, ...)$/;"	f
+packed	src/wmessage.c	/^	struct map_sp *packed;$/;"	m	struct:pbc_wmessage	typeref:struct:pbc_wmessage::map_sp	file:
+parser.parser	binding/lua/parser.lua	/^function parser.parser(text,filename)$/;"	f
+parser.register	binding/lua/parser.lua	/^function parser.register(fileset , path)$/;"	f
+parser_one	binding/lua/parser.lua	/^local function parser_one(text,filename)$/;"	f
+pat	test/pattern.c	/^static struct pbc_pattern *pat;$/;"	v	typeref:struct:pbc_pattern	file:
+pat_phone	test/pattern.c	/^static struct pbc_pattern *pat_phone;$/;"	v	typeref:struct:pbc_pattern	file:
+pbc_array	pbc.h	/^typedef struct _pbc_array { char _data[PBC_ARRAY_CAP]; } pbc_array[1];$/;"	t	typeref:struct:_pbc_array
+pbc_array_integer	src/array.c	/^pbc_array_integer(pbc_array array, int index, uint32_t *hi) {$/;"	f
+pbc_array_push_integer	src/array.c	/^pbc_array_push_integer(pbc_array array, uint32_t low, uint32_t hi) {$/;"	f
+pbc_array_push_real	src/array.c	/^pbc_array_push_real(pbc_array array, double v) {$/;"	f
+pbc_array_push_slice	src/array.c	/^pbc_array_push_slice(pbc_array array, struct pbc_slice *s) {$/;"	f
+pbc_array_real	src/array.c	/^pbc_array_real(pbc_array array, int index) {$/;"	f
+pbc_array_size	src/array.c	/^pbc_array_size(pbc_array _array) {$/;"	f
+pbc_array_slice	src/array.c	/^pbc_array_slice(pbc_array _array, int index) {$/;"	f
+pbc_ctx	src/context.h	/^typedef struct _pbc_ctx { char _data[PBC_CONTEXT_CAP]; } pbc_ctx[1];$/;"	t	typeref:struct:_pbc_ctx
+pbc_decode	src/decode.c	/^pbc_decode(struct pbc_env * env, const char * typename , struct pbc_slice * slice, pbc_decoder pd, void *ud) {$/;"	f
+pbc_decoder	pbc.h	/^typedef void (*pbc_decoder)(void *ud, int type, const char * typename, union pbc_value *v, int id, const char *key);$/;"	t
+pbc_delete	src/proto.c	/^pbc_delete(struct pbc_env *p) {$/;"	f
+pbc_descriptor	src/descriptor.pbc.h	/^static unsigned char pbc_descriptor[] = {$/;"	v
+pbc_env	src/proto.h	/^struct pbc_env {$/;"	s
+pbc_error	src/proto.c	/^pbc_error(struct pbc_env * p) {$/;"	f
+pbc_new	src/proto.c	/^pbc_new(void) {$/;"	f
+pbc_pattern	src/pattern.h	/^struct pbc_pattern {$/;"	s
+pbc_pattern_close_arrays	src/pattern.c	/^pbc_pattern_close_arrays(struct pbc_pattern *pat, void * data) {$/;"	f
+pbc_pattern_delete	src/pattern.c	/^pbc_pattern_delete(struct pbc_pattern * pat) {$/;"	f
+pbc_pattern_new	src/pattern.c	/^pbc_pattern_new(struct pbc_env * env , const char * message, const char * format, ... ) {$/;"	f
+pbc_pattern_pack	src/pattern.c	/^pbc_pattern_pack(struct pbc_pattern *pat, void *input, struct pbc_slice * s)$/;"	f
+pbc_pattern_set_default	src/pattern.c	/^pbc_pattern_set_default(struct pbc_pattern *pat, void *output) {$/;"	f
+pbc_pattern_unpack	src/pattern.c	/^pbc_pattern_unpack(struct pbc_pattern *pat, struct pbc_slice *s, void * output) {$/;"	f
+pbc_register	src/register.c	/^pbc_register(struct pbc_env * p, struct pbc_slice *slice) {$/;"	f
+pbc_rmessage	src/rmessage.c	/^struct pbc_rmessage {$/;"	s	file:
+pbc_rmessage_delete	src/rmessage.c	/^pbc_rmessage_delete(struct pbc_rmessage * m) {$/;"	f
+pbc_rmessage_integer	src/rmessage.c	/^pbc_rmessage_integer(struct pbc_rmessage *m , const char *key , int index, uint32_t *hi) {$/;"	f
+pbc_rmessage_message	src/rmessage.c	/^pbc_rmessage_message(struct pbc_rmessage * rm, const char *key, int index) {$/;"	f
+pbc_rmessage_new	src/rmessage.c	/^pbc_rmessage_new(struct pbc_env * env, const char * typename ,  struct pbc_slice * slice) {$/;"	f
+pbc_rmessage_next	src/rmessage.c	/^pbc_rmessage_next(struct pbc_rmessage *m, const char **key) {$/;"	f
+pbc_rmessage_real	src/rmessage.c	/^pbc_rmessage_real(struct pbc_rmessage * m, const char *key , int index) {$/;"	f
+pbc_rmessage_size	src/rmessage.c	/^pbc_rmessage_size(struct pbc_rmessage *m, const char *key) {$/;"	f
+pbc_rmessage_string	src/rmessage.c	/^pbc_rmessage_string(struct pbc_rmessage * m , const char *key , int index, int *sz) {$/;"	f
+pbc_slice	pbc.h	/^struct pbc_slice {$/;"	s
+pbc_type	src/proto.c	/^pbc_type(struct pbc_env * p, const char * typename , const char * key , const char ** type) {$/;"	f
+pbc_value	pbc.h	/^union pbc_value {$/;"	u
+pbc_var	src/array.h	/^} pbc_var[1];$/;"	t	typeref:union:_pbc_var
+pbc_wmessage	src/wmessage.c	/^struct pbc_wmessage {$/;"	s	file:
+pbc_wmessage_buffer	src/wmessage.c	/^pbc_wmessage_buffer(struct pbc_wmessage *m, struct pbc_slice *slice) {$/;"	f
+pbc_wmessage_delete	src/wmessage.c	/^pbc_wmessage_delete(struct pbc_wmessage *m) {$/;"	f
+pbc_wmessage_integer	src/wmessage.c	/^pbc_wmessage_integer(struct pbc_wmessage *m, const char *key, uint32_t low, uint32_t hi) {$/;"	f
+pbc_wmessage_message	src/wmessage.c	/^pbc_wmessage_message(struct pbc_wmessage *m, const char *key) {$/;"	f
+pbc_wmessage_new	src/wmessage.c	/^pbc_wmessage_new(struct pbc_env * env, const char *typename) {$/;"	f
+pbc_wmessage_real	src/wmessage.c	/^pbc_wmessage_real(struct pbc_wmessage *m, const char *key, double v) {$/;"	f
+pbc_wmessage_string	src/wmessage.c	/^pbc_wmessage_string(struct pbc_wmessage *m, const char *key, const char * v, int len) {$/;"	f
+person	test/pattern.c	/^struct person {$/;"	s	file:
+person_phone	test/pattern.c	/^struct person_phone {$/;"	s	file:
+phone	test/pattern.c	/^	pbc_array phone;$/;"	m	struct:person	file:
+pointer	src/map.c	/^	void * pointer;$/;"	m	struct:_pbcM_ip_slot	file:
+pointer	src/map.c	/^	void *pointer;$/;"	m	struct:_pbcM_sp_slot	file:
+pointer	src/map.h	/^	void *pointer;$/;"	m	struct:map_kv
+ptr	src/wmessage.c	/^	uint8_t * ptr;$/;"	m	struct:pbc_wmessage	file:
+ptype	src/pattern.h	/^	int ptype;$/;"	m	struct:_pattern_field
+ptype	src/wmessage.c	/^	int ptype;$/;"	m	struct:_packed	file:
+push_byte	tool/dump.c	/^push_byte(int byte, struct pbc_slice *data , int idx) {$/;"	f	file:
+push_value	binding/lua/pbc-lua.c	/^push_value(lua_State *L, int type, const char * typename, union pbc_value *v) {$/;"	f	file:
+push_value_array	src/rmessage.c	/^push_value_array(struct heap *h, pbc_array array, struct _field *f, struct atom * a, uint8_t *buffer) {$/;"	f	file:
+push_value_packed	src/rmessage.c	/^push_value_packed(struct _message * type, pbc_array array, struct _field *f, struct atom * aa, uint8_t *buffer) {$/;"	f	file:
+read_double	src/context.h	/^read_double(struct atom * a) {$/;"	f
+read_file	test/addressbook.c	/^read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+read_file	test/decode.c	/^read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+read_file	test/float.c	/^read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+read_file	test/pattern.c	/^read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+read_file	test/pbc.c	/^read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+read_file	test/test.c	/^read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+read_file	tool/dump.c	/^read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+read_float	src/context.h	/^read_float(struct atom * a) {$/;"	f
+read_stdin	tool/dump.c	/^read_stdin(int mode, struct pbc_slice *data) {$/;"	f	file:
+read_string	src/rmessage.c	/^read_string(struct heap *h, struct atom *a,struct _field *f, uint8_t *buffer) {$/;"	f	file:
+read_string_var	src/rmessage.c	/^read_string_var(struct heap *h, pbc_var var,struct atom *a,struct _field *f,uint8_t *buffer) {$/;"	f	file:
+read_value	src/rmessage.c	/^read_value(struct heap *h, struct _field *f, struct atom * a, uint8_t *buffer) {$/;"	f	file:
+real	src/array.h	/^	double real;$/;"	m	union:_pbc_var
+realloc	src/alloc.h	22;"	d
+register	binding/lua/protobuf.lua	/^function register( buffer)$/;"	f
+register_file	binding/lua/protobuf.lua	/^function register_file(filename)$/;"	f
+register_internal	src/bootstrap.c	/^register_internal(struct pbc_env * p, struct pbc_slice *slice) {$/;"	f	file:
+remove_cobj	binding/lua/protobuf.lua	/^local function remove_cobj(self)$/;"	f
+s	pbc.h	/^	struct pbc_slice s;$/;"	m	union:pbc_value	typeref:struct:pbc_value::pbc_slice
+s	src/array.h	/^	} s;$/;"	m	union:_pbc_var	typeref:struct:_pbc_var::__anon2
+s	src/context.h	/^		struct slice s;$/;"	m	union:atom::__anon1	typeref:struct:atom::__anon1::slice
+set_default	binding/lua/protobuf.lua	/^local function set_default(typename, tbl)$/;"	f
+set_default	src/bootstrap.c	/^set_default(struct _field *f, struct field_t *input) {$/;"	f	file:
+set_default_v	src/pattern.c	/^set_default_v(void * output, int ctype, pbc_var defv) {$/;"	f	file:
+set_enum_one	src/bootstrap.c	/^set_enum_one(struct pbc_env *p, struct file_t *file, const char *name, int start, int sz) {$/;"	f	file:
+set_enums	src/bootstrap.c	/^set_enums(struct pbc_env *p, struct file_t *file) {$/;"	f	file:
+set_field_one	src/bootstrap.c	/^set_field_one(struct pbc_env *p, struct _field *f) {$/;"	f	file:
+set_msg_one	src/bootstrap.c	/^set_msg_one(struct pbc_pattern * FIELD_T, struct pbc_env *p, struct file_t *file, const char *name, int start, int sz , pbc_array queue) {$/;"	f	file:
+set_msgs	src/bootstrap.c	/^set_msgs(struct pbc_pattern * FIELD_T, struct pbc_env *p, struct file_t *file , pbc_array queue) {$/;"	f	file:
+setoption	binding/lua/parser.lua	/^local function setoption(t, options)$/;"	f
+size	src/alloc.c	/^	int size;$/;"	m	struct:heap	file:
+size	src/context.h	/^	int size;$/;"	m	struct:context
+size	src/map.c	/^	size_t size;$/;"	m	struct:map_si	file:
+size	src/map.c	/^	size_t size;$/;"	m	struct:map_sp	file:
+slice	src/context.h	/^struct slice {$/;"	s
+slot	src/map.c	/^	struct _pbcM_ip_slot * slot;$/;"	m	struct:map_ip	typeref:struct:map_ip::_pbcM_ip_slot	file:
+slot	src/map.c	/^	struct _pbcM_si_slot slot[1];$/;"	m	struct:map_si	typeref:struct:map_si::_pbcM_si_slot	file:
+slot	src/map.c	/^	struct _pbcM_sp_slot * slot;$/;"	m	struct:map_sp	typeref:struct:map_sp::_pbcM_sp_slot	file:
+start	src/context.h	/^	int start;$/;"	m	struct:slice
+str	src/array.h	/^		const char * str;$/;"	m	struct:_pbc_var::__anon2
+sub	src/wmessage.c	/^	pbc_array sub;$/;"	m	struct:pbc_wmessage	file:
+table	src/proto.c	/^	struct map_kv * table;$/;"	m	struct:_iter	typeref:struct:_iter::map_kv	file:
+test	test/pattern.c	/^	pbc_array test;$/;"	m	struct:person	file:
+test	test/test.c	/^test(struct pbc_env *env) {$/;"	f	file:
+test_decode	test/decode.c	/^test_decode(struct pbc_env * env , const char * pb)$/;"	f
+test_des	test/pbc.c	/^test_des(struct pbc_env * env , const char * pb)$/;"	f
+test_pattern_pack	test/pattern.c	/^test_pattern_pack(struct pbc_env *env , struct pbc_slice *slice) {$/;"	f	file:
+test_pattern_unpack	test/pattern.c	/^test_pattern_unpack(struct pbc_env *env, struct pbc_slice * slice) {$/;"	f	file:
+test_rmessage	test/addressbook.c	/^test_rmessage(struct pbc_env *env, struct pbc_slice *slice) {$/;"	f	file:
+test_rmessage	test/float.c	/^test_rmessage(struct pbc_env *env, struct pbc_slice *slice) {$/;"	f	file:
+test_wmessage	test/addressbook.c	/^test_wmessage(struct pbc_env * env)$/;"	f	file:
+test_wmessage	test/float.c	/^test_wmessage(struct pbc_env * env)$/;"	f	file:
+type	src/bootstrap.c	/^	int32_t type;$/;"	m	struct:field_t	file:
+type	src/proto.h	/^	int type;$/;"	m	struct:_field
+type	src/rmessage.c	/^	struct _field * type;$/;"	m	struct:value	typeref:struct:value::_field	file:
+type	src/wmessage.c	/^	struct _message *type;$/;"	m	struct:pbc_wmessage	typeref:struct:pbc_wmessage::_message	file:
+type	test/pattern.c	/^	int32_t type;$/;"	m	struct:person_phone	file:
+type_name	src/bootstrap.c	/^	struct pbc_slice type_name;$/;"	m	struct:field_t	typeref:struct:field_t::pbc_slice	file:
+type_name	src/proto.h	/^	} type_name;$/;"	m	struct:_field	typeref:union:_field::__anon4
+unpack	binding/lua/protobuf.lua	/^function unpack(pattern, buffer, length)$/;"	f
+unpack_array	src/pattern.c	/^unpack_array(int ptype, char *buffer, struct atom * a, pbc_array _array) {$/;"	f	file:
+unpack_field	src/pattern.c	/^unpack_field(int ctype, int ptype, char * buffer, struct atom * a, void *out) {$/;"	f	file:
+usage	tool/dump.c	/^usage(const char *argv0) {$/;"	f	file:
+used	src/alloc.c	/^	int used;$/;"	m	struct:heap	file:
+v	src/context.h	/^	} v;$/;"	m	struct:atom	typeref:union:atom::__anon1
+v	src/rmessage.c	/^	union _var v;$/;"	m	struct:value	typeref:union:value::_var	file:
+value	src/rmessage.c	/^struct value {$/;"	s	file:
+var	src/rmessage.c	/^	pbc_var var;$/;"	m	union:_var	file:
+wire_id	src/context.h	/^	int wire_id;$/;"	m	struct:atom
+wiretype_decode	src/context.c	/^wiretype_decode(uint8_t *buffer, int cap , struct atom *a , int start)$/;"	f	file:
+write_integer	src/pattern.c	/^write_integer(int ctype, struct atom *a, void *out) {$/;"	f	file:
+write_longlong	src/pattern.c	/^write_longlong(int ctype, struct longlong *i, void *out) {$/;"	f	file:
+write_real	src/pattern.c	/^write_real(int ctype, double v, void *out) {$/;"	f	file:
+zigzag	test/varint.c	/^zigzag(int64_t n)$/;"	f	file:

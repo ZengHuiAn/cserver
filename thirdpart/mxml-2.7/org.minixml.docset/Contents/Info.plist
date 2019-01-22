@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.minixml.docset</string>
+	<key>CFBundleName</key>
+	<string>Mini-XML API Reference</string>
+	<key>CFBundleVersion</key>
+	<string>2.7</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.7</string>
+	<key>DocSetFeedName</key>
+	<string>minixml.org</string>
+	<key>DocSetFeedURL</key>
+	<string>http://www.minixml.org/org.minixml.atom</string>
+</dict>
+</plist>

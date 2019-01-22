@@ -1,0 +1,1373 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AG_CODEQUEEU_RESERVE	../framework/codequeue.c	13;"	d	file:
+AG_SERVER_ID	../framework/package.h	122;"	d
+ALIGN	../framework/buffer.c	20;"	d	file:
+ALIGN	../framework/lrm.c	26;"	d	file:
+AMF_INTEGER_MAX	../framework/amf.h	19;"	d
+AMF_TYPE	../framework/amf.h	/^typedef  enum amf_type  AMF_TYPE ;$/;"	t	typeref:enum:amf_type
+ARMAMENT_LOGGER	../framework/log.h	/^	ARMAMENT_LOGGER,$/;"	e	enum:__anon9
+ASSERT_RETURN	../framework/amf.c	571;"	d	file:
+ATOI	authserver.c	53;"	d	file:
+ATOI	backend.c	40;"	d	file:
+ATOI	database.c	50;"	d	file:
+ATOI	listener.c	60;"	d	file:
+ATOI	world.c	206;"	d	file:
+AUTH_SERVER_RPC_TIMEOUT	authserver.c	22;"	d	file:
+AuthServer	authserver.c	/^struct AuthServer$/;"	s	file:
+BIN	Makefile	/^BIN=..\/bin\/gateway$/;"	m
+Backend	backend.c	/^struct Backend$/;"	s	file:
+CHECK	../framework/buffer.c	70;"	d	file:
+CHECK_PID_AND_TRANSFORM	../framework/package.h	124;"	d
+COMPILE	Makefile	/^COMPILE=$(CC) -c$/;"	m
+CQ	../framework/codequeue.c	/^typedef struct codequeue CQ;$/;"	t	typeref:struct:codequeue	file:
+CQLength	../framework/codequeue.c	70;"	d	file:
+CQRead	../framework/codequeue.c	/^static size_t CQRead(CQ * queue, size_t begin, void * data, size_t len)$/;"	f	file:
+CQSize	../framework/codequeue.c	69;"	d	file:
+CQWrite	../framework/codequeue.c	/^static size_t CQWrite(CQ * queue, size_t end, const void * data, size_t len)$/;"	f	file:
+CREATE_ACCOUNT_LOGGER	../framework/log.h	/^    CREATE_ACCOUNT_LOGGER,$/;"	e	enum:__anon9
+CREATE_PLAYER_LOGGER	../framework/log.h	/^	CREATE_PLAYER_LOGGER,$/;"	e	enum:__anon9
+C_CREATE_PLAYER_REQUEST	../framework/package.h	74;"	d
+C_CREATE_PLAYER_RESPOND	../framework/package.h	75;"	d
+C_ECHO	../framework/package.h	64;"	d
+C_LOGIN_REQUEST	../framework/package.h	65;"	d
+C_LOGIN_RESPOND	../framework/package.h	66;"	d
+C_LOGOUT_REQUEST	../framework/package.h	68;"	d
+C_LOGOUT_RESPOND	../framework/package.h	69;"	d
+C_PLAYER_DATA_CHANGE	../framework/package.h	77;"	d
+C_QUERY_PLAYER_REQUEST	../framework/package.h	71;"	d
+C_QUERY_PLAYER_RESPOND	../framework/package.h	72;"	d
+DATA_POP	../framework/amf.c	7;"	d	file:
+DATA_POP	amf_pbc.c	15;"	d	file:
+DBHandler	database.h	/^struct DBHandler {$/;"	s
+DBHandlerConnect	database.c	/^static int DBHandlerConnect(struct DBHandler * handler)$/;"	f	file:
+DBHandlerInit	database.c	/^static int DBHandlerInit(struct DBHandler * handler, xml_node_t * node)$/;"	f	file:
+DBHandlerPing	database.c	/^static void DBHandlerPing(struct DBHandler * handler)$/;"	f	file:
+DBHandlerRelease	database.c	/^static void DBHandlerRelease(struct DBHandler* handler)$/;"	f	file:
+DECLARE_GET_KEY_FUNC	../framework/hash.h	41;"	d
+DECLARE_MODULE	../framework/module.h	16;"	d
+DEFAULT_BUFFER_SIZE	../framework/network.c	96;"	d	file:
+DISABLE_NEW_ACCOUNT	account.c	/^static int DISABLE_NEW_ACCOUNT = -1;$/;"	v	file:
+F	../framework/md5.c	105;"	d	file:
+F	../framework/md5.c	107;"	d	file:
+F	../framework/md5.c	126;"	d	file:
+F	../framework/md5.c	128;"	d	file:
+F	../framework/md5.c	147;"	d	file:
+F	../framework/md5.c	149;"	d	file:
+F	../framework/md5.c	168;"	d	file:
+F	../framework/md5.c	86;"	d	file:
+FREE	../framework/memory.h	23;"	d
+GET_UINT32	../framework/md5.c	26;"	d	file:
+GetCriticalData	../framework/codequeue.c	/^static void GetCriticalData(CQ * queue, size_t * begin, size_t * end)$/;"	f	file:
+HAVE_BOOL	../framework/network.h	14;"	d
+HAVE_RESID_T	../framework/lrm.h	7;"	d
+HAVE_RESID_T	../framework/network.h	21;"	d
+H_PBC_INT64_H__	../framework/pbc_int64.h	2;"	d
+H_YQ_FRAMEWORK_COMMON_MACRO_H__	../framework/common_macro.h	2;"	d
+IMPORT_MODULE	../framework/module.h	22;"	d
+INVALID_ID	../framework/lrm.h	10;"	d
+INVALID_ID	../framework/network.h	24;"	d
+INVALID_PLAYER_ID	account.h	18;"	d
+INVALID_WORLD_ID	world.h	6;"	d
+ITEM_LOGGER	../framework/log.h	/^	ITEM_LOGGER,$/;"	e	enum:__anon9
+KEY_FUNC	../framework/hash.h	49;"	d
+L	../include/lauxlib.h	/^  lua_State *L;$/;"	m	struct:luaL_Buffer
+LINK	Makefile	/^LINK=$(CC)$/;"	m
+LOGIN_LOGOUT_LOGGER	../framework/log.h	/^	LOGIN_LOGOUT_LOGGER,$/;"	e	enum:__anon9
+LOGOUT_ADDICTED	../framework/package.h	24;"	d
+LOGOUT_ADMIN_BAN	../framework/package.h	27;"	d
+LOGOUT_ADMIN_KICK	../framework/package.h	25;"	d
+LOGOUT_ANOTHER_LOGIN	../framework/package.h	23;"	d
+LOGOUT_CONNECT	../framework/package.h	26;"	d
+LOGOUT_NORMAL	../framework/package.h	22;"	d
+LOG_DEBUG	../framework/log.h	15;"	d
+LOG_ERROR	../framework/log.h	18;"	d
+LOG_FLAT	../framework/log.h	19;"	d
+LOG_INFO	../framework/log.h	16;"	d
+LOG_LEVEL	../framework/log.h	21;"	d
+LOG_LEVEL_DESC	../framework/log.c	/^static const char * LOG_LEVEL_DESC[] = {$/;"	v	file:
+LOG_WARNING	../framework/log.h	17;"	d
+LRM_RESOURCES_AT	../framework/lrm.c	28;"	d	file:
+LUAI_GCMUL	../include/luaconf.h	71;"	d
+LUAI_GCPAUSE	../include/luaconf.h	70;"	d
+LUAI_MAXCSTACK	../include/luaconf.h	69;"	d
+LUAI_MAXNUMBER2STR	../include/luaconf.h	100;"	d
+LUAI_MAXSTACK	../include/luaconf.h	68;"	d
+LUAI_UACNUMBER	../include/luaconf.h	96;"	d
+LUALIB_API	../include/luaconf.h	116;"	d
+LUAL_BUFFERSIZE	../include/luaconf.h	89;"	d
+LUA_API	../include/luaconf.h	108;"	d
+LUA_API	../include/luaconf.h	110;"	d
+LUA_API	../include/luaconf.h	113;"	d
+LUA_AUTHORS	../include/lua.h	23;"	d
+LUA_BITLIBNAME	../include/lualib.h	21;"	d
+LUA_CDIR	../include/luaconf.h	19;"	d
+LUA_CDIR	../include/luaconf.h	27;"	d
+LUA_COLIBNAME	../include/lualib.h	13;"	d
+LUA_COMPAT_GFIND	../include/luaconf.h	76;"	d
+LUA_COMPAT_MOD	../include/luaconf.h	75;"	d
+LUA_COPYRIGHT	../include/lua.h	22;"	d
+LUA_CPATH	../include/luaconf.h	46;"	d
+LUA_CPATH_DEFAULT	../include/luaconf.h	22;"	d
+LUA_CPATH_DEFAULT	../include/luaconf.h	40;"	d
+LUA_DBLIBNAME	../include/lualib.h	20;"	d
+LUA_DIRSEP	../include/luaconf.h	51;"	d
+LUA_DIRSEP	../include/luaconf.h	53;"	d
+LUA_ENVIRONINDEX	../include/lua.h	37;"	d
+LUA_ERRERR	../include/lua.h	47;"	d
+LUA_ERRFILE	../include/lauxlib.h	22;"	d
+LUA_ERRMEM	../include/lua.h	46;"	d
+LUA_ERRRUN	../include/lua.h	44;"	d
+LUA_ERRSYNTAX	../include/lua.h	45;"	d
+LUA_EXECDIR	../include/luaconf.h	57;"	d
+LUA_FFILIBNAME	../include/lualib.h	23;"	d
+LUA_FILEHANDLE	../include/lualib.h	11;"	d
+LUA_GCCOLLECT	../include/lua.h	223;"	d
+LUA_GCCOUNT	../include/lua.h	224;"	d
+LUA_GCCOUNTB	../include/lua.h	225;"	d
+LUA_GCRESTART	../include/lua.h	222;"	d
+LUA_GCSETPAUSE	../include/lua.h	227;"	d
+LUA_GCSETSTEPMUL	../include/lua.h	228;"	d
+LUA_GCSTEP	../include/lua.h	226;"	d
+LUA_GCSTOP	../include/lua.h	221;"	d
+LUA_GLOBALSINDEX	../include/lua.h	38;"	d
+LUA_HOOKCALL	../include/lua.h	311;"	d
+LUA_HOOKCOUNT	../include/lua.h	314;"	d
+LUA_HOOKLINE	../include/lua.h	313;"	d
+LUA_HOOKRET	../include/lua.h	312;"	d
+LUA_HOOKTAILRET	../include/lua.h	315;"	d
+LUA_IDSIZE	../include/luaconf.h	88;"	d
+LUA_IGMARK	../include/luaconf.h	58;"	d
+LUA_INIT	../include/luaconf.h	47;"	d
+LUA_INTEGER	../include/luaconf.h	87;"	d
+LUA_INTFRMLEN	../include/luaconf.h	102;"	d
+LUA_INTFRM_T	../include/luaconf.h	103;"	d
+LUA_IOLIBNAME	../include/lualib.h	17;"	d
+LUA_JDIR	../include/luaconf.h	29;"	d
+LUA_JDIR	../include/luaconf.h	34;"	d
+LUA_JITLIBNAME	../include/lualib.h	22;"	d
+LUA_LDIR	../include/luaconf.h	18;"	d
+LUA_LDIR	../include/luaconf.h	26;"	d
+LUA_LOADLIBNAME	../include/lualib.h	19;"	d
+LUA_MASKCALL	../include/lua.h	321;"	d
+LUA_MASKCOUNT	../include/lua.h	324;"	d
+LUA_MASKLINE	../include/lua.h	323;"	d
+LUA_MASKRET	../include/lua.h	322;"	d
+LUA_MATHLIBNAME	../include/lualib.h	14;"	d
+LUA_MAXCAPTURES	../include/luaconf.h	72;"	d
+LUA_MAXINPUT	../include/luaconf.h	83;"	d
+LUA_MINSTACK	../include/lua.h	87;"	d
+LUA_MULTRET	../include/lua.h	30;"	d
+LUA_NOREF	../include/lauxlib.h	146;"	d
+LUA_NUMBER	../include/luaconf.h	95;"	d
+LUA_NUMBER_DOUBLE	../include/luaconf.h	94;"	d
+LUA_NUMBER_FMT	../include/luaconf.h	98;"	d
+LUA_NUMBER_SCAN	../include/luaconf.h	97;"	d
+LUA_OSLIBNAME	../include/lualib.h	18;"	d
+LUA_PATH	../include/luaconf.h	45;"	d
+LUA_PATHSEP	../include/luaconf.h	55;"	d
+LUA_PATH_CONFIG	../include/luaconf.h	59;"	d
+LUA_PATH_DEFAULT	../include/luaconf.h	20;"	d
+LUA_PATH_DEFAULT	../include/luaconf.h	38;"	d
+LUA_PATH_MARK	../include/luaconf.h	56;"	d
+LUA_PROGNAME	../include/luaconf.h	80;"	d
+LUA_PROMPT	../include/luaconf.h	81;"	d
+LUA_PROMPT2	../include/luaconf.h	82;"	d
+LUA_QL	../include/luaconf.h	64;"	d
+LUA_QS	../include/luaconf.h	65;"	d
+LUA_REFNIL	../include/lauxlib.h	147;"	d
+LUA_REGISTRYINDEX	../include/lua.h	36;"	d
+LUA_RELEASE	../include/lua.h	20;"	d
+LUA_ROOT	../include/luaconf.h	25;"	d
+LUA_SIGNATURE	../include/lua.h	27;"	d
+LUA_STRLIBNAME	../include/lualib.h	15;"	d
+LUA_TABLIBNAME	../include/lualib.h	16;"	d
+LUA_TBOOLEAN	../include/lua.h	75;"	d
+LUA_TFUNCTION	../include/lua.h	80;"	d
+LUA_TLIGHTUSERDATA	../include/lua.h	76;"	d
+LUA_TNIL	../include/lua.h	74;"	d
+LUA_TNONE	../include/lua.h	72;"	d
+LUA_TNUMBER	../include/lua.h	77;"	d
+LUA_TSTRING	../include/lua.h	78;"	d
+LUA_TTABLE	../include/lua.h	79;"	d
+LUA_TTHREAD	../include/lua.h	82;"	d
+LUA_TUSERDATA	../include/lua.h	81;"	d
+LUA_VERSION	../include/lua.h	19;"	d
+LUA_VERSION_NUM	../include/lua.h	21;"	d
+LUA_XCPATH	../include/luaconf.h	32;"	d
+LUA_XCPATH	../include/luaconf.h	36;"	d
+LUA_XPATH	../include/luaconf.h	30;"	d
+LUA_XPATH	../include/luaconf.h	35;"	d
+LUA_YIELD	../include/lua.h	43;"	d
+LoadMatrix	../framework/matrix.c	/^Matrix * LoadMatrix(const char * filename, char sep_field, char sep_row)$/;"	f
+MALLOC	../framework/memory.h	22;"	d
+MALLOC	../framework/xmlHelper.c	14;"	d	file:
+MALLOC_N	../framework/memory.h	27;"	d
+MAX_BACK_END	backend.h	10;"	d
+MAX_USER_LOGGER_COUNT	../framework/log.h	/^	MAX_USER_LOGGER_COUNT$/;"	e	enum:__anon9
+MAX_WORLD_COUNT	../framework/common_macro.h	4;"	d
+MFileHeader	../framework/mfile.c	/^struct MFileHeader $/;"	s	file:
+MFileIndex	../framework/mfile.c	/^struct MFileIndex $/;"	s	file:
+MXML_ADD_AFTER	../include/mxml.h	64;"	d
+MXML_ADD_BEFORE	../include/mxml.h	63;"	d
+MXML_ADD_TO_PARENT	../include/mxml.h	65;"	d
+MXML_CUSTOM	../include/mxml.h	/^  MXML_CUSTOM				\/* Custom data @since Mini-XML 2.1@ *\/$/;"	e	enum:mxml_type_e
+MXML_DESCEND	../include/mxml.h	54;"	d
+MXML_DESCEND_FIRST	../include/mxml.h	56;"	d
+MXML_ELEMENT	../include/mxml.h	/^  MXML_ELEMENT,				\/* XML element with attributes *\/$/;"	e	enum:mxml_type_e
+MXML_IGNORE	../include/mxml.h	/^  MXML_IGNORE = -1,			\/* Ignore\/throw away node @since Mini-XML 2.3@ *\/$/;"	e	enum:mxml_type_e
+MXML_IGNORE_CALLBACK	../include/mxml.h	49;"	d
+MXML_INTEGER	../include/mxml.h	/^  MXML_INTEGER,				\/* Integer value *\/$/;"	e	enum:mxml_type_e
+MXML_INTEGER_CALLBACK	../include/mxml.h	42;"	d
+MXML_NO_CALLBACK	../include/mxml.h	41;"	d
+MXML_NO_DESCEND	../include/mxml.h	55;"	d
+MXML_NO_PARENT	../include/mxml.h	52;"	d
+MXML_OPAQUE	../include/mxml.h	/^  MXML_OPAQUE,				\/* Opaque string *\/$/;"	e	enum:mxml_type_e
+MXML_OPAQUE_CALLBACK	../include/mxml.h	44;"	d
+MXML_REAL	../include/mxml.h	/^  MXML_REAL,				\/* Real value *\/$/;"	e	enum:mxml_type_e
+MXML_REAL_CALLBACK	../include/mxml.h	46;"	d
+MXML_SAX_CDATA	../include/mxml.h	/^  MXML_SAX_CDATA,			\/* CDATA node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_COMMENT	../include/mxml.h	/^  MXML_SAX_COMMENT,			\/* Comment node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_DATA	../include/mxml.h	/^  MXML_SAX_DATA,			\/* Data node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_DIRECTIVE	../include/mxml.h	/^  MXML_SAX_DIRECTIVE,			\/* Processing directive node *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_ELEMENT_CLOSE	../include/mxml.h	/^  MXML_SAX_ELEMENT_CLOSE,		\/* Element closed *\/$/;"	e	enum:mxml_sax_event_e
+MXML_SAX_ELEMENT_OPEN	../include/mxml.h	/^  MXML_SAX_ELEMENT_OPEN			\/* Element opened *\/$/;"	e	enum:mxml_sax_event_e
+MXML_TAB	../include/mxml.h	39;"	d
+MXML_TEXT	../include/mxml.h	/^  MXML_TEXT,				\/* Text fragment *\/$/;"	e	enum:mxml_type_e
+MXML_TEXT_CALLBACK	../include/mxml.h	48;"	d
+MXML_WS_AFTER_CLOSE	../include/mxml.h	61;"	d
+MXML_WS_AFTER_OPEN	../include/mxml.h	59;"	d
+MXML_WS_BEFORE_CLOSE	../include/mxml.h	60;"	d
+MXML_WS_BEFORE_OPEN	../include/mxml.h	58;"	d
+MYSQL_CFLAG	Makefile	/^MYSQL_CFLAG=-I\/usr\/local\/mysql\/include$/;"	m
+MYSQL_LFLAG	Makefile	/^MYSQL_LFLAG=-L\/usr\/local\/mysql\/lib$/;"	m
+Matrix	../framework/matrix.c	/^struct Matrix {$/;"	s	file:
+Matrix	../framework/matrix.h	/^typedef struct Matrix Matrix;$/;"	t	typeref:struct:Matrix
+MatrixField	../framework/matrix.c	/^struct  MatrixField$/;"	s	file:
+MatrixField	../framework/matrix.h	/^typedef struct MatrixField MatrixField;$/;"	t	typeref:struct:MatrixField
+MatrixFieldFree	../framework/matrix.c	/^static void MatrixFieldFree(MatrixField * field)$/;"	f	file:
+MatrixFieldNew	../framework/matrix.c	/^static MatrixField * MatrixFieldNew(const char * msg, size_t len)$/;"	f	file:
+MatrixFieldValue	../framework/matrix.c	/^const char * MatrixFieldValue(MatrixField * field)$/;"	f
+MatrixFree	../framework/matrix.c	/^void MatrixFree(Matrix * matrix)$/;"	f
+MatrixGet	../framework/matrix.c	/^MatrixRow * MatrixGet(Matrix * matrix, size_t row)$/;"	f
+MatrixNew	../framework/matrix.c	/^static Matrix *  MatrixNew()$/;"	f	file:
+MatrixPush	../framework/matrix.c	/^static void MatrixPush(Matrix * matrix, MatrixRow * row)$/;"	f	file:
+MatrixResize	../framework/matrix.c	/^static void MatrixResize(Matrix * matrix)$/;"	f	file:
+MatrixRow	../framework/matrix.c	/^struct MatrixRow $/;"	s	file:
+MatrixRow	../framework/matrix.h	/^typedef struct MatrixRow MatrixRow;$/;"	t	typeref:struct:MatrixRow
+MatrixRowFree	../framework/matrix.c	/^static void MatrixRowFree(MatrixRow * row)$/;"	f	file:
+MatrixRowGet	../framework/matrix.c	/^MatrixField * MatrixRowGet(MatrixRow * row, size_t field)$/;"	f
+MatrixRowNew	../framework/matrix.c	/^static MatrixRow *  MatrixRowNew()$/;"	f	file:
+MatrixRowPush	../framework/matrix.c	/^static void MatrixRowPush(MatrixRow * row, MatrixField * field)$/;"	f	file:
+MatrixRowResize	../framework/matrix.c	/^static void MatrixRowResize(MatrixRow * row)$/;"	f	file:
+MatrixRowSize	../framework/matrix.c	/^size_t MatrixRowSize(MatrixRow * row)$/;"	f
+MatrixSize	../framework/matrix.c	/^size_t MatrixSize(Matrix * matrix)$/;"	f
+NOTIFY_ADDICTED_CHANGE	../framework/package.h	62;"	d
+NOTIFY_PROPERTY	../framework/package.h	61;"	d
+OBJ	Makefile	/^OBJ=$(OBJ_MAIN) $(OBJ_MODULE)$/;"	m
+OBJ_COMM	Makefile	/^OBJ_COMM=$(patsubst ..\/framework\/%.c, %.o, $(wildcard ..\/framework\/*.c))$/;"	m
+OBJ_MAIN	Makefile	/^OBJ_MAIN=$(patsubst %.c, %.o, $(wildcard *.c))$/;"	m
+OBJ_MODULE	Makefile	/^OBJ_MODULE=$(patsubst %.c, %.o, $(wildcard .\/modules\/*.c))$/;"	m
+P	../framework/md5.c	76;"	d	file:
+PBC_ARRAY_CAP	../include/pbc.h	7;"	d
+PBC_BOOL	../include/pbc.h	12;"	d
+PBC_BYTES	../include/pbc.h	18;"	d
+PBC_ENUM	../include/pbc.h	13;"	d
+PBC_FIXED32	../include/pbc.h	17;"	d
+PBC_FIXED64	../include/pbc.h	16;"	d
+PBC_INT	../include/pbc.h	10;"	d
+PBC_INT64	../include/pbc.h	19;"	d
+PBC_MESSAGE	../include/pbc.h	15;"	d
+PBC_NOEXIST	../include/pbc.h	9;"	d
+PBC_REAL	../include/pbc.h	11;"	d
+PBC_REPEATED	../include/pbc.h	22;"	d
+PBC_STRING	../include/pbc.h	14;"	d
+PBC_UINT	../include/pbc.h	20;"	d
+PBC_UNKNOWN	../include/pbc.h	21;"	d
+PLAYER_CHANGE_NAME_LOGGER	../framework/log.h	/^	PLAYER_CHANGE_NAME_LOGGER,$/;"	e	enum:__anon9
+PLAYER_EXP_LOGGER	../framework/log.h	/^	PLAYER_EXP_LOGGER,$/;"	e	enum:__anon9
+PLAYER_LEVEL_UP_LOGGER	../framework/log.h	/^	PLAYER_LEVEL_UP_LOGGER,$/;"	e	enum:__anon9
+PLAYER_STATUS_BAN	../framework/package.h	87;"	d
+PLAYER_STATUS_MUTE	../framework/package.h	88;"	d
+PLAYER_STATUS_NORMAL	../framework/package.h	86;"	d
+PLAYER_VIP_UP_LOGGER	../framework/log.h	/^	PLAYER_VIP_UP_LOGGER,$/;"	e	enum:__anon9
+PROTOBUF_C_H	../include/pbc.h	2;"	d
+PRPC_DATA	authserver.c	/^}RPC_DATA, *PRPC_DATA;$/;"	t	typeref:struct:tagRPC_DATA	file:
+PUT_UINT32	../framework/md5.c	34;"	d	file:
+REALLOC	../framework/memory.h	24;"	d
+RESOURCE_LOGGER	../framework/log.h	/^	RESOURCE_LOGGER,$/;"	e	enum:__anon9
+RET_ALREADYAT	../framework/package.h	43;"	d
+RET_CHARACTER_EXIST	../framework/package.h	56;"	d
+RET_CHARACTER_NAME_EXIST	../framework/package.h	57;"	d
+RET_CHARACTER_NOT_EXIST	../framework/package.h	46;"	d
+RET_CHARACTER_STATUS_ADDICTED	../framework/package.h	50;"	d
+RET_CHARACTER_STATUS_BAN	../framework/package.h	48;"	d
+RET_CHARACTER_STATUS_MUTE	../framework/package.h	49;"	d
+RET_COOLDOWN	../framework/package.h	42;"	d
+RET_DEPEND	../framework/package.h	36;"	d
+RET_ERROR	../framework/package.h	30;"	d
+RET_EXIST	../framework/package.h	31;"	d
+RET_FIGHT_FAILED	../framework/package.h	58;"	d
+RET_FULL	../framework/package.h	38;"	d
+RET_INPROGRESS	../framework/package.h	34;"	d
+RET_MAX_LEVEL	../framework/package.h	35;"	d
+RET_NOT_ENOUGH	../framework/package.h	39;"	d
+RET_NOT_EXIST	../framework/package.h	32;"	d
+RET_PARAM_ERROR	../framework/package.h	33;"	d
+RET_PERMISSION	../framework/package.h	41;"	d
+RET_PREMISSIONS	../framework/package.h	40;"	d
+RET_RESOURCES	../framework/package.h	37;"	d
+RET_REWARD_NOT_EXIST	../framework/package.h	59;"	d
+RET_SERVICE_STATUS_ERROR	../framework/package.h	44;"	d
+RET_SUCCESS	../framework/package.h	29;"	d
+RET_TARGET_NOT_EXIST	../framework/package.h	55;"	d
+RET_VERSION_MISSMATCH	../framework/package.h	51;"	d
+RET_VIP_PREMISSIONS	../framework/package.h	53;"	d
+ROUTE_PORT_BASE	../framework/common_macro.h	7;"	d
+RPC_DATA	authserver.c	/^}RPC_DATA, *PRPC_DATA;$/;"	t	typeref:struct:tagRPC_DATA	file:
+RecordInfo	record.c	/^typedef struct RecordInfo {$/;"	s	file:
+RecordInfo	record.c	/^} RecordInfo;$/;"	t	typeref:struct:RecordInfo	file:
+S	../framework/md5.c	74;"	d	file:
+S2UInt29	../framework/amf.c	/^uint32_t S2UInt29(int32_t i) $/;"	f
+SERVICE_BEGIN	../framework/service.h	13;"	d
+SERVICE_END	../framework/service.h	16;"	d
+S_ADMIN_PLAYER_KICK_REQUEST	../framework/package.h	90;"	d
+S_ADMIN_PLAYER_KICK_RESPOND	../framework/package.h	91;"	d
+S_AUTH_REQUEST	../framework/package.h	97;"	d
+S_AUTH_RESPOND	../framework/package.h	98;"	d
+S_SERVICE_BROADCAST_REQUEST	../framework/package.h	82;"	d
+S_SERVICE_BROADCAST_RESPOND	../framework/package.h	83;"	d
+S_SERVICE_REGISTER_REQUEST	../framework/package.h	79;"	d
+S_SERVICE_REGISTER_RESPOND	../framework/package.h	80;"	d
+S_SET_PLAYER_STATUS_RESPOND	../framework/package.h	85;"	d
+S_UNLOAD_PLAYER_REQUEST	../framework/package.h	93;"	d
+S_UNLOAD_PLAYER_RESPOND	../framework/package.h	94;"	d
+SetCriticalData	../framework/codequeue.c	/^static void SetCriticalData(CQ * queue, size_t begin, size_t end)$/;"	f	file:
+TACTIC_LOGGER	../framework/log.h	/^	TACTIC_LOGGER,$/;"	e	enum:__anon9
+TRANSFORM_PLAYERID	../framework/package.h	112;"	d
+TRANSFORM_PLAYERID_TO_64	../framework/package.h	101;"	d
+TWS_HEAD	auth.c	241;"	d	file:
+TYPE_CAST	auth.c	26;"	d	file:
+TYPE_CAST	authserver.c	24;"	d	file:
+U2SInt29	../framework/amf.c	/^int32_t U2SInt29(uint32_t i) $/;"	f
+UNUSED	authserver.c	52;"	d	file:
+UNUSED	backend.c	33;"	d	file:
+Usage	../framework/main.c	/^static void Usage(const char * prog)$/;"	f	file:
+VERSION	version.h	4;"	d
+Version	../framework/main.c	/^static void Version()$/;"	f	file:
+WORLD_DISPATCHER_PORT_BASE	../framework/common_macro.h	5;"	d
+WORLD_PORT_BASE	../framework/common_macro.h	6;"	d
+WRITE_DEBUG_LOG	../framework/log.h	97;"	d
+WRITE_ERROR_LOG	../framework/log.h	101;"	d
+WRITE_INFO_LOG	../framework/log.h	105;"	d
+WRITE_LOG	../framework/log.h	79;"	d
+WRITE_LOG	../framework/log.h	84;"	d
+WRITE_TIME	../framework/log.h	66;"	d
+WRITE_WARNING_LOG	../framework/log.h	109;"	d
+WorldConfig	world.c	/^typedef struct WorldConfig$/;"	s	file:
+WorldConfig	world.c	/^} WorldConfig;$/;"	t	typeref:struct:WorldConfig	file:
+_AGAME_MFILE_H_	../framework/mfile.h	2;"	d
+_A_GAME_ARRAY_H_	../framework/array.h	2;"	d
+_A_GAME_COMM_AMF_H_	../framework/amf.h	2;"	d
+_A_GAME_COMM_AMF_PBC_H_	amf_pbc.h	2;"	d
+_A_GAME_COMM_BASE_H_	../framework/base.h	2;"	d
+_A_GAME_COMM_BUFFER_H_	../framework/buffer.h	2;"	d
+_A_GAME_COMM_CONFIG_H_	../framework/config.h	2;"	d
+_A_GAME_COMM_HASH_H_	../framework/hash.h	2;"	d
+_A_GAME_COMM_LRM_H_	../framework/lrm.h	2;"	d
+_A_GAME_COMM_MEMORY_H_	../framework/memory.h	2;"	d
+_A_GAME_COMM_MODULES_LOG_H_	../framework/log.h	2;"	d
+_A_GAME_COMM_MODULES_PIPE_H_	../framework/pipe.h	2;"	d
+_A_GAME_COMM_MODULES_TIME_H_	../framework/mtime.h	2;"	d
+_A_GAME_COMM_MODULE_H_	../framework/module.h	2;"	d
+_A_GAME_COMM_NETWORK_H_	../framework/network.h	2;"	d
+_A_GAME_COMM_PACKAGE_H_	../framework/package.h	2;"	d
+_A_GAME_COMM_XML_HELPER_H_	../framework/xmlHelper.h	2;"	d
+_A_GAME_GATEWAY_ACCOUNT_H_	account.h	2;"	d
+_A_GAME_GATEWAY_AUTH_H_	auth.h	2;"	d
+_A_GAME_GATEWAY_CLIENT_H_	client.h	2;"	d
+_A_GAME_GATEWAY_RECORD_H_	record.h	2;"	d
+_A_GAME_GATEWAY_TRANSLATE_H_	translate.h	2;"	d
+_A_GAME_GATEWAY_WORLD_H_	world.h	2;"	d
+_A_GAME_NETWORK_CODEQUEUE_H_	../framework/codequeue.h	2;"	d
+_A_GAME_NETWORK_SERVICE_H_	../framework/service.h	2;"	d
+_A_GAME_SHM_H_	../framework/shm.h	2;"	d
+_A_GAME_WORLD_AUTHSERVER_H_	authserver.h	2;"	d
+_A_GAME_WORLD_BACKEND_H_	backend.h	2;"	d
+_A_GAME_WORLD_MODULES_DATABASE_H_	database.h	2;"	d
+_A_GAME_WORLD_listener_h_	listener.h	2;"	d
+_A_GAME_WORLD_protocol_h_	protocol.h	2;"	d
+_COMM_DLIST_H_	../framework/dlist.h	2;"	d
+_LUALIB_H	../include/lualib.h	7;"	d
+_MAP_H_	../framework/map.h	2;"	d
+_MATRIX_H_	../framework/matrix.h	2;"	d
+_MD5_H	../framework/md5.h	2;"	d
+__AGAME_VERSION_H__	version.h	2;"	d
+_account_db	database.c	/^struct DBHandler _account_db = {$/;"	v	typeref:struct:DBHandler
+_agB_align	../framework/buffer.c	/^static void _agB_align(struct buffer * buf)$/;"	f	file:
+_agB_buffer	../framework/buffer.c	/^void * _agB_buffer(struct buffer * buf, size_t len)$/;"	f
+_agB_free	../framework/buffer.c	/^void _agB_free(struct buffer * buf)$/;"	f
+_agB_getc	../framework/buffer.c	/^char   _agB_getc(struct buffer * buf)$/;"	f
+_agB_new	../framework/buffer.c	/^struct buffer * _agB_new(size_t size)$/;"	f
+_agB_peek	../framework/buffer.c	/^void * _agB_peek(struct buffer * buf, size_t len)$/;"	f
+_agB_putc	../framework/buffer.c	/^int    _agB_putc(struct buffer * buf, char c)$/;"	f
+_agB_read	../framework/buffer.c	/^void * _agB_read(struct buffer * buf, size_t len)$/;"	f
+_agB_resize	../framework/buffer.c	/^static int _agB_resize(struct buffer * buf, size_t size)$/;"	f	file:
+_agB_size	../framework/buffer.c	/^size_t _agB_size(struct buffer * buf)$/;"	f
+_agB_statistic	../framework/buffer.c	/^void _agB_statistic()$/;"	f
+_agB_write	../framework/buffer.c	/^int _agB_write(struct buffer * buf, const void * data, size_t len)$/;"	f
+_agL_close	../framework/log.c	/^void _agL_close(struct logger * log)$/;"	f
+_agL_flush	../framework/log.c	/^void _agL_flush(struct logger * log)$/;"	f
+_agL_open	../framework/log.c	/^struct logger * _agL_open (const char * filename, int level)$/;"	f
+_agL_set_level	../framework/log.c	/^int  _agL_set_level(struct logger * log, int level)$/;"	f
+_agL_write	../framework/log.c	/^int  _agL_write(struct logger * log, int level, const char * fmt, ...)$/;"	f
+_agL_writev	../framework/log.c	/^int  _agL_writev(struct logger * log, int level, const char * fmt, va_list args)$/;"	f
+_agMH_alloc	../framework/memory.c	/^void* _agMH_alloc(struct heap *h, int size) {$/;"	f
+_agMH_delete	../framework/memory.c	/^void _agMH_delete(struct heap *h) {$/;"	f
+_agMH_new	../framework/memory.c	/^struct heap * _agMH_new(int pagesize) {$/;"	f
+_agM_dump	../framework/memory.c	/^void  _agM_dump()$/;"	f
+_agM_free	../framework/memory.c	/^void _agM_free(void * p, const char * file, int line)$/;"	f
+_agM_malloc	../framework/memory.c	/^void * _agM_malloc(size_t sz, const char * file, int line)$/;"	f
+_agM_realloc	../framework/memory.c	/^void * _agM_realloc(void *p, size_t sz, const char * file, int line)$/;"	f
+_agM_statistic	../framework/memory.c	/^void   _agM_statistic()$/;"	f
+_agMap_delete	../framework/map.c	/^void _agMap_delete(struct map * map) {$/;"	f
+_agMap_empty	../framework/map.c	/^void  _agMap_empty(struct map * map, void (*cb_free)(void * p))$/;"	f
+_agMap_ip_foreach	../framework/map.c	/^void _agMap_ip_foreach(struct map * map, void (*func)(uint64_t key, void *p, void * ctx), void * ctx)$/;"	f
+_agMap_ip_get	../framework/map.c	/^void * _agMap_ip_get(struct map * map, uint64_t key)$/;"	f
+_agMap_ip_set	../framework/map.c	/^void * _agMap_ip_set(struct map * map, uint64_t key, void * p)$/;"	f
+_agMap_new	../framework/map.c	/^struct map * _agMap_new(struct heap * heap)$/;"	f
+_agMap_next	../framework/map.c	/^struct map_element * _agMap_next(struct map * map, struct map_element * ite)$/;"	f
+_agMap_size	../framework/map.c	/^size_t _agMap_size(struct map * map)$/;"	f
+_agMap_sp_foreach	../framework/map.c	/^void _agMap_sp_foreach(struct map *map, void (*func)(const char * key, void *p, void * ctx), void * ctx)$/;"	f
+_agMap_sp_get	../framework/map.c	/^void * _agMap_sp_get(struct map * map, const char * key)$/;"	f
+_agMap_sp_next	../framework/map.c	/^void * _agMap_sp_next(struct map * map, const char ** key)$/;"	f
+_agMap_sp_set	../framework/map.c	/^void * _agMap_sp_set(struct map * map, const char * key, void * p)$/;"	f
+_agN_attach	../framework/network.c	/^resid_t _agN_attach(struct network * net, int fd, network_handler * handler, void * ctx)$/;"	f
+_agN_buffer	../framework/network.c	/^void * _agN_buffer(struct network * net, resid_t conn, size_t len)$/;"	f
+_agN_close	../framework/network.c	/^void _agN_close(struct network * net, resid_t conn)$/;"	f
+_agN_connect	../framework/network.c	/^resid_t _agN_connect(struct network * net, $/;"	f
+_agN_detach	../framework/network.c	/^int _agN_detach (struct network * net, resid_t conn)$/;"	f
+_agN_free	../framework/network.c	/^void _agN_free(struct network * net)$/;"	f
+_agN_get_fd	../framework/network.c	/^int _agN_get_fd(struct network * net, resid_t conn)$/;"	f
+_agN_listen	../framework/network.c	/^resid_t _agN_listen (struct network * net,$/;"	f
+_agN_loop	../framework/network.c	/^int _agN_loop(struct network * net)$/;"	f
+_agN_new	../framework/network.c	/^struct network * _agN_new (size_t max)$/;"	f
+_agN_send	../framework/network.c	/^int _agN_send(struct network * net, resid_t conn, const void * buff, size_t len)$/;"	f
+_agN_set_handler	../framework/network.c	/^int _agN_set_handler(struct network * net, resid_t conn, network_handler * handler, void * ctx)$/;"	f
+_agN_set_tick	../framework/network.c	/^void _agN_set_tick(struct network * net, void (*cb)(void *), void * ctx)$/;"	f
+_agN_set_timer	../framework/network.c	/^void _agN_set_timer(struct network * net, void (*cb)(time_t now, void *), void * ctx)$/;"	f
+_agN_stop	../framework/network.c	/^void _agN_stop(struct network * net)$/;"	f
+_agN_tick	../framework/network.c	/^int _agN_tick(struct network * net, int timeout)$/;"	f
+_agN_writev	../framework/network.c	/^int _agN_writev (struct network * net, resid_t conn, struct iovec *iov, int iovcnt)$/;"	f
+_agRM_free	../framework/lrm.c	/^void _agRM_free(struct lrm * lrm)$/;"	f
+_agRM_new	../framework/lrm.c	/^struct lrm * _agRM_new(int max, size_t objsize)$/;"	f
+_agR_free	../framework/lrm.c	/^void _agR_free(struct lrm * lrm, resid_t id)$/;"	f
+_agR_get	../framework/lrm.c	/^void *  _agR_get(struct lrm * lrm, resid_t id)$/;"	f
+_agR_new	../framework/lrm.c	/^resid_t _agR_new(struct lrm * lrm)$/;"	f
+_agR_next	../framework/lrm.c	/^resid_t _agR_next(struct lrm * lrm, resid_t ite)$/;"	f
+_agR_statistic	../framework/lrm.c	/^void    _agR_statistic()$/;"	f
+_alloc	../framework/map.c	/^static void * _alloc(struct heap * heap, size_t s)$/;"	f	file:
+_count	amf_pbc.c	/^static void _count(void * p, void * ud)$/;"	f	file:
+_data	../include/pbc.h	/^typedef struct _pbc_array { char _data[PBC_ARRAY_CAP]; } pbc_array[1];$/;"	m	struct:_pbc_array
+_do_write_account_log	account.c	/^_do_write_account_log(resid_t conn, struct network *net, const char *name, const unsigned int pid, const char * data, size_t len){$/;"	f	file:
+_doc	../framework/config.c	/^static xml_doc_t * _doc = 0;$/;"	v	file:
+_find_first	../framework/map.c	/^static struct map_element * _find_first(struct map * map, size_t from)$/;"	f	file:
+_free	../framework/map.c	/^static void _free(struct heap * heap, void * p)$/;"	f	file:
+_free_element	../framework/map.c	/^static void _free_element(struct map * map, struct map_element * element)$/;"	f	file:
+_g_free	../framework/buffer.c	/^static unsigned int _g_free = 0;$/;"	v	file:
+_g_free	../framework/lrm.c	/^unsigned int _g_free   = 0;$/;"	v
+_g_free	../framework/memory.c	/^static unsigned int _g_free    = 0;$/;"	v	file:
+_g_malloc	../framework/buffer.c	/^static unsigned int _g_malloc = 0;$/;"	v	file:
+_g_malloc	../framework/lrm.c	/^unsigned int _g_malloc = 0;$/;"	v
+_g_malloc	../framework/memory.c	/^static unsigned int _g_malloc  = 0;$/;"	v	file:
+_g_max_size	../framework/buffer.c	/^static size_t _g_max_size = 0;$/;"	v	file:
+_g_realloc	../framework/memory.c	/^static unsigned int _g_realloc = 0;$/;"	v	file:
+_g_resize	../framework/buffer.c	/^static unsigned int _g_resize = 0;$/;"	v	file:
+_get_user_logger_name	../framework/userlog.c	/^static const char* _get_user_logger_name(int type){$/;"	f	file:
+_insert_element	../framework/map.c	/^static void _insert_element(struct map * map, struct map_element * element)$/;"	f	file:
+_ip_find	../framework/map.c	/^static struct map_element * _ip_find(struct map * map, uint64_t key, struct map_element ** pparent)$/;"	f	file:
+_mxml_h_	../include/mxml.h	22;"	d
+_net_instance	../framework/network.c	/^static struct network * _net_instance = 0;$/;"	v	typeref:struct:network	file:
+_network_active	../framework/network.c	/^static void _network_active(struct network * net, struct conn * c)$/;"	f	file:
+_new_element	../framework/map.c	/^static struct map_element * _new_element(struct map * map)$/;"	f	file:
+_pbc_array	../include/pbc.h	/^typedef struct _pbc_array { char _data[PBC_ARRAY_CAP]; } pbc_array[1];$/;"	s
+_read_amf	../framework/amf.c	/^static amf_value * _read_amf(const char * data, size_t dlen, size_t * plen)$/;"	f	file:
+_read_array	../framework/amf.c	/^static amf_value * _read_array(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_byte_array	../framework/amf.c	/^static amf_value * _read_byte_array(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_double	../framework/amf.c	/^static amf_value * _read_double(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_false	../framework/amf.c	/^static amf_value * _read_false(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_field	amf_pbc.c	/^static size_t _read_field(struct pbc_wmessage * pbc, struct _field * field, const char * data, size_t len)$/;"	f	file:
+_read_int	amf_pbc.c	/^static size_t _read_int(const char * data, size_t len, unsigned int * i)$/;"	f	file:
+_read_integer	../framework/amf.c	/^static amf_value * _read_integer(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_null	../framework/amf.c	/^static amf_value * _read_null(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_number	amf_pbc.c	/^static size_t _read_number(const char * data, size_t len, double * d)$/;"	f	file:
+_read_repeated	amf_pbc.c	/^static size_t _read_repeated(struct pbc_wmessage * pbc, struct _field * field, const char * data, size_t len)$/;"	f	file:
+_read_sint	amf_pbc.c	/^static size_t _read_sint(const char * data, size_t len, int * i)$/;"	f	file:
+_read_sinteger	../framework/amf.c	/^static amf_value * _read_sinteger(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_string	../framework/amf.c	/^static amf_value * _read_string(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_true	../framework/amf.c	/^static amf_value * _read_true(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_read_undefine	../framework/amf.c	/^static amf_value * _read_undefine(const char * data, size_t len, size_t * plen)$/;"	f	file:
+_resize	../framework/map.c	/^static void _resize(struct map * map, size_t s)$/;"	f	file:
+_s_calc_hash	../framework/map.c	/^static size_t _s_calc_hash(const char * name)$/;"	f	file:
+_sp_find	../framework/map.c	/^static struct map_element * _sp_find(struct map * map, size_t hash, const char * key, struct map_element ** pparent)$/;"	f	file:
+_stoped	../framework/service.c	/^static int _stoped = 0;$/;"	v	file:
+_try_open_user_logger	../framework/userlog.c	/^static void _try_open_user_logger(int type){$/;"	f	file:
+_write_field	amf_pbc.c	/^static size_t _write_field(char * data, size_t len, struct pbc_rmessage * pbc, struct _field * field, int idx)$/;"	f	file:
+_xmlGetChild	../framework/xmlHelper.c	/^static xml_node_t * _xmlGetChild(xml_node_t * node, const char * name) $/;"	f	file:
+accept_once	../framework/network.c	/^static int accept_once(struct network * net, struct conn * c)$/;"	f	file:
+account	account.h	/^typedef struct account $/;"	s
+account	account.h	/^} account;$/;"	t	typeref:struct:account
+account	authserver.c	/^	char account[128];$/;"	m	struct:tagRPC_DATA	file:
+account_change	account.c	/^int account_change(unsigned long long pid, const char* new_name){$/;"	f
+account_db	database.c	/^struct DBHandler * account_db;$/;"	v	typeref:struct:DBHandler
+account_get	account.c	/^account * account_get(const char * name)$/;"	f
+account_get_by_pid	account.c	/^account * account_get_by_pid(unsigned long long pid){$/;"	f
+account_hash	account.c	/^hash * account_hash = 0;$/;"	v
+account_new	account.c	/^account * account_new(const char * name, unsigned long long playerid)$/;"	f
+account_parse_pid_by_name	account.c	/^int32_t account_parse_pid_by_name(resid_t conn, struct network *net, const char* name, unsigned long long* ppid, const char * data, size_t len){$/;"	f
+active_list	../framework/network.c	/^	struct conn * active_list;$/;"	m	struct:network	typeref:struct:network::conn	file:
+adult	client.h	/^	int adult;$/;"	m	struct:client
+after_auth	authserver.c	/^static void after_auth(PRPC_DATA rpc){$/;"	f	file:
+agCQ_attach	../framework/codequeue.c	/^struct codequeue * agCQ_attach(void * ptr)$/;"	f
+agCQ_open	../framework/codequeue.c	/^struct codequeue * agCQ_open(void * ptr, size_t size)$/;"	f
+agCQ_pop	../framework/codequeue.c	/^size_t agCQ_pop(struct codequeue * _queue, void * data, size_t len)$/;"	f
+agCQ_push	../framework/codequeue.c	/^size_t agCQ_push(struct codequeue * _queue, const void * data, size_t len)$/;"	f
+agCQ_pushf	../framework/codequeue.c	/^size_t agCQ_pushf(struct codequeue * queue, ...)$/;"	f
+agCQ_pushv	../framework/codequeue.c	/^size_t agCQ_pushv(struct codequeue * _queue, va_list args)$/;"	f
+agC_close	../framework/config.c	/^void agC_close()$/;"	f
+agC_get	../framework/config.h	18;"	d
+agC_get_integer	../framework/config.c	/^int agC_get_integer(const char * key, ...)$/;"	f
+agC_get_l	../framework/config.c	/^xml_node_t * agC_get_l(const char * key, ...)$/;"	f
+agC_get_server_id	../framework/config.c	/^int32_t agC_get_server_id()$/;"	f
+agC_get_string	../framework/config.c	/^const char * agC_get_string(const char * key, ...)$/;"	f
+agC_get_version	../framework/config.c	/^int32_t agC_get_version()$/;"	f
+agC_open	../framework/config.c	/^int agC_open(const char * file)$/;"	f
+agC_vget	../framework/config.c	/^xml_node_t * agC_vget(const char * key, va_list args)$/;"	f
+agDB_last_id	database.h	42;"	d
+agDB_query	database.h	40;"	d
+agDB_update	database.h	41;"	d
+agL_flush	../framework/log.c	/^void agL_flush()$/;"	f
+agL_flush_user_logger	../framework/userlog.c	/^void agL_flush_user_logger(int type){$/;"	f
+agL_open	../framework/log.c	/^int  agL_open (const char * filename, int level)$/;"	f
+agL_open_user_logger	../framework/userlog.c	/^int agL_open_user_logger(int type)$/;"	f
+agL_set_level	../framework/log.c	/^int  agL_set_level(int level)$/;"	f
+agL_set_user_logger_level	../framework/userlog.c	/^int agL_set_user_logger_level(int type, int level){$/;"	f
+agL_write	../framework/log.c	/^int  agL_write(int level, const char * fmt, ...)$/;"	f
+agL_write_user_logger	../framework/userlog.c	/^int agL_write_user_logger(int type, int level, const char * fmt, ...){$/;"	f
+agN_attach	../framework/network.c	/^resid_t agN_attach(int fd, network_handler * handler, void * ctx)$/;"	f
+agN_close	../framework/network.c	/^void agN_close(resid_t conn)$/;"	f
+agN_connect	../framework/network.c	/^resid_t agN_connect(const char * host, short port, int timeout, network_handler * handler, void * ctx)$/;"	f
+agN_detach	../framework/network.c	/^int agN_detach (struct network * net, resid_t conn)$/;"	f
+agN_free	../framework/network.c	/^void agN_free()$/;"	f
+agN_get_fd	../framework/network.c	/^int agN_get_fd(resid_t conn)$/;"	f
+agN_init	../framework/network.c	/^int agN_init(size_t max)$/;"	f
+agN_listen	../framework/network.c	/^resid_t agN_listen (const char * host, short port, int backlog, network_handler * handler, void * ctx)$/;"	f
+agN_loop	../framework/network.c	/^int agN_loop()$/;"	f
+agN_send	../framework/network.c	/^int agN_send(resid_t conn, const void * buff, int len)$/;"	f
+agN_set_handler	../framework/network.c	/^int agN_set_handler(resid_t conn, network_handler * handler, void * ctx)$/;"	f
+agN_set_tick	../framework/network.c	/^void    agN_set_tick(void (*cb)(void *), void * ctx)$/;"	f
+agN_set_timer	../framework/network.c	/^void agN_set_timer(void (*cb)(time_t now, void *), void * ctx)$/;"	f
+agN_stop	../framework/network.c	/^void agN_stop()$/;"	f
+agN_writev	../framework/network.c	/^int agN_writev (resid_t conn, struct iovec *iov, int iovcnt)$/;"	f
+agP_buffer	../framework/pipe.c	/^void * agP_buffer(struct pipe * p, size_t len)$/;"	f
+agP_close	../framework/pipe.c	/^void agP_close(struct pipe * p)$/;"	f
+agP_open	../framework/pipe.c	/^struct pipe * agP_open(size_t size)$/;"	f
+agP_peek	../framework/pipe.c	/^const void * agP_peek(struct pipe * p, size_t len)$/;"	f
+agP_read	../framework/pipe.c	/^const void * agP_read(struct pipe * p, size_t len)$/;"	f
+agP_size	../framework/pipe.c	/^size_t agP_size(struct pipe * p)$/;"	f
+agP_write	../framework/pipe.c	/^int agP_write(struct pipe * p, const void * data, size_t len)$/;"	f
+agT_current	../framework/mtime.c	/^time_t agT_current()$/;"	f
+agT_delay	../framework/mtime.c	/^int agT_delay(time_t t, void(*cb)(time_t, void*), void * data)$/;"	f
+all	backend.c	/^static struct Backend all[MAX_BACK_END];$/;"	v	typeref:struct:Backend	file:
+alloc_element	../framework/hash.c	/^static struct element * alloc_element()$/;"	f	file:
+alloc_nodes	../include/mxml.h	/^  int			alloc_nodes;	\/* Allocated nodes in index *\/$/;"	m	struct:mxml_index_s
+alloc_size	../framework/amf.c	/^			size_t alloc_size;$/;"	m	struct:amf_value::__anon3::__anon4	file:
+alloced	../framework/matrix.c	/^	size_t alloced;$/;"	m	struct:Matrix	file:
+alloced	../framework/matrix.c	/^	size_t alloced;$/;"	m	struct:MatrixRow	file:
+amf_array	../framework/amf.h	/^	amf_array = 0x09,$/;"	e	enum:amf_type
+amf_byte_array	../framework/amf.h	/^	amf_byte_array = 0x0C,$/;"	e	enum:amf_type
+amf_date	../framework/amf.h	/^	amf_date = 0x08,$/;"	e	enum:amf_type
+amf_decode_array	../framework/amf.c	/^size_t amf_decode_array(const char * data, size_t len, size_t * sz)$/;"	f
+amf_decode_byte_array	../framework/amf.c	/^size_t amf_decode_byte_array(const char * data, size_t len, struct amf_slice * slice)$/;"	f
+amf_decode_double	../framework/amf.c	/^size_t amf_decode_double(const char * data, size_t len, double * d)$/;"	f
+amf_decode_false	../framework/amf.c	/^size_t amf_decode_false(const char * data, size_t dlen)$/;"	f
+amf_decode_i29	../framework/amf.c	/^size_t amf_decode_i29(const char * data, size_t len, int32_t * v)$/;"	f
+amf_decode_integer	../framework/amf.c	/^size_t amf_decode_integer(const char * data, size_t len, uint32_t * v)$/;"	f
+amf_decode_null	../framework/amf.c	/^size_t amf_decode_null(const char * data, size_t dlen)$/;"	f
+amf_decode_pbc	amf_pbc.c	/^size_t amf_decode_pbc(const char * data, size_t len, struct pbc_wmessage * pbc)$/;"	f
+amf_decode_sinteger	../framework/amf.c	/^size_t amf_decode_sinteger(const char * data, size_t len, int32_t * v)$/;"	f
+amf_decode_string	../framework/amf.c	/^size_t amf_decode_string(const char * data, size_t len, struct amf_slice * slice)$/;"	f
+amf_decode_true	../framework/amf.c	/^size_t amf_decode_true(const char * data, size_t dlen)$/;"	f
+amf_decode_u29	../framework/amf.c	/^size_t amf_decode_u29(const char * data, size_t len, uint32_t * v)$/;"	f
+amf_decode_undefine	../framework/amf.c	/^size_t amf_decode_undefine(const char * data, size_t dlen)$/;"	f
+amf_double	../framework/amf.h	/^	amf_double = 0x05,$/;"	e	enum:amf_type
+amf_dump	../framework/amf.c	/^void amf_dump(const char * data, size_t len)$/;"	f
+amf_dump_array	../framework/amf.c	/^size_t amf_dump_array(const char * data, size_t len, int deep)$/;"	f
+amf_dump_double	../framework/amf.c	/^static size_t amf_dump_double(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_false	../framework/amf.c	/^static size_t amf_dump_false(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_integer	../framework/amf.c	/^static size_t amf_dump_integer(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_null	../framework/amf.c	/^static size_t amf_dump_null(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_r	../framework/amf.c	/^static size_t amf_dump_r(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_sinteger	../framework/amf.c	/^static size_t amf_dump_sinteger(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_string	../framework/amf.c	/^static size_t amf_dump_string(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_true	../framework/amf.c	/^static size_t amf_dump_true(const char * data, size_t len, int deep)$/;"	f	file:
+amf_dump_undefine	../framework/amf.c	/^static size_t amf_dump_undefine(const char * data, size_t len, int deep)$/;"	f	file:
+amf_encode	../framework/amf.c	/^size_t amf_encode(char * data, size_t dlen, amf_value * v)$/;"	f
+amf_encode_array	../framework/amf.c	/^size_t amf_encode_array(char * data, size_t len, size_t size)$/;"	f
+amf_encode_byte_array	../framework/amf.c	/^size_t amf_encode_byte_array(char * data, size_t len, const char * ptr, size_t sz)$/;"	f
+amf_encode_double	../framework/amf.c	/^size_t amf_encode_double(char * data, size_t len, double d)$/;"	f
+amf_encode_false	../framework/amf.c	/^size_t amf_encode_false(char * data, size_t dlen)$/;"	f
+amf_encode_i29	../framework/amf.c	/^static size_t amf_encode_i29(char * data, size_t len, int32_t val)$/;"	f	file:
+amf_encode_integer	../framework/amf.c	/^size_t amf_encode_integer(char * data, size_t len, uint32_t integer)$/;"	f
+amf_encode_integer_with_type	../framework/amf.c	/^size_t amf_encode_integer_with_type(char * data, size_t len, uint32_t integer, enum amf_type type)$/;"	f
+amf_encode_null	../framework/amf.c	/^size_t amf_encode_null(char * data, size_t dlen)$/;"	f
+amf_encode_pbc	amf_pbc.c	/^size_t amf_encode_pbc(char * data, size_t len, struct pbc_rmessage * pbc)$/;"	f
+amf_encode_sinteger	../framework/amf.c	/^size_t amf_encode_sinteger(char * data, size_t len, int32_t integer)$/;"	f
+amf_encode_string	../framework/amf.c	/^size_t amf_encode_string(char * data, size_t len,$/;"	f
+amf_encode_true	../framework/amf.c	/^size_t amf_encode_true(char * data, size_t dlen)$/;"	f
+amf_encode_u29	../framework/amf.c	/^static size_t amf_encode_u29(char * data, size_t len, uint32_t val)$/;"	f	file:
+amf_encode_undefine	../framework/amf.c	/^size_t amf_encode_undefine(char * data, size_t dlen)$/;"	f
+amf_false	../framework/amf.h	/^	amf_false = 0x02,$/;"	e	enum:amf_type
+amf_free	../framework/amf.c	/^void amf_free(amf_value * v)$/;"	f
+amf_get	../framework/amf.c	/^amf_value *  amf_get(amf_value * v, size_t pos)$/;"	f
+amf_get_byte_array	../framework/amf.c	/^const char *  amf_get_byte_array(amf_value * v, size_t * len)$/;"	f
+amf_get_double	../framework/amf.c	/^double amf_get_double(amf_value * v)$/;"	f
+amf_get_encode_length	../framework/amf.c	/^size_t amf_get_encode_length(amf_value * v)$/;"	f
+amf_get_integer	../framework/amf.c	/^uint32_t amf_get_integer(amf_value * v)$/;"	f
+amf_get_length_array	../framework/amf.c	/^static size_t amf_get_length_array(size_t size)$/;"	f	file:
+amf_get_length_byte_array	../framework/amf.c	/^static size_t amf_get_length_byte_array(size_t str_len)$/;"	f	file:
+amf_get_length_double	../framework/amf.c	/^static size_t amf_get_length_double()$/;"	f	file:
+amf_get_length_false	../framework/amf.c	/^static size_t amf_get_length_false()$/;"	f	file:
+amf_get_length_i29	../framework/amf.c	/^static size_t amf_get_length_i29(int32_t val)$/;"	f	file:
+amf_get_length_integer	../framework/amf.c	/^static size_t amf_get_length_integer(uint32_t integer)$/;"	f	file:
+amf_get_length_null	../framework/amf.c	/^static size_t amf_get_length_null()$/;"	f	file:
+amf_get_length_sinteger	../framework/amf.c	/^static size_t amf_get_length_sinteger(int32_t integer)$/;"	f	file:
+amf_get_length_string	../framework/amf.c	/^static size_t amf_get_length_string(size_t str_len)$/;"	f	file:
+amf_get_length_true	../framework/amf.c	/^static size_t amf_get_length_true()$/;"	f	file:
+amf_get_length_u29	../framework/amf.c	/^static size_t amf_get_length_u29(uint32_t val)$/;"	f	file:
+amf_get_length_undefine	../framework/amf.c	/^static size_t amf_get_length_undefine()$/;"	f	file:
+amf_get_sinteger	../framework/amf.c	/^int32_t amf_get_sinteger(amf_value * v)$/;"	f
+amf_get_string	../framework/amf.c	/^const char * amf_get_string(amf_value * v)$/;"	f
+amf_integer	../framework/amf.h	/^	amf_integer = 0x04,$/;"	e	enum:amf_type
+amf_new	../framework/amf.c	/^amf_value * amf_new()$/;"	f
+amf_new_array	../framework/amf.c	/^amf_value * amf_new_array(size_t size)$/;"	f
+amf_new_byte_array	../framework/amf.c	/^amf_value * amf_new_byte_array(const char * ptr, size_t size)$/;"	f
+amf_new_double	../framework/amf.c	/^amf_value * amf_new_double(double d)$/;"	f
+amf_new_false	../framework/amf.c	/^amf_value * amf_new_false()$/;"	f
+amf_new_integer	../framework/amf.c	/^amf_value * amf_new_integer(uint32_t integer)$/;"	f
+amf_new_null	../framework/amf.c	/^amf_value * amf_new_null()$/;"	f
+amf_new_sinteger	../framework/amf.c	/^amf_value * amf_new_sinteger(int32_t integer)$/;"	f
+amf_new_string	../framework/amf.c	/^amf_value * amf_new_string(const char * string, size_t size)$/;"	f
+amf_new_true	../framework/amf.c	/^amf_value * amf_new_true()$/;"	f
+amf_next_type	../framework/amf.c	/^enum amf_type amf_next_type(const char * data, size_t len)$/;"	f
+amf_null	../framework/amf.h	/^	amf_null = 0x01,$/;"	e	enum:amf_type
+amf_object	../framework/amf.h	/^	amf_object = 0x0A,$/;"	e	enum:amf_type
+amf_push	../framework/amf.c	/^void amf_push(amf_value * a, amf_value * v)$/;"	f
+amf_read	../framework/amf.c	/^amf_value * amf_read(const char * data, size_t dlen, size_t * plen)$/;"	f
+amf_resize	../framework/amf.c	/^static void amf_resize(amf_value * a, size_t size)$/;"	f	file:
+amf_set	../framework/amf.c	/^amf_value * amf_set(amf_value * a, size_t pos, amf_value * v)$/;"	f
+amf_set_double	../framework/amf.c	/^void amf_set_double(amf_value * v, double d)$/;"	f
+amf_set_integer	../framework/amf.c	/^void amf_set_integer(amf_value * v, uint32_t integer)$/;"	f
+amf_set_null	../framework/amf.c	/^void amf_set_null(amf_value * v)$/;"	f
+amf_set_sinteger	../framework/amf.c	/^void amf_set_sinteger(amf_value * v, int32_t integer)$/;"	f
+amf_sinteger	../framework/amf.h	/^	amf_sinteger = 0x0D$/;"	e	enum:amf_type
+amf_size	../framework/amf.c	/^size_t amf_size(amf_value * v)$/;"	f
+amf_skip	../framework/amf.c	/^size_t amf_skip(const char * data, size_t len)$/;"	f
+amf_slice	../framework/amf.h	/^struct amf_slice {$/;"	s
+amf_string	../framework/amf.h	/^	amf_string = 0x06,$/;"	e	enum:amf_type
+amf_true	../framework/amf.h	/^	amf_true = 0x03,$/;"	e	enum:amf_type
+amf_type	../framework/amf.c	/^enum amf_type amf_type(amf_value * v)$/;"	f
+amf_type	../framework/amf.h	/^enum amf_type {$/;"	g
+amf_undefine	../framework/amf.h	/^	amf_undefine = 0x00,$/;"	e	enum:amf_type
+amf_value	../framework/amf.c	/^struct amf_value {$/;"	s	file:
+amf_value	../framework/amf.h	/^typedef struct amf_value amf_value;$/;"	t	typeref:struct:amf_value
+amf_value_list	../framework/amf.c	/^static amf_value * amf_value_list = 0;$/;"	v	file:
+amf_xml	../framework/amf.h	/^	amf_xml = 0x0B,$/;"	e	enum:amf_type
+amf_xml_doc	../framework/amf.h	/^	amf_xml_doc = 0x07,$/;"	e	enum:amf_type
+append_player	backend.c	/^static void append_player(struct client * c, void * ctx)$/;"	f	file:
+append_player	world.c	/^static void append_player(struct client * c, void * ctx)$/;"	f	file:
+array	../framework/array.c	/^struct array$/;"	s	file:
+array_count	../framework/array.c	/^size_t array_count(struct array * a)$/;"	f
+array_empty	../framework/array.c	/^int array_empty(struct array * a)$/;"	f
+array_free	../framework/array.c	/^void array_free(struct array *a )$/;"	f
+array_full	../framework/array.c	/^int array_full(struct array * a)$/;"	f
+array_get	../framework/array.c	/^void * array_get(struct array * a, size_t i)$/;"	f
+array_new	../framework/array.c	/^struct array * array_new(size_t s)$/;"	f
+array_push	../framework/array.c	/^size_t array_push(struct array * a, void * p)$/;"	f
+array_set	../framework/array.c	/^void * array_set(struct array * a, size_t i, void * p)$/;"	f
+array_size	../framework/array.c	/^size_t array_size(struct array * a)$/;"	f
+attr	../include/mxml.h	/^  char			*attr;		\/* Attribute used for indexing or NULL *\/$/;"	m	struct:mxml_index_s
+attrs	../include/mxml.h	/^  mxml_attr_t		*attrs;		\/* Attributes *\/$/;"	m	struct:mxml_element_s
+auth_handler	auth.c	/^static struct network_handler auth_handler;$/;"	v	typeref:struct:network_handler	file:
+authserver_auth	authserver.c	/^int32_t authserver_auth(resid_t conn, const char* account, const char* token, struct network* net, const char* package_data, size_t package_len, unsigned int client_sn) $/;"	f
+authserver_fail	authserver.c	/^static int32_t authserver_fail(PRPC_DATA rpc){$/;"	f	file:
+authserver_pass	authserver.c	/^static int32_t authserver_pass(PRPC_DATA rpc){$/;"	f	file:
+authserver_send	authserver.c	/^int authserver_send(unsigned long long channel,$/;"	f
+backend_avalible	backend.c	/^int backend_avalible(struct Backend * backend)$/;"	f
+backend_broadcast	backend.c	/^int backend_broadcast(unsigned long long channel, unsigned int cmd, unsigned int flag, const void * msg, size_t len)$/;"	f
+backend_get	backend.c	/^struct Backend * backend_get(unsigned long long pid, unsigned int cmd)$/;"	f
+backend_get_id	backend.c	/^int backend_get_id(struct Backend * backend)$/;"	f
+backend_get_name	backend.c	/^const char * backend_get_name(struct Backend * backend)$/;"	f
+backend_handler	backend.c	/^static struct network_handler backend_handler;$/;"	v	typeref:struct:network_handler	file:
+backend_next	backend.c	/^struct Backend * backend_next(struct Backend * ite) $/;"	f
+backend_send	backend.c	/^int backend_send(struct Backend * peer, unsigned long long channel,$/;"	f
+begin	../framework/codequeue.c	/^	size_t begin;$/;"	m	struct:codequeue	file:
+bool	../framework/network.h	/^typedef int bool;$/;"	t
+broadcast_to_client	backend.c	/^static void broadcast_to_client(struct Backend * peer, struct pbc_rmessage * request)$/;"	f	file:
+broadcast_to_client	world.c	/^static void broadcast_to_client(unsigned int world, struct pbc_rmessage * request)$/;"	f	file:
+buckets	../framework/hash.c	/^	element ** buckets;$/;"	m	struct:hash	file:
+buckets	../framework/map.c	/^	struct map_element ** buckets;$/;"	m	struct:map	typeref:struct:map::map_element	file:
+buckets_size	../framework/hash.c	/^	unsigned int buckets_size;$/;"	m	struct:hash	file:
+buckets_size	../framework/map.c	/^	size_t buckets_size;$/;"	m	struct:map	file:
+buf	../framework/pipe.c	/^	struct buffer * buf;$/;"	m	struct:pipe	typeref:struct:pipe::buffer	file:
+buffer	../framework/amf.h	/^	void * buffer;$/;"	m	struct:amf_slice
+buffer	../framework/buffer.c	/^struct buffer {$/;"	s	file:
+buffer	../framework/md5.h	/^	uint8 buffer[64];$/;"	m	struct:__anon6
+buffer	../include/lauxlib.h	/^  char buffer[LUAL_BUFFERSIZE];$/;"	m	struct:luaL_Buffer
+buffer	../include/pbc.h	/^	void *buffer;$/;"	m	struct:pbc_slice
+build_file	../framework/mfile.c	/^static FILE * build_file(const char * fname)$/;"	f	file:
+c	../framework/array.c	/^	size_t c;$/;"	m	struct:array	file:
+cb	../framework/network.c	/^		void (*cb)(time_t, void *);$/;"	m	struct:network::__anon7	file:
+cb	../framework/network.c	/^		void (*cb)(void *);$/;"	m	struct:network::__anon8	file:
+cfile	../framework/config.c	/^char cfile[256] = {0};$/;"	v
+check_connecting	../framework/network.c	/^static void check_connecting(struct network * net , struct conn * c)$/;"	f	file:
+check_path	../framework/base.c	/^static int check_path(const char * path) $/;"	f	file:
+child	../framework/amf.c	/^			amf_value ** child;$/;"	m	struct:amf_value::__anon3::__anon4	file:
+child	../framework/xmlHelper.c	/^	xml_node_t * child;$/;"	m	struct:xml_node_t	file:
+child	../include/mxml.h	/^  struct mxml_node_s	*child;		\/* First child node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+cleanClient	../framework/network.c	/^static void cleanClient(struct network * net)$/;"	f	file:
+cleanStruct	record.c	/^void cleanStruct()$/;"	f
+clean_waiting_client	auth.c	/^static void clean_waiting_client()$/;"	f	file:
+client	client.h	/^typedef struct client $/;"	s
+client	client.h	/^} client;$/;"	t	typeref:struct:client
+client_broadcast	client.c	/^int client_broadcast(unsigned int cmd, unsigned int flag, const void * msg, size_t len)$/;"	f
+client_count	client.c	/^static int client_count = 0;$/;"	v	file:
+client_foreach	client.c	/^int client_foreach(void(*cb)(client*,void*), void*ctx) $/;"	f
+client_free	client.c	/^void client_free(client * c)$/;"	f
+client_get_by_playerid	client.c	/^client * client_get_by_playerid(unsigned long long playerid)$/;"	f
+client_hash	client.c	/^static struct map * client_hash = 0;$/;"	v	typeref:struct:map	file:
+client_header	../framework/package.h	/^struct client_header {$/;"	s
+client_new	client.c	/^client * client_new(resid_t conn, unsigned int world, unsigned long long playerid)$/;"	f
+client_queue	client.c	/^static client * client_queue = 0;$/;"	v	file:
+client_send	client.c	/^int client_send(client * client, unsigned int cmd, unsigned int flag, const void * msg, size_t len)$/;"	f
+client_set	client.c	/^int client_set(client * c, resid_t conn, unsigned int world, unsigned long long playerid)$/;"	f
+client_sn	authserver.c	/^	unsigned int client_sn;$/;"	m	struct:tagRPC_DATA	file:
+closing_list	../framework/network.c	/^	struct conn * closing_list;$/;"	m	struct:network	typeref:struct:network::conn	file:
+cmd	../framework/package.h	/^	uint32_t cmd;$/;"	m	struct:client_header
+cmd	../framework/package.h	/^	uint32_t cmd;$/;"	m	struct:translate_header
+cmd	backend.c	/^	} cmd;$/;"	m	struct:Backend	typeref:struct:Backend::__anon1	file:
+cmp_func	../framework/hash.h	/^typedef int (*cmp_func)(void * key1, size_t len1, void * key2, size_t len2);$/;"	t
+cmp_key	../framework/hash.c	/^	cmp_func  cmp_key;$/;"	m	struct:hash	file:
+codequeue	../framework/codequeue.c	/^struct codequeue {$/;"	s	file:
+conn	../framework/network.c	/^struct conn $/;"	s	file:
+conn	auth.c	/^	resid_t conn;$/;"	m	struct:waiting_client	file:
+conn	authserver.c	/^	resid_t conn;$/;"	m	struct:AuthServer	file:
+conn	authserver.c	/^	resid_t conn;$/;"	m	struct:tagRPC_DATA	file:
+conn	backend.c	/^	resid_t conn;$/;"	m	struct:Backend	file:
+conn	client.h	/^	resid_t conn;$/;"	m	struct:client
+conn	world.c	/^	resid_t conn;$/;"	m	struct:WorldConfig	file:
+conn_set_event	../framework/network.c	/^static int conn_set_event(struct network * net, struct conn * c, unsigned int events)$/;"	f	file:
+conn_status	../framework/network.c	/^enum conn_status {$/;"	g	file:
+connect_to	../framework/base.c	/^int connect_to(const char * host, unsigned short port, int * done)$/;"	f
+connect_to_unix	../framework/base.c	/^static int connect_to_unix(const char * path, int * done)$/;"	f	file:
+count	../framework/matrix.c	/^	size_t count;$/;"	m	struct:Matrix	file:
+count	../framework/matrix.c	/^	size_t count;$/;"	m	struct:MatrixRow	file:
+create_time	authserver.c	/^	int64_t create_time;$/;"	m	struct:tagRPC_DATA	file:
+cs_closed	../framework/network.c	/^	cs_closed = 0,$/;"	e	enum:conn_status	file:
+cs_closing	../framework/network.c	/^	cs_closing = 4,$/;"	e	enum:conn_status	file:
+cs_connected	../framework/network.c	/^	cs_connected  = 3,$/;"	e	enum:conn_status	file:
+cs_connected_wait_cb	../framework/network.c	/^	cs_connected_wait_cb = 5,$/;"	e	enum:conn_status	file:
+cs_connecting	../framework/network.c	/^	cs_connecting = 2,$/;"	e	enum:conn_status	file:
+cs_listening	../framework/network.c	/^	cs_listening = 1,$/;"	e	enum:conn_status	file:
+ctx	../framework/network.c	/^		void * ctx;$/;"	m	struct:network::__anon7	file:
+ctx	../framework/network.c	/^		void * ctx;$/;"	m	struct:network::__anon8	file:
+ctx	../framework/network.c	/^	void * ctx;$/;"	m	struct:conn	file:
+cur_node	../include/mxml.h	/^  int			cur_node;	\/* Current node *\/$/;"	m	struct:mxml_index_s
+cur_ref	../framework/amf.c	/^static unsigned int cur_ref = 0;$/;"	v	file:
+current	../framework/memory.c	/^	struct heap_page *current;$/;"	m	struct:heap	typeref:struct:heap::heap_page	file:
+current	../framework/mtime.c	/^static time_t current = 0;$/;"	v	file:
+currentline	../include/lua.h	/^  int currentline;	\/* (l) *\/$/;"	m	struct:lua_Debug
+custom	../include/mxml.h	/^  mxml_custom_t		custom;		\/* Custom data @since Mini-XML 2.1@ *\/$/;"	m	union:mxml_value_u
+d	../framework/amf.c	/^		double d;$/;"	m	union:amf_value::__anon3	file:
+data	../framework/buffer.c	/^	char * data;$/;"	m	struct:buffer	file:
+data	../framework/dlist.h	/^    void * data;$/;"	m	struct:dlist_node
+data	../framework/hash.c	/^	void * data;$/;"	m	struct:element	file:
+data	../framework/hash.h	/^	void * data;$/;"	m	struct:hash_iterator
+data	../framework/lrm.c	/^	char * data; \/\/[1];$/;"	m	struct:lrm	file:
+data	../include/mxml.h	/^  void			*data;		\/* Pointer to (allocated) custom data *\/$/;"	m	struct:mxml_custom_s
+database_error	database.c	/^const char * database_error(struct DBHandler * handler)$/;"	f
+database_escape_string	database.c	/^unsigned long database_escape_string(struct DBHandler * handler, char *to, const char *from, unsigned long length)$/;"	f
+database_insert_blob	database.c	/^unsigned int database_insert_blob(struct DBHandler * handler, char * fmt, void * ptr, size_t len, ...)$/;"	f
+database_last_id	database.c	/^unsigned long long database_last_id(struct DBHandler * handler)$/;"	f
+database_query	database.c	/^int database_query(struct DBHandler * handler, int(*cb)(struct slice * fields, void * ctx), void * ctx, const char * fmt, ...)$/;"	f
+database_update	database.c	/^int database_update(struct DBHandler * handler, const char * fmt, ...)$/;"	f
+db	database.h	/^	char db[64];$/;"	m	struct:DBHandler
+default_cmp_key	../framework/hash.c	/^static int default_cmp_key(void *key1, size_t len1, void * key2, size_t len2)$/;"	f	file:
+default_hash_key	../framework/hash.c	/^static unsigned int default_hash_key(void *key , size_t len)$/;"	f	file:
+default_logger	../framework/log.c	/^static struct logger * default_logger = 0;$/;"	v	typeref:struct:logger	file:
+destroy	../include/mxml.h	/^  mxml_custom_destroy_cb_t destroy;	\/* Pointer to destructor function *\/$/;"	m	struct:mxml_custom_s
+dlist_init	../framework/dlist.h	84;"	d
+dlist_init_with	../framework/dlist.h	93;"	d
+dlist_init_x	../framework/dlist.h	82;"	d
+dlist_insert_after	../framework/dlist.h	86;"	d
+dlist_insert_after_with	../framework/dlist.h	99;"	d
+dlist_insert_after_x	../framework/dlist.h	25;"	d
+dlist_insert_before	../framework/dlist.h	85;"	d
+dlist_insert_before_with	../framework/dlist.h	96;"	d
+dlist_insert_before_x	../framework/dlist.h	16;"	d
+dlist_insert_head	../framework/dlist.h	87;"	d
+dlist_insert_head_with	../framework/dlist.h	102;"	d
+dlist_insert_head_x	../framework/dlist.h	35;"	d
+dlist_insert_tail	../framework/dlist.h	88;"	d
+dlist_insert_tail_with	../framework/dlist.h	105;"	d
+dlist_insert_tail_x	../framework/dlist.h	47;"	d
+dlist_next	../framework/dlist.h	90;"	d
+dlist_next_with	../framework/dlist.h	111;"	d
+dlist_next_x	../framework/dlist.h	76;"	d
+dlist_node	../framework/dlist.h	/^typedef struct dlist_node{$/;"	s
+dlist_node	../framework/dlist.h	/^} dlist_node;$/;"	t	typeref:struct:dlist_node
+dlist_prev	../framework/dlist.h	91;"	d
+dlist_prev_with	../framework/dlist.h	114;"	d
+dlist_prev_x	../framework/dlist.h	79;"	d
+dlist_remove	../framework/dlist.h	89;"	d
+dlist_remove_with	../framework/dlist.h	108;"	d
+dlist_remove_x	../framework/dlist.h	57;"	d
+doAuth	auth.c	/^int doAuth = -1;$/;"	v
+do_amf_auth	auth.c	/^void do_amf_auth(resid_t conn, $/;"	f
+do_close	../framework/network.c	/^static void do_close(struct network * net, struct conn * c)$/;"	f	file:
+do_conn_error	../framework/network.c	/^static void do_conn_error(struct network * net, struct conn * c)$/;"	f	file:
+do_conn_event	../framework/network.c	/^static void do_conn_event(struct network * net, struct conn * c, uint32_t event)$/;"	f	file:
+do_conn_read	../framework/network.c	/^static void do_conn_read(struct network * net, struct conn * c)$/;"	f	file:
+do_conn_write	../framework/network.c	/^static void do_conn_write(struct network * net, struct conn * c) $/;"	f	file:
+dump_amf	../framework/amf.c	/^void dump_amf(amf_value * v, FILE  * out)$/;"	f
+dump_amf_x	../framework/amf.c	/^static void dump_amf_x(amf_value * v, int deep, FILE * out)$/;"	f	file:
+dump_hash	../framework/hash.c	/^void dump_hash(struct hash * h, dump_val dv)$/;"	f
+dump_val	../framework/hash.h	/^typedef void (*dump_val)(void * data);$/;"	t
+e	../include/pbc.h	/^	} e;$/;"	m	union:pbc_value	typeref:struct:pbc_value::__anon11
+efd	../framework/network.c	/^	int efd;$/;"	m	struct:network	file:
+element	../framework/hash.c	/^typedef struct element {$/;"	s	file:
+element	../framework/hash.c	/^} element;$/;"	t	typeref:struct:element	file:
+element	../include/mxml.h	/^  mxml_element_t	element;	\/* Element *\/$/;"	m	union:mxml_value_u
+end	../framework/codequeue.c	/^	size_t end;$/;"	m	struct:codequeue	file:
+env	protocol.c	/^struct pbc_env * env = 0;$/;"	v	typeref:struct:pbc_env
+event	../include/lua.h	/^  int event;$/;"	m	struct:lua_Debug
+events	../framework/network.c	/^	unsigned int events;$/;"	m	struct:conn	file:
+f	../include/pbc.h	/^	double f;$/;"	m	union:pbc_value
+fd	../framework/network.c	/^	int fd;$/;"	m	struct:conn	file:
+field	../framework/matrix.c	/^	MatrixField ** field;$/;"	m	struct:MatrixRow	file:
+file	../framework/log.c	/^	FILE * file;$/;"	m	struct:logger	file:
+file	record.c	/^	FILE * file;$/;"	m	struct:RecordInfo	file:
+find_element	../framework/hash.c	/^static struct element * find_element(struct hash * h, int index,$/;"	f	file:
+finish_connecting	../framework/network.c	/^static void finish_connecting(struct network * net, struct conn * c) $/;"	f	file:
+flag	../framework/package.h	/^	uint32_t flag;$/;"	m	struct:client_header
+flag	../framework/package.h	/^	uint32_t flag;$/;"	m	struct:translate_header
+foreachChildNodeWithName	../framework/xmlHelper.c	/^int foreachChildNodeWithName(xml_node_t * node, const char * name, int (*cb)(xml_node_t *, void *), void *data)$/;"	f
+fp	../framework/xmlHelper.c	/^	FILE * fp;$/;"	m	struct:xml_doc_t	file:
+freeNode	../framework/xmlHelper.c	/^static void freeNode(xml_node_t * node)$/;"	f	file:
+free_element	../framework/hash.c	/^static void free_element(struct element * e)$/;"	f	file:
+free_element_list	../framework/hash.c	/^static element * free_element_list = 0;$/;"	v	file:
+free_record	../framework/memory.c	/^static void free_record()$/;"	f	file:
+func	../include/lauxlib.h	/^  lua_CFunction func;$/;"	m	struct:luaL_Reg
+g_account_table	account.c	/^struct map* g_account_table =0;$/;"	v	typeref:struct:map
+g_authserver	authserver.c	/^static struct AuthServer g_authserver;$/;"	v	typeref:struct:AuthServer	file:
+g_authserver_handler	authserver.c	/^static struct network_handler g_authserver_handler;$/;"	v	typeref:struct:network_handler	file:
+g_port_base	authserver.c	/^static unsigned int g_port_base = 9810;$/;"	v	file:
+g_rpc_data_list	authserver.c	/^static PRPC_DATA g_rpc_data_list;$/;"	v	file:
+g_rpc_data_table	authserver.c	/^static struct map * g_rpc_data_table = 0;$/;"	v	typeref:struct:map	file:
+g_sid	../framework/main.c	/^unsigned int g_sid = 0;$/;"	v
+get_key	../framework/hash.c	/^	key_func  get_key;$/;"	m	struct:hash	file:
+get_lresource	../framework/lrm.c	/^static struct lresource * get_lresource(struct lrm * lrm, resid_t id)$/;"	f	file:
+get_lresource_by_index	../framework/lrm.c	/^static struct lresource * get_lresource_by_index(struct lrm * lrm, int index)$/;"	f	file:
+get_name_of_account	account.c	/^static void * get_name_of_account(void * data, size_t * len)  $/;"	f	file:
+handler	../framework/network.c	/^	struct network_handler handler;$/;"	m	struct:conn	typeref:struct:conn::network_handler	file:
+handler	listener.c	/^static struct network_handler handler = {0};$/;"	v	typeref:struct:network_handler	file:
+hash	../framework/hash.c	/^struct hash$/;"	s	file:
+hash	../framework/hash.h	/^typedef struct hash hash;$/;"	t	typeref:struct:hash
+hash	../framework/map.h	/^	size_t hash;$/;"	m	struct:map_element
+hash_create	../framework/hash.c	/^struct hash * hash_create(key_func get_key,$/;"	f
+hash_create_with_number_key	../framework/hash.c	/^struct hash * hash_create_with_number_key(key_func get_key)$/;"	f
+hash_create_with_string_key	../framework/hash.c	/^struct hash * hash_create_with_string_key(key_func get_key)$/;"	f
+hash_destory	../framework/hash.c	/^void hash_destory(hash * h)$/;"	f
+hash_func	../framework/hash.h	/^typedef unsigned int (*hash_func)(void * key, size_t len);$/;"	t
+hash_get	../framework/hash.c	/^void * hash_get(struct hash * h, void * key, size_t key_len)$/;"	f
+hash_insert	../framework/hash.c	/^void * hash_insert(struct hash * h, void * data)$/;"	f
+hash_insert_element	../framework/hash.c	/^static void hash_insert_element(struct hash * h, struct element * e)$/;"	f	file:
+hash_iterator	../framework/hash.h	/^struct hash_iterator {$/;"	s
+hash_key	../framework/hash.c	/^	hash_func hash_key;$/;"	m	struct:hash	file:
+hash_next	../framework/hash.c	/^struct hash_iterator * hash_next(struct hash * h, struct hash_iterator * ite)$/;"	f
+hash_number_key	../framework/hash.c	/^unsigned int hash_number_key(void  * key, size_t len)$/;"	f
+hash_remove	../framework/hash.c	/^void * hash_remove(struct hash * h, void * key, size_t key_len)$/;"	f
+hash_resize	../framework/hash.c	/^static void hash_resize(struct hash * h, unsigned int new_size)$/;"	f	file:
+hash_size	../framework/hash.c	/^size_t hash_size(struct hash * h)$/;"	f
+hash_val	../framework/hash.c	/^	unsigned int hash_val;$/;"	m	struct:element	file:
+heap	../framework/map.c	/^	struct heap * heap;$/;"	m	struct:map	typeref:struct:map::heap	file:
+heap	../framework/memory.c	/^struct heap {$/;"	s	file:
+heap_page	../framework/memory.c	/^struct heap_page {$/;"	s	file:
+hi	../include/pbc.h	/^		uint32_t hi;$/;"	m	struct:pbc_value::__anon10
+host	authserver.c	/^	char host[256];$/;"	m	struct:AuthServer	file:
+host	backend.c	/^	char host[256];$/;"	m	struct:Backend	file:
+host	database.h	/^	char host[256];$/;"	m	struct:DBHandler
+host	world.c	/^	char host[64];$/;"	m	struct:WorldConfig	file:
+i	../framework/map.h	/^		uint64_t     i;$/;"	m	union:map_element::__anon5
+i	../include/pbc.h	/^	} i;$/;"	m	union:pbc_value	typeref:struct:pbc_value::__anon10
+i_ci	../include/lua.h	/^  int i_ci;  \/* active function *\/$/;"	m	struct:lua_Debug
+id	../framework/lrm.c	/^	resid_t id;$/;"	m	struct:lresource	file:
+id	../framework/network.c	/^	resid_t id;$/;"	m	struct:conn	file:
+id	../include/pbc.h	/^		int id;$/;"	m	struct:pbc_value::__anon11
+id	backend.c	/^	unsigned int id;$/;"	m	struct:Backend	file:
+id	record.c	/^	unsigned int id;$/;"	m	struct:RecordInfo	file:
+id	world.c	/^	unsigned int id;$/;"	m	struct:WorldConfig	file:
+id_hash	record.c	/^static hash * id_hash = 0;$/;"	v	file:
+idle	../framework/lrm.c	/^	struct lresource * idle;$/;"	m	struct:lrm	typeref:struct:lrm::lresource	file:
+in_active_list	../framework/network.c	/^	int in_active_list;$/;"	m	struct:conn	file:
+init_lrm_idle_list	../framework/lrm.c	/^static void init_lrm_idle_list(struct lrm * lrm)$/;"	f	file:
+integer	../framework/amf.c	/^		uint32_t integer;$/;"	m	union:amf_value::__anon3	file:
+integer	../include/mxml.h	/^  int			integer;	\/* Integer number *\/$/;"	m	union:mxml_value_u
+isComment	../framework/xmlHelper.c	/^static int isComment(mxml_node_t * node) $/;"	f	file:
+item_count	../framework/hash.c	/^	unsigned int item_count;$/;"	m	struct:hash	file:
+item_count	../framework/map.c	/^	size_t item_count;$/;"	m	struct:map	file:
+key	../framework/map.h	/^	} key;$/;"	m	struct:map_element	typeref:union:map_element::__anon5
+key_func	../framework/hash.h	/^typedef void * (*key_func)(void * data, size_t * len);$/;"	t
+l	record.c	/^static RecordInfo * l = 0;$/;"	v	file:
+last	../framework/main.c	/^static time_t    last = 0;$/;"	v	file:
+last	../framework/network.c	/^		time_t last;$/;"	m	struct:network::__anon7	file:
+last_active	client.h	/^	time_t last_active;$/;"	m	struct:client
+last_child	../include/mxml.h	/^  struct mxml_node_s	*last_child;	\/* Last child node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+last_error	../framework/mfile.c	/^static const char * last_error = "";$/;"	v	file:
+last_world	account.h	/^	int last_world;$/;"	m	struct:account
+lasterror	database.h	/^	unsigned int lasterror;$/;"	m	struct:DBHandler
+lastlinedefined	../include/lua.h	/^  int lastlinedefined;	\/* (S) *\/$/;"	m	struct:lua_Debug
+lauxlib_h	../include/lauxlib.h	9;"	d
+len	../framework/amf.c	/^	size_t len;$/;"	m	struct:__anon2	file:
+len	../framework/amf.h	/^	size_t len;$/;"	m	struct:amf_slice
+len	../framework/package.h	/^	uint32_t len;$/;"	m	struct:client_header
+len	../framework/package.h	/^	uint32_t len;$/;"	m	struct:translate_header
+len	../include/pbc.h	/^	int len;$/;"	m	struct:pbc_slice
+len	database.h	/^	size_t len;$/;"	m	struct:slice
+level	../framework/log.c	/^	int    level;$/;"	m	struct:logger	file:
+linedefined	../include/lua.h	/^  int linedefined;	\/* (S) *\/$/;"	m	struct:lua_Debug
+listen_backlog	listener.c	/^static int listen_backlog = 100;$/;"	v	file:
+listen_host	listener.c	/^static const char *  listen_host = "127.0.0.1";$/;"	v	file:
+listen_on	../framework/base.c	/^int listen_on(const char * host, unsigned short port, int backlog)$/;"	f
+listen_on_unix	../framework/base.c	/^static int listen_on_unix(const char * path, unsigned backlog)$/;"	f	file:
+listen_port	listener.c	/^static int listen_port = 9801;$/;"	v	file:
+listener	listener.h	/^DECLARE_MODULE(listener);$/;"	v
+load_int64	account.c	/^static int32_t load_int64(const char* query_str, int64_t* v){$/;"	f	file:
+lock	../framework/memory.c	/^static void lock()$/;"	f	file:
+log	../framework/amf.c	84;"	d	file:
+log	../framework/log.h	/^DECLARE_MODULE(log);$/;"	v
+log_level_count	../framework/log.c	/^static const int log_level_count = sizeof(LOG_LEVEL_DESC) \/ sizeof(LOG_LEVEL_DESC[0]);$/;"	v	file:
+logger	../framework/log.c	/^struct logger$/;"	s	file:
+low	../include/pbc.h	/^		uint32_t low;$/;"	m	struct:pbc_value::__anon10
+lresource	../framework/lrm.c	/^struct lresource {$/;"	s	file:
+lrm	../framework/lrm.c	/^struct lrm {$/;"	s	file:
+lrm	../framework/network.c	/^	struct lrm * lrm;$/;"	m	struct:network	typeref:struct:network::lrm	file:
+luaL_Buffer	../include/lauxlib.h	/^typedef struct luaL_Buffer {$/;"	s
+luaL_Buffer	../include/lauxlib.h	/^} luaL_Buffer;$/;"	t	typeref:struct:luaL_Buffer
+luaL_Reg	../include/lauxlib.h	/^typedef struct luaL_Reg {$/;"	s
+luaL_Reg	../include/lauxlib.h	/^} luaL_Reg;$/;"	t	typeref:struct:luaL_Reg
+luaL_addchar	../include/lauxlib.h	123;"	d
+luaL_addsize	../include/lauxlib.h	130;"	d
+luaL_argcheck	../include/lauxlib.h	87;"	d
+luaL_checkint	../include/lauxlib.h	91;"	d
+luaL_checklong	../include/lauxlib.h	93;"	d
+luaL_checkstring	../include/lauxlib.h	89;"	d
+luaL_dofile	../include/lauxlib.h	98;"	d
+luaL_dostring	../include/lauxlib.h	101;"	d
+luaL_getmetatable	../include/lauxlib.h	104;"	d
+luaL_getn	../include/lauxlib.h	18;"	d
+luaL_opt	../include/lauxlib.h	106;"	d
+luaL_optint	../include/lauxlib.h	92;"	d
+luaL_optlong	../include/lauxlib.h	94;"	d
+luaL_optstring	../include/lauxlib.h	90;"	d
+luaL_putchar	../include/lauxlib.h	128;"	d
+luaL_reg	../include/lauxlib.h	157;"	d
+luaL_setn	../include/lauxlib.h	19;"	d
+luaL_typename	../include/lauxlib.h	96;"	d
+lua_Alloc	../include/lua.h	/^typedef void * (*lua_Alloc) (void *ud, void *ptr, size_t osize, size_t nsize);$/;"	t
+lua_CFunction	../include/lua.h	/^typedef int (*lua_CFunction) (lua_State *L);$/;"	t
+lua_Chunkreader	../include/lua.h	293;"	d
+lua_Chunkwriter	../include/lua.h	294;"	d
+lua_Debug	../include/lua.h	/^struct lua_Debug {$/;"	s
+lua_Debug	../include/lua.h	/^typedef struct lua_Debug lua_Debug;  \/* activation record *\/$/;"	t	typeref:struct:lua_Debug
+lua_Hook	../include/lua.h	/^typedef void (*lua_Hook) (lua_State *L, lua_Debug *ar);$/;"	t
+lua_Integer	../include/lua.h	/^typedef LUA_INTEGER lua_Integer;$/;"	t
+lua_Number	../include/lua.h	/^typedef LUA_NUMBER lua_Number;$/;"	t
+lua_Reader	../include/lua.h	/^typedef const char * (*lua_Reader) (lua_State *L, void *ud, size_t *sz);$/;"	t
+lua_State	../include/lua.h	/^typedef struct lua_State lua_State;$/;"	t	typeref:struct:lua_State
+lua_Writer	../include/lua.h	/^typedef int (*lua_Writer) (lua_State *L, const void* p, size_t sz, void* ud);$/;"	t
+lua_assert	../include/luaconf.h	123;"	d
+lua_assert	../include/lualib.h	40;"	d
+lua_getgccount	../include/lua.h	291;"	d
+lua_getglobal	../include/lua.h	277;"	d
+lua_getref	../include/lauxlib.h	154;"	d
+lua_getregistry	../include/lua.h	289;"	d
+lua_h	../include/lua.h	10;"	d
+lua_isboolean	../include/lua.h	268;"	d
+lua_isfunction	../include/lua.h	264;"	d
+lua_islightuserdata	../include/lua.h	266;"	d
+lua_isnil	../include/lua.h	267;"	d
+lua_isnone	../include/lua.h	270;"	d
+lua_isnoneornil	../include/lua.h	271;"	d
+lua_istable	../include/lua.h	265;"	d
+lua_isthread	../include/lua.h	269;"	d
+lua_newtable	../include/lua.h	256;"	d
+lua_number2str	../include/luaconf.h	99;"	d
+lua_open	../include/lua.h	287;"	d
+lua_pop	../include/lua.h	254;"	d
+lua_pushcfunction	../include/lua.h	260;"	d
+lua_pushliteral	../include/lua.h	273;"	d
+lua_ref	../include/lauxlib.h	149;"	d
+lua_register	../include/lua.h	258;"	d
+lua_setglobal	../include/lua.h	276;"	d
+lua_str2number	../include/luaconf.h	101;"	d
+lua_strlen	../include/lua.h	262;"	d
+lua_tostring	../include/lua.h	279;"	d
+lua_unref	../include/lauxlib.h	152;"	d
+lua_upvalueindex	../include/lua.h	39;"	d
+luaconf_h	../include/luaconf.h	7;"	d
+luai_apicheck	../include/luaconf.h	126;"	d
+luai_apicheck	../include/luaconf.h	128;"	d
+lvl	../include/lauxlib.h	/^  int lvl;  \/* number of strings in the stack (level) *\/$/;"	m	struct:luaL_Buffer
+main	../framework/main.c	/^int main(int argc, char * argv[])$/;"	f
+main	../framework/md5.c	/^int main( int argc, char *argv[] )$/;"	f
+mallocStruct	record.c	/^RecordInfo * mallocStruct()$/;"	f
+malloc_record	../framework/memory.c	/^static void malloc_record() {$/;"	f	file:
+map	../framework/map.c	/^struct map$/;"	s	file:
+map_element	../framework/map.h	/^struct map_element {$/;"	s
+map_element	../framework/map.h	/^} map_element;$/;"	v	typeref:struct:map_element
+max	../framework/lrm.c	/^	int max;$/;"	m	struct:lrm	file:
+max	backend.c	/^		unsigned int max;$/;"	m	struct:Backend::__anon1	file:
+max_count	world.c	/^	int max_count;$/;"	m	struct:WorldConfig	file:
+max_record	../framework/mfile.c	/^static const unsigned int max_record = 0x1 << 20;$/;"	v	file:
+max_world_id	world.c	/^static int max_world_id =  sizeof(world_config) \/ sizeof(world_config[0]);$/;"	v	file:
+md5_context	../framework/md5.h	/^} md5_context;$/;"	t	typeref:struct:__anon6
+md5_finish	../framework/md5.c	/^void md5_finish( md5_context *ctx, uint8 digest[16] )$/;"	f
+md5_padding	../framework/md5.c	/^static uint8 md5_padding[64] =$/;"	v	file:
+md5_process	../framework/md5.c	/^void md5_process( md5_context *ctx, uint8 data[64] )$/;"	f
+md5_starts	../framework/md5.c	/^void md5_starts( md5_context *ctx )$/;"	f
+md5_update	../framework/md5.c	/^void md5_update( md5_context *ctx, uint8 *input, uint32 length )$/;"	f
+md5sum	../framework/md5.c	/^char * md5sum(void * input, size_t length, char * result)$/;"	f
+mfile_lasterror	../framework/mfile.c	/^const char * mfile_lasterror()$/;"	f
+mfile_read	../framework/mfile.c	/^int mfile_read (unsigned int ref, char * buff, size_t len, const char * prefix)$/;"	f
+mfile_tag	../framework/mfile.c	/^static const unsigned int mfile_tag = 0x6164662e;$/;"	v	file:
+mfile_write	../framework/mfile.c	/^unsigned int mfile_write(unsigned int ref, const char * buff, size_t len, const char * prefix)$/;"	f
+min	backend.c	/^		unsigned int min;$/;"	m	struct:Backend::__anon1	file:
+module	../framework/module.h	/^struct module {$/;"	s
+module_account_load	account.c	/^int module_account_load(int argc, char * argv[])$/;"	f
+module_account_reload	account.c	/^int module_account_reload()$/;"	f
+module_account_unload	account.c	/^void module_account_unload()$/;"	f
+module_account_update	account.c	/^void module_account_update(time_t now)$/;"	f
+module_authserver_load	authserver.c	/^int module_authserver_load(int argc, char * argv[])$/;"	f
+module_authserver_reload	authserver.c	/^int module_authserver_reload()$/;"	f
+module_authserver_unload	authserver.c	/^void module_authserver_unload()$/;"	f
+module_authserver_update	authserver.c	/^void module_authserver_update(time_t now)$/;"	f
+module_backend_load	backend.c	/^int module_backend_load(int argc, char * argv[])$/;"	f
+module_backend_reload	backend.c	/^int module_backend_reload()$/;"	f
+module_backend_unload	backend.c	/^void module_backend_unload()$/;"	f
+module_backend_update	backend.c	/^void module_backend_update(time_t now)$/;"	f
+module_client_load	client.c	/^int module_client_load(int argc, char * argv[])$/;"	f
+module_client_reload	client.c	/^int module_client_reload()$/;"	f
+module_client_unload	client.c	/^void module_client_unload()$/;"	f
+module_client_update	client.c	/^void module_client_update(time_t now)$/;"	f
+module_database_load	database.c	/^int module_database_load(int argc, char * argv[])$/;"	f
+module_database_reload	database.c	/^int module_database_reload()$/;"	f
+module_database_unload	database.c	/^void module_database_unload()$/;"	f
+module_database_update	database.c	/^void module_database_update(time_t now)$/;"	f
+module_listener_load	listener.c	/^int module_listener_load(int argc, char * argv[])$/;"	f
+module_listener_reload	listener.c	/^int module_listener_reload()$/;"	f
+module_listener_unload	listener.c	/^void module_listener_unload()$/;"	f
+module_listener_update	listener.c	/^void module_listener_update(time_t now)$/;"	f
+module_log_load	../framework/log.c	/^int module_log_load(int argc, char * argv[])$/;"	f
+module_log_reload	../framework/log.c	/^int module_log_reload()$/;"	f
+module_log_unload	../framework/log.c	/^void module_log_unload()$/;"	f
+module_log_update	../framework/log.c	/^void module_log_update(time_t now)$/;"	f
+module_protocol_load	protocol.c	/^int module_protocol_load(int argc, char * argv[]) $/;"	f
+module_protocol_reload	protocol.c	/^int module_protocol_reload()$/;"	f
+module_protocol_unload	protocol.c	/^void module_protocol_unload()$/;"	f
+module_protocol_update	protocol.c	/^void module_protocol_update(time_t now)$/;"	f
+module_record_load	record.c	/^int module_record_load(int argc, char * argv[])$/;"	f
+module_record_reload	record.c	/^int module_record_reload()$/;"	f
+module_record_unload	record.c	/^void module_record_unload()$/;"	f
+module_record_update	record.c	/^void module_record_update(time_t now)$/;"	f
+module_time_load	../framework/mtime.c	/^int module_time_load(int argc, char * argv[])$/;"	f
+module_time_reload	../framework/mtime.c	/^int module_time_reload()$/;"	f
+module_time_unload	../framework/mtime.c	/^void module_time_unload()$/;"	f
+module_time_update	../framework/mtime.c	/^void module_time_update(time_t now)$/;"	f
+module_world_load	world.c	/^int module_world_load(int argc, char * argv[])$/;"	f
+module_world_reload	world.c	/^int module_world_reload()$/;"	f
+module_world_unload	world.c	/^void module_world_unload()$/;"	f
+module_world_update	world.c	/^void module_world_update(time_t now)$/;"	f
+msg	../framework/md5.c	/^static char *msg[] = $/;"	v	file:
+mutex	../framework/memory.c	/^static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mxml_attr_s	../include/mxml.h	/^typedef struct mxml_attr_s		\/**** An XML element attribute value. @private@ ****\/$/;"	s
+mxml_attr_t	../include/mxml.h	/^} mxml_attr_t;$/;"	t	typeref:struct:mxml_attr_s
+mxml_custom_destroy_cb_t	../include/mxml.h	/^typedef void (*mxml_custom_destroy_cb_t)(void *);$/;"	t
+mxml_custom_load_cb_t	../include/mxml.h	/^typedef int (*mxml_custom_load_cb_t)(mxml_node_t *, const char *);$/;"	t
+mxml_custom_s	../include/mxml.h	/^typedef struct mxml_custom_s		\/**** An XML custom value. @private@ ****\/$/;"	s
+mxml_custom_save_cb_t	../include/mxml.h	/^typedef char *(*mxml_custom_save_cb_t)(mxml_node_t *);  $/;"	t
+mxml_custom_t	../include/mxml.h	/^} mxml_custom_t;$/;"	t	typeref:struct:mxml_custom_s
+mxml_element_s	../include/mxml.h	/^typedef struct mxml_element_s		\/**** An XML element value. @private@ ****\/$/;"	s
+mxml_element_t	../include/mxml.h	/^} mxml_element_t;$/;"	t	typeref:struct:mxml_element_s
+mxml_entity_cb_t	../include/mxml.h	/^typedef int (*mxml_entity_cb_t)(const char *);$/;"	t
+mxml_error_cb_t	../include/mxml.h	/^typedef void (*mxml_error_cb_t)(const char *);  $/;"	t
+mxml_index_s	../include/mxml.h	/^struct mxml_index_s			 \/**** An XML node index. @private@ ****\/$/;"	s
+mxml_index_t	../include/mxml.h	/^typedef struct mxml_index_s mxml_index_t;$/;"	t	typeref:struct:mxml_index_s
+mxml_load_cb_t	../include/mxml.h	/^typedef mxml_type_t (*mxml_load_cb_t)(mxml_node_t *);$/;"	t
+mxml_node_s	../include/mxml.h	/^struct mxml_node_s			\/**** An XML node. @private@ ****\/$/;"	s
+mxml_node_t	../include/mxml.h	/^typedef struct mxml_node_s mxml_node_t;	\/**** An XML node. ****\/$/;"	t	typeref:struct:mxml_node_s
+mxml_save_cb_t	../include/mxml.h	/^typedef const char *(*mxml_save_cb_t)(mxml_node_t *, int);$/;"	t
+mxml_sax_cb_t	../include/mxml.h	/^typedef void (*mxml_sax_cb_t)(mxml_node_t *, mxml_sax_event_t, void *);  $/;"	t
+mxml_sax_event_e	../include/mxml.h	/^typedef enum mxml_sax_event_e		\/**** SAX event type. ****\/$/;"	g
+mxml_sax_event_t	../include/mxml.h	/^} mxml_sax_event_t;$/;"	t	typeref:enum:mxml_sax_event_e
+mxml_text_s	../include/mxml.h	/^typedef struct mxml_text_s		\/**** An XML text value. @private@ ****\/$/;"	s
+mxml_text_t	../include/mxml.h	/^} mxml_text_t;$/;"	t	typeref:struct:mxml_text_s
+mxml_type_e	../include/mxml.h	/^typedef enum mxml_type_e		\/**** The XML node type. ****\/$/;"	g
+mxml_type_t	../include/mxml.h	/^} mxml_type_t;$/;"	t	typeref:enum:mxml_type_e
+mxml_value_t	../include/mxml.h	/^} mxml_value_t;$/;"	t	typeref:union:mxml_value_u
+mxml_value_u	../include/mxml.h	/^typedef union mxml_value_u		\/**** An XML node value. @private@ ****\/$/;"	u
+mysql	database.h	/^	MYSQL * mysql;$/;"	m	struct:DBHandler
+name	../framework/log.c	/^	char   name[256];$/;"	m	struct:logger	file:
+name	../framework/module.h	/^	const char * name;$/;"	m	struct:module
+name	../include/lauxlib.h	/^  const char *name;$/;"	m	struct:luaL_Reg
+name	../include/lua.h	/^  const char *name;	\/* (n) *\/$/;"	m	struct:lua_Debug
+name	../include/mxml.h	/^  char			*name;		\/* Attribute name *\/$/;"	m	struct:mxml_attr_s
+name	../include/mxml.h	/^  char			*name;		\/* Name of element *\/$/;"	m	struct:mxml_element_s
+name	../include/pbc.h	/^		const char * name;$/;"	m	struct:pbc_value::__anon11
+name	account.h	/^	char name[128];$/;"	m	struct:account
+name	authserver.c	/^	char name[256];$/;"	m	struct:AuthServer	file:
+name	backend.c	/^	char name[256];$/;"	m	struct:Backend	file:
+name	database.h	/^	char name[32];$/;"	m	struct:DBHandler
+name	world.c	/^	char name[64];$/;"	m	struct:WorldConfig	file:
+namewhat	../include/lua.h	/^  const char *namewhat;	\/* (n) `global', `local', `field', `method' *\/$/;"	m	struct:lua_Debug
+net	authserver.c	/^	struct network* net;$/;"	m	struct:tagRPC_DATA	typeref:struct:tagRPC_DATA::network	file:
+network	../framework/network.c	/^struct network$/;"	s	file:
+network_handler	../framework/network.h	/^typedef struct network_handler {$/;"	s
+network_handler	../framework/network.h	/^} network_handler;$/;"	t	typeref:struct:network_handler
+newNode	../framework/xmlHelper.c	/^static xml_node_t * newNode(mxml_node_t * node)$/;"	f	file:
+new_waiting_client	auth.c	/^static void new_waiting_client(resid_t conn)$/;"	f	file:
+next	../framework/amf.c	/^		struct amf_value * next;$/;"	m	union:amf_value::__anon3	typeref:struct:amf_value::__anon3::amf_value	file:
+next	../framework/dlist.h	/^    struct dlist_node * next;$/;"	m	struct:dlist_node	typeref:struct:dlist_node::dlist_node
+next	../framework/hash.c	/^	struct element * next;$/;"	m	struct:element	typeref:struct:element::element	file:
+next	../framework/lrm.c	/^	struct lresource * next;	\/\/ next == 0 表示正在使用$/;"	m	struct:lresource	typeref:struct:lresource::lresource	file:
+next	../framework/map.h	/^	struct map_element * next;$/;"	m	struct:map_element	typeref:struct:map_element::map_element
+next	../framework/memory.c	/^	struct heap_page * next;$/;"	m	struct:heap_page	typeref:struct:heap_page::heap_page	file:
+next	../framework/network.c	/^	struct conn * next;$/;"	m	struct:conn	typeref:struct:conn::conn	file:
+next	../framework/xmlHelper.c	/^	xml_node_t * next;$/;"	m	struct:xml_node_t	file:
+next	../include/mxml.h	/^  struct mxml_node_s	*next;		\/* Next node under same parent *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+next	auth.c	/^	struct waiting_client * next;$/;"	m	struct:waiting_client	typeref:struct:waiting_client::waiting_client	file:
+next	authserver.c	/^	struct tagRPC_DATA *next;$/;"	m	struct:tagRPC_DATA	typeref:struct:tagRPC_DATA::tagRPC_DATA	file:
+next	client.h	/^	struct client * next;$/;"	m	struct:client	typeref:struct:client::client
+next	record.c	/^	struct RecordInfo * next;$/;"	m	struct:RecordInfo	typeref:struct:RecordInfo::RecordInfo	file:
+next_sn	authserver.c	/^static unsigned int next_sn(){$/;"	f	file:
+node	../framework/xmlHelper.c	/^	mxml_node_t * node;$/;"	m	struct:xml_node_t	file:
+nodes	../include/mxml.h	/^  mxml_node_t		**nodes;	\/* Node array *\/$/;"	m	struct:mxml_index_s
+num_attrs	../include/mxml.h	/^  int			num_attrs;	\/* Number of attributes *\/$/;"	m	struct:mxml_element_s
+num_nodes	../include/mxml.h	/^  int			num_nodes;	\/* Number of nodes in index *\/$/;"	m	struct:mxml_index_s
+nups	../include/lua.h	/^  int nups;		\/* (u) number of upvalues *\/$/;"	m	struct:lua_Debug
+objsize	../framework/lrm.c	/^	size_t objsize;$/;"	m	struct:lrm	file:
+offset	../framework/mfile.c	/^	uint32_t offset;$/;"	m	struct:MFileIndex	file:
+ok	world.c	/^	int ok;$/;"	m	struct:WorldConfig	file:
+on_accept	../framework/network.h	/^	void   (*on_accept)   (struct network * net, resid_t l, resid_t c, void * ctx);$/;"	m	struct:network_handler
+on_accept	listener.c	/^static void on_accept(struct network * net, resid_t l, resid_t c, void * ctx)$/;"	f	file:
+on_closed	../framework/network.h	/^	void   (*on_closed)   (struct network * net, resid_t c, int error, void * ctx);$/;"	m	struct:network_handler
+on_closed	auth.c	/^static void on_closed(struct network * net, resid_t conn, int reason, void * ctx)$/;"	f	file:
+on_closed	authserver.c	/^static void on_closed(struct network * net, resid_t c, int error, void * ctx)$/;"	f	file:
+on_closed	backend.c	/^static void on_closed(struct network * net, resid_t c, int error, void * ctx)$/;"	f	file:
+on_closed	listener.c	/^static void on_closed(struct network * net, resid_t c, int error, void * ctx)$/;"	f	file:
+on_closed	translate.c	/^static void on_closed(struct network * net, resid_t conn, int error, void * ctx)$/;"	f	file:
+on_closed	world.c	/^static void on_closed(struct network * net, resid_t c, int error, void * ctx)$/;"	f	file:
+on_closed_client	authserver.c	/^static void   on_closed_client(struct network * net, resid_t c, int error, void * ctx)$/;"	f	file:
+on_connected	../framework/network.h	/^	void   (*on_connected)(struct network * net, resid_t c, void * ctx);$/;"	m	struct:network_handler
+on_connected	authserver.c	/^static void on_connected(struct network * net, resid_t c, void * ctx)$/;"	f	file:
+on_connected	backend.c	/^static void on_connected(struct network * net, resid_t c, void * ctx)$/;"	f	file:
+on_connected	world.c	/^static void on_connected(struct network * net, resid_t c, void * ctx)$/;"	f	file:
+on_load	../framework/module.h	/^	int  (*on_load)(int argc, char * argv[]);$/;"	m	struct:module
+on_message	../framework/network.h	/^	size_t (*on_message)  (struct network * net, resid_t c, const char * msg, size_t len, void * ctx);$/;"	m	struct:network_handler
+on_message	authserver.c	/^static size_t on_message(struct network * net, resid_t conn, const char * data, size_t len, void * ctx)$/;"	f	file:
+on_message	backend.c	/^static size_t on_message(struct network * net, resid_t conn, const char * data, size_t len, void * ctx)$/;"	f	file:
+on_message_client	authserver.c	/^static size_t on_message_client(struct network * net, resid_t c, const char * msg, size_t len, void * ctx)$/;"	f	file:
+on_reload	../framework/module.h	/^	int  (*on_reload)();$/;"	m	struct:module
+on_signal	../framework/service.c	/^static void on_signal(int sig)$/;"	f	file:
+on_unload	../framework/module.h	/^	void (*on_unload)();$/;"	m	struct:module
+on_update	../framework/module.h	/^	void (*on_update)(time_t now);$/;"	m	struct:module
+opaque	../include/mxml.h	/^  char			*opaque;	\/* Opaque string *\/$/;"	m	union:mxml_value_u
+p	../framework/array.c	/^	void * p[1];$/;"	m	struct:array	file:
+p	../include/lauxlib.h	/^  char *p;			\/* current position in buffer *\/$/;"	m	struct:luaL_Buffer
+package_data	authserver.c	/^	void* package_data;$/;"	m	struct:tagRPC_DATA	file:
+package_len	authserver.c	/^	size_t package_len;$/;"	m	struct:tagRPC_DATA	file:
+parent	../include/mxml.h	/^  struct mxml_node_s	*parent;	\/* Parent node *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+parseBackendConfig	backend.c	/^static int parseBackendConfig(xml_node_t * node, void * ctx)$/;"	f	file:
+parseID	record.c	/^int parseID(xml_node_t * node ,void * data)$/;"	f
+parseListenConfig	listener.c	/^static int parseListenConfig(xml_node_t * node, void * data)$/;"	f	file:
+parseWorldConfig	world.c	/^static int parseWorldConfig(xml_node_t * node, void * data)$/;"	f	file:
+passwd	database.h	/^	char passwd[64];$/;"	m	struct:DBHandler
+pbc_array	../include/pbc.h	/^typedef struct _pbc_array { char _data[PBC_ARRAY_CAP]; } pbc_array[1];$/;"	t	typeref:struct:_pbc_array
+pbc_decoder	../include/pbc.h	/^typedef void (*pbc_decoder)(void *ud, int type, const char * type_name, union pbc_value *v, int id, const char *key);$/;"	t
+pbc_message	amf_pbc.c	/^struct pbc_message {$/;"	s	file:
+pbc_rmessage_int64	../framework/pbc_int64.c	/^int64_t pbc_rmessage_int64(struct pbc_rmessage * msg, const char * key, int idx)$/;"	f
+pbc_slice	../include/pbc.h	/^struct pbc_slice {$/;"	s
+pbc_value	../include/pbc.h	/^union pbc_value {$/;"	u
+pbc_wmessage_int64	../framework/pbc_int64.c	/^void pbc_wmessage_int64(struct pbc_wmessage * msg, const char * key, int64_t value)$/;"	f
+pid	authserver.c	/^	unsigned long long pid;$/;"	m	struct:tagRPC_DATA	file:
+pipe	../framework/pipe.c	/^struct pipe {$/;"	s	file:
+player_count	world.c	/^	int player_count;$/;"	m	struct:WorldConfig	file:
+playerid	../framework/package.h	/^	unsigned long long playerid;$/;"	m	struct:translate_header
+playerid	account.h	/^	unsigned long long playerid;$/;"	m	struct:account
+playerid	client.h	/^	unsigned long long playerid;$/;"	m	struct:client
+port	authserver.c	/^	int  port;$/;"	m	struct:AuthServer	file:
+port	backend.c	/^	int  port;$/;"	m	struct:Backend	file:
+port	database.h	/^	int  port;$/;"	m	struct:DBHandler
+port	world.c	/^	short port;$/;"	m	struct:WorldConfig	file:
+port_base	backend.c	/^unsigned int port_base = 9810;$/;"	v
+port_base	world.c	/^static unsigned int port_base = 9810;$/;"	v	file:
+prev	../framework/dlist.h	/^    struct dlist_node * prev;$/;"	m	struct:dlist_node	typeref:struct:dlist_node::dlist_node
+prev	../include/mxml.h	/^  struct mxml_node_s	*prev;		\/* Previous node under same parent *\/$/;"	m	struct:mxml_node_s	typeref:struct:mxml_node_s::mxml_node_s
+prev	auth.c	/^	struct waiting_client * prev;$/;"	m	struct:waiting_client	typeref:struct:waiting_client::waiting_client	file:
+prev	authserver.c	/^	struct tagRPC_DATA *prev;$/;"	m	struct:tagRPC_DATA	typeref:struct:tagRPC_DATA::tagRPC_DATA	file:
+prev	client.h	/^	struct client * prev;$/;"	m	struct:client	typeref:struct:client::client
+process_conn_message	../framework/network.c	/^static size_t process_conn_message(struct network * net, struct conn * c, char * data, size_t len)$/;"	f	file:
+process_message	auth.c	/^static size_t process_message(struct network * net,$/;"	f	file:
+process_message	translate.c	/^static size_t process_message(struct network * net, $/;"	f	file:
+process_message	world.c	/^static size_t process_message(struct network * net, resid_t conn,$/;"	f	file:
+protocol	gateway.c	/^	IMPORT_MODULE(protocol),$/;"	v
+protocol	protocol.h	/^DECLARE_MODULE(protocol);$/;"	v
+protocol_decode_amf	protocol.c	/^struct pbc_wmessage * protocol_decode_amf(const char * name, const char * data, size_t len)$/;"	f
+protocol_encode_amf	protocol.c	/^size_t protocol_encode_amf(char * data, size_t len, struct pbc_rmessage * msg)$/;"	f
+protocol_flag	client.h	/^	unsigned int protocol_flag;$/;"	m	struct:client
+protocol_new_r	protocol.c	/^struct pbc_rmessage * protocol_new_r(const char * name, const char * ptr, size_t len)$/;"	f
+protocol_new_w	protocol.c	/^struct pbc_wmessage * protocol_new_w(const char * name)$/;"	f
+ptr	../framework/amf.c	/^	const char * ptr;$/;"	m	struct:__anon2	file:
+ptr	database.h	/^	void * ptr;$/;"	m	struct:slice
+rbuf	../framework/network.c	/^	struct buffer * rbuf;$/;"	m	struct:conn	typeref:struct:conn::buffer	file:
+read_file	protocol.c	/^static void read_file (const char *filename , struct pbc_slice *slice) {$/;"	f	file:
+real	../include/mxml.h	/^  double		real;		\/* Real number *\/$/;"	m	union:mxml_value_u
+record	record.c	/^void record(unsigned int id, const char * msg, size_t len)$/;"	f
+ref_count	../include/mxml.h	/^  int			ref_count;	\/* Use count *\/$/;"	m	struct:mxml_node_s
+remove_waiting	auth.c	/^void remove_waiting(resid_t conn)$/;"	f
+reopen_log_file	../framework/log.c	/^static FILE * reopen_log_file(const char * name, time_t now)$/;"	f	file:
+resid_t	../framework/lrm.h	/^typedef unsigned int resid_t; $/;"	t
+resid_t	../framework/network.h	/^typedef unsigned int resid_t; $/;"	t
+resource_list_end	../framework/lrm.c	/^static struct lresource resource_list_end;$/;"	v	typeref:struct:lresource	file:
+respond_auth	auth.c	/^void respond_auth(resid_t conn, unsigned int sn, unsigned int result){$/;"	f
+respond_auth_fail_and_close	auth.c	/^void respond_auth_fail_and_close(resid_t conn, unsigned int sn, unsigned int result){$/;"	f
+revert	../framework/mfile.c	/^	char  revert[12];$/;"	m	struct:MFileHeader	file:
+revert	../framework/mfile.c	/^	uint32_t revert;$/;"	m	struct:MFileIndex	file:
+rname	protocol.c	/^const char * rname(const char * name, char * buffer, size_t len)$/;"	f
+root	../framework/xmlHelper.c	/^	xml_node_t * root;$/;"	m	struct:xml_doc_t	file:
+row	../framework/matrix.c	/^	MatrixRow ** row;$/;"	m	struct:Matrix	file:
+rpos	../framework/buffer.c	/^	size_t rpos;$/;"	m	struct:buffer	file:
+s	../framework/array.c	/^	size_t s;$/;"	m	struct:array	file:
+s	../framework/map.h	/^		const char * s;$/;"	m	union:map_element::__anon5
+s	../include/pbc.h	/^	struct pbc_slice s;$/;"	m	union:pbc_value	typeref:struct:pbc_value::pbc_slice
+send_backend_message	translate.c	/^static int send_backend_message(struct client * c, unsigned int cmd, unsigned int flag, const char * msg, size_t msg_len)$/;"	f	file:
+send_logout	translate.c	/^static void send_logout(client * c)$/;"	f	file:
+send_logout_to_backend	world.c	/^static void send_logout_to_backend(unsigned long long playerid)$/;"	f	file:
+service_init	../framework/service.c	/^int service_init(int argc, char * argv[])$/;"	f
+service_reload	../framework/service.c	/^int service_reload()$/;"	f
+service_unload	../framework/service.c	/^void service_unload()$/;"	f
+service_update	../framework/service.c	/^void service_update(time_t now)$/;"	f
+setnblock	../framework/base.c	/^int setnblock(int fd)$/;"	f
+setreuse	../framework/base.c	/^static int setreuse(int fd)$/;"	f	file:
+shm_attach	../framework/shm.c	/^void * shm_attach(const char * name, int id)$/;"	f
+shm_create	../framework/shm.c	/^void * shm_create(const char * name, int id, size_t size)$/;"	f
+shm_destory	../framework/shm.c	/^void   shm_destory(const char * name, int id)$/;"	f
+short_src	../include/lua.h	/^  char short_src[LUA_IDSIZE]; \/* (S) *\/$/;"	m	struct:lua_Debug
+sinteger	../framework/amf.c	/^		int32_t  sinteger;$/;"	m	union:amf_value::__anon3	file:
+size	../framework/amf.c	/^	size_t size;$/;"	m	struct:amf_value	file:
+size	../framework/buffer.c	/^	size_t size;$/;"	m	struct:buffer	file:
+size	../framework/codequeue.c	/^	size_t size;$/;"	m	struct:codequeue	file:
+size	../framework/memory.c	/^	int size;$/;"	m	struct:heap	file:
+size	../framework/mfile.c	/^	uint32_t size;$/;"	m	struct:MFileIndex	file:
+slice	database.h	/^struct slice {$/;"	s
+sn	../framework/package.h	/^	uint32_t sn;$/;"	m	struct:translate_header
+sn	authserver.c	/^	unsigned int sn;$/;"	m	struct:tagRPC_DATA	file:
+socket	database.h	/^	char socket[256];$/;"	m	struct:DBHandler
+socktoaddr	../framework/base.c	/^static int socktoaddr(const char* host, unsigned short port, $/;"	f	file:
+source	../include/lua.h	/^  const char *source;	\/* (S) *\/$/;"	m	struct:lua_Debug
+start_auth	auth.c	/^void start_auth(resid_t conn)$/;"	f
+start_authserver	authserver.c	/^void start_authserver(resid_t conn, void* ctx)$/;"	f
+start_time	auth.c	/^	time_t start_time;$/;"	m	struct:waiting_client	file:
+start_translate	translate.c	/^void start_translate(resid_t conn, client* c, struct network* net, void* package_data, size_t package_len)$/;"	f
+state	../framework/md5.h	/^	uint32 state[4];$/;"	m	struct:__anon6
+status	../framework/network.c	/^	enum conn_status status;$/;"	m	struct:conn	typeref:enum:conn::conn_status	file:
+stop	../framework/network.c	/^	int stop;$/;"	m	struct:network	file:
+string	../framework/amf.c	/^		char * string;$/;"	m	union:amf_value::__anon3	file:
+string	../include/mxml.h	/^  char			*string;	\/* Fragment string *\/$/;"	m	struct:mxml_text_s
+string_ref	../framework/amf.c	/^} string_ref[1024];$/;"	v	typeref:struct:__anon2	file:
+tag	../framework/mfile.c	/^	uint32_t tag;	$/;"	m	struct:MFileHeader	file:
+tagRPC_DATA	authserver.c	/^typedef struct tagRPC_DATA{$/;"	s	file:
+text	../include/mxml.h	/^  mxml_text_t		text;		\/* Text fragment *\/$/;"	m	union:mxml_value_u
+tick	../framework/network.c	/^	} tick;$/;"	m	struct:network	typeref:struct:network::__anon8	file:
+time	../framework/mfile.c	/^	uint32_t time;$/;"	m	struct:MFileIndex	file:
+time	../framework/mtime.h	/^DECLARE_MODULE(time);$/;"	v
+timeout	authserver.c	/^	int  timeout;$/;"	m	struct:AuthServer	file:
+timeout	backend.c	/^	int  timeout;$/;"	m	struct:Backend	file:
+timer	../framework/main.c	/^static void timer(time_t t, void * ctx)$/;"	f	file:
+timer	../framework/network.c	/^	} timer;$/;"	m	struct:network	typeref:struct:network::__anon7	file:
+timesub	../framework/network.c	/^static int timesub(struct timeval * t1, struct timeval * t2)$/;"	f	file:
+token	authserver.c	/^	char token[128];$/;"	m	struct:tagRPC_DATA	file:
+topen	../framework/log.c	/^	time_t topen;$/;"	m	struct:logger	file:
+total	../framework/md5.h	/^	uint32 total[2];$/;"	m	struct:__anon6
+translateEnv	../framework/xmlHelper.c	/^static const char * translateEnv(const char * text)$/;"	f	file:
+translate_handle	translate.c	/^static struct network_handler translate_handle = {0};$/;"	v	typeref:struct:network_handler	file:
+translate_header	../framework/package.h	/^struct translate_header {$/;"	s
+translate_header	translate.c	/^typedef struct translate_header translate_header;$/;"	t	typeref:struct:translate_header	file:
+translate_to_client	world.c	/^static void translate_to_client(struct translate_header * header)$/;"	f	file:
+tree	../framework/xmlHelper.c	/^	mxml_node_t * tree;$/;"	m	struct:xml_doc_t	file:
+type	../framework/amf.c	/^	enum amf_type type;$/;"	m	struct:amf_value	typeref:enum:amf_value::amf_type	file:
+type	../include/mxml.h	/^  mxml_type_t		type;		\/* Node type *\/$/;"	m	struct:mxml_node_s
+type	amf_pbc.c	/^	struct _message * type;$/;"	m	struct:pbc_message	typeref:struct:pbc_message::_message	file:
+uint32	../framework/md5.h	9;"	d
+uint8	../framework/md5.h	5;"	d
+unlock	../framework/memory.c	/^static void unlock()$/;"	f	file:
+used	../framework/memory.c	/^	int used;$/;"	m	struct:heap	file:
+user	database.h	/^	char user[64];$/;"	m	struct:DBHandler
+user_data	../include/mxml.h	/^  void			*user_data;	\/* User data *\/$/;"	m	struct:mxml_node_s
+user_logger	../framework/userlog.c	/^static struct logger * user_logger[MAX_USER_LOGGER_COUNT] = {0};$/;"	v	typeref:struct:logger	file:
+user_logger_flush_time	../framework/userlog.c	/^static long long user_logger_flush_time[MAX_USER_LOGGER_COUNT] ={0};$/;"	v	file:
+user_logger_name	../framework/userlog.c	/^static const char* user_logger_name[MAX_USER_LOGGER_COUNT] ={$/;"	v	file:
+val	../framework/md5.c	/^static char *val[] =$/;"	v	file:
+value	../framework/map.h	/^	void * value;$/;"	m	struct:map_element
+value	../framework/matrix.c	/^	char * value;$/;"	m	struct:MatrixField	file:
+value	../include/mxml.h	/^  char			*value;		\/* Attribute value *\/$/;"	m	struct:mxml_attr_s
+value	../include/mxml.h	/^  mxml_value_t		value;		\/* Node value *\/$/;"	m	struct:mxml_node_s
+vip	client.h	/^	unsigned int vip;$/;"	m	struct:client
+vip2	client.h	/^	unsigned int vip2;$/;"	m	struct:client
+waiting_client	auth.c	/^struct waiting_client {$/;"	s	file:
+wbuf	../framework/network.c	/^	struct buffer * wbuf;$/;"	m	struct:conn	typeref:struct:conn::buffer	file:
+what	../include/lua.h	/^  const char *what;	\/* (S) `Lua', `C', `main', `tail' *\/$/;"	m	struct:lua_Debug
+whitespace	../include/mxml.h	/^  int			whitespace;	\/* Leading whitespace? *\/$/;"	m	struct:mxml_text_s
+wmap	auth.c	/^static struct map * wmap = 0;$/;"	v	typeref:struct:map	file:
+world	client.h	/^	unsigned int world;$/;"	m	struct:client
+world	world.h	/^DECLARE_MODULE(world);$/;"	v
+world_config	world.c	/^static WorldConfig world_config [10];$/;"	v	file:
+world_get_idle_world	world.c	/^unsigned int world_get_idle_world(unsigned long long pid)$/;"	f
+world_handler	world.c	/^static struct network_handler world_handler = {0};$/;"	v	typeref:struct:network_handler	file:
+world_increase_player	world.c	/^int world_increase_player(unsigned int world)$/;"	f
+world_is_valid	world.c	/^int world_is_valid(unsigned int world)$/;"	f
+world_reduce_player	world.c	/^int world_reduce_player(unsigned int world)$/;"	f
+world_send_message	world.c	/^int world_send_message(unsigned int world, unsigned long long playerid, unsigned int cmd, unsigned int flag, const void * msg, int len)$/;"	f
+wpos	../framework/buffer.c	/^	size_t wpos;$/;"	m	struct:buffer	file:
+wqueue	auth.c	/^static struct waiting_client * wqueue = 0;$/;"	v	typeref:struct:waiting_client	file:
+xmlClose	../framework/xmlHelper.c	/^void xmlClose(xml_doc_t * doc)$/;"	f
+xmlDocGetRoot	../framework/xmlHelper.c	/^xml_node_t * xmlDocGetRoot(xml_doc_t * doc)$/;"	f
+xmlGetAttribute	../framework/xmlHelper.c	/^const char * xmlGetAttribute(xml_node_t * node, const char * attribute, const char * def)$/;"	f
+xmlGetAttributeCount	../framework/xmlHelper.c	/^unsigned int xmlGetAttributeCount(xml_node_t * node)$/;"	f
+xmlGetAttributeN	../framework/xmlHelper.c	/^const char * xmlGetAttributeN(xml_node_t * node, unsigned int n, const char ** key)$/;"	f
+xmlGetChild	../framework/xmlHelper.c	205;"	d	file:
+xmlGetChild	../framework/xmlHelper.h	26;"	d
+xmlGetChild_	../framework/xmlHelper.c	/^xml_node_t * xmlGetChild_(xml_node_t * node, ...)$/;"	f
+xmlGetFirstChild	../framework/xmlHelper.c	/^xml_node_t * xmlGetFirstChild(xml_node_t * node)$/;"	f
+xmlGetName	../framework/xmlHelper.c	/^const char * xmlGetName(xml_node_t * node)$/;"	f
+xmlGetNextSibling	../framework/xmlHelper.c	/^xml_node_t * xmlGetNextSibling(xml_node_t * node)$/;"	f
+xmlGetValue	../framework/xmlHelper.c	/^const char * xmlGetValue(xml_node_t * node, const char * def)$/;"	f
+xmlOpen	../framework/xmlHelper.c	/^xml_doc_t  * xmlOpen(const char * file)$/;"	f
+xml_doc_t	../framework/xmlHelper.c	/^struct xml_doc_t {$/;"	s	file:
+xml_doc_t	../framework/xmlHelper.h	/^typedef struct xml_doc_t  xml_doc_t;$/;"	t	typeref:struct:xml_doc_t
+xml_node_t	../framework/xmlHelper.c	/^struct xml_node_t {$/;"	s	file:
+xml_node_t	../framework/xmlHelper.h	/^typedef struct xml_node_t xml_node_t;$/;"	t	typeref:struct:xml_node_t

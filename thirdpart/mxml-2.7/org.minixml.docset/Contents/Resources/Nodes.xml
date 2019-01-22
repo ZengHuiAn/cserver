@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+<TOC>
+<Node id="0">
+<Name>Mini-XML API Reference</Name>
+<Path>Documentation/index.html</Path>
+<Subnodes>
+<Node id="1">
+<Path>Documentation/index.html</Path>
+<Anchor>INTRODUCTION</Anchor>
+<Name>Introduction</Name>
+</Node>
+<Node id="2">
+<Path>Documentation/index.html</Path>
+<Anchor>USING</Anchor>
+<Name>Using Mini-XML</Name>
+</Node>
+<Node id="3">
+<Path>Documentation/index.html</Path>
+<Anchor>FUNCTIONS</Anchor>
+<Name>Functions</Name>
+<Subnodes>
+<Node id="4">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlAdd</Anchor>
+<Name>mxmlAdd</Name>
+</Node>
+<Node id="5">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlDelete</Anchor>
+<Name>mxmlDelete</Name>
+</Node>
+<Node id="6">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementDeleteAttr</Anchor>
+<Name>mxmlElementDeleteAttr</Name>
+</Node>
+<Node id="7">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementGetAttr</Anchor>
+<Name>mxmlElementGetAttr</Name>
+</Node>
+<Node id="8">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementSetAttr</Anchor>
+<Name>mxmlElementSetAttr</Name>
+</Node>
+<Node id="9">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementSetAttrf</Anchor>
+<Name>mxmlElementSetAttrf</Name>
+</Node>
+<Node id="10">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityAddCallback</Anchor>
+<Name>mxmlEntityAddCallback</Name>
+</Node>
+<Node id="11">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityGetName</Anchor>
+<Name>mxmlEntityGetName</Name>
+</Node>
+<Node id="12">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityGetValue</Anchor>
+<Name>mxmlEntityGetValue</Name>
+</Node>
+<Node id="13">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityRemoveCallback</Anchor>
+<Name>mxmlEntityRemoveCallback</Name>
+</Node>
+<Node id="14">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlFindElement</Anchor>
+<Name>mxmlFindElement</Name>
+</Node>
+<Node id="15">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlFindPath</Anchor>
+<Name>mxmlFindPath</Name>
+</Node>
+<Node id="16">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetCDATA</Anchor>
+<Name>mxmlGetCDATA</Name>
+</Node>
+<Node id="17">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetCustom</Anchor>
+<Name>mxmlGetCustom</Name>
+</Node>
+<Node id="18">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetElement</Anchor>
+<Name>mxmlGetElement</Name>
+</Node>
+<Node id="19">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetFirstChild</Anchor>
+<Name>mxmlGetFirstChild</Name>
+</Node>
+<Node id="20">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetInteger</Anchor>
+<Name>mxmlGetInteger</Name>
+</Node>
+<Node id="21">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetLastChild</Anchor>
+<Name>mxmlGetLastChild</Name>
+</Node>
+<Node id="22">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetNextSibling</Anchor>
+<Name>mxmlGetNextSibling</Name>
+</Node>
+<Node id="23">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetOpaque</Anchor>
+<Name>mxmlGetOpaque</Name>
+</Node>
+<Node id="24">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetParent</Anchor>
+<Name>mxmlGetParent</Name>
+</Node>
+<Node id="25">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetPrevSibling</Anchor>
+<Name>mxmlGetPrevSibling</Name>
+</Node>
+<Node id="26">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetReal</Anchor>
+<Name>mxmlGetReal</Name>
+</Node>
+<Node id="27">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetRefCount</Anchor>
+<Name>mxmlGetRefCount</Name>
+</Node>
+<Node id="28">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetText</Anchor>
+<Name>mxmlGetText</Name>
+</Node>
+<Node id="29">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetType</Anchor>
+<Name>mxmlGetType</Name>
+</Node>
+<Node id="30">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetUserData</Anchor>
+<Name>mxmlGetUserData</Name>
+</Node>
+<Node id="31">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexDelete</Anchor>
+<Name>mxmlIndexDelete</Name>
+</Node>
+<Node id="32">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexEnum</Anchor>
+<Name>mxmlIndexEnum</Name>
+</Node>
+<Node id="33">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexFind</Anchor>
+<Name>mxmlIndexFind</Name>
+</Node>
+<Node id="34">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexGetCount</Anchor>
+<Name>mxmlIndexGetCount</Name>
+</Node>
+<Node id="35">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexNew</Anchor>
+<Name>mxmlIndexNew</Name>
+</Node>
+<Node id="36">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexReset</Anchor>
+<Name>mxmlIndexReset</Name>
+</Node>
+<Node id="37">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlLoadFd</Anchor>
+<Name>mxmlLoadFd</Name>
+</Node>
+<Node id="38">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlLoadFile</Anchor>
+<Name>mxmlLoadFile</Name>
+</Node>
+<Node id="39">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlLoadString</Anchor>
+<Name>mxmlLoadString</Name>
+</Node>
+<Node id="40">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewCDATA</Anchor>
+<Name>mxmlNewCDATA</Name>
+</Node>
+<Node id="41">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewCustom</Anchor>
+<Name>mxmlNewCustom</Name>
+</Node>
+<Node id="42">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewElement</Anchor>
+<Name>mxmlNewElement</Name>
+</Node>
+<Node id="43">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewInteger</Anchor>
+<Name>mxmlNewInteger</Name>
+</Node>
+<Node id="44">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewOpaque</Anchor>
+<Name>mxmlNewOpaque</Name>
+</Node>
+<Node id="45">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewReal</Anchor>
+<Name>mxmlNewReal</Name>
+</Node>
+<Node id="46">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewText</Anchor>
+<Name>mxmlNewText</Name>
+</Node>
+<Node id="47">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewTextf</Anchor>
+<Name>mxmlNewTextf</Name>
+</Node>
+<Node id="48">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewXML</Anchor>
+<Name>mxmlNewXML</Name>
+</Node>
+<Node id="49">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlRelease</Anchor>
+<Name>mxmlRelease</Name>
+</Node>
+<Node id="50">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlRemove</Anchor>
+<Name>mxmlRemove</Name>
+</Node>
+<Node id="51">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlRetain</Anchor>
+<Name>mxmlRetain</Name>
+</Node>
+<Node id="52">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSAXLoadFd</Anchor>
+<Name>mxmlSAXLoadFd</Name>
+</Node>
+<Node id="53">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSAXLoadFile</Anchor>
+<Name>mxmlSAXLoadFile</Name>
+</Node>
+<Node id="54">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSAXLoadString</Anchor>
+<Name>mxmlSAXLoadString</Name>
+</Node>
+<Node id="55">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveAllocString</Anchor>
+<Name>mxmlSaveAllocString</Name>
+</Node>
+<Node id="56">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveFd</Anchor>
+<Name>mxmlSaveFd</Name>
+</Node>
+<Node id="57">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveFile</Anchor>
+<Name>mxmlSaveFile</Name>
+</Node>
+<Node id="58">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveString</Anchor>
+<Name>mxmlSaveString</Name>
+</Node>
+<Node id="59">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetCDATA</Anchor>
+<Name>mxmlSetCDATA</Name>
+</Node>
+<Node id="60">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetCustom</Anchor>
+<Name>mxmlSetCustom</Name>
+</Node>
+<Node id="61">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetCustomHandlers</Anchor>
+<Name>mxmlSetCustomHandlers</Name>
+</Node>
+<Node id="62">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetElement</Anchor>
+<Name>mxmlSetElement</Name>
+</Node>
+<Node id="63">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetErrorCallback</Anchor>
+<Name>mxmlSetErrorCallback</Name>
+</Node>
+<Node id="64">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetInteger</Anchor>
+<Name>mxmlSetInteger</Name>
+</Node>
+<Node id="65">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetOpaque</Anchor>
+<Name>mxmlSetOpaque</Name>
+</Node>
+<Node id="66">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetReal</Anchor>
+<Name>mxmlSetReal</Name>
+</Node>
+<Node id="67">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetText</Anchor>
+<Name>mxmlSetText</Name>
+</Node>
+<Node id="68">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetTextf</Anchor>
+<Name>mxmlSetTextf</Name>
+</Node>
+<Node id="69">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetUserData</Anchor>
+<Name>mxmlSetUserData</Name>
+</Node>
+<Node id="70">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetWrapMargin</Anchor>
+<Name>mxmlSetWrapMargin</Name>
+</Node>
+<Node id="71">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlWalkNext</Anchor>
+<Name>mxmlWalkNext</Name>
+</Node>
+<Node id="72">
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlWalkPrev</Anchor>
+<Name>mxmlWalkPrev</Name>
+</Node>
+</Subnodes></Node>
+<Node id="73">
+<Path>Documentation/index.html</Path>
+<Anchor>TYPES</Anchor>
+<Name>Data Types</Name>
+<Subnodes>
+<Node id="74">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_custom_destroy_cb_t</Anchor>
+<Name>mxml_custom_destroy_cb_t</Name>
+</Node>
+<Node id="75">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_custom_load_cb_t</Anchor>
+<Name>mxml_custom_load_cb_t</Name>
+</Node>
+<Node id="76">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_custom_save_cb_t</Anchor>
+<Name>mxml_custom_save_cb_t</Name>
+</Node>
+<Node id="77">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_entity_cb_t</Anchor>
+<Name>mxml_entity_cb_t</Name>
+</Node>
+<Node id="78">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_error_cb_t</Anchor>
+<Name>mxml_error_cb_t</Name>
+</Node>
+<Node id="79">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_index_t</Anchor>
+<Name>mxml_index_t</Name>
+</Node>
+<Node id="80">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_load_cb_t</Anchor>
+<Name>mxml_load_cb_t</Name>
+</Node>
+<Node id="81">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_node_t</Anchor>
+<Name>mxml_node_t</Name>
+</Node>
+<Node id="82">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_save_cb_t</Anchor>
+<Name>mxml_save_cb_t</Name>
+</Node>
+<Node id="83">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_cb_t</Anchor>
+<Name>mxml_sax_cb_t</Name>
+</Node>
+<Node id="84">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_t</Anchor>
+<Name>mxml_sax_event_t</Name>
+</Node>
+<Node id="85">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_t</Anchor>
+<Name>mxml_type_t</Name>
+</Node>
+</Subnodes></Node>
+<Node id="86">
+<Path>Documentation/index.html</Path>
+<Anchor>ENUMERATIONS</Anchor>
+<Name>Constants</Name>
+<Subnodes>
+<Node id="87">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<Name>mxml_sax_event_e</Name>
+</Node>
+<Node id="88">
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<Name>mxml_type_e</Name>
+</Node>
+</Subnodes></Node>
+</Subnodes>
+</Node>
+</TOC>
+</DocSetNodes>

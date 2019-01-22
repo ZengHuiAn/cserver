@@ -1,29 +1,29 @@
-*.o
-*.a
-*.so
-thirdpart/
-bin/authserver
-bin/gateway
-bin/gmserver
-bin/server
-bin/world
-bin/watcher
-protocol/*.pb
-code_generate/*.pb
-local.mk
-go/authserver
-go/gmserver
-go/bin/
-server/server
-code_generate/code_generate
-code_generate/data
-code_generate/out.sql
-world/data
-log/
-tags
-code_generate/db_config/
-gateway/version.h
-server/version.h
-world/version.h
-db_script/import_local.sh
-etc/config
+# *.o
+# *.a
+# *.so
+# thirdpart/
+# bin/authserver
+# bin/gateway
+# bin/gmserver
+# bin/server
+# bin/world
+# bin/watcher
+# protocol/*.pb
+# code_generate/*.pb
+# local.mk
+# go/authserver
+# go/gmserver
+# go/bin/
+# server/server
+# code_generate/code_generate
+# code_generate/data
+# code_generate/out.sql
+# world/data
+# log/
+# tags
+# code_generate/db_config/
+# gateway/version.h
+# server/version.h
+# world/version.h
+# db_script/import_local.sh
+# etc/config

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlAdd</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlAdd</TokenIdentifier>
+<Abstract>Add a node to a tree.</Abstract>
+<Declaration>void mxmlAdd(mxml_node_t *parent, int where, mxml_node_t *child, mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlDelete</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlDelete</TokenIdentifier>
+<Abstract>Delete a node and all of its children.</Abstract>
+<Declaration>void mxmlDelete(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementDeleteAttr</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlElementDeleteAttr</TokenIdentifier>
+<Abstract>Delete an attribute.</Abstract>
+<Declaration>void mxmlElementDeleteAttr(mxml_node_t *node, const char *name);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementGetAttr</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlElementGetAttr</TokenIdentifier>
+<Abstract>Get an attribute.</Abstract>
+<Declaration>const char *mxmlElementGetAttr(mxml_node_t *node, const char *name);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementSetAttr</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlElementSetAttr</TokenIdentifier>
+<Abstract>Set an attribute.</Abstract>
+<Declaration>void mxmlElementSetAttr(mxml_node_t *node, const char *name, const char *value);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlElementSetAttrf</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlElementSetAttrf</TokenIdentifier>
+<Abstract>Set an attribute with a formatted value.</Abstract>
+<Declaration>void mxmlElementSetAttrf(mxml_node_t *node, const char *name, const char *format, ...);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityAddCallback</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlEntityAddCallback</TokenIdentifier>
+<Abstract>Add a callback to convert entities to Unicode.</Abstract>
+<Declaration>int mxmlEntityAddCallback(mxml_entity_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityGetName</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlEntityGetName</TokenIdentifier>
+<Abstract>Get the name that corresponds to the character value.</Abstract>
+<Declaration>const char *mxmlEntityGetName(int val);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityGetValue</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlEntityGetValue</TokenIdentifier>
+<Abstract>Get the character corresponding to a named entity.</Abstract>
+<Declaration>int mxmlEntityGetValue(const char *name);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlEntityRemoveCallback</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlEntityRemoveCallback</TokenIdentifier>
+<Abstract>Remove a callback.</Abstract>
+<Declaration>void mxmlEntityRemoveCallback(mxml_entity_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlFindElement</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlFindElement</TokenIdentifier>
+<Abstract>Find the named element.</Abstract>
+<Declaration>mxml_node_t *mxmlFindElement(mxml_node_t *node, mxml_node_t *top, const char *name, const char *attr, const char *value, int descend);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlFindPath</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlFindPath</TokenIdentifier>
+<Abstract>Find a node with the given path.</Abstract>
+<Declaration>mxml_node_t *mxmlFindPath(mxml_node_t *top, const char *path);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetCDATA</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetCDATA</TokenIdentifier>
+<Abstract>Get the value for a CDATA node.</Abstract>
+<Declaration>const char *mxmlGetCDATA(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetCustom</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetCustom</TokenIdentifier>
+<Abstract>Get the value for a custom node.</Abstract>
+<Declaration>const void *mxmlGetCustom(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetElement</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetElement</TokenIdentifier>
+<Abstract>Get the name for an element node.</Abstract>
+<Declaration>const char *mxmlGetElement(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetFirstChild</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetFirstChild</TokenIdentifier>
+<Abstract>Get the first child of an element node.</Abstract>
+<Declaration>mxml_node_t *mxmlGetFirstChild(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetInteger</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetInteger</TokenIdentifier>
+<Abstract>Get the integer value from the specified node or its
+first child.</Abstract>
+<Declaration>int mxmlGetInteger(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetLastChild</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetLastChild</TokenIdentifier>
+<Abstract>Get the last child of an element node.</Abstract>
+<Declaration>mxml_node_t *mxmlGetLastChild(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetNextSibling</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetNextSibling</TokenIdentifier>
+<Abstract>Return the node type...</Abstract>
+<Declaration>mxml_node_t *mxmlGetNextSibling(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetOpaque</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetOpaque</TokenIdentifier>
+<Abstract>Get an opaque string value for a node or its first child.</Abstract>
+<Declaration>const char *mxmlGetOpaque(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetParent</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetParent</TokenIdentifier>
+<Abstract>Get the parent node.</Abstract>
+<Declaration>mxml_node_t *mxmlGetParent(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetPrevSibling</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetPrevSibling</TokenIdentifier>
+<Abstract>Get the previous node for the current parent.</Abstract>
+<Declaration>mxml_node_t *mxmlGetPrevSibling(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetReal</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetReal</TokenIdentifier>
+<Abstract>Get the real value for a node or its first child.</Abstract>
+<Declaration>double mxmlGetReal(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetRefCount</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetRefCount</TokenIdentifier>
+<Abstract>Get the current reference (use) count for a node.</Abstract>
+<Declaration>int mxmlGetRefCount(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetText</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetText</TokenIdentifier>
+<Abstract>Get the text value for a node or its first child.</Abstract>
+<Declaration>const char *mxmlGetText(mxml_node_t *node, int *whitespace);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetType</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetType</TokenIdentifier>
+<Abstract>Get the node type.</Abstract>
+<Declaration>mxml_type_t mxmlGetType(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlGetUserData</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlGetUserData</TokenIdentifier>
+<Abstract>Get the user data pointer for a node.</Abstract>
+<Declaration>void *mxmlGetUserData(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexDelete</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlIndexDelete</TokenIdentifier>
+<Abstract>Delete an index.</Abstract>
+<Declaration>void mxmlIndexDelete(mxml_index_t *ind);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexEnum</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlIndexEnum</TokenIdentifier>
+<Abstract>Return the next node in the index.</Abstract>
+<Declaration>mxml_node_t *mxmlIndexEnum(mxml_index_t *ind);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexFind</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlIndexFind</TokenIdentifier>
+<Abstract>Find the next matching node.</Abstract>
+<Declaration>mxml_node_t *mxmlIndexFind(mxml_index_t *ind, const char *element, const char *value);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexGetCount</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlIndexGetCount</TokenIdentifier>
+<Abstract>Get the number of nodes in an index.</Abstract>
+<Declaration>int mxmlIndexGetCount(mxml_index_t *ind);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexNew</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlIndexNew</TokenIdentifier>
+<Abstract>Create a new index.</Abstract>
+<Declaration>mxml_index_t *mxmlIndexNew(mxml_node_t *node, const char *element, const char *attr);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlIndexReset</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlIndexReset</TokenIdentifier>
+<Abstract>Reset the enumeration/find pointer in the index and
+return the first node in the index.</Abstract>
+<Declaration>mxml_node_t *mxmlIndexReset(mxml_index_t *ind);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlLoadFd</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlLoadFd</TokenIdentifier>
+<Abstract>Load a file descriptor into an XML node tree.</Abstract>
+<Declaration>mxml_node_t *mxmlLoadFd(mxml_node_t *top, int fd, mxml_load_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlLoadFile</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlLoadFile</TokenIdentifier>
+<Abstract>Load a file into an XML node tree.</Abstract>
+<Declaration>mxml_node_t *mxmlLoadFile(mxml_node_t *top, FILE *fp, mxml_load_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlLoadString</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlLoadString</TokenIdentifier>
+<Abstract>Load a string into an XML node tree.</Abstract>
+<Declaration>mxml_node_t *mxmlLoadString(mxml_node_t *top, const char *s, mxml_load_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewCDATA</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewCDATA</TokenIdentifier>
+<Abstract>Create a new CDATA node.</Abstract>
+<Declaration>mxml_node_t *mxmlNewCDATA(mxml_node_t *parent, const char *data);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewCustom</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewCustom</TokenIdentifier>
+<Abstract>Create a new custom data node.</Abstract>
+<Declaration>mxml_node_t *mxmlNewCustom(mxml_node_t *parent, void *data, mxml_custom_destroy_cb_t destroy);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewElement</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewElement</TokenIdentifier>
+<Abstract>Create a new element node.</Abstract>
+<Declaration>mxml_node_t *mxmlNewElement(mxml_node_t *parent, const char *name);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewInteger</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewInteger</TokenIdentifier>
+<Abstract>Create a new integer node.</Abstract>
+<Declaration>mxml_node_t *mxmlNewInteger(mxml_node_t *parent, int integer);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewOpaque</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewOpaque</TokenIdentifier>
+<Abstract>Create a new opaque string.</Abstract>
+<Declaration>mxml_node_t *mxmlNewOpaque(mxml_node_t *parent, const char *opaque);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewReal</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewReal</TokenIdentifier>
+<Abstract>Create a new real number node.</Abstract>
+<Declaration>mxml_node_t *mxmlNewReal(mxml_node_t *parent, double real);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewText</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewText</TokenIdentifier>
+<Abstract>Create a new text fragment node.</Abstract>
+<Declaration>mxml_node_t *mxmlNewText(mxml_node_t *parent, int whitespace, const char *string);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewTextf</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewTextf</TokenIdentifier>
+<Abstract>Create a new formatted text fragment node.</Abstract>
+<Declaration>mxml_node_t *mxmlNewTextf(mxml_node_t *parent, int whitespace, const char *format, ...);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlNewXML</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlNewXML</TokenIdentifier>
+<Abstract>Create a new XML document tree.</Abstract>
+<Declaration>mxml_node_t *mxmlNewXML(const char *version);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlRelease</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlRelease</TokenIdentifier>
+<Abstract>Release a node.</Abstract>
+<Declaration>int mxmlRelease(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlRemove</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlRemove</TokenIdentifier>
+<Abstract>Remove a node from its parent.</Abstract>
+<Declaration>void mxmlRemove(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlRetain</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlRetain</TokenIdentifier>
+<Abstract>Retain a node.</Abstract>
+<Declaration>int mxmlRetain(mxml_node_t *node);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSAXLoadFd</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSAXLoadFd</TokenIdentifier>
+<Abstract>Load a file descriptor into an XML node tree
+using a SAX callback.</Abstract>
+<Declaration>mxml_node_t *mxmlSAXLoadFd(mxml_node_t *top, int fd, mxml_load_cb_t cb, mxml_sax_cb_t sax_cb, void *sax_data);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSAXLoadFile</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSAXLoadFile</TokenIdentifier>
+<Abstract>Load a file into an XML node tree
+using a SAX callback.</Abstract>
+<Declaration>mxml_node_t *mxmlSAXLoadFile(mxml_node_t *top, FILE *fp, mxml_load_cb_t cb, mxml_sax_cb_t sax_cb, void *sax_data);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSAXLoadString</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSAXLoadString</TokenIdentifier>
+<Abstract>Load a string into an XML node tree
+using a SAX callback.</Abstract>
+<Declaration>mxml_node_t *mxmlSAXLoadString(mxml_node_t *top, const char *s, mxml_load_cb_t cb, mxml_sax_cb_t sax_cb, void *sax_data);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveAllocString</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSaveAllocString</TokenIdentifier>
+<Abstract>Save an XML tree to an allocated string.</Abstract>
+<Declaration>char *mxmlSaveAllocString(mxml_node_t *node, mxml_save_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveFd</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSaveFd</TokenIdentifier>
+<Abstract>Save an XML tree to a file descriptor.</Abstract>
+<Declaration>int mxmlSaveFd(mxml_node_t *node, int fd, mxml_save_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveFile</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSaveFile</TokenIdentifier>
+<Abstract>Save an XML tree to a file.</Abstract>
+<Declaration>int mxmlSaveFile(mxml_node_t *node, FILE *fp, mxml_save_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSaveString</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSaveString</TokenIdentifier>
+<Abstract>Save an XML node tree to a string.</Abstract>
+<Declaration>int mxmlSaveString(mxml_node_t *node, char *buffer, int bufsize, mxml_save_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetCDATA</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetCDATA</TokenIdentifier>
+<Abstract>Set the element name of a CDATA node.</Abstract>
+<Declaration>int mxmlSetCDATA(mxml_node_t *node, const char *data);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetCustom</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetCustom</TokenIdentifier>
+<Abstract>Set the data and destructor of a custom data node.</Abstract>
+<Declaration>int mxmlSetCustom(mxml_node_t *node, void *data, mxml_custom_destroy_cb_t destroy);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetCustomHandlers</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetCustomHandlers</TokenIdentifier>
+<Abstract>Set the handling functions for custom data.</Abstract>
+<Declaration>void mxmlSetCustomHandlers(mxml_custom_load_cb_t load, mxml_custom_save_cb_t save);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetElement</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetElement</TokenIdentifier>
+<Abstract>Set the name of an element node.</Abstract>
+<Declaration>int mxmlSetElement(mxml_node_t *node, const char *name);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetErrorCallback</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetErrorCallback</TokenIdentifier>
+<Abstract>Set the error message callback.</Abstract>
+<Declaration>void mxmlSetErrorCallback(mxml_error_cb_t cb);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetInteger</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetInteger</TokenIdentifier>
+<Abstract>Set the value of an integer node.</Abstract>
+<Declaration>int mxmlSetInteger(mxml_node_t *node, int integer);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetOpaque</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetOpaque</TokenIdentifier>
+<Abstract>Set the value of an opaque node.</Abstract>
+<Declaration>int mxmlSetOpaque(mxml_node_t *node, const char *opaque);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetReal</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetReal</TokenIdentifier>
+<Abstract>Set the value of a real number node.</Abstract>
+<Declaration>int mxmlSetReal(mxml_node_t *node, double real);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetText</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetText</TokenIdentifier>
+<Abstract>Set the value of a text node.</Abstract>
+<Declaration>int mxmlSetText(mxml_node_t *node, int whitespace, const char *string);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetTextf</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetTextf</TokenIdentifier>
+<Abstract>Set the value of a text node to a formatted string.</Abstract>
+<Declaration>int mxmlSetTextf(mxml_node_t *node, int whitespace, const char *format, ...);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetUserData</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetUserData</TokenIdentifier>
+<Abstract>Set the user data pointer for a node.</Abstract>
+<Declaration>int mxmlSetUserData(mxml_node_t *node, void *data);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlSetWrapMargin</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlSetWrapMargin</TokenIdentifier>
+<Abstract>Set the wrap margin when saving XML data.</Abstract>
+<Declaration>void mxmlSetWrapMargin(int column);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlWalkNext</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlWalkNext</TokenIdentifier>
+<Abstract>Walk to the next logical node in the tree.</Abstract>
+<Declaration>mxml_node_t *mxmlWalkNext(mxml_node_t *node, mxml_node_t *top, int descend);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxmlWalkPrev</Anchor>
+<TokenIdentifier>//apple_ref/c/func/mxmlWalkPrev</TokenIdentifier>
+<Abstract>Walk to the previous logical node in the tree.</Abstract>
+<Declaration>mxml_node_t *mxmlWalkPrev(mxml_node_t *node, mxml_node_t *top, int descend);</Declaration>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_custom_destroy_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_custom_destroy_cb_t</TokenIdentifier>
+<Abstract>Custom data destructor</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_custom_load_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_custom_load_cb_t</TokenIdentifier>
+<Abstract>Custom data load callback function</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_custom_save_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_custom_save_cb_t</TokenIdentifier>
+<Abstract>Custom data save callback function</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_entity_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_entity_cb_t</TokenIdentifier>
+<Abstract>Entity callback function</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_error_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_error_cb_t</TokenIdentifier>
+<Abstract>Error callback function</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_index_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_index_t</TokenIdentifier>
+<Abstract>An XML node index.</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_load_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_load_cb_t</TokenIdentifier>
+<Abstract>Load callback function</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_node_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_node_t</TokenIdentifier>
+<Abstract>An XML node.</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_save_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_save_cb_t</TokenIdentifier>
+<Abstract>Save callback function</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_cb_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_sax_cb_t</TokenIdentifier>
+<Abstract>SAX callback function</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_sax_event_t</TokenIdentifier>
+<Abstract>SAX event type.</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_t</Anchor>
+<TokenIdentifier>//apple_ref/c/tdef/mxml_type_t</TokenIdentifier>
+<Abstract>The XML node type.</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<TokenIdentifier>//apple_ref/c/tag/mxml_sax_event_e</TokenIdentifier>
+<Abstract>SAX event type.</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_SAX_CDATA</TokenIdentifier>
+<Abstract>CDATA node</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_SAX_COMMENT</TokenIdentifier>
+<Abstract>Comment node</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_SAX_DATA</TokenIdentifier>
+<Abstract>Data node</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_SAX_DIRECTIVE</TokenIdentifier>
+<Abstract>Processing directive node</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_SAX_ELEMENT_CLOSE</TokenIdentifier>
+<Abstract>Element closed</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_sax_event_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_SAX_ELEMENT_OPEN</TokenIdentifier>
+<Abstract>Element opened</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/tag/mxml_type_e</TokenIdentifier>
+<Abstract>The XML node type.</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_CUSTOM</TokenIdentifier>
+<Abstract>Custom data </Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_ELEMENT</TokenIdentifier>
+<Abstract>XML element with attributes</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_IGNORE</TokenIdentifier>
+<Abstract>Ignore/throw away node </Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_INTEGER</TokenIdentifier>
+<Abstract>Integer value</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_OPAQUE</TokenIdentifier>
+<Abstract>Opaque string</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_REAL</TokenIdentifier>
+<Abstract>Real value</Abstract>
+</Token>
+<Token>
+<Path>Documentation/index.html</Path>
+<Anchor>mxml_type_e</Anchor>
+<TokenIdentifier>//apple_ref/c/econst/MXML_TEXT</TokenIdentifier>
+<Abstract>Text fragment</Abstract>
+</Token>
+</Tokens>
