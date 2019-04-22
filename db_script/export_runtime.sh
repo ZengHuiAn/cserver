@@ -6,7 +6,7 @@ db_name="aGameMobileConfig_sgk"
 
 # export
 echo "exporting ......"
-mysqldump -uagame -pagame@123 -h10.1.2.79 --skip-lock-tables $db_name \
+mysqldump -uroot -p123456 -h172.16.3.97 --skip-lock-tables $db_name \
 			  product \
 			  lucky_draw \
 			  sweepstakeconfig \

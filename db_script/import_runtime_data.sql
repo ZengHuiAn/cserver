@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.73, for redhat-linux-gnu (x86_64)
 --
--- Host: 10.1.2.79    Database: aGameMobileConfig_sgk
+-- Host: 172.16.3.97    Database: aGameMobileConfig_sgk
 -- ------------------------------------------------------
 -- Server version	5.5.40-0ubuntu0.14.04.1
 

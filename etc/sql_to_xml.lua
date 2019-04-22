@@ -8,9 +8,9 @@ require "printtb"
 require "protobuf"
 
 local g_mysql_handle = mysql.open(
-        "10.1.2.79",
-        "agame",
-        "agame@123",
+        "172.16.3.97",
+        "root",
+        "123456",
         "aGameMobileConfig_sgk",
         3306);
 
