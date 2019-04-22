@@ -3,8 +3,8 @@ OBJ_COMM=$(patsubst ../framework/%.c, %.o, $(wildcard ../framework/*.c))
 OBJ_MODULE=$(patsubst %.c, %.o, $(wildcard ./modules/*.c))
 
 
-MYSQL_CFLAG=-I/usr/local/mysql/include
-MYSQL_LFLAG=-L/usr/local/mysql/lib
+MYSQL_CFLAG=-I/usr/include/mysql/
+MYSQL_LFLAG=-L/usr/lib/mysql/
 
 -include local.mk
 

@@ -10,8 +10,8 @@ OBJ_CONFIG=$(patsubst %.c, %.o, $(wildcard ./config/*.c))
 OBJ_CALC=$(patsubst %.c, %.o, $(wildcard ./calc/*.c))
 OBJ_BATTLE=$(patsubst %.c, %.o, $(wildcard ./battlefield/*.c) $(wildcard ./battlefield/buffer_effect/*.c))
 
-MYSQL_CFLAG=-I/usr/local/mysql/include
-MYSQL_LFLAG=-L/usr/local/mysql/lib
+MYSQL_CFLAG=-I/usr/include/mysql/
+MYSQL_LFLAG=-L/usr/lib/mysql/
 
 -include local.mk
 

@@ -21,8 +21,8 @@ C_BATTLEFIELD=$(wildcard ./lib/battlefield/*.c) $(wildcard ./lib/battlefield/buf
 LUACFLAG=-I../include
 LUALFLAG=-L../lib -lluajit
 
-MYSQL_CFLAG=-I/usr/local/mysql/include
-MYSQL_LFLAG=-L/usr/local/mysql/lib
+MYSQL_CFLAG=-I/usr/include/mysql/
+MYSQL_LFLAG=-L/usr/lib/mysql/
 
 -include local.mk
 
